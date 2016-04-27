@@ -1,0 +1,11 @@
+{
+    "name": "underscore",
+    "dependence": [],
+    "source":"./",
+    "file_list": [
+        "underscore.js",
+        "underscore.d.ts",
+        "underscore.string.js",
+        "underscore.string.d.ts"
+    ]
+}

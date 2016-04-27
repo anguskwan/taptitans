@@ -1,0 +1,8 @@
+{
+	"name": "htcen",
+	"dependence": ["core"],
+	"source": "src",
+	"file_list": [
+		"htcen.d.ts"
+	]
+}

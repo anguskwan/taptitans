@@ -1,0 +1,9 @@
+{
+    "name": "sharedapi",
+    "dependence": [],
+    "source":"./",
+    "file_list": [
+        "formula.js",
+        "sharedapi.d.ts"
+    ]
+}

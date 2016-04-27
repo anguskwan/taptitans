@@ -1,0 +1,12 @@
+{
+  "redis_host":  "27044397bdc540ac.m.cnqda.kvstore.aliyuncs.com",
+  "redis_port":  "6379",
+  "redis_password":  "27044397bdc540ac:Hortor82345168",
+  "game_redis_host":  "27044397bdc540ac.m.cnqda.kvstore.aliyuncs.com",
+  "game_redis_port":  "6379",
+  "game_redis_password":  "27044397bdc540ac:Hortor82345168",
+  "mysql_connection": "secret:Hortor_82345168@tcp(secretajax.mysql.rds.aliyuncs.com:3306)/gamecenter_qq?charset=utf8",
+  "mongodb_connection": "mongodb://localhost:27017/taptitans",
+  "host": "http://qq.hortorgames.com",
+  "port":  ":3003"
+}

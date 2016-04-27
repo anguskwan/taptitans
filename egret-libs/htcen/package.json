@@ -1,0 +1,15 @@
+{
+	"name": "egret",
+	"version": "0.0.1",
+	"modules": [
+		{
+			"name": "htcen",
+			"description": "hortor center sdk, integrate the common sdk in the h5",
+			"files": [
+				"htcen.d.ts"
+			],
+			"root": "src"
+		}
+
+	]
+}

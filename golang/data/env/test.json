@@ -1,0 +1,8 @@
+{
+  "redis_host":  "10.164.16.51",
+  "redis_port":  "6381",
+  "redis_password":  "Hortor#1111",
+  "mysql_connection": "root:Hortor_82345168@tcp(10.129.60.96:3308)/gamecenter?charset=utf8",
+  "host": "http://h5-api-test.secret-cn.com",
+  "port":  ":4001"
+}
