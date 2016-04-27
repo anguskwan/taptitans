@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Rect horizontalCenter="0" width="100%" bottom="0" height="100%" x="10" y="10" fillColor="0x765F40"/>
+		<e:Group width="465" height="50" y="10" horizontalCenter="0">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="justify" verticalAlign="top" gap="5"/>
+			</e:layout>
+			<uiskins:GuildJoinToggleBtn id="joinToggleBtn" label="切换按钮" x="72" y="21" skinName="skins.components.GuildJoinToggleBtnSkin" width="150" height="50"/>
+			<uiskins:GuildCreateToggleBtn id="createToggleBtn" label="切换按钮" x="137" y="15" skinName="skins.components.GuildCreateToggleBtnSkin" width="150" height="50"/>
+			<uiskins:GuildSearchToggleBtn id="searchToggleBtn" label="切换按钮" x="228" y="10" skinName="skins.components.GuildSearchToggleBtnSkin" width="150" height="50"/>
+		</e:Group>
+		<e:Rect width="465" height="620" y="67" fillColor="0x4E361F" horizontalCenter="0.5"/>
+		<e:Group id="joinGroup" width="465" height="690" x="7" y="67">
+		</e:Group>
+		<e:Group id="createGroup" height="620" width="465" x="7" y="67"/>
+		<e:Group id="searchGroup" width="465" height="620" x="7" y="67">
+		</e:Group>
+		<e:Button id="autoEnterBtn" x="139" y="695" skinName="@ButtonSkin('guild_auto_enter','guild_auto_enter','guild_auto_enter')" width="101" height="51"/>
+		<e:Group width="100" height="50" x="30" horizontalCenter="-180" bottom="10">
+			<e:Button id="backBtn" verticalCenter="0" horizontalCenter="0" width="100" height="50" skinName="@ButtonSkin('dialog_btn_yellow','dialog_btn_yellow','dialog_btn_yellow')"/>
+			<e:Label touchEnabled="false" horizontalCenter="0" fontFamily="Arial" size="20" verticalCenter="0" text="返回"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

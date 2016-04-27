@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Rect width="100%" height="100%" fillColor="0x605967" horizontalCenter="0" bottom="0"/>
+	<e:Rect width="466" height="626" x="10" fillColor="0x39363F" horizontalCenter="0" y="117"/>
+	<e:Group width="100%" height="110" horizontalCenter="0" top="0">
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+		<e:Group width="480" height="50" x="182" y="74">
+			<e:UIAsset source="rank_title_bar" horizontalCenter="0" verticalCenter="0"/>
+			<e:Button id="btnBack" skinName="@ButtonSkin('dialog_btn_cha_close','dialog_btn_cha_close','dialog_btn_cha_close')" x="10" y="10" right="18" top="4"/>
+		</e:Group>
+		<e:Group width="480" height="59" x="192" y="84">
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="top" gap="2" horizontalAlign="left"/>
+			</e:layout>
+			<uiskins:GuildBagSendToggleBtn id="sendToggleBtn" label="切换按钮" x="22" y="17" skinName="skins.components.GuildBagSendToggleBtnSkin" width="239" height="59"/>
+			<uiskins:GuildBagGetToggleBtn id="getToggleBtn" label="切换按钮" x="370" y="6" skinName="skins.components.GuildBagGetToggleBtnSkin" width="239" height="59"/>
+		</e:Group>
+	</e:Group>
+	<e:Label id="currLbl" text="当前没红包" y="214" horizontalCenter="0" fontFamily="Arial" size="24" textColor="0x868686" touchEnabled="false"/>
+	<e:List id="sendList" useVirtualLayout="true" x="20" y="20" horizontalCenter="0" top="161" width="466" height="580">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center"/>
+		</e:layout>
+	</e:List>
+	<e:List id="getList" useVirtualLayout="true" width="466" x="30" horizontalCenter="0" height="580" top="161">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center"/>
+		</e:layout>
+	</e:List>
+	<e:Group x="25" y="129">
+		<e:Label text="发红包次数：" fontFamily="Arial" size="18"/>
+		<e:Label id="redNumLbl" size="18" fontFamily="Arial" x="10" y="10" text="0" textColor="0xF7343E"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Group y="129" horizontalCenter="0.5">
+		<e:UIAsset source="crystal" x="212" y="128" scaleX="0.7" scaleY="0.7"/>
+		<e:Label id="crystalLbl" y="10" text="0" fontFamily="Arial" size="18" x="10" textColor="0xFFFFFF"/>
+		<e:layout>
+			<e:HorizontalLayout gap="3"/>
+		</e:layout>
+	</e:Group>
+	<e:Group y="129" right="43">
+		<e:UIAsset x="212" scaleY="0.7" y="128" scaleX="0.7" source="diamond"/>
+		<e:Label id="diamondLbl" y="10" textColor="0xFFFFFF" text="0" fontFamily="Arial" size="18" x="10"/>
+		<e:layout>
+			<e:HorizontalLayout gap="3"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

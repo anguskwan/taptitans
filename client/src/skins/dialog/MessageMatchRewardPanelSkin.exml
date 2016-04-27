@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Rect fillColor="0x000000" width="100%" fillAlpha="0.5" height="100%"/>
+	<e:Group verticalCenter="0" horizontalCenter="0" x="10" y="10">
+		<e:UIAsset scale9Grid="55,53,337,324" source="dialog_popup" height="300"/>
+		<e:Label fontFamily="Arial" bold="true" size="22" x="29" y="26" text="领取奖励"/>
+		<e:Rect width="394" fillColor="0x2C2930" height="100" y="96" horizontalCenter="0.5"/>
+		<e:Button id="closeBtn" fontFamily="Arial" skinName="@ButtonSkin('dialog_btn_blue','dialog_btn_blue','dialog_btn_blue')" label="好" bold="true" horizontalCenter="0.5" y="211"/>
+		<e:Group horizontalCenter="-81.5" verticalCenter="-5.5">
+			<e:UIAsset id="iconImg1" source="dialog_daily_diamond"/>
+			<e:Label id="numLbl1" fontFamily="Arial" bold="true" text="钻石6个" size="18"/>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Group x="10" y="10" horizontalCenter="78.5" verticalCenter="-6">
+			<e:layout>
+				<e:VerticalLayout verticalAlign="middle" horizontalAlign="center"/>
+			</e:layout>
+			<e:UIAsset id="iconImg2" source="btn_weapon" scaleX="0.8" scaleY="0.8"/>
+			<e:Label id="numLbl2" size="18" text="钻石6个" bold="true" fontFamily="Arial"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

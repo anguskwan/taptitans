@@ -1,0 +1,10 @@
+{
+  "wechat" : {
+    "appid" : "wx26a2518b5b7f2873",
+    "appSecret" : "8bb57d4d09d7cf56f5e3d1237b0a15b7"
+  },
+  "juhe" : {
+    "appid" : "wxcce59e4f286a1207",
+    "appSecret" : "622c6c1fb052dda48a34e2b5039069c7"
+  }
+}

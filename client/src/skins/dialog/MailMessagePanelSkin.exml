@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableContainer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Rect fillAlpha="0.5" width="100%" fillColor="0x000000" height="100%"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:UIAsset source="dialog_popup" scale9Grid="55,53,337,324" height="400"/>
+		<e:Rect width="394" height="220" x="28" fillColor="0x2C2930" y="76"/>
+		<e:Scroller width="360" height="170" scrollSpeed="0.1" y="88" x="46">
+			<e:Group>
+				<e:Label id="contentLbl" size="16" fontFamily="Arial" width="360" maxDisplayedLines="1000" text="内容"/>
+				<e:layout>
+					<e:VerticalLayout gap="0"/>
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+		<e:Label id="titleLbl" x="29" fontFamily="Arial" bold="true" text="标题" size="24" y="22"/>
+		<e:Button id="closeBtn" skinName="@ButtonSkin('dialog_btn_cha_close','dialog_btn_cha_close','dialog_btn_cha_close')" x="10" y="10" right="20" top="20"/>
+		<e:Label id="nameLbl" textColor="0x958D9E" fontFamily="Arial" textAlign="left" size="16" bold="true" text="名字一定要长" right="46" verticalCenter="75.5"/>
+		<e:Group id="rightGroup" x="296" y="316">
+			<e:Button id="rightBtn" skinName="@ButtonSkin('dialog_btn_blue','dialog_btn_blue','dialog_btn_blue')" fontFamily="Arial" bold="true" width="120" height="50"/>
+			<e:Label id="btnTextLbl" fontFamily="Arial" bold="true" horizontalCenter="0" verticalCenter="0" text="领取" size="20" touchEnabled="false"/>
+		</e:Group>
+		<e:Group id="rewardGroup" x="29" y="312">
+			<e:layout>
+				<e:HorizontalLayout gap="12"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="208" height="125" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="100%" height="100%">
+		<e:UIAsset id="bgImg" source="guild_war_item2"/>
+		<e:UIAsset id="iconImg" width="58" height="58" x="12" source="icon_default" y="15"/>
+		<e:UIAsset id="iconAttImg1" source="icon_default" height="50" width="50" x="74" y="66"/>
+		<e:Label id="killHeroLbl1" text="0" fontFamily="Arial" textAlign="center" textColor="0xFF0000" verticalAlign="middle" bold="true" size="18" y="97" right="84" strokeColor="0xFFFFFF" stroke="2"/>
+		<e:UIAsset id="iconAttImg2" source="icon_default" height="50" width="50" x="134" y="66"/>
+		<e:Label id="killHeroLbl2" text="0" fontFamily="Arial" textAlign="center" textColor="0xFF0000" verticalAlign="middle" bold="true" size="18" y="97" right="25" strokeColor="0xFFFFFF" stroke="2"/>
+		<e:Label id="nameLbl" text="名字" fontFamily="Arial" textAlign="left" verticalAlign="middle" bold="true" size="12" x="76" y="6"/>
+		<e:Group x="76" y="24">
+			<e:layout>
+				<e:HorizontalLayout gap="3" verticalAlign="middle" horizontalAlign="center"/>
+			</e:layout>
+			<e:UIAsset verticalCenter="0" fillMode="scale" source="guild_icon_att" height="14" autoScale="true" width="14" x="374"/>
+			<e:Label id="attLbl" textColor="0x30BBE8" text="0" fontFamily="Arial" textAlign="center" size="14" verticalAlign="middle" verticalCenter="0" bold="true" x="15"/>
+		</e:Group>
+		<e:Group x="76" y="44">
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" horizontalAlign="center" gap="1"/>
+			</e:layout>
+			<e:Label fontFamily="Arial" textAlign="center" verticalAlign="middle" verticalCenter="0" bold="true" x="15" textColor="0xFFFFFF" size="12" text="剩余英雄："/>
+			<e:Label id="aliveHeroLbl" text="0" fontFamily="Arial" textAlign="center" verticalAlign="middle" verticalCenter="0" bold="true" x="35" y="20" textColor="0xFF0000" size="12"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

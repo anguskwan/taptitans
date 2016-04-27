@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="447" height="148" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.ItemRenderer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="up"/>
+<e:State name="down"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:UIAsset id="bgImg" source="guild_main_item_open"/>
+		<e:Rect id="timeRect" width="150" height="30" fillColor="0x000000" fillAlpha="0.7" y="112" x="281" visible="false"/>
+		<e:Label id="timeLbl" fontFamily="Arial" size="18" text="每天上午9:00开启" right="12" y="115" verticalAlign="middle" textAlign="center" visible="false"/>
+		<e:Group id="warGroup" height="40" width="150" x="40" y="10" touchEnabled="false" horizontalCenter="133.5" verticalCenter="50" visible="false">
+			<e:Button skinName="@ButtonSkin('dialog_btn_big_blue','dialog_btn_big_blue','dialog_btn_big_blue')" horizontalCenter="0" verticalCenter="0" width="150" height="40"/>
+			<e:Label verticalCenter="0" fontFamily="Arial" size="18" touchEnabled="false" horizontalCenter="0" text="进入战争"/>
+		</e:Group>
+		<e:Group y="6" left="18">
+			<e:Rect fillColor="0x000000" height="100%" fillAlpha="0.7" width="100%"/>
+			<e:Group>
+				<e:Label id="winLbl" size="16" fontFamily="Arial" textColor="0xFF0000" text="0"/>
+				<e:Label size="16" fontFamily="Arial" x="10" y="10" text="/"/>
+				<e:Label id="loseLbl" size="16" fontFamily="Arial" x="20" y="20" textColor="0x00FF00" text="0"/>
+				<e:layout>
+					<e:HorizontalLayout gap="2" horizontalAlign="center"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+		<e:Button id="infoBtn" y="3" skinName="@ButtonSkin('guild_btn_info','guild_btn_info','guild_btn_info')" width="34" height="34" x="402"/>
+	</e:Group>
+</e:Skin>

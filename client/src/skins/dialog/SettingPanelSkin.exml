@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="447" height="420" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableContainer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:UIAsset scale9Grid="55,53,337,324" height="420" source="dialog_popup"/>
+		<e:Label id="settingLbl" x="29" y="18" size="18" fontFamily="Arial" bold="true" text="设置"/>
+		<e:Label fontFamily="Arial" bold="true" text="隐藏英雄，游戏更流畅" size="14" horizontalCenter="0.5" y="284"/>
+		<e:Button id="hookBtn" skinName="@ButtonSkin('dialog_btn_blue','dialog_btn_blue','dialog_btn_blue')" fontFamily="Arial" bold="true" textAlign="center" verticalAlign="middle" label="自动挂机" horizontalCenter="0.5" y="59"/>
+		<e:Button id="couponBtn" skinName="@ButtonSkin('dialog_btn_blue','dialog_btn_blue','dialog_btn_blue')" fontFamily="Arial" verticalAlign="middle" label="兑换码" bold="true" textAlign="center" x="10" horizontalCenter="0.5" y="139"/>
+		<e:Button id="heroChangeBtn" skinName="@ButtonSkin('dialog_btn_blue','dialog_btn_blue','dialog_btn_blue')" fontFamily="Arial" bold="true" x="10" label="显示英雄" textAlign="center" verticalAlign="middle" horizontalCenter="0.5" y="219"/>
+		<e:Button id="dataBtn" verticalAlign="middle" fontFamily="Arial" textAlign="center" skinName="@ButtonSkin('dialog_btn_blue','dialog_btn_blue','dialog_btn_blue')" bold="true" x="20" label="统计数据" horizontalCenter="0.5" y="309"/>
+		<e:Button id="closeBtn" skinName="@ButtonSkin('dialog_btn_cha_close','dialog_btn_cha_close','dialog_btn_cha_close')" x="20" y="20" right="18" top="14"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,6 @@
+{
+	"skins":{
+		"egret.gui.List":"skins.components.ListSkin",
+		"egret.gui.TextInput":"skins.components.TextInputSkin"
+	}
+}

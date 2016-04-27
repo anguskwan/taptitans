@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:ns1="*" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<ns1:TopLayer id="topLy" skinName="skins.mod.TopLayerSkin" horizontalCenter="0" top="0"/>
+	<ns1:LeftBtnLayer id="leftBtnLy" skinName="skins.mod.LeftBtnLayerSkin" height="622" left="1" verticalCenter="-51"/>
+	<ns1:RightBtnLayer id="rightBtnLy" skinName="skins.mod.RightBtnLayerSkin" right="8" top="144"/>
+	<ns1:BottomLayer id="bottomLy" skinName="skins.mod.BottomLayerSkin" horizontalCenter="0" bottom="0"/>
+	<e:UIAsset id="handImg" source="icon_hand" x="244" y="253"/>
+</e:Skin>

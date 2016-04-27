@@ -1,0 +1,846 @@
+[2016-04-19 10:42:09.659] [INFO] app - [32m[39m[gate1] server started.
+[2016-04-19 10:44:53.782] [INFO] app - [32m[39m[gate1] server started.
+[2016-04-19 10:51:32.592] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: null }
+[2016-04-19 10:51:32.598] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: null,
+  params: { playerId: null, __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-19 11:37:36.018] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 11:37:36.019] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-19 11:41:47.075] [INFO] app - [32m[39m[gate1] server started.
+[2016-04-19 11:41:48.681] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: 1 }
+[2016-04-19 11:41:48.683] [ERROR] app - [31m[39m[gate1] 找不到可用的connector
+[2016-04-19 11:42:02.471] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 11:42:02.471] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 11:43:33.508] [INFO] app - [32m[39m[gate1] server started.
+[2016-04-19 11:43:35.899] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: 1 }
+[2016-04-19 11:43:35.902] [ERROR] app - [31m[39m[gate1] 找不到可用的connector
+[2016-04-19 11:43:44.499] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 11:43:44.500] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-19 13:31:47.768] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 13:31:47.769] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-19 13:32:27.955] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 13:32:27.956] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-19 13:32:51.338] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 13:32:51.339] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-19 13:33:47.874] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 13:33:47.875] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-19 13:36:46.005] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 13:36:46.006] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-19 13:37:50.900] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 13:37:50.900] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-19 13:41:17.942] [INFO] app - [32m[39m[gate1] server started.
+[2016-04-19 13:41:37.859] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 13:41:37.862] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-19 13:43:01.199] [INFO] app - [32m[39m[gate1] server started.
+[2016-04-19 13:43:10.100] [INFO] app - [32m[39m[gate1] server started.
+[2016-04-19 13:43:27.114] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 13:43:27.118] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 14:08:12.121] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 14:08:12.121] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 14:33:43.073] [INFO] app - [32m[39m[gate1] server started.
+[2016-04-19 15:14:35.640] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 15:14:35.644] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-19 15:20:31.091] [INFO] app - [32m[39m[gate1] server started.
+[2016-04-19 15:20:33.617] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: 1 }
+[2016-04-19 15:20:33.619] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: 1,
+  params: { playerId: 1, __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-19 16:19:03.127] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 16:19:03.130] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 16:23:52.236] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 16:23:52.236] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 16:35:11.665] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 16:35:11.666] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 16:54:43.198] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 16:54:43.198] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 16:56:36.411] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 16:56:36.413] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 17:52:03.224] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 17:52:03.225] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 17:54:50.323] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 17:54:50.324] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 17:58:23.919] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 17:58:23.920] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 17:59:32.930] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 17:59:32.930] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 18:08:11.306] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 18:08:11.307] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 18:11:37.938] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 18:11:37.938] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 18:13:00.987] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: 1 }
+[2016-04-19 18:13:00.988] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: 1,
+  params: { playerId: 1, __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 18:19:51.185] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 18:19:51.185] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 18:46:01.115] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 18:46:01.115] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 18:47:16.911] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 18:47:16.911] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 18:48:31.159] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 18:48:31.159] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 18:53:25.972] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 18:53:25.972] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 18:55:43.901] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 18:55:43.902] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 18:56:44.050] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 18:56:44.051] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 18:58:37.031] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 18:58:37.032] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 18:59:33.299] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 18:59:33.299] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 19:04:09.718] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 19:04:09.718] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 19:05:59.616] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 19:05:59.617] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 19:08:21.563] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 19:08:21.564] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 19:17:45.567] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 19:17:45.567] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 19:18:41.713] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 19:18:41.713] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 19:19:45.161] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 19:19:45.161] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 19:26:50.741] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 19:26:50.742] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 19:42:46.631] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 19:42:46.631] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 19:45:14.881] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 19:45:14.881] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 19:50:49.234] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 19:50:49.234] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 19:55:20.757] [INFO] app - [32m[39m[gate1] server started.
+[2016-04-19 19:55:41.180] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '1' }
+[2016-04-19 19:55:41.181] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '1',
+  params: { playerId: '1', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 19:59:51.208] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: null }
+[2016-04-19 19:59:51.210] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: null,
+  params: { playerId: null, __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 20:03:01.625] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-19 20:03:01.626] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-19 20:56:33.521] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-19 20:56:33.523] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-19 20:57:54.965] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-19 20:57:54.966] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-19 20:58:39.712] [INFO] app - [32m[39m[gate1] server started.
+[2016-04-19 20:58:40.988] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: 2 }
+[2016-04-19 20:58:40.990] [ERROR] app - [31m[39m[gate1] 找不到可用的connector
+[2016-04-19 20:58:52.686] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-19 20:58:52.687] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 21:03:28.242] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-19 21:03:28.244] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 21:07:41.087] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-19 21:07:41.088] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-19 21:12:49.240] [INFO] app - [32m[39m[gate1] server started.
+[2016-04-19 21:12:51.609] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: 2 }
+[2016-04-19 21:12:51.611] [ERROR] app - [31m[39m[gate1] 找不到可用的connector
+[2016-04-19 21:13:02.222] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-19 21:13:02.223] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-19 21:17:29.280] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-19 21:17:29.283] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-19 21:21:30.943] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-19 21:21:30.943] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-19 21:22:40.012] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: 2 }
+[2016-04-19 21:22:40.013] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: 2,
+  params: { playerId: 2, __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-19 21:25:12.405] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-19 21:25:12.406] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-19 21:29:16.785] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-19 21:29:16.787] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-19 21:32:40.056] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-19 21:32:40.057] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-19 21:40:35.695] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-19 21:40:35.696] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-19 21:41:56.813] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-19 21:41:56.813] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-19 21:45:51.111] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-19 21:45:51.112] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-20 09:19:22.000] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-20 09:19:22.002] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-20 10:09:25.390] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-20 10:09:25.391] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-20 10:15:20.323] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: 2 }
+[2016-04-20 10:15:20.323] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: 2,
+  params: { playerId: 2, __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-20 10:16:43.949] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-20 10:16:43.949] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-20 10:18:11.180] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-20 10:18:11.181] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-20 10:19:57.655] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-20 10:19:57.656] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-20 14:29:30.986] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-20 14:29:30.987] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-20 15:54:01.390] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-20 15:54:01.391] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-20 15:55:58.444] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-20 15:55:58.445] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-20 15:56:19.458] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-20 15:56:19.459] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-20 16:05:49.048] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-20 16:05:49.049] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-20 16:29:33.208] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-20 16:29:33.209] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-20 16:30:52.469] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-20 16:30:52.470] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-20 16:31:22.253] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-20 16:31:22.253] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-20 16:32:53.200] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-20 16:32:53.200] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-20 16:34:54.584] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-20 16:34:54.585] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-20 16:37:37.061] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-20 16:37:37.062] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-20 16:39:07.089] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-20 16:39:07.089] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-20 16:40:56.619] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-20 16:40:56.620] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-20 17:11:21.640] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-20 17:11:21.641] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-20 17:34:54.726] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-20 17:34:54.727] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-20 17:39:28.971] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-20 17:39:28.972] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-20 19:16:30.283] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-20 19:16:30.286] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-20 19:17:01.552] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-20 19:17:01.553] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-21 10:58:06.829] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-21 10:58:06.832] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-21 11:29:24.800] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-21 11:29:24.800] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-21 14:25:00.918] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-21 14:25:00.920] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-21 14:39:31.482] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-21 14:39:31.483] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-21 14:39:48.927] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-21 14:39:48.928] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-21 14:40:39.155] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-21 14:40:39.155] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-21 14:41:09.638] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-21 14:41:09.638] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-21 14:47:52.694] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-21 14:47:52.695] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-21 14:49:46.090] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-21 14:49:46.091] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-21 14:50:19.987] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-21 14:50:19.988] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-21 17:28:09.168] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-21 17:28:09.170] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-21 17:32:05.442] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-21 17:32:05.442] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-21 17:33:36.863] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-21 17:33:36.863] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-21 17:35:28.245] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-21 17:35:28.245] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-21 20:27:09.381] [INFO] app - [32m[39m[gate1] server started.
+[2016-04-21 20:27:19.284] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-21 20:27:19.288] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-21 20:28:13.390] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-21 20:28:13.390] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 10:24:52.546] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 10:24:52.547] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 10:26:00.261] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 10:26:00.262] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 10:26:57.531] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 10:26:57.531] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 10:45:40.250] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 10:45:40.251] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 11:38:45.008] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 11:38:45.009] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 11:40:04.762] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 11:40:04.762] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 11:42:54.064] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 11:42:54.065] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 11:43:44.155] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 11:43:44.155] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 11:44:05.112] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 11:44:05.112] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 11:44:13.299] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 11:44:13.300] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 11:44:53.768] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 11:44:53.769] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 11:48:13.146] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 11:48:13.147] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 11:48:26.646] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 11:48:26.647] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 11:50:03.816] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 11:50:03.817] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 11:52:31.564] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 11:52:31.565] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 11:54:59.794] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 11:54:59.794] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 11:55:41.871] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 11:55:41.872] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 15:13:11.650] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 15:13:11.651] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 15:13:19.712] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 15:13:19.713] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 15:22:07.444] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 15:22:07.444] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 15:23:16.433] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 15:23:16.434] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 15:23:37.327] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 15:23:37.327] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 15:30:50.946] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 15:30:50.947] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 15:31:23.688] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 15:31:23.689] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 15:33:09.647] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 15:33:09.648] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 16:28:54.944] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 16:28:54.945] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 16:30:33.626] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 16:30:33.627] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 16:38:38.686] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 16:38:38.686] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 16:48:15.300] [INFO] app - [32m[39m[gate1] server started.
+[2016-04-22 16:48:18.627] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: 2 }
+[2016-04-22 16:48:18.628] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: 2,
+  params: { playerId: 2, __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 16:48:28.596] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 16:48:28.596] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 16:50:16.633] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 16:50:16.633] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 16:53:49.096] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 16:53:49.098] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 16:57:32.655] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 16:57:32.657] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 16:58:47.522] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 16:58:47.522] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 17:07:36.988] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 17:07:36.988] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 17:09:40.702] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 17:09:40.704] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 17:11:04.141] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 17:11:04.141] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 17:12:10.792] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 17:12:10.794] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 17:24:24.129] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 17:24:24.131] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 17:31:55.782] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 17:31:55.782] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 17:32:11.526] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 17:32:11.527] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 17:32:56.819] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 17:32:56.819] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 17:34:11.424] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 17:34:11.425] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 17:51:50.442] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '2' }
+[2016-04-22 17:51:50.442] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '2',
+  params: { playerId: '2', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-22 18:08:51.432] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: 2 }
+[2016-04-22 18:08:51.433] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: 2,
+  params: { playerId: 2, __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-23 10:21:03.657] [ERROR] app - [31m[39m[gate1] Caught exception:  spawn EAGAIN Error: spawn EAGAIN
+    at errnoException (child_process.js:1011:11)
+    at ChildProcess.spawn (child_process.js:958:11)
+    at exports.spawn (child_process.js:746:9)
+    at Object.exports.execFile (child_process.js:628:15)
+    at exports.exec (child_process.js:591:18)
+    at Object.getPsInfo (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/pomelo-monitor/lib/processMonitor.js:28:2)
+    at Module.monitorHandler (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/lib/modules/nodeInfo.js:32:20)
+    at ConsoleService.execute (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js:203:16)
+    at SocketNamespace.<anonymous> (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/lib/monitorAgent.js:95:27)
+    at SocketNamespace.EventEmitter.emit [as $emit] (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/lib/events.js:165:15)
+[2016-04-23 13:14:43.892] [ERROR] app - [31m[39m[gate1] Caught exception:  spawn EAGAIN Error: spawn EAGAIN
+    at errnoException (child_process.js:1011:11)
+    at ChildProcess.spawn (child_process.js:958:11)
+    at exports.spawn (child_process.js:746:9)
+    at Object.exports.execFile (child_process.js:628:15)
+    at exports.exec (child_process.js:591:18)
+    at Object.getPsInfo (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/pomelo-monitor/lib/processMonitor.js:28:2)
+    at Module.monitorHandler (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/lib/modules/nodeInfo.js:32:20)
+    at ConsoleService.execute (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js:203:16)
+    at SocketNamespace.<anonymous> (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/lib/monitorAgent.js:95:27)
+    at SocketNamespace.EventEmitter.emit [as $emit] (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/lib/events.js:165:15)
+[2016-04-25 10:23:30.402] [INFO] app - [32m[39m[gate1] server started.
+[2016-04-25 10:25:19.005] [INFO] app - [32m[39m[gate1] server started.
+[2016-04-25 10:27:18.729] [INFO] app - [32m[39m[gate1] server started.
+[2016-04-25 10:48:09.972] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: null }
+[2016-04-25 10:48:09.975] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: null,
+  params: { playerId: null, __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-25 10:48:56.777] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '3' }
+[2016-04-25 10:48:56.779] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '3',
+  params: { playerId: '3', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-25 10:55:30.081] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '3' }
+[2016-04-25 10:55:30.081] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '3',
+  params: { playerId: '3', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-25 10:58:47.866] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: 3 }
+[2016-04-25 10:58:47.867] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: 3,
+  params: { playerId: 3, __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-25 11:00:02.873] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '3' }
+[2016-04-25 11:00:02.874] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '3',
+  params: { playerId: '3', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-25 11:02:13.864] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '3' }
+[2016-04-25 11:02:13.867] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '3',
+  params: { playerId: '3', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-25 11:19:25.101] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: 3 }
+[2016-04-25 11:19:25.119] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: 3,
+  params: { playerId: 3, __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-25 11:20:42.485] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '3' }
+[2016-04-25 11:20:42.486] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '3',
+  params: { playerId: '3', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-25 11:26:48.474] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '3' }
+[2016-04-25 11:26:48.475] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '3',
+  params: { playerId: '3', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-25 11:28:03.054] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: 3 }
+[2016-04-25 11:28:03.055] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: 3,
+  params: { playerId: 3, __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-25 11:35:02.304] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '3' }
+[2016-04-25 11:35:02.305] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '3',
+  params: { playerId: '3', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-25 14:15:49.717] [INFO] app - [32m[39m[gate1] server started.
+[2016-04-25 14:15:57.147] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '3' }
+[2016-04-25 14:15:57.154] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '3',
+  params: { playerId: '3', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-25 14:55:25.811] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '3' }
+[2016-04-25 14:55:25.812] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '3',
+  params: { playerId: '3', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-25 14:56:23.951] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '3' }
+[2016-04-25 14:56:23.952] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '3',
+  params: { playerId: '3', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-25 14:56:55.219] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '3' }
+[2016-04-25 14:56:55.220] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '3',
+  params: { playerId: '3', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-25 15:23:57.126] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '3' }
+[2016-04-25 15:23:57.127] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '3',
+  params: { playerId: '3', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-25 15:35:33.619] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '3' }
+[2016-04-25 15:35:33.620] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '3',
+  params: { playerId: '3', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-25 15:56:57.313] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '3' }
+[2016-04-25 15:56:57.313] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '3',
+  params: { playerId: '3', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-25 15:59:15.698] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '3' }
+[2016-04-25 15:59:15.698] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '3',
+  params: { playerId: '3', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-25 16:19:53.950] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '3' }
+[2016-04-25 16:19:53.950] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '3',
+  params: { playerId: '3', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-25 16:46:12.842] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '3' }
+[2016-04-25 16:46:12.843] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '3',
+  params: { playerId: '3', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-25 16:47:40.890] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '3' }
+[2016-04-25 16:47:40.890] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '3',
+  params: { playerId: '3', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-25 16:56:41.105] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '3' }
+[2016-04-25 16:56:41.106] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '3',
+  params: { playerId: '3', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-25 16:59:54.884] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '3' }
+[2016-04-25 16:59:54.885] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '3',
+  params: { playerId: '3', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-25 17:22:51.772] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '3' }
+[2016-04-25 17:22:51.773] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '3',
+  params: { playerId: '3', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-25 17:28:46.165] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: null }
+[2016-04-25 17:28:46.165] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: null,
+  params: { playerId: null, __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-25 17:29:04.336] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '4' }
+[2016-04-25 17:29:04.336] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '4',
+  params: { playerId: '4', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-25 17:36:50.989] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: 4 }
+[2016-04-25 17:36:50.990] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: 4,
+  params: { playerId: 4, __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-25 17:40:54.646] [INFO] app - [32m[39m[gate1] server started.
+[2016-04-25 17:41:03.346] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '4' }
+[2016-04-25 17:41:03.348] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '4',
+  params: { playerId: '4', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-25 17:42:54.497] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '4' }
+[2016-04-25 17:42:54.497] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '4',
+  params: { playerId: '4', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-25 17:46:43.705] [INFO] app - [32m[39m[gate1] server started.
+[2016-04-25 17:46:46.731] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: 4 }
+[2016-04-25 17:46:46.734] [ERROR] app - [31m[39m[gate1] 找不到可用的connector
+[2016-04-25 17:46:56.457] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '4' }
+[2016-04-25 17:46:56.457] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '4',
+  params: { playerId: '4', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-25 19:20:46.561] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: null }
+[2016-04-25 19:20:46.574] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: null,
+  params: { playerId: null, __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-25 20:17:58.751] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '5' }
+[2016-04-25 20:17:58.751] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '5',
+  params: { playerId: '5', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-25 20:19:08.633] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '5' }
+[2016-04-25 20:19:08.633] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '5',
+  params: { playerId: '5', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-25 20:22:21.273] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '5' }
+[2016-04-25 20:22:21.274] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '5',
+  params: { playerId: '5', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-25 20:23:33.857] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '5' }
+[2016-04-25 20:23:33.857] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '5',
+  params: { playerId: '5', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-25 20:25:47.575] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '5' }
+[2016-04-25 20:25:47.576] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '5',
+  params: { playerId: '5', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-25 20:27:56.933] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '5' }
+[2016-04-25 20:27:56.934] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '5',
+  params: { playerId: '5', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-25 20:28:11.882] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '5' }
+[2016-04-25 20:28:11.884] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '5',
+  params: { playerId: '5', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-25 20:28:50.959] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '5' }
+[2016-04-25 20:28:50.959] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '5',
+  params: { playerId: '5', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-25 20:29:16.616] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '5' }
+[2016-04-25 20:29:16.616] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '5',
+  params: { playerId: '5', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-25 20:30:15.775] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '5' }
+[2016-04-25 20:30:15.776] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '5',
+  params: { playerId: '5', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-26 11:21:46.494] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '5' }
+[2016-04-26 11:21:46.495] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '5',
+  params: { playerId: '5', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-26 14:33:13.926] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '5' }
+[2016-04-26 14:33:13.927] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '5',
+  params: { playerId: '5', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-26 14:34:18.767] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '5' }
+[2016-04-26 14:34:18.767] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '5',
+  params: { playerId: '5', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector1' }
+[2016-04-26 14:43:15.728] [INFO] app - [32m[39m[gate1] server started.
+[2016-04-26 14:43:17.270] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: 5 }
+[2016-04-26 14:43:17.272] [ERROR] app - [31m[39m[gate1] 找不到可用的connector
+[2016-04-26 14:43:26.040] [INFO] app - [32m[39m[gate1] 连接到gate { playerId: '5' }
+[2016-04-26 14:43:26.041] [INFO] app - [32m[39m[gate1] 用户连接到gate { playerId: '5',
+  params: { playerId: '5', __route__: 'gate.gateHandler.queryEntry' },
+  connectorId: 'connector2' }
+[2016-04-27 09:21:54.932] [ERROR] app - [31m[39m[gate1] Caught exception:  spawn EAGAIN Error: spawn EAGAIN
+    at errnoException (child_process.js:1011:11)
+    at ChildProcess.spawn (child_process.js:958:11)
+    at exports.spawn (child_process.js:746:9)
+    at Object.exports.execFile (child_process.js:628:15)
+    at exports.exec (child_process.js:591:18)
+    at Object.getSysInfo (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/pomelo-monitor/lib/systemMonitor.js:27:3)
+    at Module.monitorHandler (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/lib/modules/systemInfo.js:27:21)
+    at ConsoleService.execute (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js:203:16)
+    at SocketNamespace.<anonymous> (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/lib/monitorAgent.js:95:27)
+    at SocketNamespace.EventEmitter.emit [as $emit] (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/lib/events.js:165:15)

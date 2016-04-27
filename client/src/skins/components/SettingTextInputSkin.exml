@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing"
+        minHeight="30" minWidth="100" width="120" height="40">
+    <w:HostComponent name="egret.gui.TextInput" />
+    <e:states>
+        <e:State name="normal" />
+        <e:State name="disabled" />
+        <e:State name="normalWithPrompt"/>
+        <e:State name="disabledWithPrompt"/>
+    </e:states>
+	<e:Rect width="100%" height="100%" fillColor="0x2C2931"/>
+    <e:EditableText id="textDisplay"
+                  
+                  textColor.disabled="0xAAAAAA"  
+                  width="100%" height="100%"
+                  left="10" right="10" top="8" bottom="8" textColor="0xFFFFFF" size="18" fontFamily="Arial"/>
+	<e:Label id="promptDisplay" verticalCenter="0" maxDisplayedLines="1" left="10"
+		 touchEnabled="false" touchChildren="false"
+			includeIn="normalWithPrompt,disabledWithPrompt" size="18" fontFamily="Arial" textColor="0x615D64"/>
+</e:Skin>

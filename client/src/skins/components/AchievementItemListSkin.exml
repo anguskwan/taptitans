@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="450" height="80" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.ItemRenderer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="up"/>
+<e:State name="down"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group verticalCenter="0" horizontalCenter="0" width="450" height="100%">
+		<e:UIAsset source="list_element_bg" width="450" x="0" y="0"/>
+		<e:UIAsset id="iconImg" source="achievement1" x="13" y="11" width="58" height="58"/>
+		<e:Label id="nameLbl" text="名字" textAlign="left" verticalAlign="middle" x="82" y="14" size="18" fontFamily="Arial" bold="true"/>
+		<e:Label id="achieveLbl" verticalAlign="middle" x="198" text="100/100" textAlign="left" size="14" y="45" fontFamily="Arial" bold="true"/>
+		<e:Group id="starGroup" x="83" y="43">
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" gap="0" horizontalAlign="center"/>
+			</e:layout>
+			<e:Group width="22" height="22" x="118" y="3">
+				<e:UIAsset source="achievement_star_off" verticalCenter="0" horizontalCenter="0"/>
+				<e:UIAsset id="starImg1" source="achievement_star_on" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Group height="22" width="22" x="128" y="13">
+				<e:UIAsset horizontalCenter="0" verticalCenter="0" source="achievement_star_off"/>
+				<e:UIAsset id="starImg2" horizontalCenter="0" verticalCenter="0" source="achievement_star_on"/>
+			</e:Group>
+			<e:Group width="22" height="22" x="138" y="23">
+				<e:UIAsset horizontalCenter="0" verticalCenter="0" source="achievement_star_off"/>
+				<e:UIAsset id="starImg3" horizontalCenter="0" verticalCenter="0" source="achievement_star_on"/>
+			</e:Group>
+			<e:Group height="22" width="22" x="148" y="33">
+				<e:UIAsset horizontalCenter="0" verticalCenter="0" source="achievement_star_off"/>
+				<e:UIAsset id="starImg4" horizontalCenter="0" verticalCenter="0" source="achievement_star_on"/>
+			</e:Group>
+			<e:Group width="22" height="22" x="158" y="43">
+				<e:UIAsset horizontalCenter="0" verticalCenter="0" source="achievement_star_off"/>
+				<e:UIAsset id="starImg5" horizontalCenter="0" verticalCenter="0" source="achievement_star_on"/>
+			</e:Group>
+		</e:Group>
+		<uiskins:CommonItemButton id="btnItem" label="按钮" x="318" y="10" skinName="skins.components.CommonItemButtonSkin"/>
+	</e:Group>
+</e:Skin>

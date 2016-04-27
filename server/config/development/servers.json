@@ -1,0 +1,19 @@
+{
+	"gate":         [ { "id": "gate1", "host": "0.0.0.0", "clientPort": 13014, "frontend": true} ],
+	"connector": [
+		{ "id": "connector1", "host": "0.0.0.0", "port": 14050, "clientHost":"192.168.1.228", "clientPort": 13050, "frontend": true},
+		{ "id": "connector2", "host": "0.0.0.0", "port": 14051, "clientHost":"192.168.1.228", "clientPort": 13051, "frontend": true}
+	],
+	"player":        [
+		{ "id": "player1", "host": "0.0.0.0", "port": 16050, "auto-restart": false, "restart-force": false},
+		{ "id": "player2", "host": "0.0.0.0", "port": 16051, "auto-restart": false, "restart-force": false}
+	],
+	"pk":        [
+		{ "id": "pk1", "host": "0.0.0.0", "port": 17050, "auto-restart": false, "restart-force": false},
+		{ "id": "pk2", "host": "0.0.0.0", "port": 17051, "auto-restart": false, "restart-force": false}
+	],
+	"rank":         [ { "id": "rank1", "host": "0.0.0.0", "port": 15050, "auto-restart": false, "restart-force": false} ],
+	"guild":         [ { "id": "guild1", "host": "0.0.0.0", "port": 18050, "auto-restart": false, "restart-force": false} ],
+	"manage":         [ { "id": "manage1", "host": "0.0.0.0", "port": 19050, "auto-restart": false, "restart-force": false} ],
+	"activity":         [ { "id": "activity1", "host": "0.0.0.0", "port": 19060, "auto-restart": false, "restart-force": false} ]
+}

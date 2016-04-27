@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="58" height="67" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.ToggleButton"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="up"/>
+		<e:State name="down"/>
+		<e:State name="disabled"/>
+		<e:State name="upAndSelected"/>
+		<e:State name="downAndSelected"/>
+		<e:State name="disabledAndSelected"/>
+	</e:states>
+	<e:UIAsset id="disabledAndSelectSkin" width="100%" height="100%" includeIn="disabledAndSelected" verticalCenter="0" horizontalCenter="0" source="equip_toggle_on"/>
+	<e:UIAsset id="disabledAndSelectedEleSkin" includeIn="disabledAndSelected" width="58" source="equip_weapon_on" height="58"/>
+	<e:UIAsset id="downAndSelectedSkin" width="100%" height="100%" includeIn="downAndSelected" horizontalCenter="0" verticalCenter="0" source="equip_toggle_on"/>
+	<e:UIAsset id="downAndSelectedEleSkin" includeIn="downAndSelected" width="58" source="equip_weapon_on" height="58"/>
+	<e:UIAsset id="upAndSelectedSkin" horizontalCenter="0" verticalCenter="0" width="100%" height="100%" includeIn="upAndSelected" x="10" y="10" source="equip_toggle_on"/>
+	<e:UIAsset id="upAndSelectedEleSkin" source="equip_weapon_on" includeIn="upAndSelected" width="58" height="58"/>
+	<e:UIAsset id="disabledSkin" width="100%" height="100%" includeIn="disabled" verticalCenter="0" horizontalCenter="0" source="equip_toggle_off"/>
+	<e:UIAsset id="disabledEleSkin" includeIn="disabled" width="58" height="58" source="equip_weapon_off"/>
+	<e:UIAsset id="downSkin" width="100%" height="100%" includeIn="down" verticalCenter="0" horizontalCenter="0" source="equip_toggle_on"/>
+	<e:UIAsset id="downEleSkin" source="equip_weapon_on" includeIn="down" width="58" height="58"/>
+	<e:UIAsset id="upSkin" width="100%" height="100%" includeIn="up" verticalCenter="0" horizontalCenter="0" source="equip_toggle_off"/>
+	<e:UIAsset id="upEleSkin" includeIn="up" width="58" height="58" source="equip_weapon_off"/>
+</e:Skin>

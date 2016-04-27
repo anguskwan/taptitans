@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Rect horizontalCenter="0" width="100%" bottom="0" height="100%" x="10" y="10" fillColor="0x000000" fillAlpha="0.5"/>
+		<e:UIAsset id="handImg" source="icon_hand" rotation="135" x="490" y="40"/>
+		<e:Group height="180" horizontalCenter="0" verticalCenter="0">
+			<e:UIAsset scale9Grid="55,53,337,324" source="dialog_popup" height="180"/>
+			<e:Rect x="28" y="66" width="394" fillColor="0x2C2930" height="80"/>
+			<e:UIAsset scaleY="2" scaleX="2" source="diamond" y="10" x="370"/>
+			<e:Label size="18" y="18" x="29" text="分享好友"/>
+			<e:Label id="lblDesc" size="14" y="78" x="35" width="360" text="每天分享朋友圈奖励100钻石，点击右上角的按钮，召唤你的小伙伴吧。" fontFamily="Arial"/>
+			<e:Group id="groupTest" width="0" height="0" verticalCenter="10" horizontalCenter="0.5"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

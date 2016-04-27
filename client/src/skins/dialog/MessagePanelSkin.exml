@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="447" height="300" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group verticalCenter="0" horizontalCenter="0" x="10" y="10">
+		<e:UIAsset scale9Grid="55,53,337,324" source="dialog_popup" height="300"/>
+		<e:Label id="titleLbl" fontFamily="Arial" bold="true" size="22" x="29" text="标题" y="26"/>
+		<e:Label id="descLbl" fontFamily="Arial" bold="true" size="18" verticalAlign="top" textAlign="left" x="29" y="62" text="内容" width="350"/>
+		<e:Button right="20" id="closeBtn" top="20" skinName="@ButtonSkin('dialog_btn_cha_close','dialog_btn_cha_close','dialog_btn_cha_close')" x="10" y="10"/>
+		<e:Button id="rightBtn" fontFamily="Arial" skinName="@ButtonSkin('dialog_btn_blue','dialog_btn_blue','dialog_btn_blue')" label="好" bold="true" x="236" y="201"/>
+	</e:Group>
+</e:Skin>

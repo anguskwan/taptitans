@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Rect width="100%" height="100%" fillColor="0x605967" horizontalCenter="0" bottom="0"/>
+	<e:Group width="100%" height="50" horizontalCenter="0" top="0">
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+		<e:Group width="480" height="60" x="182" y="74">
+			<e:UIAsset source="rank_title_bar" horizontalCenter="0" verticalCenter="0" height="60"/>
+			<e:Button id="btnBack" skinName="@ButtonSkin('dialog_btn_cha_close','dialog_btn_cha_close','dialog_btn_cha_close')" x="10" y="10" right="18" top="4"/>
+			<e:UIAsset source="dialog_best_rank_title" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="bestGroup" width="100%" bottom="0" horizontalCenter="0" top="66"/>
+</e:Skin>

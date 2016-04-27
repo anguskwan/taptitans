@@ -1,0 +1,37 @@
+{
+  "1": {
+    "diamond": 188, 
+    "id": 1, 
+    "level": 5
+  }, 
+  "2": {
+    "diamond": 288, 
+    "id": 2, 
+    "level": 30
+  }, 
+  "3": {
+    "diamond": 388, 
+    "id": 3, 
+    "level": 50
+  }, 
+  "4": {
+    "diamond": 488, 
+    "id": 4, 
+    "level": 80
+  }, 
+  "5": {
+    "diamond": 588, 
+    "id": 5, 
+    "level": 150
+  }, 
+  "6": {
+    "diamond": 688, 
+    "id": 6, 
+    "level": 200
+  }, 
+  "7": {
+    "diamond": 788, 
+    "id": 7, 
+    "level": 300
+  }
+}

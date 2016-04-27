@@ -1,0 +1,1234 @@
+[2016-04-19 10:44:53.918] [INFO] app - [32m[39m[pk2] redis name: counter
+[2016-04-19 10:44:53.919] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 10:44:53.925] [INFO] app - [32m[39m[pk2] redis name: rank
+[2016-04-19 10:44:53.926] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 10:44:53.927] [INFO] app - [32m[39m[pk2] redis name: login
+[2016-04-19 10:44:53.927] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 10:44:53.928] [INFO] app - [32m[39m[pk2] redis name: share
+[2016-04-19 10:44:53.929] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 10:44:53.929] [INFO] app - [32m[39m[pk2] redis name: dict
+[2016-04-19 10:44:53.929] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 10:44:53.930] [INFO] app - [32m[39m[pk2] redis name: dailyActive
+[2016-04-19 10:44:53.930] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 10:44:53.931] [INFO] app - [32m[39m[pk2] redis name: wechat
+[2016-04-19 10:44:53.931] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 10:44:53.933] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: Player
+[2016-04-19 10:44:53.968] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: mail
+[2016-04-19 10:44:53.972] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: guild
+[2016-04-19 10:44:53.976] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: war
+[2016-04-19 10:44:53.977] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: activity
+[2016-04-19 10:44:54.009] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 10:44:54.010] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 10:44:54.011] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 10:44:54.012] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 10:44:54.012] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 10:44:54.013] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 10:44:54.014] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 10:44:54.021] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: Player
+[2016-04-19 10:44:54.238] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: mail
+[2016-04-19 10:44:54.269] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: guild
+[2016-04-19 10:44:54.290] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: war
+[2016-04-19 10:44:54.301] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: activity
+[2016-04-19 10:44:54.301] [INFO] app - [32m[39m[pk2] [DB] All 12 connections successfully connected.
+[2016-04-19 10:44:55.075] [INFO] app - [32m[39m[pk2] server started.
+[2016-04-19 11:41:46.871] [INFO] app - [32m[39m[pk2] redis name: counter
+[2016-04-19 11:41:46.872] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 11:41:46.880] [INFO] app - [32m[39m[pk2] redis name: rank
+[2016-04-19 11:41:46.880] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 11:41:46.882] [INFO] app - [32m[39m[pk2] redis name: login
+[2016-04-19 11:41:46.882] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 11:41:46.883] [INFO] app - [32m[39m[pk2] redis name: share
+[2016-04-19 11:41:46.884] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 11:41:46.884] [INFO] app - [32m[39m[pk2] redis name: dict
+[2016-04-19 11:41:46.884] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 11:41:46.884] [INFO] app - [32m[39m[pk2] redis name: dailyActive
+[2016-04-19 11:41:46.884] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 11:41:46.885] [INFO] app - [32m[39m[pk2] redis name: wechat
+[2016-04-19 11:41:46.885] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 11:41:46.888] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: Player
+[2016-04-19 11:41:47.075] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: mail
+[2016-04-19 11:41:47.084] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: guild
+[2016-04-19 11:41:47.087] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: war
+[2016-04-19 11:41:47.089] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: activity
+[2016-04-19 11:41:47.204] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 11:41:47.206] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 11:41:47.207] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 11:41:47.207] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 11:41:47.208] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 11:41:47.209] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 11:41:47.210] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 11:41:47.220] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: Player
+[2016-04-19 11:41:47.335] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: mail
+[2016-04-19 11:41:47.338] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: guild
+[2016-04-19 11:41:47.340] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: war
+[2016-04-19 11:41:47.341] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: activity
+[2016-04-19 11:41:47.342] [INFO] app - [32m[39m[pk2] [DB] All 12 connections successfully connected.
+[2016-04-19 11:41:48.511] [INFO] app - [32m[39m[pk2] server started.
+[2016-04-19 11:43:33.617] [INFO] app - [32m[39m[pk2] redis name: counter
+[2016-04-19 11:43:33.619] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 11:43:33.624] [INFO] app - [32m[39m[pk2] redis name: rank
+[2016-04-19 11:43:33.625] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 11:43:33.627] [INFO] app - [32m[39m[pk2] redis name: login
+[2016-04-19 11:43:33.627] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 11:43:33.628] [INFO] app - [32m[39m[pk2] redis name: share
+[2016-04-19 11:43:33.629] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 11:43:33.629] [INFO] app - [32m[39m[pk2] redis name: dict
+[2016-04-19 11:43:33.630] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 11:43:33.630] [INFO] app - [32m[39m[pk2] redis name: dailyActive
+[2016-04-19 11:43:33.631] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 11:43:33.631] [INFO] app - [32m[39m[pk2] redis name: wechat
+[2016-04-19 11:43:33.632] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 11:43:33.638] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: Player
+[2016-04-19 11:43:33.704] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: mail
+[2016-04-19 11:43:33.709] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: guild
+[2016-04-19 11:43:33.714] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: war
+[2016-04-19 11:43:33.715] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: activity
+[2016-04-19 11:43:33.848] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 11:43:33.850] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 11:43:33.851] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 11:43:33.852] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 11:43:33.853] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 11:43:33.997] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 11:43:33.997] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 11:43:34.012] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: Player
+[2016-04-19 11:43:34.021] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: mail
+[2016-04-19 11:43:34.049] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: guild
+[2016-04-19 11:43:34.059] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: war
+[2016-04-19 11:43:34.068] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: activity
+[2016-04-19 11:43:34.069] [INFO] app - [32m[39m[pk2] [DB] All 12 connections successfully connected.
+[2016-04-19 11:43:35.179] [INFO] app - [32m[39m[pk2] server started.
+[2016-04-19 13:41:18.043] [INFO] app - [32m[39m[pk2] redis name: counter
+[2016-04-19 13:41:18.044] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 13:41:18.048] [INFO] app - [32m[39m[pk2] redis name: rank
+[2016-04-19 13:41:18.050] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 13:41:18.052] [INFO] app - [32m[39m[pk2] redis name: login
+[2016-04-19 13:41:18.053] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 13:41:18.054] [INFO] app - [32m[39m[pk2] redis name: share
+[2016-04-19 13:41:18.054] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 13:41:18.055] [INFO] app - [32m[39m[pk2] redis name: dict
+[2016-04-19 13:41:18.055] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 13:41:18.055] [INFO] app - [32m[39m[pk2] redis name: dailyActive
+[2016-04-19 13:41:18.056] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 13:41:18.057] [INFO] app - [32m[39m[pk2] redis name: wechat
+[2016-04-19 13:41:18.058] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 13:41:18.062] [INFO] app - [32m[39m[pk2] redis name: route
+[2016-04-19 13:41:18.063] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 13:41:18.298] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: Player
+[2016-04-19 13:41:18.353] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 13:41:18.380] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: mail
+[2016-04-19 13:41:18.382] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 13:41:18.388] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: guild
+[2016-04-19 13:41:18.394] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 13:41:18.395] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: war
+[2016-04-19 13:41:18.396] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 13:41:18.397] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: activity
+[2016-04-19 13:41:18.398] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 13:41:18.431] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 13:41:18.433] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 13:41:18.575] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 13:41:18.576] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 13:41:18.578] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 13:41:18.579] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 13:41:18.580] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 13:41:18.581] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 13:41:18.596] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: Player
+[2016-04-19 13:41:18.608] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: mail
+[2016-04-19 13:41:18.612] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: guild
+[2016-04-19 13:41:18.619] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: war
+[2016-04-19 13:41:18.628] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: activity
+[2016-04-19 13:41:18.629] [INFO] app - [32m[39m[pk2] [DB] All 13 connections successfully connected.
+[2016-04-19 13:41:19.759] [INFO] app - [32m[39m[pk2] server started.
+[2016-04-19 13:43:01.659] [INFO] app - [32m[39m[pk2] redis name: counter
+[2016-04-19 13:43:01.661] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 13:43:01.665] [INFO] app - [32m[39m[pk2] redis name: rank
+[2016-04-19 13:43:01.665] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 13:43:01.666] [INFO] app - [32m[39m[pk2] redis name: login
+[2016-04-19 13:43:01.667] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 13:43:01.669] [INFO] app - [32m[39m[pk2] redis name: share
+[2016-04-19 13:43:01.669] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 13:43:01.670] [INFO] app - [32m[39m[pk2] redis name: dict
+[2016-04-19 13:43:10.031] [INFO] app - [32m[39m[pk2] redis name: counter
+[2016-04-19 13:43:10.032] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 13:43:10.041] [INFO] app - [32m[39m[pk2] redis name: rank
+[2016-04-19 13:43:10.041] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 13:43:10.043] [INFO] app - [32m[39m[pk2] redis name: login
+[2016-04-19 13:43:10.043] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 13:43:10.044] [INFO] app - [32m[39m[pk2] redis name: share
+[2016-04-19 13:43:10.044] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 13:43:10.045] [INFO] app - [32m[39m[pk2] redis name: dict
+[2016-04-19 13:43:10.045] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 13:43:10.046] [INFO] app - [32m[39m[pk2] redis name: dailyActive
+[2016-04-19 13:43:10.046] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 13:43:10.047] [INFO] app - [32m[39m[pk2] redis name: wechat
+[2016-04-19 13:43:10.047] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 13:43:10.048] [INFO] app - [32m[39m[pk2] redis name: route
+[2016-04-19 13:43:10.048] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 13:43:10.057] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: Player
+[2016-04-19 13:43:10.090] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 13:43:10.246] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: mail
+[2016-04-19 13:43:10.247] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 13:43:10.250] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: guild
+[2016-04-19 13:43:10.253] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 13:43:10.255] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: war
+[2016-04-19 13:43:10.256] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 13:43:10.257] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: activity
+[2016-04-19 13:43:10.259] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 13:43:10.294] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 13:43:10.296] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 13:43:10.296] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 13:43:10.297] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 13:43:10.297] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 13:43:10.298] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 13:43:10.299] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 13:43:10.300] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 13:43:10.308] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: Player
+[2016-04-19 13:43:10.461] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: mail
+[2016-04-19 13:43:10.470] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: guild
+[2016-04-19 13:43:10.473] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: war
+[2016-04-19 13:43:10.474] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: activity
+[2016-04-19 13:43:10.474] [INFO] app - [32m[39m[pk2] [DB] All 13 connections successfully connected.
+[2016-04-19 13:43:11.515] [INFO] app - [32m[39m[pk2] server started.
+[2016-04-19 14:33:43.075] [INFO] app - [32m[39m[pk2] redis name: counter
+[2016-04-19 14:33:43.077] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 14:33:43.089] [INFO] app - [32m[39m[pk2] redis name: rank
+[2016-04-19 14:33:43.090] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 14:33:43.090] [INFO] app - [32m[39m[pk2] redis name: login
+[2016-04-19 14:33:43.091] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 14:33:43.093] [INFO] app - [32m[39m[pk2] redis name: share
+[2016-04-19 14:33:43.094] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 14:33:43.095] [INFO] app - [32m[39m[pk2] redis name: dict
+[2016-04-19 14:33:43.095] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 14:33:43.095] [INFO] app - [32m[39m[pk2] redis name: dailyActive
+[2016-04-19 14:33:43.097] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 14:33:43.098] [INFO] app - [32m[39m[pk2] redis name: wechat
+[2016-04-19 14:33:43.101] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 14:33:43.102] [INFO] app - [32m[39m[pk2] redis name: route
+[2016-04-19 14:33:43.103] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 14:33:43.109] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: Player
+[2016-04-19 14:33:43.140] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 14:33:43.157] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: mail
+[2016-04-19 14:33:43.158] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 14:33:43.160] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: guild
+[2016-04-19 14:33:43.161] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 14:33:43.168] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: war
+[2016-04-19 14:33:43.171] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 14:33:43.174] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: activity
+[2016-04-19 14:33:43.175] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 14:33:43.455] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 14:33:43.456] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 14:33:43.457] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 14:33:43.458] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 14:33:43.458] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 14:33:43.458] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 14:33:43.459] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 14:33:43.460] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 14:33:43.479] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: Player
+[2016-04-19 14:33:43.490] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: mail
+[2016-04-19 14:33:43.493] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: guild
+[2016-04-19 14:33:43.531] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: war
+[2016-04-19 14:33:43.541] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: activity
+[2016-04-19 14:33:43.541] [INFO] app - [32m[39m[pk2] [DB] All 13 connections successfully connected.
+[2016-04-19 14:33:44.577] [INFO] app - [32m[39m[pk2] server started.
+[2016-04-19 15:20:31.358] [INFO] app - [32m[39m[pk2] redis name: counter
+[2016-04-19 15:20:31.358] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 15:20:31.364] [INFO] app - [32m[39m[pk2] redis name: rank
+[2016-04-19 15:20:31.364] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 15:20:31.366] [INFO] app - [32m[39m[pk2] redis name: login
+[2016-04-19 15:20:31.366] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 15:20:31.367] [INFO] app - [32m[39m[pk2] redis name: share
+[2016-04-19 15:20:31.367] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 15:20:31.368] [INFO] app - [32m[39m[pk2] redis name: dict
+[2016-04-19 15:20:31.368] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 15:20:31.369] [INFO] app - [32m[39m[pk2] redis name: dailyActive
+[2016-04-19 15:20:31.370] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 15:20:31.370] [INFO] app - [32m[39m[pk2] redis name: wechat
+[2016-04-19 15:20:31.370] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 15:20:31.371] [INFO] app - [32m[39m[pk2] redis name: route
+[2016-04-19 15:20:31.371] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 15:20:31.373] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: Player
+[2016-04-19 15:20:31.390] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 15:20:31.401] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: mail
+[2016-04-19 15:20:31.402] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 15:20:31.413] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: guild
+[2016-04-19 15:20:31.415] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 15:20:31.437] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: war
+[2016-04-19 15:20:31.444] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 15:20:31.457] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: activity
+[2016-04-19 15:20:31.463] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 15:20:31.622] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 15:20:31.623] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 15:20:31.624] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 15:20:31.624] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 15:20:31.625] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 15:20:31.625] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 15:20:31.658] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 15:20:31.662] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 15:20:31.680] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: Player
+[2016-04-19 15:20:31.689] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: mail
+[2016-04-19 15:20:31.754] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: guild
+[2016-04-19 15:20:31.795] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: war
+[2016-04-19 15:20:31.805] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: activity
+[2016-04-19 15:20:31.806] [INFO] app - [32m[39m[pk2] [DB] All 13 connections successfully connected.
+[2016-04-19 15:20:32.618] [INFO] app - [32m[39m[pk2] server started.
+[2016-04-19 19:55:20.706] [INFO] app - [32m[39m[pk2] redis name: counter
+[2016-04-19 19:55:20.706] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 19:55:20.711] [INFO] app - [32m[39m[pk2] redis name: rank
+[2016-04-19 19:55:20.711] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 19:55:20.712] [INFO] app - [32m[39m[pk2] redis name: login
+[2016-04-19 19:55:20.713] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 19:55:20.714] [INFO] app - [32m[39m[pk2] redis name: share
+[2016-04-19 19:55:20.714] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 19:55:20.714] [INFO] app - [32m[39m[pk2] redis name: dict
+[2016-04-19 19:55:20.714] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 19:55:20.715] [INFO] app - [32m[39m[pk2] redis name: dailyActive
+[2016-04-19 19:55:20.715] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 19:55:20.716] [INFO] app - [32m[39m[pk2] redis name: wechat
+[2016-04-19 19:55:20.716] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 19:55:20.716] [INFO] app - [32m[39m[pk2] redis name: route
+[2016-04-19 19:55:20.716] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 19:55:20.719] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: Player
+[2016-04-19 19:55:20.936] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 19:55:20.968] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: mail
+[2016-04-19 19:55:20.969] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 19:55:20.973] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: guild
+[2016-04-19 19:55:20.975] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 19:55:20.977] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: war
+[2016-04-19 19:55:20.977] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 19:55:20.980] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: activity
+[2016-04-19 19:55:20.980] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 19:55:21.006] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 19:55:21.007] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 19:55:21.008] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 19:55:21.015] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 19:55:21.016] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 19:55:21.036] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 19:55:21.085] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 19:55:21.086] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 19:55:21.096] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: Player
+[2016-04-19 19:55:21.108] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: mail
+[2016-04-19 19:55:21.121] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: guild
+[2016-04-19 19:55:21.125] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: war
+[2016-04-19 19:55:21.127] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: activity
+[2016-04-19 19:55:21.128] [INFO] app - [32m[39m[pk2] [DB] All 13 connections successfully connected.
+[2016-04-19 19:55:21.793] [INFO] app - [32m[39m[pk2] server started.
+[2016-04-19 20:58:39.673] [INFO] app - [32m[39m[pk2] redis name: counter
+[2016-04-19 20:58:39.674] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 20:58:39.680] [INFO] app - [32m[39m[pk2] redis name: rank
+[2016-04-19 20:58:39.681] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 20:58:39.683] [INFO] app - [32m[39m[pk2] redis name: login
+[2016-04-19 20:58:39.683] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 20:58:39.684] [INFO] app - [32m[39m[pk2] redis name: share
+[2016-04-19 20:58:39.685] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 20:58:39.685] [INFO] app - [32m[39m[pk2] redis name: dict
+[2016-04-19 20:58:39.685] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 20:58:39.685] [INFO] app - [32m[39m[pk2] redis name: dailyActive
+[2016-04-19 20:58:39.686] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 20:58:39.686] [INFO] app - [32m[39m[pk2] redis name: wechat
+[2016-04-19 20:58:39.687] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 20:58:39.687] [INFO] app - [32m[39m[pk2] redis name: route
+[2016-04-19 20:58:39.687] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 20:58:39.689] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: Player
+[2016-04-19 20:58:39.709] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 20:58:39.721] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: mail
+[2016-04-19 20:58:39.722] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 20:58:39.724] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: guild
+[2016-04-19 20:58:39.726] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 20:58:39.728] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: war
+[2016-04-19 20:58:39.728] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 20:58:39.730] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: activity
+[2016-04-19 20:58:39.730] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 20:58:39.887] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 20:58:39.889] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 20:58:39.890] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 20:58:39.891] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 20:58:39.891] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 20:58:39.891] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 20:58:39.892] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 20:58:39.893] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 20:58:39.902] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: Player
+[2016-04-19 20:58:39.914] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: mail
+[2016-04-19 20:58:39.919] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: guild
+[2016-04-19 20:58:39.929] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: war
+[2016-04-19 20:58:39.934] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: activity
+[2016-04-19 20:58:39.935] [INFO] app - [32m[39m[pk2] [DB] All 13 connections successfully connected.
+[2016-04-19 20:58:41.224] [INFO] app - [32m[39m[pk2] server started.
+[2016-04-19 21:12:49.341] [INFO] app - [32m[39m[pk2] redis name: counter
+[2016-04-19 21:12:49.342] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 21:12:49.347] [INFO] app - [32m[39m[pk2] redis name: rank
+[2016-04-19 21:12:49.358] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 21:12:49.365] [INFO] app - [32m[39m[pk2] redis name: login
+[2016-04-19 21:12:49.369] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 21:12:49.422] [INFO] app - [32m[39m[pk2] redis name: share
+[2016-04-19 21:12:49.423] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 21:12:49.424] [INFO] app - [32m[39m[pk2] redis name: dict
+[2016-04-19 21:12:49.424] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 21:12:49.425] [INFO] app - [32m[39m[pk2] redis name: dailyActive
+[2016-04-19 21:12:49.425] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 21:12:49.426] [INFO] app - [32m[39m[pk2] redis name: wechat
+[2016-04-19 21:12:49.426] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 21:12:49.427] [INFO] app - [32m[39m[pk2] redis name: route
+[2016-04-19 21:12:49.427] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-19 21:12:49.431] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: Player
+[2016-04-19 21:12:49.455] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 21:12:49.644] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: mail
+[2016-04-19 21:12:49.645] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 21:12:49.648] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: guild
+[2016-04-19 21:12:49.655] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 21:12:49.661] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: war
+[2016-04-19 21:12:49.665] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 21:12:49.667] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: activity
+[2016-04-19 21:12:49.668] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-19 21:12:49.697] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 21:12:49.698] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 21:12:49.699] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 21:12:49.699] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 21:12:49.701] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 21:12:49.702] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 21:12:49.703] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 21:12:49.705] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-19 21:12:49.711] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: Player
+[2016-04-19 21:12:49.853] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: mail
+[2016-04-19 21:12:49.866] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: guild
+[2016-04-19 21:12:49.870] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: war
+[2016-04-19 21:12:49.911] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: activity
+[2016-04-19 21:12:49.912] [INFO] app - [32m[39m[pk2] [DB] All 13 connections successfully connected.
+[2016-04-19 21:12:51.084] [INFO] app - [32m[39m[pk2] server started.
+[2016-04-21 20:27:09.296] [INFO] app - [32m[39m[pk2] redis name: counter
+[2016-04-21 20:27:09.297] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-21 20:27:09.305] [INFO] app - [32m[39m[pk2] redis name: rank
+[2016-04-21 20:27:09.307] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-21 20:27:09.310] [INFO] app - [32m[39m[pk2] redis name: login
+[2016-04-21 20:27:09.310] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-21 20:27:09.312] [INFO] app - [32m[39m[pk2] redis name: share
+[2016-04-21 20:27:09.312] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-21 20:27:09.312] [INFO] app - [32m[39m[pk2] redis name: dict
+[2016-04-21 20:27:09.313] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-21 20:27:09.313] [INFO] app - [32m[39m[pk2] redis name: dailyActive
+[2016-04-21 20:27:09.313] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-21 20:27:09.314] [INFO] app - [32m[39m[pk2] redis name: wechat
+[2016-04-21 20:27:09.314] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-21 20:27:09.314] [INFO] app - [32m[39m[pk2] redis name: route
+[2016-04-21 20:27:09.315] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-21 20:27:09.317] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: Player
+[2016-04-21 20:27:09.345] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-21 20:27:09.367] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: mail
+[2016-04-21 20:27:09.369] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-21 20:27:09.377] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: guild
+[2016-04-21 20:27:09.510] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-21 20:27:09.518] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: war
+[2016-04-21 20:27:09.526] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-21 20:27:09.530] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: activity
+[2016-04-21 20:27:09.531] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-21 20:27:09.581] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-21 20:27:09.593] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-21 20:27:09.595] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-21 20:27:09.596] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-21 20:27:09.597] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-21 20:27:09.598] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-21 20:27:09.599] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-21 20:27:09.599] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-21 20:27:09.625] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: Player
+[2016-04-21 20:27:09.867] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: mail
+[2016-04-21 20:27:09.882] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: guild
+[2016-04-21 20:27:09.886] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: war
+[2016-04-21 20:27:09.890] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: activity
+[2016-04-21 20:27:09.893] [INFO] app - [32m[39m[pk2] [DB] All 13 connections successfully connected.
+[2016-04-21 20:27:11.330] [INFO] app - [32m[39m[pk2] server started.
+[2016-04-22 16:48:15.939] [INFO] app - [32m[39m[pk2] redis name: counter
+[2016-04-22 16:48:15.940] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-22 16:48:15.968] [INFO] app - [32m[39m[pk2] redis name: rank
+[2016-04-22 16:48:15.969] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-22 16:48:15.971] [INFO] app - [32m[39m[pk2] redis name: login
+[2016-04-22 16:48:15.972] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-22 16:48:15.974] [INFO] app - [32m[39m[pk2] redis name: share
+[2016-04-22 16:48:15.975] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-22 16:48:15.975] [INFO] app - [32m[39m[pk2] redis name: dict
+[2016-04-22 16:48:15.975] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-22 16:48:15.977] [INFO] app - [32m[39m[pk2] redis name: dailyActive
+[2016-04-22 16:48:15.982] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-22 16:48:15.983] [INFO] app - [32m[39m[pk2] redis name: wechat
+[2016-04-22 16:48:15.984] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-22 16:48:15.985] [INFO] app - [32m[39m[pk2] redis name: route
+[2016-04-22 16:48:15.985] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-22 16:48:15.988] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: Player
+[2016-04-22 16:48:16.040] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-22 16:48:16.054] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: mail
+[2016-04-22 16:48:16.055] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-22 16:48:16.060] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: guild
+[2016-04-22 16:48:16.064] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-22 16:48:16.066] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: war
+[2016-04-22 16:48:16.068] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-22 16:48:16.071] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: activity
+[2016-04-22 16:48:16.073] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-22 16:48:16.100] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-22 16:48:16.101] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-22 16:48:16.109] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-22 16:48:16.111] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-22 16:48:16.113] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-22 16:48:16.117] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-22 16:48:16.120] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-22 16:48:16.130] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-22 16:48:16.227] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: Player
+[2016-04-22 16:48:16.236] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: mail
+[2016-04-22 16:48:16.280] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: guild
+[2016-04-22 16:48:16.288] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: war
+[2016-04-22 16:48:16.298] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: activity
+[2016-04-22 16:48:16.299] [INFO] app - [32m[39m[pk2] [DB] All 13 connections successfully connected.
+[2016-04-22 16:48:17.069] [INFO] app - [32m[39m[pk2] server started.
+[2016-04-23 10:21:03.667] [ERROR] app - [31m[39m[pk2] Caught exception:  spawn EAGAIN Error: spawn EAGAIN
+    at errnoException (child_process.js:1011:11)
+    at ChildProcess.spawn (child_process.js:958:11)
+    at exports.spawn (child_process.js:746:9)
+    at Object.exports.execFile (child_process.js:628:15)
+    at exports.exec (child_process.js:591:18)
+    at Object.getPsInfo (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/pomelo-monitor/lib/processMonitor.js:28:2)
+    at Module.monitorHandler (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/lib/modules/nodeInfo.js:32:20)
+    at ConsoleService.execute (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js:203:16)
+    at SocketNamespace.<anonymous> (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/lib/monitorAgent.js:95:27)
+    at SocketNamespace.EventEmitter.emit [as $emit] (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/lib/events.js:165:15)
+    at SocketNamespace.onPacket (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/lib/namespace.js:182:20)
+    at Socket.onPacket (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/lib/socket.js:443:30)
+    at Transport.onPacket (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/lib/transport.js:98:17)
+    at Transport.onData (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/lib/transport.js:69:16)
+    at WebSocket.websocket.onmessage (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/lib/transports/websocket.js:73:12)
+    at WebSocket.onMessage (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/node_modules/ws/lib/WebSocket.js:355:18)
+[2016-04-23 13:14:43.902] [ERROR] app - [31m[39m[pk2] Caught exception:  spawn EAGAIN Error: spawn EAGAIN
+    at errnoException (child_process.js:1011:11)
+    at ChildProcess.spawn (child_process.js:958:11)
+    at exports.spawn (child_process.js:746:9)
+    at Object.exports.execFile (child_process.js:628:15)
+    at exports.exec (child_process.js:591:18)
+    at Object.getPsInfo (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/pomelo-monitor/lib/processMonitor.js:28:2)
+    at Module.monitorHandler (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/lib/modules/nodeInfo.js:32:20)
+    at ConsoleService.execute (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js:203:16)
+    at SocketNamespace.<anonymous> (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/lib/monitorAgent.js:95:27)
+    at SocketNamespace.EventEmitter.emit [as $emit] (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/lib/events.js:165:15)
+    at SocketNamespace.onPacket (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/lib/namespace.js:182:20)
+    at Socket.onPacket (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/lib/socket.js:443:30)
+    at Transport.onPacket (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/lib/transport.js:98:17)
+    at Transport.onData (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/lib/transport.js:69:16)
+    at WebSocket.websocket.onmessage (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/lib/transports/websocket.js:73:12)
+    at WebSocket.onMessage (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/node_modules/ws/lib/WebSocket.js:355:18)
+[2016-04-25 10:23:30.263] [INFO] app - [32m[39m[pk2] redis name: counter
+[2016-04-25 10:23:30.265] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 10:23:30.269] [INFO] app - [32m[39m[pk2] redis name: rank
+[2016-04-25 10:23:30.269] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 10:23:30.270] [INFO] app - [32m[39m[pk2] redis name: login
+[2016-04-25 10:23:30.271] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 10:23:30.273] [INFO] app - [32m[39m[pk2] redis name: share
+[2016-04-25 10:23:30.273] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 10:23:30.276] [INFO] app - [32m[39m[pk2] redis name: dict
+[2016-04-25 10:23:30.279] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 10:23:30.285] [INFO] app - [32m[39m[pk2] redis name: dailyActive
+[2016-04-25 10:23:30.286] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 10:23:30.287] [INFO] app - [32m[39m[pk2] redis name: wechat
+[2016-04-25 10:23:30.290] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 10:23:30.295] [INFO] app - [32m[39m[pk2] redis name: route
+[2016-04-25 10:23:30.301] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 10:23:30.463] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: Player
+[2016-04-25 10:23:30.500] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 10:23:30.519] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: mail
+[2016-04-25 10:23:30.520] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 10:23:30.522] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: guild
+[2016-04-25 10:23:30.523] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 10:23:30.528] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: war
+[2016-04-25 10:23:30.540] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 10:23:30.557] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: activity
+[2016-04-25 10:23:30.563] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 10:23:30.771] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 10:23:30.772] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 10:23:30.773] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 10:23:30.773] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 10:23:30.774] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 10:23:30.775] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 10:23:30.779] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 10:23:30.780] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 10:23:30.789] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: Player
+[2016-04-25 10:23:30.804] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: mail
+[2016-04-25 10:23:30.808] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: guild
+[2016-04-25 10:23:30.813] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: war
+[2016-04-25 10:23:30.815] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: activity
+[2016-04-25 10:23:30.815] [INFO] app - [32m[39m[pk2] [DB] All 13 connections successfully connected.
+[2016-04-25 10:23:32.019] [INFO] app - [32m[39m[pk2] server started.
+[2016-04-25 10:25:18.635] [INFO] app - [32m[39m[pk2] redis name: counter
+[2016-04-25 10:25:18.636] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 10:25:18.640] [INFO] app - [32m[39m[pk2] redis name: rank
+[2016-04-25 10:25:18.641] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 10:25:18.642] [INFO] app - [32m[39m[pk2] redis name: login
+[2016-04-25 10:25:18.643] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 10:25:18.747] [INFO] app - [32m[39m[pk2] redis name: share
+[2016-04-25 10:25:18.747] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 10:25:18.749] [INFO] app - [32m[39m[pk2] redis name: dict
+[2016-04-25 10:25:18.749] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 10:25:18.750] [INFO] app - [32m[39m[pk2] redis name: dailyActive
+[2016-04-25 10:25:18.750] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 10:25:18.751] [INFO] app - [32m[39m[pk2] redis name: wechat
+[2016-04-25 10:25:18.751] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 10:25:18.752] [INFO] app - [32m[39m[pk2] redis name: route
+[2016-04-25 10:25:18.752] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 10:25:18.769] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: Player
+[2016-04-25 10:25:18.822] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 10:25:18.857] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: mail
+[2016-04-25 10:25:18.858] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 10:25:18.860] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: guild
+[2016-04-25 10:25:18.871] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 10:25:18.875] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: war
+[2016-04-25 10:25:18.875] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 10:25:18.884] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: activity
+[2016-04-25 10:25:18.887] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 10:25:19.057] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 10:25:19.058] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 10:25:19.059] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 10:25:19.060] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 10:25:19.061] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 10:25:19.061] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 10:25:19.062] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 10:25:19.063] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 10:25:19.073] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: Player
+[2016-04-25 10:25:19.084] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: mail
+[2016-04-25 10:25:19.087] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: guild
+[2016-04-25 10:25:19.091] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: war
+[2016-04-25 10:25:19.101] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: activity
+[2016-04-25 10:25:19.105] [INFO] app - [32m[39m[pk2] [DB] All 13 connections successfully connected.
+[2016-04-25 10:25:20.391] [INFO] app - [32m[39m[pk2] server started.
+[2016-04-25 10:26:29.276] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:1
+[2016-04-25 10:26:29.279] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:29.280] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:1
+[2016-04-25 10:26:29.282] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:29.284] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:1
+[2016-04-25 10:26:29.285] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:29.289] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:1
+[2016-04-25 10:26:29.291] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:29.293] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:1
+[2016-04-25 10:26:29.294] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:29.295] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:1
+[2016-04-25 10:26:29.296] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:29.297] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:1
+[2016-04-25 10:26:29.298] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:29.299] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:1
+[2016-04-25 10:26:29.301] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:29.721] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:2
+[2016-04-25 10:26:29.724] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:29.724] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:2
+[2016-04-25 10:26:29.727] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:29.729] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:2
+[2016-04-25 10:26:29.730] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:29.761] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:2
+[2016-04-25 10:26:29.765] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:29.767] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:2
+[2016-04-25 10:26:29.770] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:29.772] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:2
+[2016-04-25 10:26:29.774] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:29.775] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:2
+[2016-04-25 10:26:29.776] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:29.777] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:2
+[2016-04-25 10:26:29.782] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:30.467] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:3
+[2016-04-25 10:26:30.469] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:30.470] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:3
+[2016-04-25 10:26:30.471] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:30.471] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:3
+[2016-04-25 10:26:30.473] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:30.508] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:3
+[2016-04-25 10:26:30.510] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:30.511] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:3
+[2016-04-25 10:26:30.512] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:30.513] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:3
+[2016-04-25 10:26:30.517] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:30.518] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:3
+[2016-04-25 10:26:30.521] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:30.524] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:3
+[2016-04-25 10:26:30.528] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:31.728] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:4
+[2016-04-25 10:26:31.731] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:31.731] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:4
+[2016-04-25 10:26:31.732] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:31.733] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:4
+[2016-04-25 10:26:31.735] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:31.768] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:4
+[2016-04-25 10:26:31.769] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:31.770] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:4
+[2016-04-25 10:26:31.772] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:31.772] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:4
+[2016-04-25 10:26:31.774] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:31.779] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:4
+[2016-04-25 10:26:31.780] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:26:31.785] [INFO] app - [32m[39m[pk2] 服务器运行状态的时候，连接断开次数:4
+[2016-04-25 10:26:31.787] [ERROR] app - [31m[39m[pk2] [DB][redis] localhost|6379 connect error, stack:Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13) [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/Users/workspace/taptitans/server/node_modules/redis/index.js:196:24)
+    at Socket.<anonymous> (/Users/workspace/taptitans/server/node_modules/redis/index.js:106:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:441:14
+    at process._tickDomainCallback (node.js:486:13)
+[2016-04-25 10:27:18.058] [INFO] app - [32m[39m[pk2] redis name: counter
+[2016-04-25 10:27:18.058] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 10:27:18.063] [INFO] app - [32m[39m[pk2] redis name: rank
+[2016-04-25 10:27:18.063] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 10:27:18.065] [INFO] app - [32m[39m[pk2] redis name: login
+[2016-04-25 10:27:18.065] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 10:27:18.066] [INFO] app - [32m[39m[pk2] redis name: share
+[2016-04-25 10:27:18.066] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 10:27:18.067] [INFO] app - [32m[39m[pk2] redis name: dict
+[2016-04-25 10:27:18.067] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 10:27:18.068] [INFO] app - [32m[39m[pk2] redis name: dailyActive
+[2016-04-25 10:27:18.069] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 10:27:18.072] [INFO] app - [32m[39m[pk2] redis name: wechat
+[2016-04-25 10:27:18.073] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 10:27:18.074] [INFO] app - [32m[39m[pk2] redis name: route
+[2016-04-25 10:27:18.075] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 10:27:18.082] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: Player
+[2016-04-25 10:27:18.361] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 10:27:18.393] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: mail
+[2016-04-25 10:27:18.394] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 10:27:18.397] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: guild
+[2016-04-25 10:27:18.399] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 10:27:18.400] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: war
+[2016-04-25 10:27:18.401] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 10:27:18.409] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: activity
+[2016-04-25 10:27:18.410] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 10:27:18.546] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 10:27:18.548] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 10:27:18.549] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 10:27:18.550] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 10:27:18.552] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 10:27:18.555] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 10:27:18.558] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 10:27:18.559] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 10:27:18.566] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: Player
+[2016-04-25 10:27:18.714] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: mail
+[2016-04-25 10:27:18.724] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: guild
+[2016-04-25 10:27:18.727] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: war
+[2016-04-25 10:27:18.735] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: activity
+[2016-04-25 10:27:18.736] [INFO] app - [32m[39m[pk2] [DB] All 13 connections successfully connected.
+[2016-04-25 10:27:19.996] [INFO] app - [32m[39m[pk2] server started.
+[2016-04-25 14:15:49.647] [INFO] app - [32m[39m[pk2] redis name: counter
+[2016-04-25 14:15:49.647] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 14:15:49.651] [INFO] app - [32m[39m[pk2] redis name: rank
+[2016-04-25 14:15:49.651] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 14:15:49.652] [INFO] app - [32m[39m[pk2] redis name: login
+[2016-04-25 14:15:49.652] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 14:15:49.654] [INFO] app - [32m[39m[pk2] redis name: share
+[2016-04-25 14:15:49.654] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 14:15:49.655] [INFO] app - [32m[39m[pk2] redis name: dict
+[2016-04-25 14:15:49.655] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 14:15:49.655] [INFO] app - [32m[39m[pk2] redis name: dailyActive
+[2016-04-25 14:15:49.655] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 14:15:49.656] [INFO] app - [32m[39m[pk2] redis name: wechat
+[2016-04-25 14:15:49.656] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 14:15:49.656] [INFO] app - [32m[39m[pk2] redis name: route
+[2016-04-25 14:15:49.656] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 14:15:49.659] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: Player
+[2016-04-25 14:15:49.849] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 14:15:49.870] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: mail
+[2016-04-25 14:15:49.873] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 14:15:49.879] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: guild
+[2016-04-25 14:15:49.881] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 14:15:49.882] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: war
+[2016-04-25 14:15:49.883] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 14:15:49.885] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: activity
+[2016-04-25 14:15:49.886] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 14:15:49.934] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 14:15:49.935] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 14:15:49.937] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 14:15:49.937] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 14:15:49.938] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 14:15:49.940] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 14:15:49.941] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 14:15:49.942] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 14:15:50.236] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: Player
+[2016-04-25 14:15:50.252] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: mail
+[2016-04-25 14:15:50.255] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: guild
+[2016-04-25 14:15:50.273] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: war
+[2016-04-25 14:15:50.279] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: activity
+[2016-04-25 14:15:50.280] [INFO] app - [32m[39m[pk2] [DB] All 13 connections successfully connected.
+[2016-04-25 14:15:52.041] [INFO] app - [32m[39m[pk2] server started.
+[2016-04-25 17:40:54.963] [INFO] app - [32m[39m[pk2] redis name: counter
+[2016-04-25 17:40:54.964] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 17:40:54.973] [INFO] app - [32m[39m[pk2] redis name: rank
+[2016-04-25 17:40:54.973] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 17:40:54.974] [INFO] app - [32m[39m[pk2] redis name: login
+[2016-04-25 17:40:54.975] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 17:40:54.979] [INFO] app - [32m[39m[pk2] redis name: share
+[2016-04-25 17:40:54.979] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 17:40:54.980] [INFO] app - [32m[39m[pk2] redis name: dict
+[2016-04-25 17:40:54.980] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 17:40:54.981] [INFO] app - [32m[39m[pk2] redis name: dailyActive
+[2016-04-25 17:40:54.981] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 17:40:54.982] [INFO] app - [32m[39m[pk2] redis name: wechat
+[2016-04-25 17:40:54.982] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 17:40:54.982] [INFO] app - [32m[39m[pk2] redis name: route
+[2016-04-25 17:40:54.983] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 17:40:54.986] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: Player
+[2016-04-25 17:40:55.215] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 17:40:55.245] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: mail
+[2016-04-25 17:40:55.246] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 17:40:55.248] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: guild
+[2016-04-25 17:40:55.249] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 17:40:55.250] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: war
+[2016-04-25 17:40:55.251] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 17:40:55.260] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: activity
+[2016-04-25 17:40:55.267] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 17:40:55.344] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 17:40:55.347] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 17:40:55.348] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 17:40:55.349] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 17:40:55.350] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 17:40:55.351] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 17:40:55.352] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 17:40:55.352] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 17:40:55.519] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: Player
+[2016-04-25 17:40:55.526] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: mail
+[2016-04-25 17:40:55.527] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: guild
+[2016-04-25 17:40:55.529] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: activity
+[2016-04-25 17:40:55.532] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: war
+[2016-04-25 17:40:55.532] [INFO] app - [32m[39m[pk2] [DB] All 13 connections successfully connected.
+[2016-04-25 17:40:56.969] [INFO] app - [32m[39m[pk2] server started.
+[2016-04-25 17:46:43.931] [INFO] app - [32m[39m[pk2] redis name: counter
+[2016-04-25 17:46:43.931] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 17:46:43.939] [INFO] app - [32m[39m[pk2] redis name: rank
+[2016-04-25 17:46:43.941] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 17:46:43.943] [INFO] app - [32m[39m[pk2] redis name: login
+[2016-04-25 17:46:43.944] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 17:46:44.071] [INFO] app - [32m[39m[pk2] redis name: share
+[2016-04-25 17:46:44.077] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 17:46:44.078] [INFO] app - [32m[39m[pk2] redis name: dict
+[2016-04-25 17:46:44.079] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 17:46:44.079] [INFO] app - [32m[39m[pk2] redis name: dailyActive
+[2016-04-25 17:46:44.080] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 17:46:44.081] [INFO] app - [32m[39m[pk2] redis name: wechat
+[2016-04-25 17:46:44.081] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 17:46:44.082] [INFO] app - [32m[39m[pk2] redis name: route
+[2016-04-25 17:46:44.082] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-25 17:46:44.179] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: Player
+[2016-04-25 17:46:44.233] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 17:46:44.247] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: mail
+[2016-04-25 17:46:44.248] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 17:46:44.251] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: guild
+[2016-04-25 17:46:44.394] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 17:46:44.395] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: war
+[2016-04-25 17:46:44.396] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 17:46:44.398] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: activity
+[2016-04-25 17:46:44.399] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-25 17:46:44.486] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 17:46:44.487] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 17:46:44.491] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 17:46:44.492] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 17:46:44.494] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 17:46:44.495] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 17:46:44.496] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 17:46:44.497] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-25 17:46:44.512] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: Player
+[2016-04-25 17:46:44.526] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: mail
+[2016-04-25 17:46:44.532] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: guild
+[2016-04-25 17:46:44.534] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: war
+[2016-04-25 17:46:44.545] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: activity
+[2016-04-25 17:46:44.547] [INFO] app - [32m[39m[pk2] [DB] All 13 connections successfully connected.
+[2016-04-25 17:46:46.002] [INFO] app - [32m[39m[pk2] server started.
+[2016-04-26 14:43:15.808] [INFO] app - [32m[39m[pk2] redis name: counter
+[2016-04-26 14:43:15.809] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-26 14:43:15.815] [INFO] app - [32m[39m[pk2] redis name: rank
+[2016-04-26 14:43:15.816] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-26 14:43:15.819] [INFO] app - [32m[39m[pk2] redis name: login
+[2016-04-26 14:43:15.820] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-26 14:43:15.821] [INFO] app - [32m[39m[pk2] redis name: share
+[2016-04-26 14:43:15.821] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-26 14:43:15.822] [INFO] app - [32m[39m[pk2] redis name: dict
+[2016-04-26 14:43:15.822] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-26 14:43:15.823] [INFO] app - [32m[39m[pk2] redis name: dailyActive
+[2016-04-26 14:43:15.823] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-26 14:43:15.823] [INFO] app - [32m[39m[pk2] redis name: wechat
+[2016-04-26 14:43:15.824] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-26 14:43:15.824] [INFO] app - [32m[39m[pk2] redis name: route
+[2016-04-26 14:43:15.824] [INFO] app - [32m[39m[pk2] host is: localhost|6379
+[2016-04-26 14:43:15.827] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: Player
+[2016-04-26 14:43:16.165] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-26 14:43:16.182] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: mail
+[2016-04-26 14:43:16.183] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-26 14:43:16.186] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: guild
+[2016-04-26 14:43:16.188] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-26 14:43:16.189] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: war
+[2016-04-26 14:43:16.189] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-26 14:43:16.191] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: activity
+[2016-04-26 14:43:16.191] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-26 14:43:16.197] [INFO] app - [32m[39m[pk2] [DB][mongo] load model: petWar
+[2016-04-26 14:43:16.204] [INFO] app - [32m[39m[pk2] [DB][mongo]is aliyun mongo: false
+[2016-04-26 14:43:16.321] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-26 14:43:16.322] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-26 14:43:16.323] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-26 14:43:16.323] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-26 14:43:16.416] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-26 14:43:16.421] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-26 14:43:16.425] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-26 14:43:16.432] [INFO] app - [32m[39m[pk2] [DB][redis] localhost|6379 connected
+[2016-04-26 14:43:16.458] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: Player
+[2016-04-26 14:43:16.492] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: mail
+[2016-04-26 14:43:16.519] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: guild
+[2016-04-26 14:43:16.535] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: war
+[2016-04-26 14:43:16.537] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: petWar
+[2016-04-26 14:43:16.538] [INFO] app - [32m[39m[pk2] [DB][mongo] localhost:27017 connected, model: activity
+[2016-04-26 14:43:16.539] [INFO] app - [32m[39m[pk2] [DB] All 14 connections successfully connected.
+[2016-04-26 14:43:18.300] [INFO] app - [32m[39m[pk2] server started.
+[2016-04-27 09:21:51.752] [ERROR] app - [31m[39m[pk2] Caught exception:  spawn EAGAIN Error: spawn EAGAIN
+    at errnoException (child_process.js:1011:11)
+    at ChildProcess.spawn (child_process.js:958:11)
+    at exports.spawn (child_process.js:746:9)
+    at Object.exports.execFile (child_process.js:628:15)
+    at exports.exec (child_process.js:591:18)
+    at Object.getSysInfo (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/pomelo-monitor/lib/systemMonitor.js:27:3)
+    at Module.monitorHandler (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/lib/modules/systemInfo.js:27:21)
+    at ConsoleService.execute (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js:203:16)
+    at SocketNamespace.<anonymous> (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/lib/monitorAgent.js:95:27)
+    at SocketNamespace.EventEmitter.emit [as $emit] (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/lib/events.js:165:15)
+    at SocketNamespace.onPacket (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/lib/namespace.js:182:20)
+    at Socket.onPacket (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/lib/socket.js:443:30)
+    at Transport.onPacket (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/lib/transport.js:98:17)
+    at Transport.onData (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/lib/transport.js:69:16)
+    at WebSocket.websocket.onmessage (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/lib/transports/websocket.js:73:12)
+    at WebSocket.onMessage (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/node_modules/ws/lib/WebSocket.js:355:18)

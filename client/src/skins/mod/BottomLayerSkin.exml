@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="340" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:ns1="*" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<ns1:BottomShowLayer id="bottomShowLy" skinName="skins.mod.BottomShowLayerSkin" horizontalCenter="0" verticalCenter="-70"/>
+	<ns1:BottomSkillLayer id="bottomSkillLy" skinName="skins.mod.BottomSkillLayerSkin" horizontalCenter="0" verticalCenter="60"/>
+	<e:Group id="bottomPopUpGroup" height="337" width="480" horizontalCenter="0" bottom="47"/>
+	<ns1:BottomTabBarLayer id="bottomTabBarLy" skinName="skins.mod.BottomTabBarSkin" left="0" horizontalCenter="0" right="0" bottom="0"/>
+</e:Skin>

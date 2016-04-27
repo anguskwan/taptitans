@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="364" height="58" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.Button"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="up"/>
+		<e:State name="down"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset id="disabledSkin" includeIn="disabled" source="btn_big_blue" horizontalCenter="0" verticalCenter="0"/>
+	<e:UIAsset id="downSkin" includeIn="down" source="btn_big_blue" horizontalCenter="0" verticalCenter="0"/>
+	<e:UIAsset id="upSkin" includeIn="up" source="btn_big_blue" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="iconGroup" verticalCenter="-18" horizontalCenter="1.5">
+		<e:UIAsset id="iconImg" source="coin" x="34" y="3" scaleX="0.55" scaleY="0.55"/>
+		<e:Label id="iconLbl" x="5" y="1" verticalAlign="middle" textAlign="center" bold="true" fontFamily="Arial" size="13"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="3"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="textGroup" horizontalCenter="1.5" verticalCenter="10">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" gap="4"/>
+		</e:layout>
+		<e:Label id="textLbl" verticalAlign="middle" y="1" textAlign="center" x="5" fontFamily="Arial" bold="true" size="14"/>
+		<e:Label id="upgradeLbl" textAlign="center" verticalAlign="middle" x="15" y="11" fontFamily="Arial" bold="true" size="14"/>
+	</e:Group>
+</e:Skin>

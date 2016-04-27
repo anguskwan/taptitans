@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="guild_gold_score_bg_png"/>
+	<e:Button id="closeBtn" x="10" y="10" right="1" top="0" skinName="@ButtonSkin('dialog_btn_cha_close_white','dialog_btn_cha_close_white','dialog_btn_cha_close_white')"/>
+	<e:List id="list" useVirtualLayout="true" width="414" horizontalCenter="1" top="132" bottom="80">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center"/>
+		</e:layout>
+	</e:List>
+	<e:Rect id="guildRect" width="424" height="80" fillColor="0xF8B128" horizontalCenter="0" bottom="0"/>
+	<e:Label id="timeLbl" fontFamily="Arial" bold="true" text="0月0日" textColor="0xFFFFFF" size="18" horizontalCenter="0" y="92"/>
+	<e:Group id="guildGroup" width="400" height="70" x="10" y="10" horizontalCenter="0" verticalCenter="338">
+		<uiskins:GuildBadgeItem scaleY="0.67" id="iconImg" skinName="skins.components.GuildBadgeItemSkin" scaleX="0.67" y="4" x="3"/>
+		<e:Label id="rankLbl" textColor="0xFFFFFF" fontFamily="Arial" textAlign="left" size="20" bold="true" x="83" y="10"/>
+		<e:Label id="scoreLbl" textColor="0xFFFFFF" fontFamily="Arial" textAlign="left" bold="true" x="83" y="37" size="20"/>
+		<e:UIAsset source="guild_gold_icon_myguild" y="-23" x="6"/>
+		<e:Group id="rewardGroup" y="15" x="289">
+			<e:Button id="rewardBtn" skinName="@ButtonSkin('dialog_btn_blue','dialog_btn_blue','dialog_btn_disabled')" fontFamily="Arial" width="110" bold="true" height="40"/>
+			<e:Label id="rewardText" verticalCenter="0" horizontalCenter="0" fontFamily="Arial" size="20" touchEnabled="false" bold="true" text="领取奖励"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

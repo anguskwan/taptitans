@@ -1,0 +1,28 @@
+{
+	"gate":         [ { "id": "gate-a2s1", "host": "10.45.18.76", "clientPort": 13014, "frontend": true } ],
+	"connector":    [
+		{ "id": "connector-a2-s101", "host": "10.45.18.76", "port": 14101, "clientHost":"115.28.186.42", "clientPort": 13101, "frontend": true, "cpu": 1 },
+		{ "id": "connector-a2-s102", "host": "10.45.18.76", "port": 14102, "clientHost":"115.28.186.42", "clientPort": 13102, "frontend": true, "cpu": 2 }
+	],
+	"player": [
+		{ "id": "player-a2-s101", "host": "10.45.18.76", "port": 16201, "auto-restart": true, "restart-force": true, "cpu": 1 },
+		{ "id": "player-a2-s102", "host": "10.45.18.76", "port": 16202, "auto-restart": true, "restart-force": true, "cpu": 2 }
+	],
+	"pk": [
+		{ "id": "pk-a2-s101", "host": "10.45.18.76", "port": 17050, "auto-restart": true, "restart-force": true},
+		{ "id": "pk-a2-s102", "host": "10.45.18.76", "port": 17051, "auto-restart": true, "restart-force": true}
+	],
+	"activity": [
+		{ "id": "activity1", "host": "10.45.18.76", "port": 19060, "auto-restart": true, "restart-force": true }
+	],
+	"rank": [
+		{ "id": "rank1", "host": "10.45.18.76", "port": 15050, "auto-restart": true, "restart-force": true},
+		{ "id": "rank2", "host": "10.45.18.76", "port": 15051, "auto-restart": true, "restart-force": true}
+	],
+	"manage": [ { "id": "manage1", "host": "10.45.18.76", "port": 19050, "auto-restart": true, "restart-force": true }
+	],
+	"guild":  [
+		{ "id": "guild1", "host": "10.45.18.76", "port": 18050, "auto-restart": true, "restart-force": true},
+		{ "id": "guild2", "host": "10.45.18.76", "port": 18051, "auto-restart": true, "restart-force": true}
+	]
+}

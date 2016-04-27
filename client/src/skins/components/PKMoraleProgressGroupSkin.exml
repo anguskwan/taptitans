@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="79" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Button id="moraleBtn" skinName="@ButtonSkin('pk_explanation_btn','pk_explanation_btn','pk_explanation_btn')" y="20" x="12"/>
+	<e:Group height="40" width="80" x="10" y="10" horizontalCenter="127" verticalCenter="0.5">
+		<e:Button id="timeBtn" skinName="@ButtonSkin('dialog_btn_blue','dialog_btn_blue','dialog_btn_blue')" width="80" height="40"/>
+		<e:Label id="timeLbl" text="00:00:00" fontFamily="Arial" bold="true" size="16" horizontalCenter="0" verticalCenter="0" touchEnabled="false" touchChildren="false"/>
+	</e:Group>
+	<e:UIAsset source="morale" x="62" y="9"/>
+	<e:Label id="nameLbl" textColor="0xFFFFFF" fontFamily="Arial" textAlign="left" size="18" bold="true" text="士气值" x="91" y="9"/>
+	<uiskins:PKProgressBar id="progress" y="37" skinName="skins.components.PKProgressBarSkin" value="0" x="67"/>
+</e:Skin>

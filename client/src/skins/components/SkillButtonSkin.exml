@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="64" height="64" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.Button"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="up"/>
+		<e:State name="down"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset id="disabledSkin" includeIn="disabled" horizontalCenter="0" verticalCenter="0" source="btn_skill_disabled"/>
+	<e:UIAsset id="downSkin" includeIn="down" source="btn_skill_disabled" verticalCenter="0" horizontalCenter="0"/>
+	<e:UIAsset id="upSkin" horizontalCenter="0" verticalCenter="0" source.disabled="btn_skill_disabled" width.disabled="61" height.disabled="61" includeIn="up" source="btn_skill_disabled"/>
+	<e:Group id="cdGroup" width="100%" height="100%" visible="false">
+		<e:UIAsset id="cdImg" source="btn_skill_disabled" horizontalCenter="0" verticalCenter="0" width="61" height="61" x="10" y="10"/>
+		<e:Label id="cdLbl" size="16" verticalAlign="middle" textAlign="center" verticalCenter="0" horizontalCenter="0" text="20:00" fontFamily="Arial" bold="true"/>
+	</e:Group>
+</e:Skin>

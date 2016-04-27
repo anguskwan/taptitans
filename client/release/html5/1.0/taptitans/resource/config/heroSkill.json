@@ -1,0 +1,1850 @@
+{
+  "1": {
+    "hero": 1, 
+    "id": 1, 
+    "index": 1, 
+    "name": "万物现身", 
+    "skill": 1, 
+    "value": 0.5
+  }, 
+  "2": {
+    "hero": 1, 
+    "id": 2, 
+    "index": 2, 
+    "name": "雷电怒吼", 
+    "skill": 1, 
+    "value": 1.0
+  }, 
+  "3": {
+    "hero": 1, 
+    "id": 3, 
+    "index": 3, 
+    "name": "侩子手叹息", 
+    "skill": 2, 
+    "value": 0.1
+  }, 
+  "4": {
+    "hero": 1, 
+    "id": 4, 
+    "index": 4, 
+    "name": "剧毒触碰", 
+    "skill": 3, 
+    "value": 0.1
+  }, 
+  "5": {
+    "hero": 1, 
+    "id": 5, 
+    "index": 5, 
+    "name": "隐藏面纱", 
+    "skill": 1, 
+    "value": 10.0
+  }, 
+  "6": {
+    "hero": 1, 
+    "id": 6, 
+    "index": 6, 
+    "name": "瘫痪术", 
+    "skill": 2, 
+    "value": 0.25
+  }, 
+  "7": {
+    "hero": 1, 
+    "id": 7, 
+    "index": 7, 
+    "name": "动感神力", 
+    "skill": 1, 
+    "value": 100.0
+  }, 
+  "8": {
+    "hero": 2, 
+    "id": 8, 
+    "index": 1, 
+    "name": "迷信蛊惑", 
+    "skill": 4, 
+    "value": 0.05
+  }, 
+  "9": {
+    "hero": 2, 
+    "id": 9, 
+    "index": 2, 
+    "name": "鬼魅气息", 
+    "skill": 1, 
+    "value": 1.0
+  }, 
+  "10": {
+    "hero": 2, 
+    "id": 10, 
+    "index": 3, 
+    "name": "幽灵新星", 
+    "skill": 1, 
+    "value": 10.0
+  }, 
+  "11": {
+    "hero": 2, 
+    "id": 11, 
+    "index": 4, 
+    "name": "冥想颤动", 
+    "skill": 5, 
+    "value": 0.004
+  }, 
+  "12": {
+    "hero": 2, 
+    "id": 12, 
+    "index": 5, 
+    "name": "守护者魔咒", 
+    "skill": 2, 
+    "value": 0.1
+  }, 
+  "13": {
+    "hero": 2, 
+    "id": 13, 
+    "index": 6, 
+    "name": "灵魂撩拨", 
+    "skill": 6, 
+    "value": 0.1
+  }, 
+  "14": {
+    "hero": 2, 
+    "id": 14, 
+    "index": 7, 
+    "name": "美杜莎争斗", 
+    "skill": 1, 
+    "value": 100.0
+  }, 
+  "15": {
+    "hero": 3, 
+    "id": 15, 
+    "index": 1, 
+    "name": "触角精华", 
+    "skill": 1, 
+    "value": 1.5
+  }, 
+  "16": {
+    "hero": 3, 
+    "id": 16, 
+    "index": 2, 
+    "name": "指挥仪式", 
+    "skill": 6, 
+    "value": 0.1
+  }, 
+  "17": {
+    "hero": 3, 
+    "id": 17, 
+    "index": 3, 
+    "name": "部落幻影", 
+    "skill": 2, 
+    "value": 0.1
+  }, 
+  "18": {
+    "hero": 3, 
+    "id": 18, 
+    "index": 4, 
+    "name": "战争渴望", 
+    "skill": 5, 
+    "value": 0.004
+  }, 
+  "19": {
+    "hero": 3, 
+    "id": 19, 
+    "index": 5, 
+    "name": "王权现形", 
+    "skill": 7, 
+    "value": 0.2
+  }, 
+  "20": {
+    "hero": 3, 
+    "id": 20, 
+    "index": 6, 
+    "name": "残酷神力", 
+    "skill": 8, 
+    "value": 0.01
+  }, 
+  "21": {
+    "hero": 3, 
+    "id": 21, 
+    "index": 7, 
+    "name": "杀无赦", 
+    "skill": 2, 
+    "value": 0.3
+  }, 
+  "22": {
+    "hero": 4, 
+    "id": 22, 
+    "index": 1, 
+    "name": "轰击现形", 
+    "skill": 1, 
+    "value": 1.0
+  }, 
+  "23": {
+    "hero": 4, 
+    "id": 23, 
+    "index": 2, 
+    "name": "重锤鼓动", 
+    "skill": 1, 
+    "value": 8.0
+  }, 
+  "24": {
+    "hero": 4, 
+    "id": 24, 
+    "index": 3, 
+    "name": "变态侵扰", 
+    "skill": 6, 
+    "value": 0.06
+  }, 
+  "25": {
+    "hero": 4, 
+    "id": 25, 
+    "index": 4, 
+    "name": "战争烽火", 
+    "skill": 1, 
+    "value": 5.0
+  }, 
+  "26": {
+    "hero": 4, 
+    "id": 26, 
+    "index": 5, 
+    "name": "重锤巡回", 
+    "skill": 3, 
+    "value": 0.05
+  }, 
+  "27": {
+    "hero": 4, 
+    "id": 27, 
+    "index": 6, 
+    "name": "战斗毅力", 
+    "skill": 2, 
+    "value": 0.2
+  }, 
+  "28": {
+    "hero": 4, 
+    "id": 28, 
+    "index": 7, 
+    "name": "铜铁胆量", 
+    "skill": 7, 
+    "value": 0.2
+  }, 
+  "29": {
+    "hero": 5, 
+    "id": 29, 
+    "index": 1, 
+    "name": "大地战士", 
+    "skill": 1, 
+    "value": 3.0
+  }, 
+  "30": {
+    "hero": 5, 
+    "id": 30, 
+    "index": 2, 
+    "name": "镰刀王", 
+    "skill": 6, 
+    "value": 0.1
+  }, 
+  "31": {
+    "hero": 5, 
+    "id": 31, 
+    "index": 3, 
+    "name": "精华焚毁", 
+    "skill": 5, 
+    "value": 0.004
+  }, 
+  "32": {
+    "hero": 5, 
+    "id": 32, 
+    "index": 4, 
+    "name": "清澈之风", 
+    "skill": 6, 
+    "value": 0.15
+  }, 
+  "33": {
+    "hero": 5, 
+    "id": 33, 
+    "index": 5, 
+    "name": "死亡行军", 
+    "skill": 7, 
+    "value": 0.2
+  }, 
+  "34": {
+    "hero": 5, 
+    "id": 34, 
+    "index": 6, 
+    "name": "战斗咆哮", 
+    "skill": 4, 
+    "value": 0.05
+  }, 
+  "35": {
+    "hero": 5, 
+    "id": 35, 
+    "index": 7, 
+    "name": "冷静之风", 
+    "skill": 1, 
+    "value": 100.0
+  }, 
+  "36": {
+    "hero": 6, 
+    "id": 36, 
+    "index": 1, 
+    "name": "残酷追捕", 
+    "skill": 1, 
+    "value": 2.0
+  }, 
+  "37": {
+    "hero": 6, 
+    "id": 37, 
+    "index": 2, 
+    "name": "正义云影", 
+    "skill": 1, 
+    "value": 7.0
+  }, 
+  "38": {
+    "hero": 6, 
+    "id": 38, 
+    "index": 3, 
+    "name": "大屠杀", 
+    "skill": 2, 
+    "value": 0.1
+  }, 
+  "39": {
+    "hero": 6, 
+    "id": 39, 
+    "index": 4, 
+    "name": "恶魔咒语", 
+    "skill": 2, 
+    "value": 0.2
+  }, 
+  "40": {
+    "hero": 6, 
+    "id": 40, 
+    "index": 5, 
+    "name": "地牢陷阱", 
+    "skill": 3, 
+    "value": 0.05
+  }, 
+  "41": {
+    "hero": 6, 
+    "id": 41, 
+    "index": 6, 
+    "name": "自订机械装置", 
+    "skill": 8, 
+    "value": 0.02
+  }, 
+  "42": {
+    "hero": 6, 
+    "id": 42, 
+    "index": 7, 
+    "name": "暴躁克制", 
+    "skill": 1, 
+    "value": 100.0
+  }, 
+  "43": {
+    "hero": 7, 
+    "id": 43, 
+    "index": 1, 
+    "name": "狮身人面现身", 
+    "skill": 1, 
+    "value": 2.0
+  }, 
+  "44": {
+    "hero": 7, 
+    "id": 44, 
+    "index": 2, 
+    "name": "黑豹碰触", 
+    "skill": 9, 
+    "value": 0.05
+  }, 
+  "45": {
+    "hero": 7, 
+    "id": 45, 
+    "index": 3, 
+    "name": "铜皮护体", 
+    "skill": 9, 
+    "value": 0.07
+  }, 
+  "46": {
+    "hero": 7, 
+    "id": 46, 
+    "index": 4, 
+    "name": "特种战士", 
+    "skill": 1, 
+    "value": 6.0
+  }, 
+  "47": {
+    "hero": 7, 
+    "id": 47, 
+    "index": 5, 
+    "name": "骷髅盖顶", 
+    "skill": 4, 
+    "value": 0.05
+  }, 
+  "48": {
+    "hero": 7, 
+    "id": 48, 
+    "index": 6, 
+    "name": "操纵高手", 
+    "skill": 7, 
+    "value": 0.2
+  }, 
+  "49": {
+    "hero": 7, 
+    "id": 49, 
+    "index": 7, 
+    "name": "永恒冲动", 
+    "skill": 2, 
+    "value": 0.3
+  }, 
+  "50": {
+    "hero": 8, 
+    "id": 50, 
+    "index": 1, 
+    "name": "亚瑟王的报仇", 
+    "skill": 1, 
+    "value": 2.0
+  }, 
+  "51": {
+    "hero": 8, 
+    "id": 51, 
+    "index": 2, 
+    "name": "圣物召唤", 
+    "skill": 2, 
+    "value": 0.1
+  }, 
+  "52": {
+    "hero": 8, 
+    "id": 52, 
+    "index": 3, 
+    "name": "赎罪轮回", 
+    "skill": 5, 
+    "value": 0.004
+  }, 
+  "53": {
+    "hero": 8, 
+    "id": 53, 
+    "index": 4, 
+    "name": "迷幻帷幕", 
+    "skill": 6, 
+    "value": 0.15
+  }, 
+  "54": {
+    "hero": 8, 
+    "id": 54, 
+    "index": 5, 
+    "name": "旅人", 
+    "skill": 7, 
+    "value": 0.2
+  }, 
+  "55": {
+    "hero": 8, 
+    "id": 55, 
+    "index": 6, 
+    "name": "残酷", 
+    "skill": 1, 
+    "value": 19.0
+  }, 
+  "56": {
+    "hero": 8, 
+    "id": 56, 
+    "index": 7, 
+    "name": "刀剑轨迹", 
+    "skill": 2, 
+    "value": 0.2
+  }, 
+  "57": {
+    "hero": 9, 
+    "id": 57, 
+    "index": 1, 
+    "name": "强韧力量", 
+    "skill": 1, 
+    "value": 1.5
+  }, 
+  "58": {
+    "hero": 9, 
+    "id": 58, 
+    "index": 2, 
+    "name": "维京砍击神力", 
+    "skill": 9, 
+    "value": 0.05
+  }, 
+  "59": {
+    "hero": 9, 
+    "id": 59, 
+    "index": 3, 
+    "name": "符文发威", 
+    "skill": 2, 
+    "value": 0.3
+  }, 
+  "60": {
+    "hero": 9, 
+    "id": 60, 
+    "index": 4, 
+    "name": "莽夫无惧", 
+    "skill": 3, 
+    "value": 0.05
+  }, 
+  "61": {
+    "hero": 9, 
+    "id": 61, 
+    "index": 5, 
+    "name": "亡灵荟萃", 
+    "skill": 1, 
+    "value": 50.0
+  }, 
+  "62": {
+    "hero": 9, 
+    "id": 62, 
+    "index": 6, 
+    "name": "英灵神殿精华", 
+    "skill": 2, 
+    "value": 0.25
+  }, 
+  "63": {
+    "hero": 9, 
+    "id": 63, 
+    "index": 7, 
+    "name": "战士效忠", 
+    "skill": 1, 
+    "value": 100.0
+  }, 
+  "64": {
+    "hero": 10, 
+    "id": 64, 
+    "index": 1, 
+    "name": "电光军旅", 
+    "skill": 1, 
+    "value": 1.5
+  }, 
+  "65": {
+    "hero": 10, 
+    "id": 65, 
+    "index": 2, 
+    "name": "类比云彩", 
+    "skill": 3, 
+    "value": 0.01
+  }, 
+  "66": {
+    "hero": 10, 
+    "id": 66, 
+    "index": 3, 
+    "name": "众志成城", 
+    "skill": 9, 
+    "value": 0.05
+  }, 
+  "67": {
+    "hero": 10, 
+    "id": 67, 
+    "index": 4, 
+    "name": "钢铁闪电", 
+    "skill": 6, 
+    "value": 0.15
+  }, 
+  "68": {
+    "hero": 10, 
+    "id": 68, 
+    "index": 5, 
+    "name": "铜铁心肠", 
+    "skill": 7, 
+    "value": 0.2
+  }, 
+  "69": {
+    "hero": 10, 
+    "id": 69, 
+    "index": 6, 
+    "name": "战斗英雄", 
+    "skill": 7, 
+    "value": 0.25
+  }, 
+  "70": {
+    "hero": 10, 
+    "id": 70, 
+    "index": 7, 
+    "name": "恐怖战斗", 
+    "skill": 2, 
+    "value": 0.15
+  }, 
+  "71": {
+    "hero": 11, 
+    "id": 71, 
+    "index": 1, 
+    "name": "残酷重击", 
+    "skill": 1, 
+    "value": 2.0
+  }, 
+  "72": {
+    "hero": 11, 
+    "id": 72, 
+    "index": 2, 
+    "name": "忠诚牢狱", 
+    "skill": 1, 
+    "value": 8.5
+  }, 
+  "73": {
+    "hero": 11, 
+    "id": 73, 
+    "index": 3, 
+    "name": "流星浪潮", 
+    "skill": 4, 
+    "value": 0.05
+  }, 
+  "74": {
+    "hero": 11, 
+    "id": 74, 
+    "index": 4, 
+    "name": "惊骇分解", 
+    "skill": 5, 
+    "value": 0.004
+  }, 
+  "75": {
+    "hero": 11, 
+    "id": 75, 
+    "index": 5, 
+    "name": "惊悚仪式", 
+    "skill": 6, 
+    "value": 0.15
+  }, 
+  "76": {
+    "hero": 11, 
+    "id": 76, 
+    "index": 6, 
+    "name": "献祭", 
+    "skill": 8, 
+    "value": 0.01
+  }, 
+  "77": {
+    "hero": 11, 
+    "id": 77, 
+    "index": 7, 
+    "name": "死亡轮回", 
+    "skill": 1, 
+    "value": 38.0
+  }, 
+  "78": {
+    "hero": 12, 
+    "id": 78, 
+    "index": 1, 
+    "name": "万物反扑", 
+    "skill": 1, 
+    "value": 2.5
+  }, 
+  "79": {
+    "hero": 12, 
+    "id": 79, 
+    "index": 2, 
+    "name": "九头蛇神威", 
+    "skill": 1, 
+    "value": 13.0
+  }, 
+  "80": {
+    "hero": 12, 
+    "id": 80, 
+    "index": 3, 
+    "name": "死亡逃脱", 
+    "skill": 9, 
+    "value": 0.07
+  }, 
+  "81": {
+    "hero": 12, 
+    "id": 81, 
+    "index": 4, 
+    "name": "动物优势", 
+    "skill": 3, 
+    "value": 0.05
+  }, 
+  "82": {
+    "hero": 12, 
+    "id": 82, 
+    "index": 5, 
+    "name": "生命力", 
+    "skill": 5, 
+    "value": 0.004
+  }, 
+  "83": {
+    "hero": 12, 
+    "id": 83, 
+    "index": 6, 
+    "name": "木炭屏障", 
+    "skill": 4, 
+    "value": 0.05
+  }, 
+  "84": {
+    "hero": 12, 
+    "id": 84, 
+    "index": 7, 
+    "name": "黑暗面纱", 
+    "skill": 6, 
+    "value": 0.2
+  }, 
+  "85": {
+    "hero": 13, 
+    "id": 85, 
+    "index": 1, 
+    "name": "闪银骑士", 
+    "skill": 1, 
+    "value": 1.5
+  }, 
+  "86": {
+    "hero": 13, 
+    "id": 86, 
+    "index": 2, 
+    "name": "领路咒语", 
+    "skill": 1, 
+    "value": 8.5
+  }, 
+  "87": {
+    "hero": 13, 
+    "id": 87, 
+    "index": 3, 
+    "name": "斗篷叛徒", 
+    "skill": 4, 
+    "value": 0.05
+  }, 
+  "88": {
+    "hero": 13, 
+    "id": 88, 
+    "index": 4, 
+    "name": "激进行动", 
+    "skill": 2, 
+    "value": 0.2
+  }, 
+  "89": {
+    "hero": 13, 
+    "id": 89, 
+    "index": 5, 
+    "name": "希望烽火", 
+    "skill": 2, 
+    "value": 0.3
+  }, 
+  "90": {
+    "hero": 13, 
+    "id": 90, 
+    "index": 6, 
+    "name": "猎杀扫射", 
+    "skill": 3, 
+    "value": 0.05
+  }, 
+  "91": {
+    "hero": 13, 
+    "id": 91, 
+    "index": 7, 
+    "name": "灵魂收割", 
+    "skill": 1, 
+    "value": 120.0
+  }, 
+  "92": {
+    "hero": 14, 
+    "id": 92, 
+    "index": 1, 
+    "name": "鹰隼猎杀", 
+    "skill": 1, 
+    "value": 2.0
+  }, 
+  "93": {
+    "hero": 14, 
+    "id": 93, 
+    "index": 2, 
+    "name": "疾风神速", 
+    "skill": 1, 
+    "value": 11.0
+  }, 
+  "94": {
+    "hero": 14, 
+    "id": 94, 
+    "index": 3, 
+    "name": "远古翱翔", 
+    "skill": 5, 
+    "value": 0.004
+  }, 
+  "95": {
+    "hero": 14, 
+    "id": 95, 
+    "index": 4, 
+    "name": "制空优势", 
+    "skill": 1, 
+    "value": 4.0
+  }, 
+  "96": {
+    "hero": 14, 
+    "id": 96, 
+    "index": 5, 
+    "name": "展翅指挥官", 
+    "skill": 6, 
+    "value": 0.1
+  }, 
+  "97": {
+    "hero": 14, 
+    "id": 97, 
+    "index": 6, 
+    "name": "幻影漫游", 
+    "skill": 3, 
+    "value": 0.1
+  }, 
+  "98": {
+    "hero": 14, 
+    "id": 98, 
+    "index": 7, 
+    "name": "圣物天谴", 
+    "skill": 6, 
+    "value": 0.2
+  }, 
+  "99": {
+    "hero": 15, 
+    "id": 99, 
+    "index": 1, 
+    "name": "绿宝石诡计", 
+    "skill": 1, 
+    "value": 3.0
+  }, 
+  "100": {
+    "hero": 15, 
+    "id": 100, 
+    "index": 2, 
+    "name": "妖魔心计", 
+    "skill": 2, 
+    "value": 0.4
+  }, 
+  "101": {
+    "hero": 15, 
+    "id": 101, 
+    "index": 3, 
+    "name": "海嘉舰队", 
+    "skill": 9, 
+    "value": 0.05
+  }, 
+  "102": {
+    "hero": 15, 
+    "id": 102, 
+    "index": 4, 
+    "name": "珠宝师眼光", 
+    "skill": 8, 
+    "value": 0.02
+  }, 
+  "103": {
+    "hero": 15, 
+    "id": 103, 
+    "index": 5, 
+    "name": "追魂术", 
+    "skill": 3, 
+    "value": 0.15
+  }, 
+  "104": {
+    "hero": 15, 
+    "id": 104, 
+    "index": 6, 
+    "name": "磐石灌顶", 
+    "skill": 7, 
+    "value": 0.2
+  }, 
+  "105": {
+    "hero": 15, 
+    "id": 105, 
+    "index": 7, 
+    "name": "冥想术", 
+    "skill": 1, 
+    "value": 100.0
+  }, 
+  "106": {
+    "hero": 16, 
+    "id": 106, 
+    "index": 1, 
+    "name": "隐藏旗帜", 
+    "skill": 1, 
+    "value": 3.5
+  }, 
+  "107": {
+    "hero": 16, 
+    "id": 107, 
+    "index": 2, 
+    "name": "麻痹复仇", 
+    "skill": 7, 
+    "value": 0.25
+  }, 
+  "108": {
+    "hero": 16, 
+    "id": 108, 
+    "index": 3, 
+    "name": "特权优势", 
+    "skill": 6, 
+    "value": 0.2
+  }, 
+  "109": {
+    "hero": 16, 
+    "id": 109, 
+    "index": 4, 
+    "name": "易容术", 
+    "skill": 9, 
+    "value": 0.05
+  }, 
+  "110": {
+    "hero": 16, 
+    "id": 110, 
+    "index": 5, 
+    "name": "分身术", 
+    "skill": 9, 
+    "value": 0.07
+  }, 
+  "111": {
+    "hero": 16, 
+    "id": 111, 
+    "index": 6, 
+    "name": "丹药精华", 
+    "skill": 2, 
+    "value": 0.15
+  }, 
+  "112": {
+    "hero": 16, 
+    "id": 112, 
+    "index": 7, 
+    "name": "惊骇之眼", 
+    "skill": 2, 
+    "value": 0.2
+  }, 
+  "113": {
+    "hero": 17, 
+    "id": 113, 
+    "index": 1, 
+    "name": "宝石风暴", 
+    "skill": 1, 
+    "value": 1.5
+  }, 
+  "114": {
+    "hero": 17, 
+    "id": 114, 
+    "index": 2, 
+    "name": "古人愤怒", 
+    "skill": 1, 
+    "value": 9.0
+  }, 
+  "115": {
+    "hero": 17, 
+    "id": 115, 
+    "index": 3, 
+    "name": "穿刺回避", 
+    "skill": 6, 
+    "value": 0.1
+  }, 
+  "116": {
+    "hero": 17, 
+    "id": 116, 
+    "index": 4, 
+    "name": "酋长降临", 
+    "skill": 6, 
+    "value": 0.1
+  }, 
+  "117": {
+    "hero": 17, 
+    "id": 117, 
+    "index": 5, 
+    "name": "转守为攻", 
+    "skill": 4, 
+    "value": 0.05
+  }, 
+  "118": {
+    "hero": 17, 
+    "id": 118, 
+    "index": 6, 
+    "name": "死亡合一", 
+    "skill": 3, 
+    "value": 0.1
+  }, 
+  "119": {
+    "hero": 17, 
+    "id": 119, 
+    "index": 7, 
+    "name": "赫勒夫的追寻", 
+    "skill": 6, 
+    "value": 0.25
+  }, 
+  "120": {
+    "hero": 18, 
+    "id": 120, 
+    "index": 1, 
+    "name": "夜伏者", 
+    "skill": 1, 
+    "value": 4.0
+  }, 
+  "121": {
+    "hero": 18, 
+    "id": 121, 
+    "index": 2, 
+    "name": "弹道学", 
+    "skill": 1, 
+    "value": 5.0
+  }, 
+  "122": {
+    "hero": 18, 
+    "id": 122, 
+    "index": 3, 
+    "name": "迅弓狩猎", 
+    "skill": 9, 
+    "value": 0.05
+  }, 
+  "123": {
+    "hero": 18, 
+    "id": 123, 
+    "index": 4, 
+    "name": "铁血真战士", 
+    "skill": 1, 
+    "value": 4.5
+  }, 
+  "124": {
+    "hero": 18, 
+    "id": 124, 
+    "index": 5, 
+    "name": "影现身术", 
+    "skill": 4, 
+    "value": 0.05
+  }, 
+  "125": {
+    "hero": 18, 
+    "id": 125, 
+    "index": 6, 
+    "name": "远古梵音", 
+    "skill": 7, 
+    "value": 0.2
+  }, 
+  "126": {
+    "hero": 18, 
+    "id": 126, 
+    "index": 7, 
+    "name": "艾格斯之门", 
+    "skill": 2, 
+    "value": 0.15
+  }, 
+  "127": {
+    "hero": 19, 
+    "id": 127, 
+    "index": 1, 
+    "name": "未来之眼", 
+    "skill": 1, 
+    "value": 2.0
+  }, 
+  "128": {
+    "hero": 19, 
+    "id": 128, 
+    "index": 2, 
+    "name": "猴子诅咒", 
+    "skill": 1, 
+    "value": 10.0
+  }, 
+  "129": {
+    "hero": 19, 
+    "id": 129, 
+    "index": 3, 
+    "name": "星际奇观", 
+    "skill": 5, 
+    "value": 0.005
+  }, 
+  "130": {
+    "hero": 19, 
+    "id": 130, 
+    "index": 4, 
+    "name": "玻璃魔术师", 
+    "skill": 4, 
+    "value": 0.05
+  }, 
+  "131": {
+    "hero": 19, 
+    "id": 131, 
+    "index": 5, 
+    "name": "时光模糊", 
+    "skill": 2, 
+    "value": 0.1
+  }, 
+  "132": {
+    "hero": 19, 
+    "id": 132, 
+    "index": 6, 
+    "name": "潜意识现形", 
+    "skill": 6, 
+    "value": 0.1
+  }, 
+  "133": {
+    "hero": 19, 
+    "id": 133, 
+    "index": 7, 
+    "name": "重击热浪", 
+    "skill": 2, 
+    "value": 0.1
+  }, 
+  "134": {
+    "hero": 20, 
+    "id": 134, 
+    "index": 1, 
+    "name": "飞箭脱逃", 
+    "skill": 1, 
+    "value": 2.5
+  }, 
+  "135": {
+    "hero": 20, 
+    "id": 135, 
+    "index": 2, 
+    "name": "竹林恶火", 
+    "skill": 1, 
+    "value": 6.0
+  }, 
+  "136": {
+    "hero": 20, 
+    "id": 136, 
+    "index": 3, 
+    "name": "硫酸腐蚀", 
+    "skill": 3, 
+    "value": 0.2
+  }, 
+  "137": {
+    "hero": 20, 
+    "id": 137, 
+    "index": 4, 
+    "name": "神准射击", 
+    "skill": 1, 
+    "value": 4.5
+  }, 
+  "138": {
+    "hero": 20, 
+    "id": 138, 
+    "index": 5, 
+    "name": "短暂昏迷", 
+    "skill": 5, 
+    "value": 0.004
+  }, 
+  "139": {
+    "hero": 20, 
+    "id": 139, 
+    "index": 6, 
+    "name": "家族荣耀", 
+    "skill": 4, 
+    "value": 0.1
+  }, 
+  "140": {
+    "hero": 20, 
+    "id": 140, 
+    "index": 7, 
+    "name": "孤独岛", 
+    "skill": 6, 
+    "value": 0.1
+  }, 
+  "141": {
+    "hero": 21, 
+    "id": 141, 
+    "index": 1, 
+    "name": "植物蒙蔽", 
+    "skill": 1, 
+    "value": 2.0
+  }, 
+  "142": {
+    "hero": 21, 
+    "id": 142, 
+    "index": 2, 
+    "name": "飞马撞击", 
+    "skill": 4, 
+    "value": 0.05
+  }, 
+  "143": {
+    "hero": 21, 
+    "id": 143, 
+    "index": 3, 
+    "name": "青春威力", 
+    "skill": 2, 
+    "value": 0.3
+  }, 
+  "144": {
+    "hero": 21, 
+    "id": 144, 
+    "index": 4, 
+    "name": "神圣咒语", 
+    "skill": 8, 
+    "value": 0.02
+  }, 
+  "145": {
+    "hero": 21, 
+    "id": 145, 
+    "index": 5, 
+    "name": "躲闪技", 
+    "skill": 2, 
+    "value": 0.1
+  }, 
+  "146": {
+    "hero": 21, 
+    "id": 146, 
+    "index": 6, 
+    "name": "灵魂动力", 
+    "skill": 7, 
+    "value": 0.2
+  }, 
+  "147": {
+    "hero": 21, 
+    "id": 147, 
+    "index": 7, 
+    "name": "魔法光明", 
+    "skill": 1, 
+    "value": 100.0
+  }, 
+  "148": {
+    "hero": 22, 
+    "id": 148, 
+    "index": 1, 
+    "name": "火炬之路", 
+    "skill": 1, 
+    "value": 2.5
+  }, 
+  "149": {
+    "hero": 22, 
+    "id": 149, 
+    "index": 2, 
+    "name": "血型攻击仪式", 
+    "skill": 1, 
+    "value": 7.5
+  }, 
+  "150": {
+    "hero": 22, 
+    "id": 150, 
+    "index": 3, 
+    "name": "仇恨喧嚣", 
+    "skill": 2, 
+    "value": 0.1
+  }, 
+  "151": {
+    "hero": 22, 
+    "id": 151, 
+    "index": 4, 
+    "name": "疯狂克制", 
+    "skill": 1, 
+    "value": 5.0
+  }, 
+  "152": {
+    "hero": 22, 
+    "id": 152, 
+    "index": 5, 
+    "name": "靡坚不摧", 
+    "skill": 2, 
+    "value": 0.1
+  }, 
+  "153": {
+    "hero": 22, 
+    "id": 153, 
+    "index": 6, 
+    "name": "第七感官", 
+    "skill": 3, 
+    "value": 0.3
+  }, 
+  "154": {
+    "hero": 22, 
+    "id": 154, 
+    "index": 7, 
+    "name": "汹涌无畏", 
+    "skill": 2, 
+    "value": 0.2
+  }, 
+  "155": {
+    "hero": 23, 
+    "id": 155, 
+    "index": 1, 
+    "name": "盲目飞翔", 
+    "skill": 1, 
+    "value": 3.0
+  }, 
+  "156": {
+    "hero": 23, 
+    "id": 156, 
+    "index": 2, 
+    "name": "尖刺愤怒", 
+    "skill": 1, 
+    "value": 8.0
+  }, 
+  "157": {
+    "hero": 23, 
+    "id": 157, 
+    "index": 3, 
+    "name": "远古决心", 
+    "skill": 5, 
+    "value": 0.004
+  }, 
+  "158": {
+    "hero": 23, 
+    "id": 158, 
+    "index": 4, 
+    "name": "魔咒节奏", 
+    "skill": 3, 
+    "value": 0.2
+  }, 
+  "159": {
+    "hero": 23, 
+    "id": 159, 
+    "index": 5, 
+    "name": "神秘统治", 
+    "skill": 4, 
+    "value": 0.1
+  }, 
+  "160": {
+    "hero": 23, 
+    "id": 160, 
+    "index": 6, 
+    "name": "短暂异象", 
+    "skill": 3, 
+    "value": 0.02
+  }, 
+  "161": {
+    "hero": 23, 
+    "id": 161, 
+    "index": 7, 
+    "name": "坚定幻影", 
+    "skill": 1, 
+    "value": 100.0
+  }, 
+  "162": {
+    "hero": 24, 
+    "id": 162, 
+    "index": 1, 
+    "name": "完美主义者", 
+    "skill": 1, 
+    "value": 2.0
+  }, 
+  "163": {
+    "hero": 24, 
+    "id": 163, 
+    "index": 2, 
+    "name": "断头台威力", 
+    "skill": 1, 
+    "value": 5.0
+  }, 
+  "164": {
+    "hero": 24, 
+    "id": 164, 
+    "index": 3, 
+    "name": "掠夺者", 
+    "skill": 1, 
+    "value": 12.0
+  }, 
+  "165": {
+    "hero": 24, 
+    "id": 165, 
+    "index": 4, 
+    "name": "铜铁收集家", 
+    "skill": 6, 
+    "value": 0.15
+  }, 
+  "166": {
+    "hero": 24, 
+    "id": 166, 
+    "index": 5, 
+    "name": "末日降临", 
+    "skill": 7, 
+    "value": 0.2
+  }, 
+  "167": {
+    "hero": 24, 
+    "id": 167, 
+    "index": 6, 
+    "name": "高贵标本", 
+    "skill": 1, 
+    "value": 90.0
+  }, 
+  "168": {
+    "hero": 24, 
+    "id": 168, 
+    "index": 7, 
+    "name": "惊惧凤凰", 
+    "skill": 2, 
+    "value": 0.15
+  }, 
+  "169": {
+    "hero": 25, 
+    "id": 169, 
+    "index": 1, 
+    "name": "堡垒骷髅", 
+    "skill": 4, 
+    "value": 0.05
+  }, 
+  "170": {
+    "hero": 25, 
+    "id": 170, 
+    "index": 2, 
+    "name": "画家英气", 
+    "skill": 4, 
+    "value": 0.05
+  }, 
+  "171": {
+    "hero": 25, 
+    "id": 171, 
+    "index": 3, 
+    "name": "受难灵魂", 
+    "skill": 5, 
+    "value": 0.004
+  }, 
+  "172": {
+    "hero": 25, 
+    "id": 172, 
+    "index": 4, 
+    "name": "神圣忍术", 
+    "skill": 2, 
+    "value": 0.1
+  }, 
+  "173": {
+    "hero": 25, 
+    "id": 173, 
+    "index": 5, 
+    "name": "海盗狩猎者", 
+    "skill": 6, 
+    "value": 0.15
+  }, 
+  "174": {
+    "hero": 25, 
+    "id": 174, 
+    "index": 6, 
+    "name": "埋伏奇袭", 
+    "skill": 8, 
+    "value": 0.02
+  }, 
+  "175": {
+    "hero": 25, 
+    "id": 175, 
+    "index": 7, 
+    "name": "星际暴露", 
+    "skill": 1, 
+    "value": 150.0
+  }, 
+  "176": {
+    "hero": 26, 
+    "id": 176, 
+    "index": 1, 
+    "name": "冰雪困兽", 
+    "skill": 1, 
+    "value": 3.5
+  }, 
+  "177": {
+    "hero": 26, 
+    "id": 177, 
+    "index": 2, 
+    "name": "冰河之气", 
+    "skill": 1, 
+    "value": 6.5
+  }, 
+  "178": {
+    "hero": 26, 
+    "id": 178, 
+    "index": 3, 
+    "name": "汹涌怒气", 
+    "skill": 5, 
+    "value": 0.004
+  }, 
+  "179": {
+    "hero": 26, 
+    "id": 179, 
+    "index": 4, 
+    "name": "冷血动物", 
+    "skill": 9, 
+    "value": 0.05
+  }, 
+  "180": {
+    "hero": 26, 
+    "id": 180, 
+    "index": 5, 
+    "name": "堕落神圣", 
+    "skill": 2, 
+    "value": 0.1
+  }, 
+  "181": {
+    "hero": 26, 
+    "id": 181, 
+    "index": 6, 
+    "name": "极地毅力", 
+    "skill": 9, 
+    "value": 0.05
+  }, 
+  "182": {
+    "hero": 26, 
+    "id": 182, 
+    "index": 7, 
+    "name": "力量模糊", 
+    "skill": 6, 
+    "value": 0.12
+  }, 
+  "183": {
+    "hero": 27, 
+    "id": 183, 
+    "index": 1, 
+    "name": "旅人魔咒", 
+    "skill": 1, 
+    "value": 3.0
+  }, 
+  "184": {
+    "hero": 27, 
+    "id": 184, 
+    "index": 2, 
+    "name": "农场小径", 
+    "skill": 1, 
+    "value": 7.0
+  }, 
+  "185": {
+    "hero": 27, 
+    "id": 185, 
+    "index": 3, 
+    "name": "动物感官", 
+    "skill": 2, 
+    "value": 0.1
+  }, 
+  "186": {
+    "hero": 27, 
+    "id": 186, 
+    "index": 4, 
+    "name": "忠诚合作", 
+    "skill": 9, 
+    "value": 0.05
+  }, 
+  "187": {
+    "hero": 27, 
+    "id": 187, 
+    "index": 5, 
+    "name": "和平回响", 
+    "skill": 8, 
+    "value": 0.02
+  }, 
+  "188": {
+    "hero": 27, 
+    "id": 188, 
+    "index": 6, 
+    "name": "智慧闪避", 
+    "skill": 3, 
+    "value": 0.3
+  }, 
+  "189": {
+    "hero": 27, 
+    "id": 189, 
+    "index": 7, 
+    "name": "尘世之光", 
+    "skill": 7, 
+    "value": 0.2
+  }, 
+  "190": {
+    "hero": 28, 
+    "id": 190, 
+    "index": 1, 
+    "name": "狮爪", 
+    "skill": 1, 
+    "value": 3.5
+  }, 
+  "191": {
+    "hero": 28, 
+    "id": 191, 
+    "index": 2, 
+    "name": "鹰翼风暴", 
+    "skill": 2, 
+    "value": 0.01
+  }, 
+  "192": {
+    "hero": 28, 
+    "id": 192, 
+    "index": 3, 
+    "name": "骨骸十字架", 
+    "skill": 1, 
+    "value": 4.0
+  }, 
+  "193": {
+    "hero": 28, 
+    "id": 193, 
+    "index": 4, 
+    "name": "雷电破裂", 
+    "skill": 1, 
+    "value": 6.0
+  }, 
+  "194": {
+    "hero": 28, 
+    "id": 194, 
+    "index": 5, 
+    "name": "太空透视", 
+    "skill": 3, 
+    "value": 0.2
+  }, 
+  "195": {
+    "hero": 28, 
+    "id": 195, 
+    "index": 6, 
+    "name": "意识觉醒", 
+    "skill": 8, 
+    "value": 0.02
+  }, 
+  "196": {
+    "hero": 28, 
+    "id": 196, 
+    "index": 7, 
+    "name": "灵光盛怒", 
+    "skill": 2, 
+    "value": 0.15
+  }, 
+  "197": {
+    "hero": 29, 
+    "id": 197, 
+    "index": 1, 
+    "name": "灵魂召唤者", 
+    "skill": 1, 
+    "value": 3.3
+  }, 
+  "198": {
+    "hero": 29, 
+    "id": 198, 
+    "index": 2, 
+    "name": "脱逃拦截", 
+    "skill": 1, 
+    "value": 5.5
+  }, 
+  "199": {
+    "hero": 29, 
+    "id": 199, 
+    "index": 3, 
+    "name": "逆风烽火", 
+    "skill": 6, 
+    "value": 0.1
+  }, 
+  "200": {
+    "hero": 29, 
+    "id": 200, 
+    "index": 4, 
+    "name": "梵音共鸣", 
+    "skill": 4, 
+    "value": 0.1
+  }, 
+  "201": {
+    "hero": 29, 
+    "id": 201, 
+    "index": 5, 
+    "name": "秤砣铁心", 
+    "skill": 6, 
+    "value": 0.2
+  }, 
+  "202": {
+    "hero": 29, 
+    "id": 202, 
+    "index": 6, 
+    "name": "仇恨预兆", 
+    "skill": 2, 
+    "value": 0.1
+  }, 
+  "203": {
+    "hero": 29, 
+    "id": 203, 
+    "index": 7, 
+    "name": "野兽脱逃术", 
+    "skill": 6, 
+    "value": 0.3
+  }, 
+  "204": {
+    "hero": 30, 
+    "id": 204, 
+    "index": 1, 
+    "name": "女巫毒汤", 
+    "skill": 1, 
+    "value": 10.0
+  }, 
+  "205": {
+    "hero": 30, 
+    "id": 205, 
+    "index": 2, 
+    "name": "振翅逃脱", 
+    "skill": 4, 
+    "value": 0.1
+  }, 
+  "206": {
+    "hero": 30, 
+    "id": 206, 
+    "index": 3, 
+    "name": "美杜莎幻影", 
+    "skill": 5, 
+    "value": 0.04
+  }, 
+  "207": {
+    "hero": 30, 
+    "id": 207, 
+    "index": 4, 
+    "name": "宇宙熔岩", 
+    "skill": 6, 
+    "value": 0.2
+  }, 
+  "208": {
+    "hero": 30, 
+    "id": 208, 
+    "index": 5, 
+    "name": "神秘路径", 
+    "skill": 2, 
+    "value": 0.1
+  }, 
+  "209": {
+    "hero": 30, 
+    "id": 209, 
+    "index": 6, 
+    "name": "全面模糊", 
+    "skill": 2, 
+    "value": 0.2
+  }, 
+  "210": {
+    "hero": 30, 
+    "id": 210, 
+    "index": 7, 
+    "name": "迷幻灵魂", 
+    "skill": 2, 
+    "value": 0.3
+  }, 
+  "211": {
+    "hero": 31, 
+    "id": 211, 
+    "index": 1, 
+    "name": "螳螂火", 
+    "skill": 1, 
+    "value": 9.0
+  }, 
+  "212": {
+    "hero": 31, 
+    "id": 212, 
+    "index": 2, 
+    "name": "恐怖的面具", 
+    "skill": 1, 
+    "value": 20.0
+  }, 
+  "213": {
+    "hero": 31, 
+    "id": 213, 
+    "index": 3, 
+    "name": "音速飞行", 
+    "skill": 3, 
+    "value": 0.01
+  }, 
+  "214": {
+    "hero": 31, 
+    "id": 214, 
+    "index": 4, 
+    "name": "农村亚军", 
+    "skill": 4, 
+    "value": 0.6
+  }, 
+  "215": {
+    "hero": 31, 
+    "id": 215, 
+    "index": 5, 
+    "name": "战斗机的耐力", 
+    "skill": 7, 
+    "value": 0.25
+  }, 
+  "216": {
+    "hero": 31, 
+    "id": 216, 
+    "index": 6, 
+    "name": "优美的灵魂", 
+    "skill": 2, 
+    "value": 0.1
+  }, 
+  "217": {
+    "hero": 31, 
+    "id": 217, 
+    "index": 7, 
+    "name": "国家财富", 
+    "skill": 6, 
+    "value": 0.15
+  }, 
+  "218": {
+    "hero": 32, 
+    "id": 218, 
+    "index": 1, 
+    "name": "反叛激情", 
+    "skill": 1, 
+    "value": 0.4
+  }, 
+  "219": {
+    "hero": 32, 
+    "id": 219, 
+    "index": 2, 
+    "name": "山耳语", 
+    "skill": 1, 
+    "value": 0.2
+  }, 
+  "220": {
+    "hero": 32, 
+    "id": 220, 
+    "index": 3, 
+    "name": "射手的心脏", 
+    "skill": 6, 
+    "value": 0.25
+  }, 
+  "221": {
+    "hero": 32, 
+    "id": 221, 
+    "index": 4, 
+    "name": "女人的决心", 
+    "skill": 4, 
+    "value": 0.6
+  }, 
+  "222": {
+    "hero": 32, 
+    "id": 222, 
+    "index": 5, 
+    "name": "弓箭收藏家", 
+    "skill": 8, 
+    "value": 0.02
+  }, 
+  "223": {
+    "hero": 32, 
+    "id": 223, 
+    "index": 6, 
+    "name": "亚军荣耀", 
+    "skill": 2, 
+    "value": 0.3
+  }, 
+  "224": {
+    "hero": 32, 
+    "id": 224, 
+    "index": 7, 
+    "name": "斯塔克电流", 
+    "skill": 9, 
+    "value": 0.1
+  }, 
+  "225": {
+    "hero": 33, 
+    "id": 225, 
+    "index": 1, 
+    "name": "灵魂下水", 
+    "skill": 1, 
+    "value": 20.0
+  }, 
+  "226": {
+    "hero": 33, 
+    "id": 226, 
+    "index": 2, 
+    "name": "恶魔的面具", 
+    "skill": 4, 
+    "value": 0.2
+  }, 
+  "227": {
+    "hero": 33, 
+    "id": 227, 
+    "index": 3, 
+    "name": "灵召唤师", 
+    "skill": 5, 
+    "value": 0.01
+  }, 
+  "228": {
+    "hero": 33, 
+    "id": 228, 
+    "index": 4, 
+    "name": "地狱错觉", 
+    "skill": 6, 
+    "value": 0.25
+  }, 
+  "229": {
+    "hero": 33, 
+    "id": 229, 
+    "index": 5, 
+    "name": "惩罚魔法门", 
+    "skill": 2, 
+    "value": 0.2
+  }, 
+  "230": {
+    "hero": 33, 
+    "id": 230, 
+    "index": 6, 
+    "name": "穿刺", 
+    "skill": 2, 
+    "value": 0.3
+  }, 
+  "231": {
+    "hero": 33, 
+    "id": 231, 
+    "index": 7, 
+    "name": "深红色婚礼", 
+    "skill": 2, 
+    "value": 0.4
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="650" currentState="normal" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="480" height="650">
+		<e:UIAsset id="background" width="100%" height="100%"/>
+		<e:Group horizontalCenter="96" bottom="20">
+			<e:Button id="buyBtn" fontFamily="Arial" width="150" bold="true" height="50" skinName="@ButtonSkin('dialog_btn_red','dialog_btn_red','dialog_btn_disabled')" enabled.normal="true" enabled="true" enabled.disabled="false"/>
+			<e:Label id="buyBtnLbl" verticalCenter="0" fontFamily="Arial" touchEnabled="false" bold="true" horizontalCenter="0" size="18" text="￥188"/>
+		</e:Group>
+		<e:Label id="validTimeLabel" size="24" horizontalCenter="-1" y="70" textColor="0xFF0000" fontFamily="Andale Mono" text.normal="3月8日--3月18日" text="3月8日--3月18日"/>
+	</e:Group>
+</e:Skin>

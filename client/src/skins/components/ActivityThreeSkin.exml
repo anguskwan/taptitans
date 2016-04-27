@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="650" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="480" height="650" y="0" x="0">
+		<e:UIAsset id="background" width="100%" height="100%"/>
+		<e:Group horizontalCenter="96" bottom="20">
+		</e:Group>
+		<e:Label id="validTimeLabel" text="3月8日--3月18日" size="24" y="10" textColor="0xFFFFFF" fontFamily="Arial" left="27"/>
+		<e:Button id="buyBtn" skinName="@ButtonSkin('activity3_buy','activity3_buy','activity3_buy')" right="10" bottom="10"/>
+		<e:UIAsset id="asset1" y="417" x="56" source="activity3_1"/>
+		<e:UIAsset id="asset2" source="activity3_2" y="378" x="203"/>
+		<e:UIAsset id="asset3" source="activity3_3" y="338" x="351"/>
+		<e:Button id="btnGain" skinName="@ButtonSkin('activity3_get','activity3_get','activity3_get')" x="119" y="496"/>
+	</e:Group>
+</e:Skin>

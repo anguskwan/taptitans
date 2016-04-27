@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Rect horizontalCenter="0" width="100%" bottom="0" height="100%" x="10" y="10" fillColor="0x605A64"/>
+		<e:Group horizontalCenter="0">
+			<e:UIAsset horizontalCenter="0" verticalCenter="0" source="rank_title_bar" height="60"/>
+			<e:Button id="closeBtn" skinName="@ButtonSkin('dialog_btn_cha_close','dialog_btn_cha_close','dialog_btn_cha_close')" x="422" verticalCenter="0"/>
+		</e:Group>
+		<e:UIAsset source="equip_title_bg" y="59" horizontalCenter="0"/>
+		<e:Group width="220" height="136" x="0" y="59">
+			<e:UIAsset source="equip_icon_player" horizontalCenter="0" y="64"/>
+			<uiskins:EquipSmallElementItem id="weaponItem" x="4" y="5" skinName="skins.components.EquipSmallElementItemSkin"/>
+			<uiskins:EquipSmallElementItem id="mantleItem" skinName="skins.components.EquipSmallElementItemSkin" x="4" y="49"/>
+			<uiskins:EquipSmallElementItem id="headpieceItem" skinName="skins.components.EquipSmallElementItemSkin" x="4" y="93"/>
+			<uiskins:EquipSmallElementItem id="wingItem" skinName="skins.components.EquipSmallElementItemSkin" x="182" y="5"/>
+			<uiskins:EquipSmallElementItem id="armorItem" skinName="skins.components.EquipSmallElementItemSkin" x="182" y="49"/>
+			<uiskins:EquipSmallElementItem id="swordItem" skinName="skins.components.EquipSmallElementItemSkin" x="182" y="93"/>
+		</e:Group>
+		<e:Rect width="480" height="80" y="238" fillColor="0x4B4553" horizontalCenter="0"/>
+		<e:Rect height="430" fillColor="0x4B4553" width="480" x="10" horizontalCenter="0" bottom="0"/>
+		<e:Rect width="244" height="64" x="229" y="64" textColor="0x2E2C31" fillColor="0x2E2C31"/>
+		<e:Rect width="244" height="58" x="229" y="133" fillColor="0x2E2C31"/>
+		<e:Label id="attLbl" size="18" fontFamily="Arial" x="15" y="207" text="0%"/>
+		<e:Button id="infoBtn" x="446" y="101" skinName="@ButtonSkin('dialog_btn_info','dialog_btn_info','dialog_btn_info')" width="24" height="24"/>
+		<e:Group width="244" height="126" x="228" y="64">
+			<e:Label id="skillDescLbl" fontFamily="Arial" textColor="0x858D8F" text="-" size="16" width="204" x="8" y="27"/>
+			<e:Group x="8" y="6">
+				<e:Label id="skillTitleLbl" fontFamily="Arial" size="18" textColor="0xFFFFFF"/>
+				<e:Label id="skillLevelLbl" size="18" fontFamily="Arial" x="10" y="10" textColor="0x00FF00"/>
+				<e:layout>
+					<e:HorizontalLayout gap="10" horizontalAlign="left" verticalAlign="top"/>
+				</e:layout>
+			</e:Group>
+			<e:Label size="18" fontFamily="Arial" x="6" y="73" text="升星要求："/>
+			<e:Group id="lvStarGroup" x="10" y="77" horizontalCenter="77" visible="false">
+				<e:Button id="lvStarBtn" fontFamily="Arial" width="70" bold="true" height="40" skinName="@ButtonSkin('dialog_btn_blue','dialog_btn_blue','dialog_btn_disabled')"/>
+				<e:Label id="lvStarLbl" fontFamily="Arial" size="20" touchEnabled="false" horizontalCenter="0" bold="true" verticalCenter="0" text="进化"/>
+			</e:Group>
+			<e:Group id="fragmentNeedGroup" x="8" y="99" visible="false">
+				<e:UIAsset source="fragment" width="20" height="20"/>
+				<e:Label id="fragmentNeedLbl" size="18" fontFamily="Arial" x="16" y="83" text="0" textColor="0xFDB32B"/>
+				<e:layout>
+					<e:HorizontalLayout gap="2" horizontalAlign="center"/>
+				</e:layout>
+			</e:Group>
+			<e:Label id="currLevelLbl" textColor="0x24B2E6" text="Lv.0" fontFamily="Arial" size="16" x="97" y="100" visible="false"/>
+		</e:Group>
+		<e:Group y="206" right="23">
+			<e:UIAsset source="fragment"/>
+			<e:Label id="fragmentLbl" y="83" textColor="0xFDB32B" text="0" fontFamily="Arial" x="16" size="24"/>
+			<e:layout>
+				<e:HorizontalLayout gap="2" horizontalAlign="center"/>
+			</e:layout>
+		</e:Group>
+		<e:List id="weaponList" width="466" height="420" x="20" horizontalCenter="0" bottom="0">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" gap="15"/>
+			</e:layout>
+		</e:List>
+		<e:List id="mantleList" horizontalCenter="0" width="466" bottom="0" height="420" x="30" y="10">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" gap="15"/>
+			</e:layout>
+		</e:List>
+		<e:List id="headpieceList" height="420" width="466" bottom="0" horizontalCenter="0" x="40" y="20">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" gap="15"/>
+			</e:layout>
+		</e:List>
+		<e:List id="wingList" horizontalCenter="0" width="466" bottom="0" height="420" x="50" y="30">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" gap="15"/>
+			</e:layout>
+		</e:List>
+		<e:List id="armorList" height="420" width="466" bottom="0" horizontalCenter="0" x="60" y="40">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" gap="15"/>
+			</e:layout>
+		</e:List>
+		<e:List id="swordList" horizontalCenter="0" width="466" bottom="0" height="420" x="70" y="50">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" gap="15"/>
+			</e:layout>
+		</e:List>
+		<e:Group id="toggleGroup" y="244" horizontalCenter="0">
+			<uiskins:EquipToggleBtn id="weaponSelect" label="切换按钮" skinName="skins.components.EquipToggleBtnSkin" upEleSkinName="equip_weapon_off" upAndSelectedEleSkinName="equip_weapon_on" disabledAndSelectedEleSkinName="equip_weapon_on" disabledEleSkinName="equip_weapon_off" downAndSelectedEleSkinName="equip_weapon_on" downEleSkinName="equip_weapon_on"/>
+			<uiskins:EquipToggleBtn id="mantleSelect" label="切换按钮" skinName="skins.components.EquipToggleBtnSkin" x="10" y="10" upEleSkinName="equip_mantle_off" upAndSelectedEleSkinName="equip_mantle_on" downEleSkinName="equip_mantle_on" downAndSelectedEleSkinName="equip_mantle_on" disabledAndSelectedEleSkinName="equip_mantle_on" disabledEleSkinName="equip_mantle_off"/>
+			<uiskins:EquipToggleBtn id="headpieceSelect" label="切换按钮" skinName="skins.components.EquipToggleBtnSkin" x="20" y="20" upEleSkinName="equip_headpiece_off" upAndSelectedEleSkinName="equip_headpiece_on" downEleSkinName="equip_headpiece_on" downAndSelectedEleSkinName="equip_headpiece_on" disabledEleSkinName="equip_headpiece_off" disabledAndSelectedEleSkinName="equip_headpiece_on"/>
+			<uiskins:EquipToggleBtn id="wingSelect" skinName="skins.components.EquipToggleBtnSkin" label="切换按钮" x="30" y="30" upEleSkinName="equip_wing_off" upAndSelectedEleSkinName="equip_wing_on" disabledAndSelectedEleSkinName="equip_wing_on" disabledEleSkinName="equip_wing_off" downAndSelectedEleSkinName="equip_wing_on" downEleSkinName="equip_wing_on"/>
+			<uiskins:EquipToggleBtn id="armorSelect" label="切换按钮" skinName="skins.components.EquipToggleBtnSkin" x="40" y="40" upEleSkinName="equip_armor_off" upAndSelectedEleSkinName="equip_armor_on" disabledAndSelectedEleSkinName="equip_armor_on" disabledEleSkinName="equip_armor_off" downAndSelectedEleSkinName="equip_armor_on" downEleSkinName="equip_armor_on"/>
+			<uiskins:EquipToggleBtn id="swordSelect" label="切换按钮" skinName="skins.components.EquipToggleBtnSkin" x="50" y="50" upEleSkinName="equip_sword_off" upAndSelectedEleSkinName="equip_sword_on" disabledAndSelectedEleSkinName="equip_sword_on" disabledEleSkinName="equip_sword_off" downAndSelectedEleSkinName="equip_sword_on" downEleSkinName="equip_sword_on"/>
+			<e:layout>
+				<e:HorizontalLayout gap="20" horizontalAlign="left" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

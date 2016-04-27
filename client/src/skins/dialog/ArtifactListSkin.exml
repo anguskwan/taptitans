@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Rect width="100%" fillAlpha="0.5" fillColor="0x000000" height="100%" y="0" x="0"/>
+	<e:Group horizontalCenter="0" verticalCenter="0" height="630">
+		<e:UIAsset scale9Grid="55,53,337,324" source="dialog_popup" height="100%" width="100%" x="0" y="0"/>
+		<e:Label id="titleLbl2" fontFamily="Arial" size="12" bold="true" x="39" height="40" width="180" text="查看所有神器，开启所有神器来获得最强战斗力。" y="54"/>
+		<e:Label fontFamily="Arial" size="22" id="titleLbl1" bold="true" x="39" y="24" text="神器图鉴"/>
+		<e:Rect height="500" fillColor="0x2C2930" width="400" x="24" y="99"/>
+		<e:List id="halidomList" width="400" height="500" x="24" y="99">
+			<e:layout>
+				<e:VerticalLayout gap="4" horizontalAlign="center"/>
+			</e:layout>
+		</e:List>
+		<e:Button id="closeBtn" skinName="@ButtonSkin('dialog_btn_cha_close','dialog_btn_cha_close','dialog_btn_cha_close')" x="387" y="28"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="447" height="72" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group width="420" height="72" horizontalCenter="0" verticalCenter="0">
+		<e:UIAsset id="iconImg" x="15" verticalCenter="0" source="heroskill1_1"/>
+		<e:Label id="nameLbl" text="名字" fontFamily="Arial" bold="true" size="18" left="90" verticalCenter="-14"/>
+		<e:Label id="descLbl" fontFamily="Arial" size="18" bold="true" left="90" verticalCenter="13" text="说明"/>
+		<e:Rect id="iconDisabled" width="64" height="64" x="15" fillAlpha="0.5" fillColor="0x000000" verticalCenter="0"/>
+		<e:Group id="unlockGroup" width="64" height="64" x="14" verticalCenter="0">
+			<e:Label text="解锁" y="14" size="12" fontFamily="Arial" horizontalCenter="0"/>
+			<e:Group id="lvGroup" height="18" y="10" verticalCenter="11" horizontalCenter="0">
+				<e:layout>
+					<e:HorizontalLayout verticalAlign="bottom" horizontalAlign="center" gap="0"/>
+				</e:layout>
+				<e:Label y="29" text="Lv." fontFamily="Arial" bold="true" x="81" size="12"/>
+				<e:Label id="lvLbl" textColor="0x42D0FF" fontFamily="Arial" y="39" bold="true" x="91" text="1000" size="12"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

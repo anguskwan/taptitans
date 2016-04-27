@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="700" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group height="100%" width="100%">
+		<e:Rect fillColor="0x4E361F" width="465" height="636" y="58" horizontalCenter="0"/>
+		<e:List id="memberList" width="451" height="620" y="65" horizontalCenter="0">
+			<e:layout>
+				<e:VerticalLayout gap="4" horizontalAlign="center"/>
+			</e:layout>
+		</e:List>
+		<e:Label fontFamily="Arial" bold="true" y="24" horizontalCenter="0" size="24" text="公会成员" textColor="0xF7DDB9"/>
+	</e:Group>
+</e:Skin>

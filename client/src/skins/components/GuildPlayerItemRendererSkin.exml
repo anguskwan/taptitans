@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="451" height="125" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.ItemRenderer"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="up"/>
+		<e:State name="down"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0" locked="true">
+		<uiskins:GuildPlayerItem id="leftItem" skinName="skins.components.GuildPlayerItemSkin" left="0" touchEnabled="true" touchChildren="false"/>
+		<uiskins:GuildPlayerItem id="rightItem" skinName="skins.components.GuildPlayerItemSkin" right="0" touchChildren="false" touchEnabled="true"/>
+	</e:Group>
+</e:Skin>

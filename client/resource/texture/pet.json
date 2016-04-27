@@ -1,0 +1,16 @@
+{"file":"pet.png","frames":{
+"pet_blood_left_progressImg":{"x":175,"y":599,"w":155,"h":14,"offX":0,"offY":0,"sourceW":155,"sourceH":14},
+"pet_blood_right_progressImg":{"x":345,"y":590,"w":155,"h":14,"offX":0,"offY":0,"sourceW":155,"sourceH":14},
+"pet_close_btn":{"x":461,"y":88,"w":22,"h":22,"offX":0,"offY":0,"sourceW":22,"sourceH":22},
+"pet_cooldown_img":{"x":436,"y":121,"w":54,"h":54,"offX":0,"offY":0,"sourceW":54,"sourceH":54},
+"pet_entry_btn":{"x":380,"y":121,"w":54,"h":55,"offX":0,"offY":0,"sourceW":54,"sourceH":55},
+"pet_infoBg_img":{"x":1,"y":1,"w":377,"h":437,"offX":0,"offY":0,"sourceW":377,"sourceH":437},
+"pet_pk_green_btn":{"x":380,"y":1,"w":120,"h":51,"offX":0,"offY":0,"sourceW":120,"sourceH":51},
+"pet_pk_lose_img":{"x":1,"y":532,"w":170,"h":65,"offX":0,"offY":0,"sourceW":170,"sourceH":65},
+"pet_pk_shadow_img":{"x":345,"y":532,"w":145,"h":56,"offX":0,"offY":0,"sourceW":145,"sourceH":56},
+"pet_pk_top_img":{"x":1,"y":440,"w":480,"h":90,"offX":0,"offY":0,"sourceW":480,"sourceH":90},
+"pet_pk_win_img":{"x":173,"y":532,"w":170,"h":65,"offX":0,"offY":0,"sourceW":170,"sourceH":65},
+"pet_question_btn":{"x":461,"y":54,"w":22,"h":32,"offX":0,"offY":0,"sourceW":22,"sourceH":32},
+"pet_question_in_9img":{"x":436,"y":177,"w":57,"h":47,"offX":0,"offY":0,"sourceW":57,"sourceH":47},
+"pet_question_out_9img":{"x":380,"y":54,"w":79,"h":65,"offX":0,"offY":0,"sourceW":79,"sourceH":65},
+"pet_red_btn":{"x":1,"y":599,"w":172,"h":60,"offX":0,"offY":0,"sourceW":172,"sourceH":60}}}

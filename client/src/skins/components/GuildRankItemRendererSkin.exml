@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="455" height="70" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.ItemRenderer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="up"/>
+<e:State name="down"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Rect id="itemRact" width="100%" height="100%" horizontalCenter="0" verticalCenter="0" fillColor="0x352611"/>
+		<uiskins:GuildBadgeItem scaleY="0.67" id="iconImg" skinName="skins.components.GuildBadgeItemSkin" scaleX="0.67" x="77" y="4"/>
+		<e:Label id="nameLbl" textColor="0xFFFFFF" text="名字" fontFamily="Arial" textAlign="left" size="18" bold="true" x="150" y="7"/>
+		<e:Label id="lvLbl" textColor="0xB96B2C" fontFamily="Arial" size="18" bold="true" x="281" y="7" textAlign="center" verticalAlign="middle" text="Lv.0"/>
+		<e:Group height="28" y="37" x="279">
+			<e:UIAsset verticalCenter="0" x="374" fillMode="scale" autoScale="true" source="guild_icon_att"/>
+			<e:Label id="attLbl" verticalCenter="0" textColor="0x30BBE8" text="0" fontFamily="Arial" textAlign="center" verticalAlign="middle" size="18" bold="true" x="15"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" gap="3" horizontalAlign="center"/>
+			</e:layout>
+		</e:Group>
+		<e:Group height="28" x="153" y="37">
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" horizontalAlign="center" gap="3"/>
+			</e:layout>
+			<e:UIAsset autoScale="true" fillMode="scale" verticalCenter="0" x="374" source="guild_tip_member"/>
+			<e:Label id="memberLbl" verticalAlign="middle" verticalCenter="0" fontFamily="Arial" textAlign="center" size="18" bold="true" x="15" text="0/10" textColor="0x25FF3A"/>
+		</e:Group>
+		<e:Label id="numLbl" textAlign="center" verticalCenter="0" horizontalCenter="-186" text="100" bold="true" fontFamily="Arial" size="24"/>
+		<e:UIAsset id="numImg" source="rank_num1" x="20" y="15"/>
+	</e:Group>
+</e:Skin>

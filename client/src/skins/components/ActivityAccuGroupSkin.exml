@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="650" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="480" height="650">
+		<e:Rect width="100%" horizontalCenter="0" bottom="0" height="100%" x="20" y="20" fillColor="0x13395A"/>
+		<e:Rect width="470" height="108" y="7" horizontalCenter="0" fillColor="0x0B2841"/>
+		<e:Rect height="524" fillColor="0x0B2841" width="470" x="10" horizontalCenter="0" bottom="0"/>
+		<e:List id="accuList" width="455" height="514" horizontalCenter="0" bottom="0">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center"/>
+			</e:layout>
+		</e:List>
+		<e:Label id="timeTextLbl" text="活动时间:" y="23" size="16" fontFamily="Arial" verticalAlign="middle" textAlign="center" x="13"/>
+		<e:Label text="累计充值到指定额度即可领取奖励" x="13" y="53" size="16" fontFamily="Arial" textColor="0x857C8D"/>
+		<e:Label id="currPurchaseLbl" fontFamily="Arial" size="16" x="13" y="83" textColor="0xFDB32B" text="你当前已累计充值："/>
+	</e:Group>
+</e:Skin>

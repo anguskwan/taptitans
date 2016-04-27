@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="700" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group height="100%" width="100%">
+		<e:Label id="nameLbl" fontFamily="Arial" bold="true" textColor="0xFFFFFF" size="24" text="公会名称" x="76" y="6"/>
+		<e:Label id="managerLbl" fontFamily="Arial" size="18" bold="true" text="会长" textColor="0xF9DFBB" x="76" y="39"/>
+		<e:Group height="28" x="76" y="62">
+			<e:UIAsset fillMode="scale" x="374" autoScale="true" verticalCenter="0" source="guild_icon_att"/>
+			<e:Label id="attLbl" verticalCenter="0" textColor="0x30BBE8" text="0" fontFamily="Arial" textAlign="center" size="18" verticalAlign="middle" bold="true" x="15"/>
+			<e:layout>
+				<e:HorizontalLayout gap="3" verticalAlign="middle" horizontalAlign="center"/>
+			</e:layout>
+		</e:Group>
+		<e:Group height="28" x="186" y="64">
+			<e:UIAsset fillMode="scale" autoScale="true" verticalCenter="0" source="guild_tip_member" x="374"/>
+			<e:Label id="memberLbl" verticalCenter="0" textColor="0x25FF3A" text="0/10" fontFamily="Arial" textAlign="center" size="18" verticalAlign="middle" bold="true" x="15"/>
+			<e:layout>
+				<e:HorizontalLayout gap="3" verticalAlign="middle" horizontalAlign="center"/>
+			</e:layout>
+		</e:Group>
+		<e:Label fontFamily="Arial" size="18" bold="true" text="创建费用：" textColor="0xB96B2C" x="87" y="213"/>
+		<e:Rect fillColor="0x4E361F" width="460" height="520" horizontalCenter="0" bottom="10"/>
+		<e:Rect fillColor="0x4E361F" width="400" height="75" x="10" horizontalCenter="30" y="90"/>
+		<e:Scroller height="60" width="380" scrollSpeed="0.1" x="80" y="97">
+			<e:Group>
+				<e:Label id="contentLbl" maxDisplayedLines="1000" text="内容" fontFamily="Arial" size="16" width="380"/>
+				<e:layout>
+					<e:VerticalLayout gap="0"/>
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+		<uiskins:GuildBadgeItem scaleY="0.67" id="iconImg" skinName="skins.components.GuildBadgeItemSkin" scaleX="0.67" x="8" y="8"/>
+		<e:Button id="editorBtn" skinName="@ButtonSkin('guild_editor','guild_editor','guild_editor')" width="29" height="29" x="24" y="112"/>
+		<e:List id="warList" width="447" height="494" horizontalCenter="0.5" y="176">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center"/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+</e:Skin>

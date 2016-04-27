@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Rect horizontalCenter="0" width="100%" bottom="0" height="100%" x="10" y="10" fillColor="0x4B4253"/>
+		<e:Group width="100%" height="80">
+			<e:UIAsset source="dialog_popup" scale9Grid="55,53,337,324" verticalAlign="middle" width="100%" height="80" horizontalCenter="0" top="0"/>
+			<e:UIAsset id="iconImg" x="20" source="btn_match" scaleX="0.9" scaleY="0.9" y="11"/>
+			<e:Label id="titleLbl1" x="89" y="14" fontFamily="Arial" bold="true" text="比赛" size="22"/>
+			<e:Label id="titleLbl2" x="89" fontFamily="Arial" bold="true" text="你正在参加一场比赛" size="12" y="46"/>
+		</e:Group>
+		<e:Label fontFamily="Arial" bold="true" x="19" text="排行榜" size="18" textAlign="center" verticalAlign="middle" y="83"/>
+		<e:Label id="timeLbl" fontFamily="Arial" size="18" bold="true" text="00:00:00剩余时间" textAlign="center" verticalAlign="middle" right="21" y="82" visible="false"/>
+		<e:Group id="rankGroup" width="464" height="372" horizontalCenter="0" y="105">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Label fontFamily="Arial" size="18" bold="true" x="19" text="奖励" y="480"/>
+		<e:Rect fillColor="0x2C2930" width="464" height="170" x="8" y="508"/>
+		<e:Button id="rightBtn" fontFamily="Arial" size="24" verticalAlign="middle" y="688" skinName="@ButtonSkin('dialog_btn_big_blue','dialog_btn_big_blue','dialog_btn_big_blue')" textAlign="center" label="继续" x="90" bold="true"/>
+		<e:Group id="currGroup" x="39" y="521" visible="false">
+			<e:Label fontFamily="Arial" size="18" bold="true" text="目前奖励" x="0"/>
+			<e:Label size="18" fontFamily="Arial" bold="true" textColor="0x88868A" text="排名190" y="27" x="0"/>
+			<e:Group y="54" x="0">
+				<e:UIAsset source="diamond" x="43" y="596" scaleX="0.8" scaleY="0.8"/>
+				<e:Label textColor="0x88868A" fontFamily="Arial" bold="true" x="10" y="36" size="16" text="5钻石"/>
+				<e:layout>
+					<e:HorizontalLayout gap="2" horizontalAlign="center" verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+			<e:Group x="0" y="82">
+				<e:layout source="btn_weapon" scaleX="0.5">
+					<e:HorizontalLayout gap="2" horizontalAlign="center" verticalAlign="middle"/>
+				</e:layout>
+				<e:UIAsset y="596" x="43" source="btn_weapon" scaleX="0.3" scaleY="0.3"/>
+				<e:Label textColor="0x88868A" fontFamily="Arial" size="16" bold="true" text="0武器升级" x="26" y="2"/>
+			</e:Group>
+			<e:Group x="10" y="92">
+				<e:UIAsset x="43" scaleY="0.8" y="596" scaleX="0.8" source="crystal"/>
+				<e:Label y="2" textColor="0x88868A" text="0武器升级" fontFamily="Arial" size="16" bold="true" x="26"/>
+				<e:layout>
+					<e:HorizontalLayout gap="2" verticalAlign="middle" horizontalAlign="center"/>
+				</e:layout>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="nextGroup" x="269" y="521" visible="false">
+			<e:Label size="18" bold="true" fontFamily="Arial" x="0" text="下个阶段奖励"/>
+			<e:Label y="27" textColor="0x88868A" text="排名190" fontFamily="Arial" size="18" bold="true" x="0"/>
+			<e:Group y="54" x="0">
+				<e:UIAsset y="596" source="diamond" x="43" scaleX="0.8" scaleY="0.8"/>
+				<e:Label y="36" textColor="0x88868A" fontFamily="Arial" size="16" bold="true" x="10" text="5钻石"/>
+				<e:layout>
+					<e:HorizontalLayout gap="2" horizontalAlign="center" verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+			<e:Group x="0" y="82">
+				<e:layout>
+					<e:HorizontalLayout gap="2" horizontalAlign="center" verticalAlign="middle"/>
+				</e:layout>
+				<e:UIAsset x="43" scaleY="0.3" y="596" scaleX="0.3" source="btn_weapon"/>
+				<e:Label y="36" textColor="0x88868A" fontFamily="Arial" size="16" bold="true" x="10" text="0武器升级"/>
+			</e:Group>
+			<e:Group x="20" y="102">
+				<e:UIAsset scaleY="0.8" y="596" scaleX="0.8" x="43" source="crystal"/>
+				<e:Label y="2" textColor="0x88868A" fontFamily="Arial" size="16" bold="true" x="26" text="0水晶"/>
+				<e:layout>
+					<e:HorizontalLayout gap="2" verticalAlign="middle" horizontalAlign="center"/>
+				</e:layout>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="rewardBtn" label="奖励内容" x="349" y="636" skinName="@ButtonSkin('dialog_btn_red','dialog_btn_red','dialog_btn_red')" fontFamily="Arial" size="16" bold="true" width="80" height="30"/>
+	</e:Group>
+</e:Skin>

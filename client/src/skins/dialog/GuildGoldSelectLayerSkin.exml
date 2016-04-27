@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="guild_gold_show_bg_png"/>
+	<e:Button id="closeBtn" x="10" y="10" right="1" top="0" skinName="@ButtonSkin('dialog_btn_cha_close_white','dialog_btn_cha_close_white','dialog_btn_cha_close_white')"/>
+	<e:Group id="selectGroup" width="390" height="640" horizontalCenter="0" y="109">
+		<uiskins:GuildGoldItemSelect skinName="skins.components.GuildGoldItemSelectSkin"/>
+		<uiskins:GuildGoldItemSelect skinName="skins.components.GuildGoldItemSelectSkin" y="0" x="140"/>
+		<uiskins:GuildGoldItemSelect skinName="skins.components.GuildGoldItemSelectSkin" y="0" x="280"/>
+		<uiskins:GuildGoldItemSelect skinName="skins.components.GuildGoldItemSelectSkin" x="0" y="160"/>
+		<uiskins:GuildGoldItemSelect skinName="skins.components.GuildGoldItemSelectSkin" x="140" y="160"/>
+		<uiskins:GuildGoldItemSelect skinName="skins.components.GuildGoldItemSelectSkin" x="280" y="160"/>
+		<uiskins:GuildGoldItemSelect skinName="skins.components.GuildGoldItemSelectSkin" x="0" y="320"/>
+		<uiskins:GuildGoldItemSelect skinName="skins.components.GuildGoldItemSelectSkin" x="140" y="320"/>
+		<uiskins:GuildGoldItemSelect skinName="skins.components.GuildGoldItemSelectSkin" x="280" y="320"/>
+		<uiskins:GuildGoldItemSelect skinName="skins.components.GuildGoldItemSelectSkin" x="0" y="480"/>
+		<uiskins:GuildGoldItemSelect skinName="skins.components.GuildGoldItemSelectSkin" x="140" y="480"/>
+		<uiskins:GuildGoldItemSelect skinName="skins.components.GuildGoldItemSelectSkin" x="280" y="480"/>
+	</e:Group>
+	<e:Group y="55" horizontalCenter="0">
+		<e:Button id="titleBtn" skinName="@ButtonSkin('guild_gold_btn_rank_on','guild_gold_btn_rank_on','guild_gold_btn_rank_off')" horizontalCenter="0" verticalCenter="0" enabled="false"/>
+		<e:Label id="titleLbl" fontFamily="Arial" size="24" touchEnabled="false" textColor="0xFFFFFF" text="公会排行榜" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

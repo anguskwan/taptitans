@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="100%" height="100%">
+		<e:Rect width="100%" height="100%" fillColor="0x1D1E22"/>
+		<e:Group id="selectGroup" x="16" y="661">
+			<e:layout>
+				<e:HorizontalLayout gap="10"/>
+			</e:layout>
+		</e:Group>
+		<e:Scroller id="selectGroup1" width="447" height="90" x="16" y="660">
+			<e:Group id="selectGroup2" width="419" height="90">
+				<e:layout>
+					<e:HorizontalLayout gap="3"/>
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+		<e:UIAsset id="tipImg1" source="tip_big_task" x="73" y="663" touchEnabled="false" visible="false"/>
+		<e:UIAsset id="tipImg2" source="tip_big_task" x="165" y="664" touchEnabled="false" visible="false"/>
+		<e:Group id="newbagGroup" width="100%" height="650">
+		</e:Group>
+		<e:Group id="vipGroup" width="100%" height="650" x="0" y="0">
+		</e:Group>
+		<e:Group id="lifecardGroup" width="100%" height="650" x="0" y="0"/>
+		<e:Group id="monthGroup" width="100%" height="650" x="0" y="0"/>
+		<e:Group id="threeGroup" width="100%" height="650" x="0" y="0"/>
+		<e:Group id="eggGroup" width="100%" height="650" x="0" y="0"/>
+		<e:Group id="catGroup" width="100%" height="650" x="0" y="0"/>
+		<e:Group id="accuGroup" width="100%" height="650">
+		</e:Group>
+		<e:Group id="blackGroup" width="100%" height="650" x="0" y="0"/>
+		<e:Group id="costdiamondGroup" width="100%" height="650" x="0" y="0">
+		</e:Group>
+		<e:Group id="growth_fundGroup" width="100%" height="650" x="0" y="0"/>
+		<e:Group id="worthBoxGroup" width="100%" height="650" x="0" y="0"/>
+		<e:Button id="closeBtn" x="20" y="20" right="12" top="11" skinName="@ButtonSkin('activity_btn_close','activity_btn_close','activity_btn_close')"/>
+	</e:Group>
+</e:Skin>

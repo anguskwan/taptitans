@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="1">
+		<e:Rect horizontalCenter="0" width="100%" bottom="0" height="100%" x="10" y="10" fillColor="0x4B4253"/>
+		<e:Group width="100%" height="100">
+			<e:UIAsset source="dialog_popup" scale9Grid="55,53,337,324" verticalAlign="middle" width="100%" height="100" horizontalCenter="0" top="0"/>
+			<e:UIAsset x="20" source="common_json.dailyTaskTitleIcon" y="16"/>
+			<e:Button id="btnBack" skinName="@ButtonSkin('dialog_btn_cha_close','dialog_btn_cha_close','dialog_btn_cha_close')" right="20" top="11"/>
+			<e:Label x="89" y="14" size="24" fontFamily="Arial" bold="true" text="每日任务"/>
+			<e:Label x="89" y="49" size="18" fontFamily="Arial" bold="true" text="每天24:00刷新任务，请及时领取。"/>
+			<e:Group id="refreshGroup" width="120" height="33" x="194" y="14">
+				<e:Button id="refreshBtn" x="0" y="0" width="120" height="35" skinName="@ButtonSkin('dialog_btn_blue','dialog_btn_blue','dialog_btn_blue')"/>
+				<e:Label id="refreshLbl" text="刷新" size="18" x="7" verticalAlign="middle" verticalCenter="0"/>
+				<e:UIAsset source="diamond" width="15" height="15" verticalCenter="0" x="58"/>
+				<e:Label id="costLbl" text="200" size="16" x="74" verticalCenter="0"/>
+			</e:Group>
+		</e:Group>
+		<e:List id="list" height="656" width="100%" top="100">
+			<e:layout>
+				<e:VerticalLayout gap="4" horizontalAlign="center"/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+</e:Skin>

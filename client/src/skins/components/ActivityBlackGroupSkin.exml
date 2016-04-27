@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="650" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="480" height="650">
+		<e:UIAsset id="bgImg" width="100%" height="100%"/>
+		<e:List id="blackList" width="408" height="466" x="10" horizontalCenter="0" y="151">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center"/>
+			</e:layout>
+		</e:List>
+		<e:Group right="42" verticalCenter="-189">
+			<e:UIAsset scaleY="0.7" fillMode="scale" verticalCenter="0" autoScale="true" scaleX="0.7" x="374" source="diamond"/>
+			<e:Label id="diamondLbl" verticalAlign="middle" text="0" fontFamily="Arial" textAlign="center" verticalCenter="0" size="18" bold="true" x="15"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" horizontalAlign="left" gap="3"/>
+			</e:layout>
+		</e:Group>
+		<e:Group y="10" verticalCenter="-189" left="37">
+			<e:layout>
+				<e:HorizontalLayout gap="3" verticalAlign="middle" horizontalAlign="left"/>
+			</e:layout>
+			<e:Label bold="true" fontFamily="Arial" textAlign="center" size="18" verticalAlign="middle" verticalCenter="0" x="15" text="剩余时间：" textColor="0x45BFEC"/>
+			<e:Label id="timeLbl" text="0" fontFamily="Arial" textAlign="center" verticalCenter="0" size="18" verticalAlign="middle" bold="true" x="25" y="10"/>
+		</e:Group>
+		<e:Group y="543" x="358">
+			<e:Button id="resetBtn" skinName="@ButtonSkin('dialog_btn_blue','dialog_btn_blue','dialog_btn_blue')" width="80" height="40"/>
+			<e:Label verticalAlign="middle" fontFamily="Arial" textAlign="center" size="18" verticalCenter="0" bold="true" y="10" textColor="0xFFFFFF" text="刷新" horizontalCenter="0" touchEnabled="false"/>
+		</e:Group>
+		<e:Group y="10" horizontalCenter="158.5" verticalCenter="272">
+			<e:UIAsset scaleY="0.7" autoScale="true" source="diamond" verticalCenter="0" fillMode="scale" scaleX="0.7" x="374"/>
+			<e:Label fontFamily="Arial" textAlign="center" size="18" verticalAlign="middle" verticalCenter="0" bold="true" x="15" text="x50"/>
+			<e:layout>
+				<e:HorizontalLayout gap="3" verticalAlign="middle" horizontalAlign="left"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,22 @@
+{
+  "area-1" : {
+    "authUrl" : "http://taptitans-area-1.hortor.net:3003",
+    "payUrl" : "http://wx.hortor.net/pay",
+    "areaHost" : "42.96.173.183",
+    "areaPort" : 13014,
+
+    "default" : false,
+    "limitPerDay" : 10000,
+    "channel" : null,
+    "rate" : 30
+  },
+  "area-2" : {
+    "authUrl" : "http://taptitans-area-2.hortor.net:3003",
+    "payUrl" : "http://wx.hortor.net/pay",
+    "areaHost" : "114.215.80.120",
+    "areaPort" : 13014,
+
+    "default" : true,
+    "channel" : null
+  }
+}

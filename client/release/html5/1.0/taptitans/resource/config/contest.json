@@ -1,0 +1,112 @@
+{
+  "1": {
+    "crystal": 0, 
+    "diamond": 1000, 
+    "id": 1, 
+    "range": [
+      1, 
+      1
+    ], 
+    "weapon": 15
+  }, 
+  "2": {
+    "crystal": 0, 
+    "diamond": 500, 
+    "id": 2, 
+    "range": [
+      2, 
+      2
+    ], 
+    "weapon": 12
+  }, 
+  "3": {
+    "crystal": 0, 
+    "diamond": 350, 
+    "id": 3, 
+    "range": [
+      3, 
+      3
+    ], 
+    "weapon": 10
+  }, 
+  "4": {
+    "crystal": 0, 
+    "diamond": 250, 
+    "id": 4, 
+    "range": [
+      4, 
+      4
+    ], 
+    "weapon": 8
+  }, 
+  "5": {
+    "crystal": 0, 
+    "diamond": 150, 
+    "id": 5, 
+    "range": [
+      5, 
+      5
+    ], 
+    "weapon": 6
+  }, 
+  "6": {
+    "crystal": 0, 
+    "diamond": 100, 
+    "id": 6, 
+    "range": [
+      6, 
+      10
+    ], 
+    "weapon": 5
+  }, 
+  "7": {
+    "crystal": 0, 
+    "diamond": 50, 
+    "id": 7, 
+    "range": [
+      11, 
+      20
+    ], 
+    "weapon": 4
+  }, 
+  "8": {
+    "crystal": 0, 
+    "diamond": 35, 
+    "id": 8, 
+    "range": [
+      21, 
+      50
+    ], 
+    "weapon": 3
+  }, 
+  "9": {
+    "crystal": 0, 
+    "diamond": 20, 
+    "id": 9, 
+    "range": [
+      51, 
+      100
+    ], 
+    "weapon": 2
+  }, 
+  "10": {
+    "crystal": 0, 
+    "diamond": 15, 
+    "id": 10, 
+    "range": [
+      101, 
+      160
+    ], 
+    "weapon": 1
+  }, 
+  "11": {
+    "crystal": 0, 
+    "diamond": 5, 
+    "id": 11, 
+    "range": [
+      161, 
+      1000
+    ], 
+    "weapon": 0
+  }
+}

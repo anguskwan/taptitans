@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group height="100%" width="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Rect y="10" horizontalCenter="0" x="10" fillColor="0x765F40" width="100%" bottom="0" height="100%"/>
+		<e:Group width="480" height="50" bottom="0" horizontalCenter="0">
+			<uiskins:GuildMainToggleBtn id="mainToggleBtn" label="切换按钮" x="33" y="9" width="90" height="50" skinName="skins.components.GuildMainToggleBtnSkin"/>
+			<uiskins:GuildMemberToggleBtn id="memberToggleBtn" label="切换按钮" x="231" y="16" skinName="skins.components.GuildMemberToggleBtnSkin" width="90" height="50"/>
+			<uiskins:GuildShopToggleBtn id="shopToggleBtn" label="切换按钮" x="372" y="15" width="90" height="50" skinName="skins.components.GuildShopToggleBtnSkin"/>
+			<uiskins:GuildRankToggleBtn id="rankToggleBtn" label="切换按钮" x="440" y="8" width="90" height="50" skinName="skins.components.GuildRankToggleBtnSkin"/>
+			<uiskins:GuildManageToggleBtn id="manageToggleBtn" label="切换按钮" x="434" y="35" width="90" height="50" skinName="skins.components.GuildManageToggleBtnSkin"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="top" horizontalAlign="justify" gap="7.5"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="mainGroup" width="480" height="700" x="0" y="0"/>
+		<e:Group id="memberGroup" width="480" height="700" x="0" y="0"/>
+		<e:Group id="shopGroup" width="480" height="700" x="0" y="0"/>
+		<e:Group id="rankGroup" width="480" height="700" x="0" y="0"/>
+		<e:Group id="manageGroup" width="480" height="700" x="0" y="0"/>
+		<e:Button skinName="@ButtonSkin('guild_btn_close','guild_btn_close','guild_btn_close')" id="closeBtn" x="20" y="20" right="14" top="9"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="455" height="140" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.ItemRenderer"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="up"/>
+		<e:State name="down"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Rect width="100%" height="100%" fillColor="0x193146"/>
+		<e:UIAsset source="activity_icon_accu" x="10" y="9"/>
+		<e:Group id="getRewardGroup" x="361" y="49">
+			<e:Button id="getRewardBtn" skinName="@ButtonSkin('dialog_btn_blue','dialog_btn_blue','dialog_btn_disabled')" width="79" height="43"/>
+			<e:Label id="getRewardLbl" verticalCenter="0" text="领取" fontFamily="Arial" size="20" y="10" touchEnabled="false" bold="true" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="rewardGroup" x="10" y="52" left="12">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Label y="14" textColor="0xFDB32B" fontFamily="Arial" size="18" left="14" verticalAlign="middle" textAlign="center" bold="true" text="累计消耗："/>
+		<e:Group width="37" x="10" y="14" left="102">
+			<e:UIAsset scaleY="0.7" autoScale="true" source="diamond" verticalCenter="0" fillMode="scale" scaleX="0.7" x="374"/>
+			<e:Label id="diamondLbl" text="0" fontFamily="Arial" textAlign="center" size="18" verticalAlign="middle" verticalCenter="0" bold="true" x="15"/>
+			<e:layout>
+				<e:HorizontalLayout gap="3" verticalAlign="middle" horizontalAlign="left"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

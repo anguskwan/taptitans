@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="450" height="80" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.ItemRenderer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="up"/>
+<e:State name="down"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group height="100%" horizontalCenter="0" verticalCenter="0" width="450" x="20" y="20">
+		<e:UIAsset y="0" width="450" source="list_element_bg" x="0"/>
+		<e:UIAsset id="iconImg" source="icon_default" x="14" y="11" width="58" height="58"/>
+		<e:Group y="7" x="82">
+			<e:layout>
+				<e:HorizontalLayout gap="0" horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+			<e:Label id="nameLbl" text="名字" fontFamily="Arial" textAlign="left" size="18" verticalAlign="middle" bold="true"/>
+		</e:Group>
+		<e:Group left="82" verticalCenter="-4">
+			<e:layout>
+				<e:HorizontalLayout gap="0" horizontalAlign="left" verticalAlign="bottom"/>
+			</e:layout>
+			<e:Label y="29" text="Lv." fontFamily="Arial" size="16" bold="true" x="81"/>
+			<e:Label id="lvLbl" fontFamily="Arial" size="16" bold="true" x="91" y="39" text="1" textColor="0x42D0FF"/>
+		</e:Group>
+		<e:Group y="10" x="10" left="82" verticalCenter="17">
+			<e:layout>
+				<e:HorizontalLayout gap="0" horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+			<e:Label y="29" fontFamily="Arial" size="14" bold="true" x="81" text="DMG:" textAlign="center" verticalAlign="middle"/>
+			<e:Label id="damageLbl" fontFamily="Arial" bold="true" x="91" y="39" text="1" textColor="0xFF7F01" size="16" verticalAlign="middle" textAlign="center"/>
+		</e:Group>
+		<e:Rect id="selectRect" width="220" height="80" fillAlpha="0"/>
+		<e:UIAsset id="newTipImg" source="tip_new" touchEnabled="false" x="0" y="0"/>
+		<e:Group id="buyPopGroup" y="10" x="155" visible="false">
+			<e:layout>
+				<e:HorizontalLayout gap="0" horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+			<uiskins:BuyPopButton id="buyPopBtn0" skinName="skins.components.BuyPopButtonSkin" label="按钮" xmlns:uiskins="uiskins.*"/>
+			<uiskins:BuyPopButton id="buyPopBtn1" skinName="skins.components.BuyPopButtonSkin" label="按钮" xmlns:uiskins="uiskins.*"/>
+		</e:Group>
+		<uiskins:CommonItemButton id="btnItem" skinName="skins.components.CommonItemButtonSkin" y="10" label="按钮" x="318" xmlns:uiskins="uiskins.*"/>
+	</e:Group>
+</e:Skin>

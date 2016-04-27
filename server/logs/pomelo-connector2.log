@@ -1,0 +1,130 @@
+[2016-04-19 10:44:52.016] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector2"
+[2016-04-19 10:44:56.519] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" enter after start...
+[2016-04-19 10:44:56.523] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" finish start
+[2016-04-19 10:44:56.525] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" startup in 1890 ms
+[2016-04-19 11:41:44.660] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector2"
+[2016-04-19 11:41:50.042] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" enter after start...
+[2016-04-19 11:41:50.046] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" finish start
+[2016-04-19 11:41:50.047] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" startup in 2124 ms
+[2016-04-19 11:43:31.159] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector2"
+[2016-04-19 11:43:36.725] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" enter after start...
+[2016-04-19 11:43:36.729] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" finish start
+[2016-04-19 11:43:36.732] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" startup in 2203 ms
+[2016-04-19 13:41:15.791] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector2"
+[2016-04-19 13:41:21.314] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" enter after start...
+[2016-04-19 13:41:21.473] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" finish start
+[2016-04-19 13:41:21.474] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" startup in 2644 ms
+[2016-04-19 13:42:59.327] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector2"
+[2016-04-19 13:43:07.962] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector2"
+[2016-04-19 13:43:13.304] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" enter after start...
+[2016-04-19 13:43:13.308] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" finish start
+[2016-04-19 13:43:13.308] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" startup in 2268 ms
+[2016-04-19 14:33:40.757] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector2"
+[2016-04-19 14:33:45.958] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" enter after start...
+[2016-04-19 14:33:45.961] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" finish start
+[2016-04-19 14:33:45.963] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" startup in 2243 ms
+[2016-04-19 15:20:29.161] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector2"
+[2016-04-19 15:20:33.757] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" enter after start...
+[2016-04-19 15:20:33.759] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" finish start
+[2016-04-19 15:20:33.760] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" startup in 1871 ms
+[2016-04-19 16:38:02.876] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/connectors/commands/heartbeat.js] [39mclient 3 heartbeat timeout.
+[2016-04-19 18:07:09.439] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/connectors/commands/heartbeat.js] [39mclient 9 heartbeat timeout.
+[2016-04-19 18:12:49.999] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/connectors/commands/heartbeat.js] [39mclient 11 heartbeat timeout.
+[2016-04-19 18:49:34.187] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/connectors/commands/heartbeat.js] [39mclient 16 heartbeat timeout.
+[2016-04-19 18:55:02.041] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/connectors/commands/heartbeat.js] [39mclient 17 heartbeat timeout.
+[2016-04-19 19:00:36.359] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/connectors/commands/heartbeat.js] [39mclient 21 heartbeat timeout.
+[2016-04-19 19:44:43.816] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/connectors/commands/heartbeat.js] [39mclient 29 heartbeat timeout.
+[2016-04-19 19:55:18.517] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector2"
+[2016-04-19 19:55:23.237] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" enter after start...
+[2016-04-19 19:55:23.239] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" finish start
+[2016-04-19 19:55:23.240] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" startup in 2092 ms
+[2016-04-19 20:58:37.326] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector2"
+[2016-04-19 20:58:43.252] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" enter after start...
+[2016-04-19 20:58:43.258] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" finish start
+[2016-04-19 20:58:43.258] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" startup in 2706 ms
+[2016-04-19 21:12:46.874] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector2"
+[2016-04-19 21:12:52.695] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" enter after start...
+[2016-04-19 21:12:52.698] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" finish start
+[2016-04-19 21:12:52.699] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" startup in 2594 ms
+[2016-04-21 20:27:06.009] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector2"
+[2016-04-21 20:27:13.752] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" enter after start...
+[2016-04-21 20:27:13.924] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" finish start
+[2016-04-21 20:27:13.926] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" startup in 3724 ms
+[2016-04-22 16:48:13.822] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector2"
+[2016-04-22 16:48:18.149] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" enter after start...
+[2016-04-22 16:48:18.152] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" finish start
+[2016-04-22 16:48:18.152] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" startup in 1949 ms
+[2016-04-22 18:55:19.696] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/connectors/commands/heartbeat.js] [39mclient 1 heartbeat timeout.
+[2016-04-25 10:23:27.484] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector2"
+[2016-04-25 10:23:33.539] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" enter after start...
+[2016-04-25 10:23:33.568] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" finish start
+[2016-04-25 10:23:33.568] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" startup in 2696 ms
+[2016-04-25 10:25:16.532] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector2"
+[2016-04-25 10:25:22.204] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" enter after start...
+[2016-04-25 10:25:22.214] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" finish start
+[2016-04-25 10:25:22.216] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" startup in 2604 ms
+[2016-04-25 10:27:15.811] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector2"
+[2016-04-25 10:27:21.682] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" enter after start...
+[2016-04-25 10:27:21.687] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" finish start
+[2016-04-25 10:27:21.688] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" startup in 2540 ms
+[2016-04-25 10:57:35.188] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/connectors/commands/heartbeat.js] [39mclient 3 heartbeat timeout.
+[2016-04-25 11:03:31.932] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/connectors/commands/heartbeat.js] [39mclient 6 heartbeat timeout.
+[2016-04-25 11:27:48.508] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/connectors/commands/heartbeat.js] [39mclient 9 heartbeat timeout.
+[2016-04-25 11:29:33.410] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/connectors/commands/heartbeat.js] [39mclient 10 heartbeat timeout.
+[2016-04-25 14:15:46.447] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector2"
+[2016-04-25 14:15:54.519] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" enter after start...
+[2016-04-25 14:15:54.529] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" finish start
+[2016-04-25 14:15:54.530] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" startup in 3532 ms
+[2016-04-25 17:31:31.501] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/connectors/commands/heartbeat.js] [39mclient 1 heartbeat timeout.
+[2016-04-25 17:37:24.818] [ERROR] pomelo - [31m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/server/server.js] [39mfail to process remote message:Error: rpc failed with error code: 5
+    at failfast (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/failureProcess.js:151:27)
+    at module.exports (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/failureProcess.js:24:10)
+    at emit (events.js:106:17)
+    at /Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:252:14
+    at Object.exp.invokeCallback (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:5:8)
+    at null.<anonymous> (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:167:11)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:112:15)
+[2016-04-25 17:37:25.217] [ERROR] pomelo - [31m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/server/server.js] [39mfail to process remote message:Error: rpc failed with error code: 5
+    at failfast (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/failureProcess.js:151:27)
+    at module.exports (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/failureProcess.js:24:10)
+    at emit (events.js:106:17)
+    at /Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:252:14
+    at Object.exp.invokeCallback (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:5:8)
+    at null.<anonymous> (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:167:11)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:112:15)
+[2016-04-25 17:37:25.337] [ERROR] pomelo - [31m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/server/server.js] [39mfail to process remote message:Error: rpc failed with error code: 5
+    at failfast (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/failureProcess.js:151:27)
+    at module.exports (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/failureProcess.js:24:10)
+    at emit (events.js:106:17)
+    at /Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:252:14
+    at Object.exp.invokeCallback (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:5:8)
+    at null.<anonymous> (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:167:11)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:112:15)
+[2016-04-25 17:37:25.493] [ERROR] pomelo - [31m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/server/server.js] [39mfail to process remote message:Error: rpc failed with error code: 5
+    at failfast (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/failureProcess.js:151:27)
+    at module.exports (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/failureProcess.js:24:10)
+    at emit (events.js:106:17)
+    at /Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:252:14
+    at Object.exp.invokeCallback (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:5:8)
+    at null.<anonymous> (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:167:11)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:112:15)
+[2016-04-25 17:37:25.576] [ERROR] pomelo - [31m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/server/server.js] [39mfail to process remote message:Error: rpc failed with error code: 5
+    at failfast (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/failureProcess.js:151:27)
+    at module.exports (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/failureProcess.js:24:10)
+    at emit (events.js:106:17)
+    at /Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:252:14
+    at Object.exp.invokeCallback (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:5:8)
+    at null.<anonymous> (/Users/workspace/taptitans/server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:167:11)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:112:15)
+[2016-04-25 17:40:51.397] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector2"
+[2016-04-25 17:40:58.755] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" enter after start...
+[2016-04-25 17:40:58.761] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" finish start
+[2016-04-25 17:40:58.761] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" startup in 3635 ms
+[2016-04-25 17:46:39.862] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector2"
+[2016-04-25 17:46:47.514] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" enter after start...
+[2016-04-25 17:46:47.517] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" finish start
+[2016-04-25 17:46:47.518] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" startup in 2760 ms
+[2016-04-26 14:43:13.033] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector2"
+[2016-04-26 14:43:19.994] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" enter after start...
+[2016-04-26 14:43:19.999] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" finish start
+[2016-04-26 14:43:19.999] [INFO] pomelo - [32m[/Users/workspace/taptitans/server/node_modules/pomelo/lib/application.js] [39m"connector2" startup in 3463 ms

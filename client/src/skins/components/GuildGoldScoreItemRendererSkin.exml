@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="400" height="70" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.ItemRenderer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="up"/>
+<e:State name="down"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Rect id="itemRact" width="100%" height="100%" horizontalCenter="0" verticalCenter="0" fillColor="0x3B363D"/>
+		<e:Label id="nameLbl" textColor="0xFFFFFF" text="名字" fontFamily="Arial" textAlign="left" bold="true" size="20" y="10" x="163"/>
+		<uiskins:GuildBadgeItem scaleY="0.67" id="iconImg" skinName="skins.components.GuildBadgeItemSkin" scaleX="0.67" x="86" y="5"/>
+		<e:Label id="scoreLbl" fontFamily="Arial" bold="true" text="0" textAlign="center" verticalAlign="middle" textColor="0xB96B2C" size="20" x="163" y="43"/>
+		<e:Label id="numLbl" textAlign="center" text="100" bold="true" fontFamily="Arial" size="24" x="22" y="23.5"/>
+		<e:UIAsset id="numImg" source="rank_num1" x="20" y="15"/>
+	</e:Group>
+</e:Skin>

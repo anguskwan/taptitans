@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Rect horizontalCenter="0" width="100%" bottom="0" height="100%" x="10" y="10" fillColor="0x765F40"/>
+		<e:Rect width="465" height="540" fillColor="0x4E361F" horizontalCenter="0.5" top="140"/>
+		<e:Label id="titleLbl" textColor="0xF7DDB9" fontFamily="Arial" bold="true" x="10" y="9" horizontalCenter="0" size="20" text="杀死英雄数" visible="false"/>
+		<e:BitmapLabel scaleY="1.6" id="scoreLbl" scaleX="1.6" font="font_white_fnt" horizontalCenter="0" y="48" text="0" visible="false"/>
+		<e:UIAsset id="mineImg" width="58" source="icon_default" height="58" y="31" left="101"/>
+		<e:UIAsset id="opponentImg" source="icon_default" height="58" width="58" y="32" right="101"/>
+		<e:Label id="nameMineLbl" size="18" fontFamily="Arial" textAlign="center" verticalAlign="middle" bold="true" y="99" horizontalCenter="-110" text="英雄"/>
+		<e:Label id="nameOpponentLbl" size="18" fontFamily="Arial" textAlign="center" verticalAlign="middle" bold="true" x="20" y="99" horizontalCenter="110" text="英雄"/>
+		<e:List id="attList" width="451" height="524" x="10" y="147" horizontalCenter="0.5">
+			<e:layout>
+				<e:VerticalLayout gap="4" horizontalAlign="center"/>
+			</e:layout>
+		</e:List>
+		<e:Group width="100" height="50" x="30" horizontalCenter="-180" bottom="10">
+			<e:Button id="backBtn" verticalCenter="0" horizontalCenter="0" width="100" height="50" skinName="@ButtonSkin('dialog_btn_yellow','dialog_btn_yellow','dialog_btn_yellow')"/>
+			<e:Label touchEnabled="false" horizontalCenter="0" fontFamily="Arial" size="20" verticalCenter="0" text="返回"/>
+		</e:Group>
+		<e:Group id="attGroup" y="695" x="163">
+			<e:Button id="attBtn" fontFamily="Arial" width="220" bold="true" height="50" enabled="false" skinName="@ButtonSkin('dialog_btn_red','dialog_btn_red','dialog_btn_disabled')"/>
+			<e:Label id="attLbl" size="20" fontFamily="Arial" touchEnabled="false" horizontalCenter="0" verticalCenter="0" bold="true" text="攻击 0/2"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

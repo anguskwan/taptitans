@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="337" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset id="pic_bg" x="0" y="0" height="100%" source="scrollview_bg1" scale9Grid="60,66,315,229"/>
+	<e:UIAsset id="btnClose" source="btn_main_close" right="0" top="0"/>
+	<e:UIAsset id="btnMinMax" source="btn_main_max" right="54" top="0"/>
+	<e:Group id="tapGroup" height="28" x="10" top="31">
+		<e:Label id="tapDamage" x="15" size="18" verticalCenter="0" textAlign="center" verticalAlign="middle" fontFamily="Arial" bold="true" text="0"/>
+		<e:Label id="explanation" horizontalCenter="193.5" verticalCenter="0" text="DPS（每秒攻击力）" size="14" fontFamily="Arial" bold="true" textColor="0xACA5B7"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle" gap="3"/>
+		</e:layout>
+	</e:Group>
+	<e:Group height="28" right="33" top="31">
+		<e:UIAsset id="coinImg" autoScale="true" verticalCenter="0" source="coin" x="374" fillMode="scale" scaleX="0.7" scaleY="0.7"/>
+		<e:Label id="coinLbl" textAlign="center" size="18" verticalAlign="middle" verticalCenter="0" x="15" fontFamily="Arial" bold="true" text="0"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle" gap="3"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="lvUnlockLbl" text="标签" size="14" horizontalCenter="0" verticalAlign="middle" textAlign="center" fontFamily="Arial" bold="true" top="234"/>
+	<e:List id="shopList" useVirtualLayout="true" width="464" x="8" top="60" bottom="0">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" gap="4"/>
+		</e:layout>
+	</e:List>
+	<e:List id="halidomList" useVirtualLayout="true" width="464" x="8" top="60" bottom="0">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" gap="4"/>
+		</e:layout>
+	</e:List>
+	<e:List id="heroesList" useVirtualLayout="true" width="464" x="8" top="60" bottom="0">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" gap="4"/>
+		</e:layout>
+	</e:List>
+	<e:List id="masterList" useVirtualLayout="true" width="464" x="8" top="60" bottom="0">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" gap="4"/>
+		</e:layout>
+	</e:List>
+	<e:UIAsset id="handImg" source="icon_hand" x="415" y="23" touchEnabled="false" visible="false"/>
+</e:Skin>

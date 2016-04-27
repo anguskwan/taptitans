@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="138" height="135" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<uiskins:EquipExpProgressBar id="progress" skinName="skins.components.EquipExpProgressBarSkin" horizontalCenter="0"/>
+	<e:Group width="100%" height="130" touchEnabled="false" touchChildren="false" bottom="-1">
+		<e:Rect width="100%" height="100%" fillColor="0x2E2C31" y="-1"/>
+		<e:UIAsset id="iconImg" width="90" height="90" horizontalCenter="1" verticalCenter="-0.5"/>
+		<e:UIAsset id="selectImg" source="equip_element_select" height="130" width="138" y="-1"/>
+		<e:UIAsset id="suitImg" x="114" width="18" height="18" y="5"/>
+		<e:Label id="nameLbl" text="名字" x="2" fontFamily="Arial" size="16" textColor="0x605A68" y="4"/>
+		<e:Label id="lvLbl" fontFamily="Arial" size="16" x="2" textColor="0x24B2E6" text="Lv.0" y="25"/>
+		<e:Label id="attLbl" fontFamily="Arial" size="16" textColor="0xFFFFFF" text="0%" right="0" y="107"/>
+		<e:Group id="starGroup" x="5" y="108">
+			<e:UIAsset id="star1" source="equip_icon_star_off" width="16" height="14"/>
+			<e:UIAsset id="star2" source="equip_icon_star_off" x="10" y="10" width="16" height="14"/>
+			<e:UIAsset id="star3" source="equip_icon_star_off" x="20" y="20" width="16" height="14"/>
+			<e:UIAsset id="star4" source="equip_icon_star_off" width="16" height="14" x="30" y="30"/>
+			<e:UIAsset id="star5" source="equip_icon_star_off" width="16" height="14" x="40" y="40"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" gap="1"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="lockGroup" width="100%" height="100%" y="-1">
+			<e:Rect fillColor="0x2E2C31" width="100%" height="100%" fillAlpha="0.8"/>
+			<e:UIAsset source="equip_lock" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

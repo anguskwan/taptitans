@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="436" height="70" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.ItemRenderer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="up"/>
+<e:State name="down"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Rect id="itemRact" width="100%" height="100%" horizontalCenter="0" verticalCenter="0" fillColor="0x28221B"/>
+		<e:Label id="nameLbl" textColor="0xFFFFFF" text="名字" fontFamily="Arial" textAlign="left" bold="true" size="20" y="5" x="169"/>
+		<e:UIAsset height="58" id="iconImg" source="icon_default" width="58" x="92" y="7"/>
+		<e:Label id="guildNameLbl" fontFamily="Arial" bold="true" text="0" textAlign="center" verticalAlign="middle" textColor="0xB96B2C" size="18" x="285" y="8"/>
+		<e:Label id="scoreLbl" verticalAlign="middle" textColor="0xB96B2C" text="0" fontFamily="Arial" textAlign="center" bold="true" size="18" x="285" y="40"/>
+		<e:Group height="28" y="37" x="169">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" gap="3" verticalAlign="middle"/>
+			</e:layout>
+			<e:UIAsset autoScale="true" fillMode="scale" verticalCenter="0" source="pk_icon_pk" x="374"/>
+			<e:Label id="attLbl" verticalAlign="middle" textColor="0x30BBE8" text="0" fontFamily="Arial" textAlign="center" size="18" verticalCenter="0" bold="true" x="15"/>
+		</e:Group>
+		<e:Label id="numLbl" textAlign="center" text="100" bold="true" fontFamily="Arial" size="24" x="22" y="23.5"/>
+		<e:UIAsset id="numImg" source="rank_num1" x="20" y="15"/>
+	</e:Group>
+</e:Skin>

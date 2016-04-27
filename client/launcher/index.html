@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>疯狂打怪兽</title>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no,target-densitydpi=device-dpi"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <base href="../"/>
+    <!--[if IE]><script type="text/javascript">
+        // Fix for IE ignoring relative base tags.
+        (function () {
+            var baseTag = document.getElementsByTagName('base')[0];
+            baseTag.href = baseTag.href;
+        })();
+    </script><![endif]-->
+    <style>
+        body {
+            text-align: center;
+            background: #000000;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+
+        html {
+            -ms-touch-action: none; /* Direct all pointer events to JavaScript code. */
+            overflow: hidden;
+        }
+
+        #gameDiv, canvas {
+            display: block;
+            position: absolute;
+            margin: 0 auto;
+            padding: 0;
+            border: 0;
+        }
+
+        #payQrcodeModal {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: 1;
+            background: rgba(0, 0, 0, .5);
+            display: none;
+        }
+
+        .modal-dialog {
+            position: absolute;
+            width: 80%;
+            left: 50%;
+            top: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: inset 0 0 2px #000, 0 2px rgba(0, 0, 0, .8);
+        }
+
+        .modal-body {
+            border-top: solid 1px #ccc;
+            border-bottom: solid 1px #ccc;
+        }
+
+        .modal-body > img {
+            max-width: 95%;
+        }
+    </style>
+    <script type="text/javascript" src="http://h5.hortorgames.com/sdk/sdk_host.min.js?v=1.2"></script>
+</head>
+<body>
+<div style="position:relative;" id="gameDiv"></div>
+<div id="payQrcodeModal">
+    <div class="modal-dialog">
+        <h4 class="modal-title" id="title">支付失败了？</h4>
+        <div class="modal-body">
+            <img class="qrcode" src="">
+        </div>
+        <h4 class="modal-tip" id="tip">长按识别二维码支付</h4>
+    </div>
+</div>
+<script>var document_class = "Main";
+$("#payQrcodeModal").on("click touchstart", function(e) {
+    if (e.toElement.id == "payQrcodeModal") {
+        $(e.toElement).hide();
+    }
+});
+var h5api = {};
+h5api.showPayQrCode = function (code_url, title, tip) {
+    $("#payQrcodeModal .qrcode").attr("src", code_url);
+    document.getElementById("title").innerHTML = title;
+    document.getElementById("tip").innerHTML = tip;
+    $("#payQrcodeModal").show();
+};
+</script>
+<!--这部分内容在编译时会被替换，要修改文档类，请到工程目录下的egretProperties.json内编辑。-->
+<!--This part will be replaced during compiling, and to modify the document class, please go to the project directory and edit in the file of egretProperties. Jsonr-->
+<script src="http://open.juhesdk.twan.cn/js/juhe.js"></script>
+<script src="bin-debug/lib/egret_file_list.js"></script>
+<script src="launcher/egret_require.js"></script>
+<script src="launcher/egret_loader.js"></script>
+<script src="bin-debug/src/game_file_list.js"></script>
+
+<script>
+    var support = [].map && document.createElement("canvas").getContext;
+    if (support) {
+        egret_h5.preloadScript(egret_file_list, "libs/");
+        egret_h5.preloadScript(game_file_list, "bin-debug/src/");
+        egret_h5.startLoading();
+    }
+    else {
+        alert("Egret dose not support your current browser")
+    }
+
+    function onShareTimeline(){
+        gm.channel_1758.onShareTimeline();
+    }
+    function onShareFriend() {
+        gm.channel_1758.onShareFriend();
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="462" height="44" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Rect width="100%" height="100%" horizontalCenter="0" verticalCenter="0" fillColor="0x39363F"/>
+		<e:UIAsset id="iconImg" x="84" verticalCenter="0" source="icon_default" width="30" height="30"/>
+		<e:Label id="nameLbl" textAlign="left" fontFamily="Arial" bold="true" text="名字" size="18" textColor="0xFFFFFF" verticalCenter="0" x="122"/>
+		<e:Label id="numLbl" textAlign="center" verticalCenter="0" horizontalCenter="-186" text="100" bold="true" fontFamily="Arial" size="18" visible="false"/>
+		<e:UIAsset id="numImg" source="rank_num1" scaleX="0.5" scaleY="0.5" y="9" x="34" visible="false"/>
+		<e:Group textAlign="center" verticalAlign="middle" y="10" right="38">
+			<e:Label id="lvLbl" textAlign="left" fontFamily="Arial" bold="true" size="18" textColor="0xFFFFFF" verticalCenter="0" text="0关"/>
+			<e:UIAsset id="stageImg" source="submap1_1" x="6" y="5" scaleX="0.7" scaleY="0.7"/>
+			<e:layout>
+				<e:HorizontalLayout gap="2" horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:UIAsset id="lineImg" source="rank_line" horizontalCenter="0.5" bottom="0"/>
+	</e:Group>
+</e:Skin>

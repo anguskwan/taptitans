@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="650" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group width="480" height="650">
+		<e:UIAsset source="activity_bg_worth_png" y="5" x="0"/>
+		<e:Group y="10" verticalCenter="-189" left="37">
+			<e:layout>
+				<e:HorizontalLayout gap="3" verticalAlign="middle" horizontalAlign="left"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="btnReset" width="109" height="28" y="618" x="181" skinName="@ButtonSkin('activity_worth_btn_refresh')" visible="false"/>
+		<e:Group width="118" y="620" x="176" visible="false">
+			<e:UIAsset scaleY="0.7" autoScale="true" source="diamond" fillMode="scale" scaleX="0.7" touchEnabled="false" x="53" y="3"/>
+			<e:Label id="diamondLbl" fontFamily="Arial" textAlign="center" size="18" verticalAlign="middle" bold="true" text="x50" touchEnabled="false" x="71"/>
+			<e:Label verticalAlign="middle" fontFamily="Arial" textAlign="center" size="18" bold="true" y="10" textColor="0xFFFFFF" text="刷新" touchEnabled="false" x="66"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Group y="10" horizontalCenter="41.5" verticalCenter="301">
+			<e:layout>
+				<e:HorizontalLayout gap="3" verticalAlign="middle" horizontalAlign="left"/>
+			</e:layout>
+		</e:Group>
+		<e:Label bold="true" fontFamily="Arial" textAlign="center" size="18" verticalAlign="middle" text="活动时间：" textColor="0xF7F9FA" y="119" x="158"/>
+		<e:Label id="timeLbl" fontFamily="Arial" textAlign="center" size="18" verticalAlign="middle" bold="true" text="22:22:22" y="120" x="246"/>
+		<e:Group id="item1" width="150" height="150" x="69" y="157"/>
+		<e:Group id="item2" width="150" height="150" x="240" y="157"/>
+		<e:Group id="item3" width="150" height="150" x="67" y="379">
+		</e:Group>
+		<e:Group id="item4" width="150" height="150" x="239" y="379"/>
+	</e:Group>
+</e:Skin>

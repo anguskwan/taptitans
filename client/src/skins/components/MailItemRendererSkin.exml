@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="462" height="84" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.ItemRenderer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="up"/>
+<e:State name="down"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Rect width="100%" height="100%" horizontalCenter="0" verticalCenter="0" fillColor="0x39363F"/>
+		<e:UIAsset id="iconImg" source="icon_default" width="58" height="58" verticalCenter="0" x="34"/>
+		<e:Label id="titleLbl" textAlign="left" fontFamily="Arial" bold="true" textColor="0xFFFFFF" text="主题：" size="16" x="103" verticalCenter="0"/>
+		<e:UIAsset source="rank_line" bottom="0" horizontalCenter="0"/>
+		<e:UIAsset id="newTipImg" source="tip_new" x="18" y="8" scaleX="0.8" scaleY="0.8"/>
+	</e:Group>
+	<uiskins:StateButton id="openBtn" x="350" skinName="skins.components.StateButtonSkin" width="80" height="40" downSkinName="dialog_btn_blue" disabledSkinName="dialog_btn_blue" upSkinName="dialog_btn_blue" y="22"/>
+</e:Skin>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="408" height="90" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.ItemRenderer"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="up"/>
+		<e:State name="down"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:UIAsset source="activity_black_item_bar"/>
+		<e:UIAsset id="iconImg" x="15" y="14" width="58" height="58"/>
+		<e:UIAsset source="activity_black_item_text_bg" y="15" x="83"/>
+		<e:Label id="titleLbl" y="15" size="18" fontFamily="Arial" x="83" text="标题"/>
+		<e:Label id="descLbl" fontFamily="Arial" y="42" size="14" textColor="0xD2B48A" width="126" x="83" text="内容"/>
+		<e:Group y="67" horizontalCenter="108">
+			<e:Label size="14" fontFamily="Arial" textColor="0x7E7E8C" text="购买次数："/>
+			<e:Label id="numLbl" size="14" fontFamily="Arial" text="0"/>
+			<e:layout>
+				<e:HorizontalLayout gap="0" horizontalAlign="center"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<uiskins:CommonItemButton id="btnItem" skinName="skins.components.CommonItemButtonSkin" label="按钮" x="264" y="5"/>
+</e:Skin>

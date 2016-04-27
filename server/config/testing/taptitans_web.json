@@ -1,0 +1,10 @@
+{
+  "apps" : [{
+    "name" : "taptitans_web_testing",
+    "script" : "app_web.js",
+    "args" : "['--env', 'testing']",
+    "one_launch_only": true,
+    "watch" : "true",
+    "env": {}
+  }]
+}

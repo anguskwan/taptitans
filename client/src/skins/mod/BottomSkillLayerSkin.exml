@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="60" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group id="skillGroup" height="100%" width="450" verticalCenter="0" horizontalCenter="0">
+		<e:layout>
+			<e:HorizontalLayout gap="12" horizontalAlign="justify"/>
+		</e:layout>
+		<uiskins:SkillButton id="_skillBtn1" label="按钮" x="100" y="114" skinName="skins.components.SkillButtonSkin" enabled="true"/>
+		<uiskins:SkillButton id="_skillBtn2" skinName="skins.components.SkillButtonSkin" label="按钮" x="110" y="124" enabled="true"/>
+		<uiskins:SkillButton id="_skillBtn3" skinName="skins.components.SkillButtonSkin" label="按钮" x="120" y="134" enabled="true"/>
+		<uiskins:SkillButton id="_skillBtn4" skinName="skins.components.SkillButtonSkin" label="按钮" x="130" y="144" enabled="true"/>
+		<uiskins:SkillButton id="_skillBtn5" skinName="skins.components.SkillButtonSkin" label="按钮" x="140" y="154" enabled="true"/>
+		<uiskins:SkillButton id="_skillBtn6" skinName="skins.components.SkillButtonSkin" label="按钮" x="150" y="164" enabled="true"/>
+	</e:Group>
+</e:Skin>

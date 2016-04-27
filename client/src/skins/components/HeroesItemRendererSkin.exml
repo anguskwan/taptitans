@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="450" height="80" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.ItemRenderer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="up"/>
+<e:State name="down"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group horizontalCenter="0" verticalCenter="0" width="450" height="100%" x="10" y="10">
+		<e:UIAsset y="0" width="450" source="list_element_bg" x="0"/>
+		<e:UIAsset id="iconImg" y="11" source="icon_default" x="14" verticalCenter="0" width="58" height="58"/>
+		<e:Rect id="iconDisabled" fillAlpha="0.6" x="14" y="11" width="58" fillColor="0x000000" height="58"/>
+		<e:Group y="7" x="82">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" gap="0" verticalAlign="middle"/>
+			</e:layout>
+			<e:Label id="nameLbl" fontFamily="Arial" textAlign="left" size="18" verticalAlign="middle" bold="true" text="名字" textColor="0xFFFFFF"/>
+		</e:Group>
+		<e:Group left="82" verticalCenter="-4" height="18">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="left" gap="0" verticalAlign="bottom"/>
+			</e:layout>
+			<e:Label y="29" text="Lv." fontFamily="Arial" size="16" bold="true" x="81"/>
+			<e:Label id="lvLbl" textColor="0x42D0FF" text="1" fontFamily="Arial" size="16" y="39" bold="true" x="91"/>
+		</e:Group>
+		<e:Group right="137" verticalAlign="middle" verticalCenter="-4" height="18">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="right" verticalAlign="bottom"/>
+			</e:layout>
+			<e:Label y="29" text="DPS:" fontFamily="Arial" size="14" bold="true" x="81"/>
+			<e:Label id="dpsLbl" textColor="0xFF7F01" fontFamily="Arial" textAlign="right" size="14" y="39" bold="true" x="34" text="0"/>
+		</e:Group>
+		<e:Group id="buyPopGroup" y="10" x="155" visible="false">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" gap="0" verticalAlign="middle"/>
+			</e:layout>
+			<uiskins:BuyPopButton id="buyPopBtn0" skinName="skins.components.BuyPopButtonSkin" label="按钮"/>
+			<uiskins:BuyPopButton id="buyPopBtn1" skinName="skins.components.BuyPopButtonSkin" label="按钮" xmlns:uiskins="uiskins.*"/>
+		</e:Group>
+		<e:Group id="revivalGroup" width="100%" height="100%" visible="false">
+			<e:Rect fillAlpha="0.4" fillColor="0xFF0000" width="100%" height="100%"/>
+			<e:UIAsset y="0" source="tip_hero_dead" x="0"/>
+			<e:Group verticalCenter="17" y="10" x="10" left="82" height="18">
+				<e:layout>
+					<e:HorizontalLayout verticalAlign="bottom" horizontalAlign="left" gap="0"/>
+				</e:layout>
+				<e:UIAsset x="53" scaleY="0.7" y="3" scaleX="0.7" source="tip_hero_tombstone"/>
+				<e:Label y="29" text="复活时间" fontFamily="Arial" size="16" bold="true" x="81"/>
+				<e:Label id="revivalTimeLbl" y="39" textColor="0x42D0FF" text="00:00:00" fontFamily="Arial" size="16" bold="true" x="91"/>
+			</e:Group>
+		</e:Group>
+		<uiskins:CommonItemButton id="btnItem" skinName="skins.components.CommonItemButtonSkin" y="10" label="按钮" x="318" xmlns:uiskins="uiskins.*"/>
+		<e:UIAsset id="effectImg" x="42" y="71" width="59" height="59"/>
+		<e:UIAsset id="newTipImg" source="tip_new" x="297" y="17" touchEnabled="false"/>
+	</e:Group>
+</e:Skin>

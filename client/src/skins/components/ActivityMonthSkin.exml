@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="650" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="480" height="650" y="0" x="0">
+		<e:UIAsset id="background" width="100%" height="100%"/>
+		<e:Label id="validTimeLabel" text="3月8日--3月18日" size="24" textColor="0xFFFFFF" fontFamily="Arial" x="148" bottom="60"/>
+		<e:Group width="100" height="316" y="226" x="311">
+			<e:Button id="rightBtn1" height="13%" skinName="@ButtonSkin('dialog_btn_red','dialog_btn_red','dialog_btn_disabled')" fontFamily="Arial" size="20" width="100%" verticalAlign="middle" textAlign="center" bold="true" x="30" y="30" label="已拥有"/>
+			<e:Button id="rightBtn2" label="已拥有" x="11" y="146" skinName="@ButtonSkin('dialog_btn_red','dialog_btn_red','dialog_btn_disabled')" width="100%" height="13%" size="20" fontFamily="Arial" verticalAlign="middle" textAlign="center" bold="true"/>
+			<e:Button id="rightBtn3" height="13%" skinName="@ButtonSkin('dialog_btn_red','dialog_btn_red','dialog_btn_disabled')" fontFamily="Arial" size="20" width="100%" bold="true" x="40" y="40" label="已拥有" verticalAlign="middle" textAlign="center"/>
+			<e:layout>
+				<e:VerticalLayout gap="85"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group height="100%" width="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Rect y="10" horizontalCenter="0" x="10" fillColor="0x765F40" width="100%" bottom="0" height="100%"/>
+		<e:Button skinName="@ButtonSkin('guild_btn_close','guild_btn_close','guild_btn_close')" id="closeBtn" x="20" y="20" right="14" top="9"/>
+		<e:Group width="100%" height="100%">
+			<e:Rect fillColor="0x4E361F" y="58" width="465" horizontalCenter="0" height="636"/>
+			<e:List id="messagePKList" y="65" width="451" horizontalCenter="0" height="620">
+				<e:layout>
+					<e:VerticalLayout gap="4" horizontalAlign="center"/>
+				</e:layout>
+			</e:List>
+			<e:Label y="24" textColor="0xF7DDB9" fontFamily="Arial" size="24" horizontalCenter="0" bold="true" text="战报信息列表"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

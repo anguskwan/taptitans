@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableContainer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Rect fillAlpha="0.5" width="100%" fillColor="0x000000" height="100%"/>
+	<e:Group verticalCenter="0" horizontalCenter="0">
+		<e:UIAsset scale9Grid="55,53,337,324" height="300" source="guild_popup"/>
+		<e:Rect fillColor="0x4E361F" width="360" height="120" x="10" y="67" horizontalCenter="-0.5"/>
+		<e:Label id="titleLbl" fontFamily="Arial" size="24" bold="true" x="26" y="25" text="标题"/>
+		<e:Label id="descLbl" fontFamily="Arial" bold="true" size="18" left="29" top="72" text="内容" width="344"/>
+		<e:Group x="53" y="211">
+			<e:Button id="rightBtn" skinName="@ButtonSkin('dialog_btn_blue','dialog_btn_blue','dialog_btn_blue')" fontFamily="Arial" bold="true" width="120" height="50"/>
+			<e:Label fontFamily="Arial" bold="true" horizontalCenter="0" verticalCenter="0" size="20" touchEnabled="false" text="确定"/>
+		</e:Group>
+		<e:Group x="233" y="211">
+			<e:Button id="cancelBtn" fontFamily="Arial" width="120" bold="true" height="50" skinName="@ButtonSkin('dialog_btn_red','dialog_btn_red','dialog_btn_red')"/>
+			<e:Label fontFamily="Arial" size="20" touchEnabled="false" horizontalCenter="0" bold="true" verticalCenter="0" text="取消"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

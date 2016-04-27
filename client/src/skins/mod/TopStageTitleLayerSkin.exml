@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="200" height="70" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="200" height="100%" verticalCenter="0" horizontalCenter="0">
+		<e:UIAsset source="stage_bg" horizontalCenter="0" verticalCenter="12.5"/>
+		<e:Group id="currGroup" verticalCenter="3" width="36" height="60" x="82">
+			<e:UIAsset id="currImg" source="stage_icon" horizontalCenter="0" verticalCenter="11"/>
+			<e:Label id="currStage" size="24" horizontalCenter="0" verticalCenter="-22" text="0" bold="true" fontFamily="Arial"/>
+		</e:Group>
+		<e:Group id="currAniGroup" height="60" verticalCenter="3" width="36" y="10" x="82">
+			<e:UIAsset id="currAniImg" verticalCenter="11" source="stage_icon" horizontalCenter="0"/>
+			<e:Label id="currAniStage" size="24" verticalCenter="-22" horizontalCenter="0" text="0" fontFamily="Arial" bold="true"/>
+		</e:Group>
+		<e:Group id="preGroup" verticalCenter="3" width="36" height="60" x="36">
+			<e:UIAsset id="preImg" horizontalCenter="0" verticalCenter="11" source="stage_icon" width="30" height="30"/>
+			<e:Label id="preStage" horizontalCenter="0" verticalCenter="-17" size="18" text="0" fontFamily="Arial" bold="true"/>
+		</e:Group>
+		<e:Group id="preAniGroup" verticalCenter="3" width="36" height="60" y="10" x="36">
+			<e:UIAsset id="preAniImg" horizontalCenter="0" verticalCenter="11" width="30" source="stage_icon" height="30"/>
+			<e:Label id="preAniStage" size="18" verticalCenter="-17" horizontalCenter="0" text="0" fontFamily="Arial" bold="true"/>
+		</e:Group>
+		<e:Group id="nextGroup" width="36" height="60" verticalCenter="3" x="128">
+			<e:UIAsset id="nextImg" horizontalCenter="0" verticalCenter="11" source="stage_icon" width="30" height="30"/>
+			<e:Label id="nextStage" horizontalCenter="0" verticalCenter="-17" size="18" text="0" fontFamily="Arial" bold="true"/>
+		</e:Group>
+		<e:Group id="nextAniGroup" verticalCenter="3" width="36" height="60" y="10" x="128">
+			<e:UIAsset id="nextAniImg" horizontalCenter="0" verticalCenter="11" width="30" source="stage_icon" height="30"/>
+			<e:Label id="nextAniStage" size="18" verticalCenter="-17" horizontalCenter="0" text="0" fontFamily="Arial" bold="true"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

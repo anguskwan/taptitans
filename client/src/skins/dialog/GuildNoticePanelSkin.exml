@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableContainer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Rect fillAlpha="0.5" width="100%" fillColor="0x000000" height="100%"/>
+	<e:Group horizontalCenter="0.5" verticalCenter="-140">
+		<e:UIAsset scale9Grid="55,53,337,324" height="240" source="guild_popup"/>
+		<e:Label id="titleLbl" fontFamily="Arial" size="24" bold="true" y="26" text="公告" x="29"/>
+		<uiskins:GuildTextInput skinName="skins.components.GuildTextInputSkin" id="textInput" height="80" y="75" width="360" prompt="编辑" horizontalCenter="0"/>
+		<e:Button id="closeBtn" x="10" y="10" skinName="@ButtonSkin('guild_btn_close','guild_btn_close','guild_btn_close')" right="24" top="19"/>
+		<e:Group horizontalCenter="0.5" y="171">
+			<e:Button id="rightBtn" skinName="@ButtonSkin('dialog_btn_blue','dialog_btn_blue','dialog_btn_blue')" fontFamily="Arial" bold="true" width="120" height="50"/>
+			<e:Label fontFamily="Arial" bold="true" horizontalCenter="0" verticalCenter="0" size="20" touchEnabled="false" text="确定"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

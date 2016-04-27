@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group height="100%" width="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Rect y="10" horizontalCenter="0" x="10" fillColor="0x765F40" width="100%" bottom="0" height="100%"/>
+		<e:Button skinName="@ButtonSkin('guild_btn_close','guild_btn_close','guild_btn_close')" id="closeBtn" x="20" y="20" right="14" top="9"/>
+		<e:Group width="100%" height="100%">
+			<e:Rect fillColor="0x4E361F" width="465" horizontalCenter="0" height="320" top="58"/>
+			<e:Label y="24" textColor="0xF7DDB9" fontFamily="Arial" size="24" horizontalCenter="0" bold="true" text="公会设置"/>
+			<e:Label textColor="0xFFFFFF" text="公会名称：" fontFamily="Arial" size="18" bold="true" x="97" y="93"/>
+			<e:Label id="nameLbl" textColor="0xFFFFFF" fontFamily="Arial" size="18" bold="true" x="197" y="93" text="公会"/>
+			<e:Label textColor="0xFFFFFF" text="公会图标：" fontFamily="Arial" size="18" bold="true" x="97" y="153"/>
+			<e:Label textColor="0xFFFFFF" fontFamily="Arial" size="18" bold="true" x="97" text="任何人都需要验证" y="213"/>
+			<e:Label textColor="0xFFFFFF" fontFamily="Arial" size="18" bold="true" text="战斗力" x="97" textAlign="center" verticalAlign="middle" y="283"/>
+			<e:Label textColor="0xFFFFFF" fontFamily="Arial" size="18" bold="true" x="266" text="以上加入" textAlign="center" verticalAlign="middle" y="283"/>
+			<e:Rect id="setRect" fillColor="0x271B0B" width="100" height="40" x="160" y="272"/>
+			<e:Label id="attLbl" textColor="0xFFFFFF" fontFamily="Arial" size="18" bold="true" textAlign="center" verticalAlign="middle" text="0" touchEnabled="false" right="224" y="283"/>
+			<uiskins:GuildSettingItemSelect id="selectItem2" skinName="skins.components.GuildSettingItemSelectSkin" x="349" y="272"/>
+			<uiskins:GuildSettingItemSelect id="selectItem1" x="293" skinName="skins.components.GuildSettingItemSelectSkin" y="200"/>
+			<uiskins:GuildBadgeItem scaleY="0.67" id="iconImg" scaleX="0.67" skinName="skins.components.GuildBadgeItemSkin" x="186" y="135"/>
+			<e:Group width="150" height="50" x="20" horizontalCenter="0" y="419">
+				<e:Button id="rightBtn" horizontalCenter="0" verticalCenter="0" width="150" skinName="@ButtonSkin('dialog_btn_big_blue','dialog_btn_big_blue','dialog_btn_big_blue')" height="50"/>
+				<e:Label fontFamily="Arial" size="20" touchEnabled="false" horizontalCenter="0" verticalCenter="0" text="确认修改"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

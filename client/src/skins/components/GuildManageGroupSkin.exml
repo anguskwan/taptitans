@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="700" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="100%" height="100%">
+		<e:Rect fillColor="0x4E361F" y="58" width="465" horizontalCenter="0" height="636"/>
+		<e:Label y="24" textColor="0xF7DDB9" fontFamily="Arial" size="24" horizontalCenter="0" bold="true" text="公会管理"/>
+	</e:Group>
+	<e:Group id="messagePKGroup" width="150" height="50" x="30" horizontalCenter="0" y="100">
+		<e:Button id="messagePKBtn" verticalCenter="0" skinName="@ButtonSkin('dialog_btn_big_blue','dialog_btn_big_blue','dialog_btn_big_blue')" horizontalCenter="0" width="150" height="50"/>
+		<e:Label verticalCenter="0" fontFamily="Arial" size="20" touchEnabled="false" horizontalCenter="0" text="战报信息"/>
+	</e:Group>
+	<e:Group id="levelUpGroup" width="150" height="50" x="20" horizontalCenter="0" y="160">
+		<e:Button id="levelUpBtn" horizontalCenter="0" verticalCenter="0" skinName="@ButtonSkin('dialog_btn_big_blue','dialog_btn_big_blue','dialog_btn_big_blue')" width="150" height="50"/>
+		<e:Label fontFamily="Arial" size="20" touchEnabled="false" horizontalCenter="0" verticalCenter="0" text="公会升级"/>
+	</e:Group>
+	<e:Group id="messageGroup" width="150" height="50" x="40" y="220" horizontalCenter="0" visible="false">
+		<e:Button id="messageBtn" horizontalCenter="0" verticalCenter="0" width="150" skinName="@ButtonSkin('dialog_btn_big_blue','dialog_btn_big_blue','dialog_btn_big_blue')" height="50"/>
+		<e:Label fontFamily="Arial" size="20" touchEnabled="false" horizontalCenter="0" verticalCenter="0" text="信息"/>
+	</e:Group>
+	<e:Group id="settingGroup" width="150" height="50" x="30" y="280" horizontalCenter="0" visible="false">
+		<e:Button id="settingBtn" horizontalCenter="0" verticalCenter="0" width="150" skinName="@ButtonSkin('dialog_btn_big_blue','dialog_btn_big_blue','dialog_btn_big_blue')" height="50"/>
+		<e:Label fontFamily="Arial" size="20" touchEnabled="false" horizontalCenter="0" verticalCenter="0" text="会长设置"/>
+	</e:Group>
+	<e:Group id="guitGroup" width="150" height="50" x="30" y="610" horizontalCenter="0" visible="false">
+		<e:Button id="quitBtn" width="150" verticalCenter="0" horizontalCenter="0" height="50" skinName="@ButtonSkin('dialog_btn_red','dialog_btn_red','dialog_btn_red')"/>
+		<e:Label fontFamily="Arial" size="20" touchEnabled="false" horizontalCenter="0" verticalCenter="0" text="退出公会"/>
+	</e:Group>
+</e:Skin>

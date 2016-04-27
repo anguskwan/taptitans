@@ -1,0 +1,36 @@
+{
+    "main": {
+        "mongodb": ["10.164.24.19:27017"],
+        "mongodb_name": "taptitans",
+        "redis_counter": "10.164.24.19|6383|Hortor#1111",
+        "redis_rank": "10.164.24.19|6383|Hortor#1111",
+        "redis_login": "10.164.24.19|6383|Hortor#1111",
+        "redis_wechat": "10.164.24.19|6380|Hortor#1111",
+        "redis_dailyActive": "10.164.24.19|6383|Hortor#1111",
+        "redis_share": "10.164.24.19|6383|Hortor#1111",
+        "redis_dict": "10.164.24.19|6383|Hortor#1111",
+        "mysql_channel": "secret:Hortor_82345168@10.157.140.45:3306/gamecenter?charset=utf8"
+    },
+    "web": {
+        "share_url": "http://wx.hortor.net/taptitans/share",
+        "index_url": "http://wx.hortor.net/taptitans/index",
+        "goldHill_url" : "http://goldenhill.hortorgames.com",
+        "route_root_url": "http://wx.hortor.net/taptitans-route",
+        "route_url": "http://taptitans.hortorgames.com/taptitans-route",
+        "route_secret": "hortorgames2015",
+        "api_port": 3003,
+        "admin_port": 3004
+    },
+    "auth": {
+        "secret": "hortorgames_brain_2014",
+        "wechat_app_id":"wxcce59e4f286a1207",
+        "wechat_app_secret":"622c6c1fb052dda48a34e2b5039069c7",
+        "client_domain": "http://h5.hortorgames.com"
+    },
+    "logger": {
+        "enable": true,
+        "host": "log.hortorgames.com",
+        "port": 12201,
+        "level": "info"
+    }
+}

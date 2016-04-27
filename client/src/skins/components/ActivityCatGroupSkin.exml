@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="650" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="480" height="650">
+		<e:UIAsset id="catBgImg" width="100%" height="100%"/>
+		<e:Label id="itemLbl5" text="0" fontFamily="Arial" size="110" verticalAlign="middle" textAlign="center" bold="true" y="231" x="367"/>
+		<e:Label id="itemLbl4" text="0" fontFamily="Arial" textAlign="center" size="110" verticalAlign="middle" bold="true" y="232" x="289"/>
+		<e:Label id="itemLbl3" text="0" fontFamily="Arial" textAlign="center" size="110" verticalAlign="middle" bold="true" y="231" x="210"/>
+		<e:Label id="itemLbl2" text="0" fontFamily="Arial" textAlign="center" size="110" verticalAlign="middle" bold="true" y="232" x="131"/>
+		<e:Label id="itemLbl1" text="0" fontFamily="Arial" textAlign="center" size="110" verticalAlign="middle" bold="true" y="232" x="51"/>
+		<e:Label id="needDiamond" text="0" fontFamily="Arial" textAlign="center" size="20" verticalAlign="middle" textColor="0xFFFFFF" left="135" y="564"/>
+		<e:Label id="currDiamond" textColor="0xFFFFFF" text="0" fontFamily="Arial" textAlign="center" size="20" verticalAlign="middle" x="10" left="344" y="564"/>
+		<e:Label id="highestDiamond" textColor="0xFFFFFF" text="0" fontFamily="Arial" textAlign="center" size="20" verticalAlign="middle" x="20" left="357" y="470"/>
+		<e:Label id="currTimeLbl" textColor="0xFFFFFF" fontFamily="Arial" textAlign="center" verticalAlign="middle" y="56" horizontalCenter="85.5" text="00:00:00" size="20"/>
+		<e:Button id="getRewardBtn" x="194" y="413" skinName="@ButtonSkin('activity_cat_btn_up','activity_cat_btn_down','activity_cat_btn_disabled')" enabled="true"/>
+	</e:Group>
+</e:Skin>

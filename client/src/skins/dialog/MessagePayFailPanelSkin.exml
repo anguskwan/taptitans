@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="447" height="300" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group verticalCenter="0" horizontalCenter="0" x="10" y="10">
+		<e:UIAsset scale9Grid="55,53,337,324" source="dialog_popup" height="300"/>
+		<e:Label fontFamily="Arial" bold="true" size="22" x="29" y="26" text="支付失败"/>
+		<e:Label fontFamily="Arial" bold="true" size="18" verticalAlign="top" textAlign="left" x="29" y="62" text="如果您遇到无法支付，请关注疯狂游乐场！\n从疯狂游乐场入口进入。"/>
+		<e:Button id="closeBtn" fontFamily="Arial" bold="true" x="236" y="201" label="算了" skinName="@ButtonSkin('dialog_btn_red','dialog_btn_red','dialog_btn_red')"/>
+		<e:Button id="rightBtn" skinName="@ButtonSkin('dialog_btn_blue','dialog_btn_blue','dialog_btn_blue')" fontFamily="Arial" bold="true" x="37" y="201" label="去支付"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="370" height="56" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.ItemRenderer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="up"/>
+<e:State name="down"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:UIAsset id="iconImg" source="icon_default" width="34" height="34" x="18" y="10"/>
+		<e:Label id="nameLbl" fontFamily="Arial" y="17" x="65" size="18" textColor="0x632B13" text="名字"/>
+		<e:Group y="19" left="302">
+			<e:UIAsset x="212" scaleY="0.7" y="128" source="diamond" scaleX="0.7"/>
+			<e:Label id="diamondLbl" y="10" textColor="0xFFFFFF" text="0" fontFamily="Arial" size="18" x="10"/>
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Rect width="100%" height="4" fillColor="0xC82D1C" horizontalCenter="0" bottom="0"/>
+	</e:Group>
+</e:Skin>

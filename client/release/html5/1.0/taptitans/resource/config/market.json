@@ -1,0 +1,178 @@
+{
+  "1": {
+    "cost": 60, 
+    "costOrigin": 100, 
+    "iconName": "icon_fragment", 
+    "id": 1, 
+    "name": "一小撮碎片", 
+    "num": 10.0, 
+    "time": 10, 
+    "type": "fragment", 
+    "vipLimitNum": 0
+  }, 
+  "2": {
+    "cost": 300, 
+    "costOrigin": 500, 
+    "iconName": "item_big_fragment", 
+    "id": 2, 
+    "name": "一大堆碎片", 
+    "num": 50.0, 
+    "time": 10, 
+    "type": "fragment", 
+    "vipLimitNum": 0
+  }, 
+  "3": {
+    "cost": 45, 
+    "costOrigin": 100, 
+    "iconName": "item_small_exp", 
+    "id": 3, 
+    "name": "小瓶经验药水", 
+    "num": 50.0, 
+    "time": 10, 
+    "type": "exp", 
+    "vipLimitNum": 0
+  }, 
+  "4": {
+    "cost": 90, 
+    "costOrigin": 200, 
+    "iconName": "item_big_exp", 
+    "id": 4, 
+    "name": "大瓶经验药水", 
+    "num": 100.0, 
+    "time": 5, 
+    "type": "exp", 
+    "vipLimitNum": 0
+  }, 
+  "5": {
+    "cost": 90, 
+    "costOrigin": 100, 
+    "iconName": "icon_crystal", 
+    "id": 5, 
+    "name": "小堆水晶", 
+    "num": 100.0, 
+    "time": 10, 
+    "type": "crystal", 
+    "vipLimitNum": 0
+  }, 
+  "6": {
+    "cost": 800, 
+    "costOrigin": 1000, 
+    "iconName": "item_big_crystal", 
+    "id": 6, 
+    "name": "大堆水晶", 
+    "num": 1000.0, 
+    "time": 5, 
+    "type": "crystal", 
+    "vipLimitNum": 0
+  }, 
+  "7": {
+    "cost": 800, 
+    "costOrigin": 1000, 
+    "iconName": "shop1", 
+    "id": 7, 
+    "name": "天降黄金", 
+    "num": 10.0, 
+    "time": 5, 
+    "type": "goldRain", 
+    "vipLimitNum": 0
+  }, 
+  "8": {
+    "cost": 220, 
+    "costOrigin": 500, 
+    "iconName": "icon_lvup_weapon", 
+    "id": 8, 
+    "name": "武器道具", 
+    "num": 1.0, 
+    "time": 10, 
+    "type": "weaponItem", 
+    "vipLimitNum": 0
+  }, 
+  "9": {
+    "cost": 400, 
+    "costOrigin": 500, 
+    "iconName": "guild_icon_shop3", 
+    "id": 9, 
+    "name": "普通装备宝箱", 
+    "num": 1.0, 
+    "time": 5, 
+    "type": "chest", 
+    "vipLimitNum": 0
+  }, 
+  "10": {
+    "cost": 3600, 
+    "costOrigin": 4000, 
+    "iconName": "guild_icon_shop4", 
+    "id": 10, 
+    "name": "高级装备宝箱", 
+    "num": 1.0, 
+    "time": 5, 
+    "type": "chest", 
+    "vipLimitNum": 0
+  }, 
+  "11": {
+    "cost": 50, 
+    "costOrigin": 200, 
+    "iconName": "item_relic", 
+    "id": 11, 
+    "name": "圣物", 
+    "num": 10.0, 
+    "time": 10, 
+    "type": "relic", 
+    "vipLimitNum": 0
+  }, 
+  "12": {
+    "cost": 2200, 
+    "costOrigin": 3000, 
+    "iconName": "icon_lvup_weapon", 
+    "id": 12, 
+    "name": "武器道具", 
+    "num": 10.0, 
+    "time": 10, 
+    "type": "weaponItem", 
+    "vipLimitNum": 0
+  }, 
+  "13": {
+    "cost": 100, 
+    "costOrigin": 150, 
+    "iconName": "icon_worth_fengbao", 
+    "id": 13, 
+    "name": "黄金风暴", 
+    "num": 1.5, 
+    "time": 30, 
+    "type": "gold", 
+    "vipLimitNum": 1
+  }, 
+  "14": {
+    "cost": 250, 
+    "costOrigin": 500, 
+    "iconName": "icon_worth_shuijing", 
+    "id": 14, 
+    "name": "大量水晶", 
+    "num": 500.0, 
+    "time": 30, 
+    "type": "crystal", 
+    "vipLimitNum": 2
+  }, 
+  "15": {
+    "cost": 200, 
+    "costOrigin": 248, 
+    "iconName": "icon_lvup_weapon", 
+    "id": 15, 
+    "name": "武器道具", 
+    "num": 1.0, 
+    "time": 30, 
+    "type": "weaponItem", 
+    "vipLimitNum": 3
+  }, 
+  "16": {
+    "cost": 12400, 
+    "costOrigin": 62000, 
+    "iconName": "icon_worth_wuqitao", 
+    "id": 16, 
+    "name": "武器套装", 
+    "num": 1.0, 
+    "time": 10, 
+    "type": "set", 
+    "vipLimitNum": 4
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="447" height="260" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableContainer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:UIAsset scale9Grid="55,53,337,324" height="260" source="dialog_popup"/>
+		<e:Rect x="28" fillColor="0x2C2930" y="66" width="394" height="80"/>
+		<e:UIAsset scaleY="2" scaleX="2" source="diamond" y="10" x="370"/>
+		<e:Label id="title" size="18" y="18" x="29" fontFamily="Arial" text="关注《疯狂游乐场》公众号"/>
+		<e:Label id="content" size="14" y="71" x="32" fontFamily="Arial" text="关注我们的公众号，可以玩更多好玩的游戏。\n更可获得100钻石~"/>
+		<e:Button id="closeBtn" skinName="@ButtonSkin('dialog_btn_blue','dialog_btn_blue','dialog_btn_blue')" y="171" label="好" x="236" fontFamily="Arial"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,9 @@
+{
+    "master": {
+        "host": "127.0.0.1",
+        "port": 18888,
+        "webport": 18889,
+        "interval": 500
+    },
+    "script": "/test/test-client.js"
+}

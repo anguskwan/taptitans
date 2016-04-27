@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="198" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group height="84" size="30" horizontalCenter="0" verticalCenter="-25">
+		<e:UIAsset scaleX="1" source="dps_info_bg" width="436" height="93" fillMode="scale" horizontalCenter="-5" verticalCenter="66.5"/>
+		<e:Label id="currDps" text="1111" bold="true" italic="true" textAlign="left" verticalAlign="middle" fontFamily="Arial" size="24" left="25" verticalCenter="37.5"/>
+		<e:Label id="tapDamage" italic="true" text="1111" bold="true" textAlign="left" verticalAlign="middle" fontFamily="Arial" size="24" left="244" verticalCenter="30.5"/>
+		<e:Label id="heroDps" italic="true" text="1111" textAlign="left" bold="true" verticalAlign="middle" fontFamily="Arial" size="24" left="238" verticalCenter="62.5"/>
+		<e:Label id="curRelic" italic="true" text="1111" textAlign="left" bold="true" verticalAlign="middle" size="17" fontFamily="Arial" left="44" verticalCenter="96.5"/>
+		<e:Label id="curCrystal" italic="true" text="1111" bold="true" verticalAlign="middle" textAlign="left" size="17" fontFamily="Arial" left="213" verticalCenter="96.5"/>
+		<e:Label id="curDiamond" italic="true" bold="true" verticalAlign="middle" text="1111111" textAlign="center" size="17" fontFamily="Arial" left="333" verticalCenter="96.5"/>
+		<e:Label text="目前 DPS" size="14" italic="true" fontFamily="Arial" bold="true" horizontalCenter="-169" verticalCenter="62"/>
+		<e:Label size="14" y="10" text="点击攻击力" bold="true" fontFamily="Arial" italic="true" right="24" verticalCenter="31"/>
+		<e:Label italic="true" size="14" y="20" text="英雄DPS" bold="true" fontFamily="Arial" right="30" verticalCenter="64"/>
+	</e:Group>
+	<e:Group id="groupTipsLabel" width="253" height="38" y="6" x="112">
+		<e:UIAsset source="attack_buff_label" scale9Grid="7,2,17,12" width="250" height="29" x="-9" y="5"/>
+		<e:Label text="攻击力提升100%剩余时间:" size="10" left="16" verticalCenter="1" fontFamily="Arial"/>
+		<e:Label id="lbl_remainTime" size="10" x="10" y="10" text="22:22:22" left="173" verticalCenter="1" fontFamily="Arial"/>
+	</e:Group>
+</e:Skin>

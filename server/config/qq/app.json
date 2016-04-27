@@ -1,0 +1,39 @@
+{
+    "main": {
+        "mongodb": ["localhost:27017"],
+        "mongodb_name": "taptitans",
+        "redis_counter": "27044397bdc540ac.m.cnqda.kvstore.aliyuncs.com|6379|27044397bdc540ac:Hortor82345168",
+        "redis_rank": "27044397bdc540ac.m.cnqda.kvstore.aliyuncs.com|6379|27044397bdc540ac:Hortor82345168",
+        "redis_login": "27044397bdc540ac.m.cnqda.kvstore.aliyuncs.com|6379|27044397bdc540ac:Hortor82345168",
+        "redis_wechat": "27044397bdc540ac.m.cnqda.kvstore.aliyuncs.com|6379|27044397bdc540ac:Hortor82345168",
+        "redis_dailyActive": "27044397bdc540ac.m.cnqda.kvstore.aliyuncs.com|6379|27044397bdc540ac:Hortor82345168",
+        "redis_share": "27044397bdc540ac.m.cnqda.kvstore.aliyuncs.com|6379|27044397bdc540ac:Hortor82345168",
+        "redis_dict": "27044397bdc540ac.m.cnqda.kvstore.aliyuncs.com|6379|27044397bdc540ac:Hortor82345168",
+        "mysql_channel": "secret:Hortor_82345168@tcp(gamecentertest.mysql.rds.aliyuncs.com:3306)/gamecenter?charset=utf8",
+        "connector1_host": "115.28.87.8",
+        "connector2_host": "115.28.87.8",
+        "connector3_host": "115.28.87.8",
+        "connector4_host": "115.28.87.8",
+        "connector5_host": "115.28.87.8",
+        "connector6_host": "115.28.87.8"
+    },
+    "web": {
+        "share_url": "http://qq.hortorgames.com/taptitans/share",
+        "index_url": "http://qq.hortorgames.com/taptitans/index",
+        "goldHill_url" : "http://goldenhill.hortorgames.com",
+        "api_port": 3003,
+        "admin_port": 3004
+    },
+    "auth": {
+        "secret": "hortorgames_brain_2014",
+        "wechat_app_id":"wxcce59e4f286a1207",
+        "wechat_app_secret":"622c6c1fb052dda48a34e2b5039069c7",
+        "client_domain": "http://h5.hortorgames.com"
+    },
+    "logger": {
+        "enable": true,
+        "host": "log.hortorgames.com",
+        "port": 12201,
+        "level": "info"
+    }
+}

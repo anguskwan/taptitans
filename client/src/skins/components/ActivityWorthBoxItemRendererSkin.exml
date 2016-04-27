@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="200" height="250" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.ItemRenderer"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="up"/>
+		<e:State name="down"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group horizontalCenter="0" verticalCenter="0" width="250">
+		<e:UIAsset source="activity_worth_img_title" x="42" y="0"/>
+		<e:Button id="btnBuy" skinName="@ButtonSkin('activity_worth_btn_buy','','activity_worth_btn_unable')" y="124" x="54"/>
+		<e:UIAsset id="iconImg" width="58" height="58" source="activity_worth_item_icon1" autoScale="true" scaleX="1.5" scaleY="1.5" x="65" y="37"/>
+		<e:Label id="descLbl" size="14" width="82" text="内容111" textColor="0xF9F5F0" textAlign="right" y="105" x="65" fontFamily="Arial" strokeColor="0x663C0E" stroke="1"/>
+		<e:Group width="103" height="25" y="127" x="79">
+			<e:UIAsset source="activity_worth_diamond_icon" touchEnabled="false" x="81" y="127"/>
+			<e:Label id="lblPrice" text="50" touchEnabled="false" strokeColor="0x663C0E" size="18" x="85" y="-27" fontFamily="Arial" textColor="0x7C5D35" bold="true"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Group horizontalCenter="-17" y="186" width="122">
+			<e:Label size="17" bold="true" textColor="0x7C5D35" fontFamily="Adobe 黑体 Std R" text="限购"/>
+			<e:Label id="lblRemainTimes" fontFamily="Arial" x="64" size="16" textColor="0x7C5D35" text="10"/>
+			<e:Label size="17" bold="true" x="50" y="10" textColor="0x7C5D35" text=" 次" fontFamily="Adobe 黑体 Std R"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="3"/>
+			</e:layout>
+		</e:Group>
+		<e:Group width="89" height="30" horizontalCenter="-17.5" y="7">
+			<e:Label id="lblTitle" verticalAlign="middle" textAlign="center" y="3" x="77" text="黄金风" stroke="2" strokeColor="0x7C5D35" fontFamily="Adobe 黑体 Std R" size="16"/>
+			<e:BitmapLabel x="48" y="16"/>
+			<e:layout>
+				<e:TileLayout horizontalAlign="center" verticalAlign="middle" columnAlign="justifyUsingWidth" rowAlign="justifyUsingGap"/>
+			</e:layout>
+		</e:Group>
+		<e:Group width="88" height="25" x="69" y="149">
+			<e:Label bold="true" y="10" x="26" size="15" text="原价" touchEnabled="false" textColor="0x7C5D35" fontFamily="Adobe 黑体 Std R"/>
+			<e:UIAsset width="20" height="20" x="106" y="152" source="diamond" touchEnabled="false"/>
+			<e:Label id="lblOriPrice" fontFamily="Arial" size="15" x="36" y="2" text="55" touchEnabled="false" textColor="0x7C5D35"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" horizontalAlign="left" gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="vipIcon" width="52" height="51" x="162" y="132">
+			<e:UIAsset id="VipBg" source="activity_worth_img_vip" x="0" y="0"/>
+		</e:Group>
+		<e:Group id="groupVip" height="35" width="40" x="162" y="134">
+			<e:Label id="lblVip" text="V1" y="4" size="13" x="9" fontFamily="Arial"/>
+			<e:Label size="13" x="16" y="14" text="可购" fontFamily="Arial"/>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" gap="0" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

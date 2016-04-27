@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableContainer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Rect fillAlpha="0.5" fillColor="0x000000" width="100%" height="100%" locked="true"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:UIAsset scale9Grid="55,53,337,324" height="360" source="dialog_popup"/>
+		<e:Rect x="28" fillColor="0x2C2930" width="394" height="50" y="101"/>
+		<e:Rect fillColor="0x2C2930" width="394" height="110" x="28" y="157"/>
+		<e:Button id="closeBtn" skinName="@ButtonSkin('dialog_btn_blue','dialog_btn_blue','dialog_btn_blue')" label="确定" horizontalCenter="0.5" y="278"/>
+		<e:UIAsset id="iconImg" width="58" height="58" x="29" y="26"/>
+		<e:Label id="equipLbl" size="18" text="装备名称" x="98" y="25"/>
+		<e:Label size="18" text="技能进化：" x="48" y="174"/>
+		<e:Label size="18" text="进化" x="38" y="119"/>
+		<e:Label id="currSkillDescLbl" size="16" textColor="0x858D8F" fontFamily="Arial" x="98" width="280" text="-" y="50"/>
+		<e:Label id="nextSkillDescLbl" textColor="0x858D8F" text="-" fontFamily="Arial" size="16" width="280" x="48" y="201"/>
+		<e:Label id="nextSkillTitleLbl" textColor="0x858D8F" text="-" fontFamily="Arial" size="16" x="134" y="173"/>
+		<e:Group y="121" horizontalCenter="20">
+			<e:Group id="currStarGroup" horizontalCenter="0.5" x="10" y="134">
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="center" gap="6"/>
+				</e:layout>
+			</e:Group>
+			<e:UIAsset source="equip_icon_lvstar" x="222" y="121"/>
+			<e:Group id="nextStarGroup" horizontalCenter="0.5" x="20" y="144">
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="center" gap="6"/>
+				</e:layout>
+			</e:Group>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" gap="10"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

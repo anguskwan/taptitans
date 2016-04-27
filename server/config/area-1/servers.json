@@ -1,0 +1,100 @@
+{
+	"gate":         [ { "id": "gate1", "host": "10.129.90.218", "clientPort": 13014, "frontend": true } ],
+	"connector":    [
+		{ "id": "connector101", "host": "10.129.90.218", "port": 14101, "clientHost":"42.96.173.183", "clientPort": 13101, "frontend": true, "cpu": 1 },
+		{ "id": "connector102", "host": "10.129.90.218", "port": 14102, "clientHost":"42.96.173.183", "clientPort": 13102, "frontend": true, "cpu": 2 },
+		{ "id": "connector103", "host": "10.129.90.218", "port": 14103, "clientHost":"42.96.173.183", "clientPort": 13103, "frontend": true, "cpu": 3 },
+		{ "id": "connector104", "host": "10.129.90.218", "port": 14104, "clientHost":"42.96.173.183", "clientPort": 13104, "frontend": true, "cpu": 4 },
+		{ "id": "connector105", "host": "10.129.90.218", "port": 14105, "clientHost":"42.96.173.183", "clientPort": 13105, "frontend": true, "cpu": 5 },
+		{ "id": "connector106", "host": "10.129.90.218", "port": 14106, "clientHost":"42.96.173.183", "clientPort": 13106, "frontend": true, "cpu": 6 },
+		{ "id": "connector107", "host": "10.129.90.218", "port": 14107, "clientHost":"42.96.173.183", "clientPort": 13107, "frontend": true, "cpu": 7 },
+		{ "id": "connector108", "host": "10.129.90.218", "port": 14108, "clientHost":"42.96.173.183", "clientPort": 13108, "frontend": true, "cpu": 8 },
+		{ "id": "connector109", "host": "10.129.90.218", "port": 14109, "clientHost":"42.96.173.183", "clientPort": 13109, "frontend": true, "cpu": 9 },
+		{ "id": "connector110", "host": "10.129.90.218", "port": 14110, "clientHost":"42.96.173.183", "clientPort": 13110, "frontend": true, "cpu": 10 }
+	],
+	"player": [
+		{ "id": "player201", "host": "10.163.232.152", "port": 16201, "auto-restart": true, "restart-force": true, "cpu": 1 },
+		{ "id": "player202", "host": "10.163.232.152", "port": 16202, "auto-restart": true, "restart-force": true, "cpu": 2 },
+		{ "id": "player203", "host": "10.163.232.152", "port": 16203, "auto-restart": true, "restart-force": true, "cpu": 3 },
+		{ "id": "player204", "host": "10.163.232.152", "port": 16204, "auto-restart": true, "restart-force": true, "cpu": 4 },
+		{ "id": "player205", "host": "10.163.232.152", "port": 16205, "auto-restart": true, "restart-force": true, "cpu": 5 },
+		{ "id": "player206", "host": "10.163.232.152", "port": 16206, "auto-restart": true, "restart-force": true, "cpu": 6 },
+		{ "id": "player207", "host": "10.163.232.152", "port": 16207, "auto-restart": true, "restart-force": true, "cpu": 7 },
+		{ "id": "player208", "host": "10.163.232.152", "port": 16208, "auto-restart": true, "restart-force": true, "cpu": 8 },
+		{ "id": "player209", "host": "10.163.232.152", "port": 16209, "auto-restart": true, "restart-force": true, "cpu": 9 },
+		{ "id": "player210", "host": "10.163.232.152", "port": 16210, "auto-restart": true, "restart-force": true, "cpu": 10},
+		{ "id": "player211", "host": "10.163.232.152", "port": 16211, "auto-restart": true, "restart-force": true, "cpu": 11},
+		{ "id": "player212", "host": "10.163.232.152", "port": 16212, "auto-restart": true, "restart-force": true, "cpu": 12},
+		{ "id": "player213", "host": "10.163.232.152", "port": 16213, "auto-restart": true, "restart-force": true, "cpu": 13},
+		{ "id": "player214", "host": "10.163.232.152", "port": 16214, "auto-restart": true, "restart-force": true, "cpu": 14},
+		{ "id": "player215", "host": "10.163.232.152", "port": 16215, "auto-restart": true, "restart-force": true, "cpu": 15},
+
+		{ "id": "player401", "host": "10.163.126.209", "port": 16401, "auto-restart": true, "restart-force": true, "cpu": 1 },
+		{ "id": "player402", "host": "10.163.126.209", "port": 16402, "auto-restart": true, "restart-force": true, "cpu": 2 },
+		{ "id": "player403", "host": "10.163.126.209", "port": 16403, "auto-restart": true, "restart-force": true, "cpu": 3 },
+		{ "id": "player404", "host": "10.163.126.209", "port": 16404, "auto-restart": true, "restart-force": true, "cpu": 4 },
+		{ "id": "player405", "host": "10.163.126.209", "port": 16405, "auto-restart": true, "restart-force": true, "cpu": 5 },
+		{ "id": "player406", "host": "10.163.126.209", "port": 16406, "auto-restart": true, "restart-force": true, "cpu": 6 },
+		{ "id": "player407", "host": "10.163.126.209", "port": 16407, "auto-restart": true, "restart-force": true, "cpu": 7 },
+		{ "id": "player408", "host": "10.163.126.209", "port": 16408, "auto-restart": true, "restart-force": true, "cpu": 8 },
+		{ "id": "player409", "host": "10.163.126.209", "port": 16409, "auto-restart": true, "restart-force": true, "cpu": 9 },
+		{ "id": "player410", "host": "10.163.126.209", "port": 16410, "auto-restart": true, "restart-force": true, "cpu": 10},
+		{ "id": "player411", "host": "10.163.126.209", "port": 16411, "auto-restart": true, "restart-force": true, "cpu": 11},
+		{ "id": "player412", "host": "10.163.126.209", "port": 16412, "auto-restart": true, "restart-force": true, "cpu": 12},
+		{ "id": "player413", "host": "10.163.126.209", "port": 16413, "auto-restart": true, "restart-force": true, "cpu": 13},
+		{ "id": "player414", "host": "10.163.126.209", "port": 16414, "auto-restart": true, "restart-force": true, "cpu": 14},
+		{ "id": "player415", "host": "10.163.126.209", "port": 16415, "auto-restart": true, "restart-force": true, "cpu": 15},
+
+		{ "id": "player501", "host": "10.163.247.97", "port": 16501, "auto-restart": true, "restart-force": true, "cpu": 1 },
+		{ "id": "player502", "host": "10.163.247.97", "port": 16502, "auto-restart": true, "restart-force": true, "cpu": 2 },
+		{ "id": "player503", "host": "10.163.247.97", "port": 16503, "auto-restart": true, "restart-force": true, "cpu": 3 },
+		{ "id": "player504", "host": "10.163.247.97", "port": 16504, "auto-restart": true, "restart-force": true, "cpu": 4 },
+		{ "id": "player505", "host": "10.163.247.97", "port": 16505, "auto-restart": true, "restart-force": true, "cpu": 5 },
+		{ "id": "player506", "host": "10.163.247.97", "port": 16506, "auto-restart": true, "restart-force": true, "cpu": 6 },
+		{ "id": "player507", "host": "10.163.247.97", "port": 16507, "auto-restart": true, "restart-force": true, "cpu": 7 },
+		{ "id": "player508", "host": "10.163.247.97", "port": 16508, "auto-restart": true, "restart-force": true, "cpu": 8 },
+		{ "id": "player509", "host": "10.163.247.97", "port": 16509, "auto-restart": true, "restart-force": true, "cpu": 9 },
+		{ "id": "player510", "host": "10.163.247.97", "port": 16510, "auto-restart": true, "restart-force": true, "cpu": 10},
+		{ "id": "player511", "host": "10.163.247.97", "port": 16511, "auto-restart": true, "restart-force": true, "cpu": 11},
+		{ "id": "player512", "host": "10.163.247.97", "port": 16512, "auto-restart": true, "restart-force": true, "cpu": 12},
+		{ "id": "player513", "host": "10.163.247.97", "port": 16513, "auto-restart": true, "restart-force": true, "cpu": 13},
+		{ "id": "player514", "host": "10.163.247.97", "port": 16514, "auto-restart": true, "restart-force": true, "cpu": 14},
+		{ "id": "player515", "host": "10.163.247.97", "port": 16515, "auto-restart": true, "restart-force": true, "cpu": 15},
+
+		{ "id": "player601", "host": "10.251.55.63", "port": 16601, "auto-restart": true, "restart-force": true, "cpu": 1 },
+		{ "id": "player602", "host": "10.251.55.63", "port": 16602, "auto-restart": true, "restart-force": true, "cpu": 2 },
+		{ "id": "player603", "host": "10.251.55.63", "port": 16603, "auto-restart": true, "restart-force": true, "cpu": 3 },
+		{ "id": "player604", "host": "10.251.55.63", "port": 16604, "auto-restart": true, "restart-force": true, "cpu": 4 },
+		{ "id": "player605", "host": "10.251.55.63", "port": 16605, "auto-restart": true, "restart-force": true, "cpu": 5 },
+		{ "id": "player606", "host": "10.251.55.63", "port": 16606, "auto-restart": true, "restart-force": true, "cpu": 6 },
+		{ "id": "player607", "host": "10.251.55.63", "port": 16607, "auto-restart": true, "restart-force": true, "cpu": 7 },
+		{ "id": "player608", "host": "10.251.55.63", "port": 16608, "auto-restart": true, "restart-force": true, "cpu": 8 },
+		{ "id": "player609", "host": "10.251.55.63", "port": 16609, "auto-restart": true, "restart-force": true, "cpu": 9 },
+		{ "id": "player610", "host": "10.251.55.63", "port": 16610, "auto-restart": true, "restart-force": true, "cpu": 10},
+		{ "id": "player611", "host": "10.251.55.63", "port": 16611, "auto-restart": true, "restart-force": true, "cpu": 11},
+		{ "id": "player612", "host": "10.251.55.63", "port": 16612, "auto-restart": true, "restart-force": true, "cpu": 12},
+		{ "id": "player613", "host": "10.251.55.63", "port": 16613, "auto-restart": true, "restart-force": true, "cpu": 13},
+		{ "id": "player614", "host": "10.251.55.63", "port": 16614, "auto-restart": true, "restart-force": true, "cpu": 14},
+		{ "id": "player615", "host": "10.251.55.63", "port": 16615, "auto-restart": true, "restart-force": true, "cpu": 15}
+	],
+	"pk": [
+		{ "id": "pk1", "host": "10.129.90.218", "port": 17050, "auto-restart": true, "restart-force": true},
+		{ "id": "pk2", "host": "10.129.90.218", "port": 17051, "auto-restart": true, "restart-force": true},
+		{ "id": "pk3", "host": "10.129.90.218", "port": 17052, "auto-restart": true, "restart-force": true},
+		{ "id": "pk4", "host": "10.129.90.218", "port": 17053, "auto-restart": true, "restart-force": true}
+	],
+	"activity": [
+		{ "id": "activity1", "host": "10.129.90.218", "port": 19060, "auto-restart": true, "restart-force": true }
+	],
+	"rank": [
+		{ "id": "rank1", "host": "10.129.90.218", "port": 15050, "auto-restart": true, "restart-force": true},
+		{ "id": "rank2", "host": "10.129.90.218", "port": 15051, "auto-restart": true, "restart-force": true}
+	],
+	"manage": [ { "id": "manage1", "host": "10.129.90.218", "port": 19050, "auto-restart": true, "restart-force": true }
+	],
+	"guild":  [
+		{ "id": "guild1", "host": "10.129.90.218", "port": 18050, "auto-restart": true, "restart-force": true},
+		{ "id": "guild2", "host": "10.129.90.218", "port": 18051, "auto-restart": true, "restart-force": true},
+		{ "id": "guild3", "host": "10.129.90.218", "port": 18052, "auto-restart": true, "restart-force": true}
+	]
+}

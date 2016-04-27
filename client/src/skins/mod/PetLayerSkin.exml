@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="62" height="220" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group id="pwtGroup" width="71" height="74" x="-1" y="160">
+		<e:Button id="shareBtn" skinName="@ButtonSkin('sharewx','sharewx','sharewx')" width="71" x="0" height="74" y="-150"/>
+		<e:UIAsset id="icon" source="tip_big_task" y="-34" x="19"/>
+	</e:Group>
+</e:Skin>

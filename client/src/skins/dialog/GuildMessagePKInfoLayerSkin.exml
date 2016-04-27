@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group height="100%" width="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Rect y="10" horizontalCenter="0" x="10" fillColor="0x765F40" width="100%" bottom="0" height="100%"/>
+		<e:Button skinName="@ButtonSkin('guild_btn_close','guild_btn_close','guild_btn_close')" id="closeBtn" x="20" y="20" right="14" top="9"/>
+		<e:Group width="100%" height="100%">
+			<e:Rect fillColor="0x4E361F" y="58" width="465" horizontalCenter="0" height="400"/>
+			<e:Rect fillColor="0x4E361F" width="465" height="220" x="10" y="468" horizontalCenter="0.5"/>
+			<e:Label id="titleLbl" y="24" textColor="0xF7DDB9" fontFamily="Arial" size="24" horizontalCenter="0" bold="true"/>
+			<e:BitmapLabel scaleY="1.6" id="scoreLbl" font="font_white_fnt" scaleX="1.6" text="0:0" horizontalCenter="-0.19999999999998863" y="73"/>
+			<uiskins:GuildBadgeItem id="iconLeftImg" scaleY="0.67" skinName="skins.components.GuildBadgeItemSkin" scaleX="0.67" y="158" left="100"/>
+			<e:Label id="nameLeftLbl" fontFamily="Arial" textAlign="center" size="18" verticalAlign="middle" bold="true" text="公会" y="232" horizontalCenter="-109"/>
+			<e:Label id="warLeftLbl" textColor="0xB49268" fontFamily="Arial" size="20" bold="true" x="20" y="124" horizontalCenter="-109"/>
+			<e:Group y="334" x="110">
+				<e:layout>
+					<e:HorizontalLayout gap="1" verticalAlign="middle" horizontalAlign="center"/>
+				</e:layout>
+				<e:Label verticalCenter="0" textColor="0xFFFFFF" text="剩余英雄：" fontFamily="Arial" textAlign="center" verticalAlign="middle" bold="true" x="15" size="18"/>
+				<e:Label id="aliveHeroLeftLbl" verticalCenter="0" text="0" fontFamily="Arial" textAlign="center" y="20" textColor="0xFF0000" verticalAlign="middle" bold="true" x="35" size="18"/>
+			</e:Group>
+			<e:Group height="28" x="110" y="268">
+				<e:layout>
+					<e:HorizontalLayout gap="3" verticalAlign="middle" horizontalAlign="center"/>
+				</e:layout>
+				<e:UIAsset fillMode="scale" verticalCenter="0" x="374" source="guild_icon_att" autoScale="true"/>
+				<e:Label id="attLeftLbl" textColor="0x30BBE8" text="0" fontFamily="Arial" textAlign="center" size="18" verticalCenter="0" verticalAlign="middle" bold="true" x="15"/>
+			</e:Group>
+			<e:Group height="28" x="110" y="300">
+				<e:layout>
+					<e:HorizontalLayout gap="3" verticalAlign="middle" horizontalAlign="center"/>
+				</e:layout>
+				<e:UIAsset fillMode="scale" source="guild_tip_member" verticalCenter="0" autoScale="true" x="374"/>
+				<e:Label id="memberLeftLbl" textColor="0x25FF3A" text="0/10" fontFamily="Arial" textAlign="center" size="18" verticalCenter="0" verticalAlign="middle" bold="true" x="15"/>
+			</e:Group>
+			<uiskins:GuildBadgeItem id="iconRightImg" scaleY="0.67" skinName="skins.components.GuildBadgeItemSkin" scaleX="0.67" y="158" right="100"/>
+			<e:Label id="nameRightLbl" text="公会" fontFamily="Arial" textAlign="center" size="18" verticalAlign="middle" bold="true" y="232" horizontalCenter="112"/>
+			<e:Label id="warRightLbl" textColor="0xB49268" fontFamily="Arial" size="20" bold="true" x="30" y="124" horizontalCenter="110"/>
+			<e:Group x="331" y="334">
+				<e:layout>
+					<e:HorizontalLayout gap="1" verticalAlign="middle" horizontalAlign="center"/>
+				</e:layout>
+				<e:Label verticalCenter="0" textColor="0xFFFFFF" text="剩余英雄：" fontFamily="Arial" textAlign="center" size="18" verticalAlign="middle" bold="true" x="15"/>
+				<e:Label id="aliveHeroRightLbl" y="20" text="0" fontFamily="Arial" textAlign="center" size="18" verticalCenter="0" textColor="0xFF0000" verticalAlign="middle" bold="true" x="35"/>
+			</e:Group>
+			<e:Group height="28" x="331" y="268">
+				<e:layout>
+					<e:HorizontalLayout gap="3" verticalAlign="middle" horizontalAlign="center"/>
+				</e:layout>
+				<e:UIAsset fillMode="scale" verticalCenter="0" x="374" autoScale="true" source="guild_icon_att"/>
+				<e:Label id="attRightLbl" textColor="0x30BBE8" text="0" fontFamily="Arial" textAlign="center" size="18" verticalCenter="0" verticalAlign="middle" bold="true" x="15"/>
+			</e:Group>
+			<e:Group height="28" x="331" y="300">
+				<e:layout>
+					<e:HorizontalLayout gap="3" verticalAlign="middle" horizontalAlign="center"/>
+				</e:layout>
+				<e:UIAsset fillMode="scale" autoScale="true" verticalCenter="0" source="guild_tip_member" x="374"/>
+				<e:Label id="memberRightLbl" textColor="0x25FF3A" text="0/10" fontFamily="Arial" textAlign="center" size="18" verticalCenter="0" verticalAlign="middle" bold="true" x="15"/>
+			</e:Group>
+			<e:Label fontFamily="Arial" bold="true" x="10" y="484" horizontalCenter="-169.5" text="战争红利:" size="20" textColor="0xB49268"/>
+			<e:Label text="小提示：公会人数越多，越容易取得胜利！" y="708" size="18" fontFamily="Arial" bold="true" verticalAlign="middle" textAlign="center" horizontalCenter="0"/>
+			<e:Label id="crystalLbl" fontFamily="Arial" textAlign="center" size="18" verticalAlign="middle" bold="true" x="10" y="590" horizontalCenter="0" text="0"/>
+			<e:UIAsset source="icon_crystal" y="526" horizontalCenter="0"/>
+			<e:Group height="40" width="100" x="40" horizontalCenter="0" y="622">
+				<e:Button id="getRewardBtn" horizontalCenter="0" verticalCenter="0" width="100" height="40" skinName="@ButtonSkin('dialog_btn_yellow','dialog_btn_yellow','dialog_btn_disabled')" enabled="false"/>
+				<e:Label verticalCenter="0" fontFamily="Arial" size="20" touchEnabled="false" horizontalCenter="0" text="领取"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

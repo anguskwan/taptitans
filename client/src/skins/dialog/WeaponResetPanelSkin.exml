@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="447" height="700" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableContainer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group width="447" height="700" horizontalCenter="0" verticalCenter="0">
+		<e:UIAsset source="dialog_popup" scale9Grid="55,53,337,324" height="700"/>
+		<e:Button skinName="@ButtonSkin('dialog_btn_cha_close','dialog_btn_cha_close','dialog_btn_cha_close')" id="closeBtn" right="20" top="14"/>
+		<e:Label fontFamily="Arial" bold="true" verticalAlign="middle" textAlign="left" size="26" left="39" top="17" text="请选择要洗的武器"/>
+		<e:Label fontFamily="Arial" textAlign="left" verticalAlign="middle" bold="true" size="16" y="55" text="牺牲1个现有的武器，你可以重新获得1次抽取\n武器的机会。" horizontalCenter="-21"/>
+		<e:Group width="360" height="90" horizontalCenter="0.5" y="104">
+			<e:Label id="unSelectLbl" fontFamily="Arial" textAlign="left" verticalAlign="middle" bold="true" verticalCenter="0" horizontalCenter="0" text="选择武器以查看更多信息" size="16"/>
+			<e:Group id="selectGroup" width="360" height="100" verticalCenter="0" horizontalCenter="0" visible="false">
+				<e:Label id="levelLbl" verticalAlign="middle" fontFamily="Arial" textAlign="left" bold="true" text="武器升级：100" x="93" y="19" size="16"/>
+				<e:Label id="nameLbl" fontFamily="Arial" textAlign="left" verticalAlign="middle" bold="true" size="16" text="名字" left="143" y="44"/>
+				<e:Label id="dpsLbl" fontFamily="Arial" textAlign="left" verticalAlign="middle" bold="true" text="+5000%攻击力" size="16" left="143" y="68"/>
+				<e:UIAsset id="weaponImg" source="heroskill1_1" verticalCenter="7" x="23"/>
+				<e:UIAsset id="heroImg" source="hero1" scaleX="0.7" scaleY="0.7" x="95" y="44"/>
+				<e:Group id="resetGroupTotal" width="120" height="26" x="10" horizontalCenter="122" y="60">
+					<e:Rect y="0" width="100%" fillColor="0x000000" x="0" fillAlpha="0.21" height="100%"/>
+					<e:Label x="2" text="现有:" fontFamily="Arial" textAlign="left" verticalAlign="middle" size="14" top="0" bottom="0" bold="true"/>
+					<e:Group touchEnabled="false" touchChildren="false" verticalCenter="0" width="80" x="40">
+						<e:UIAsset scaleY="0.6" scaleX="0.6" source="crystal"/>
+						<e:Label id="lblTotal" size="14" text="333333" bold="true" fontFamily="Arial"/>
+						<e:layout>
+							<e:HorizontalLayout verticalAlign="middle" horizontalAlign="left" gap="0"/>
+						</e:layout>
+					</e:Group>
+				</e:Group>
+				<e:Group id="resetGroup" horizontalCenter="121" y="8">
+					<e:Button id="resetBtn" fontFamily="Arial" width="120" skinName="@ButtonSkin('dialog_btn_red','dialog_btn_red','dialog_btn_red')" bold="true" height="50"/>
+					<e:Group touchEnabled="false" touchChildren="false" y="25" horizontalCenter="0">
+						<e:layout>
+							<e:HorizontalLayout gap="0" verticalAlign="middle" horizontalAlign="center"/>
+						</e:layout>
+						<e:UIAsset scaleY="0.6" scaleX="0.6" source="crystal"/>
+						<e:Label id="crystalLbl" size="14" text="0" bold="true" fontFamily="Arial"/>
+					</e:Group>
+					<e:Label fontFamily="Arial" textAlign="center" size="18" verticalAlign="middle" touchEnabled="false" horizontalCenter="0" y="4" text="洗1个武器"/>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+		<e:Rect fillColor="0x2C2930" width="322" height="436" x="61" y="192"/>
+		<e:Group width="312" height="426" horizontalCenter="0.5" y="198">
+			<uiskins:WeaponItemSelect id="selectItem1" skinName="skins.components.WeaponItemSelectSkin"/>
+			<uiskins:WeaponItemSelect id="selectItem2" skinName="skins.components.WeaponItemSelectSkin" x="64"/>
+			<uiskins:WeaponItemSelect id="selectItem3" skinName="skins.components.WeaponItemSelectSkin" x="128"/>
+			<uiskins:WeaponItemSelect id="selectItem4" skinName="skins.components.WeaponItemSelectSkin" x="192"/>
+			<uiskins:WeaponItemSelect id="selectItem5" skinName="skins.components.WeaponItemSelectSkin" x="256"/>
+			<uiskins:WeaponItemSelect id="selectItem6" skinName="skins.components.WeaponItemSelectSkin" y="62"/>
+			<uiskins:WeaponItemSelect id="selectItem7" skinName="skins.components.WeaponItemSelectSkin" x="64" y="62"/>
+			<uiskins:WeaponItemSelect id="selectItem8" skinName="skins.components.WeaponItemSelectSkin" x="128" y="62"/>
+			<uiskins:WeaponItemSelect id="selectItem9" skinName="skins.components.WeaponItemSelectSkin" x="192" y="62"/>
+			<uiskins:WeaponItemSelect id="selectItem10" skinName="skins.components.WeaponItemSelectSkin" x="256" y="62"/>
+			<uiskins:WeaponItemSelect id="selectItem11" skinName="skins.components.WeaponItemSelectSkin" y="124"/>
+			<uiskins:WeaponItemSelect id="selectItem12" skinName="skins.components.WeaponItemSelectSkin" x="64" y="124"/>
+			<uiskins:WeaponItemSelect id="selectItem13" skinName="skins.components.WeaponItemSelectSkin" x="128" y="124"/>
+			<uiskins:WeaponItemSelect id="selectItem14" skinName="skins.components.WeaponItemSelectSkin" x="192" y="124"/>
+			<uiskins:WeaponItemSelect id="selectItem15" skinName="skins.components.WeaponItemSelectSkin" x="256" y="124"/>
+			<uiskins:WeaponItemSelect id="selectItem16" skinName="skins.components.WeaponItemSelectSkin" y="186"/>
+			<uiskins:WeaponItemSelect id="selectItem17" skinName="skins.components.WeaponItemSelectSkin" x="64" y="186"/>
+			<uiskins:WeaponItemSelect id="selectItem18" skinName="skins.components.WeaponItemSelectSkin" x="128" y="186"/>
+			<uiskins:WeaponItemSelect id="selectItem19" skinName="skins.components.WeaponItemSelectSkin" x="192" y="186"/>
+			<uiskins:WeaponItemSelect id="selectItem20" skinName="skins.components.WeaponItemSelectSkin" x="256" y="186"/>
+			<uiskins:WeaponItemSelect id="selectItem21" skinName="skins.components.WeaponItemSelectSkin" y="248"/>
+			<uiskins:WeaponItemSelect id="selectItem22" skinName="skins.components.WeaponItemSelectSkin" x="64" y="248"/>
+			<uiskins:WeaponItemSelect id="selectItem23" skinName="skins.components.WeaponItemSelectSkin" x="128" y="248"/>
+			<uiskins:WeaponItemSelect id="selectItem24" skinName="skins.components.WeaponItemSelectSkin" x="192" y="248"/>
+			<uiskins:WeaponItemSelect id="selectItem25" skinName="skins.components.WeaponItemSelectSkin" x="256" y="248"/>
+			<uiskins:WeaponItemSelect id="selectItem26" skinName="skins.components.WeaponItemSelectSkin" y="310"/>
+			<uiskins:WeaponItemSelect id="selectItem27" skinName="skins.components.WeaponItemSelectSkin" x="64" y="310"/>
+			<uiskins:WeaponItemSelect id="selectItem28" skinName="skins.components.WeaponItemSelectSkin" x="128" y="310"/>
+			<uiskins:WeaponItemSelect id="selectItem29" skinName="skins.components.WeaponItemSelectSkin" x="192" y="310"/>
+			<uiskins:WeaponItemSelect id="selectItem30" skinName="skins.components.WeaponItemSelectSkin" x="256" y="310"/>
+			<uiskins:WeaponItemSelect id="selectItem31" skinName="skins.components.WeaponItemSelectSkin" x="64" y="372"/>
+			<uiskins:WeaponItemSelect id="selectItem32" skinName="skins.components.WeaponItemSelectSkin" x="128" y="372"/>
+			<uiskins:WeaponItemSelect id="selectItem33" skinName="skins.components.WeaponItemSelectSkin" x="192" y="372"/>
+		</e:Group>
+		<e:Group horizontalCenter="0" y="632">
+			<e:Label text="你有" verticalCenter="0" size="20" fontFamily="Arial" bold="true" verticalAlign="middle" textAlign="left"/>
+			<e:Label id="currLevelLbl" verticalCenter="0" fontFamily="Arial" verticalAlign="middle" size="20" bold="true" textAlign="left" x="10" y="10" text="0" textColor="0x00A1FE"/>
+			<e:Label bold="true" fontFamily="Arial" verticalAlign="middle" textAlign="left" size="20" verticalCenter="0" x="20" y="20" text="全套:"/>
+			<e:Label id="currDPSLbl" verticalCenter="0" fontFamily="Arial" verticalAlign="middle" size="20" bold="true" textAlign="left" x="30" y="30" textColor="0x00A1FE" text="英雄DPS x0"/>
+			<e:layout>
+				<e:HorizontalLayout gap="0" horizontalAlign="center"/>
+			</e:layout>
+		</e:Group>
+		<e:Group horizontalCenter="0" y="660">
+			<e:Label verticalCenter="0" fontFamily="Arial" verticalAlign="middle" bold="true" textAlign="left" text="升级所有武器级" size="14"/>
+			<e:Label id="nextLevelLbl" y="10" textColor="0x00A1FE" bold="true" text="0" fontFamily="Arial" verticalAlign="middle" textAlign="left" verticalCenter="0" x="10" size="14"/>
+			<e:Label x="20" verticalCenter="0" y="20" fontFamily="Arial" verticalAlign="middle" bold="true" textAlign="left" text="为" size="14"/>
+			<e:Label id="nextDPSLbl" y="30" textColor="0x00A1FE" bold="true" fontFamily="Arial" verticalAlign="middle" textAlign="left" verticalCenter="0" x="30" text="英雄DPS x0" size="14"/>
+			<e:layout>
+				<e:HorizontalLayout gap="0" horizontalAlign="center"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

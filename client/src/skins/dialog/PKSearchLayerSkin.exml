@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Rect height="100%" width="100%" horizontalCenter="0" bottom="0" fillColor="0x4B4253" x="20" y="20"/>
+		<e:UIAsset id="bgImg" width="100%" height="100%"/>
+		<e:Group width="100%" height="100">
+			<e:UIAsset source="dialog_popup" scale9Grid="55,53,337,324" verticalAlign="middle" width="100%" height="100" horizontalCenter="0" top="0"/>
+			<e:Button id="btnBack" skinName="@ButtonSkin('dialog_btn_cha_close','dialog_btn_cha_close','dialog_btn_cha_close')" right="20" top="11"/>
+			<uiskins:PKMoraleProgressGroup id="progressGroup" y="8" skinName="skins.components.PKMoraleProgressGroupSkin"/>
+		</e:Group>
+		<e:Rect fillColor="0x2C2930" width="114" height="114" x="70" y="157"/>
+		<e:Rect width="114" height="114" fillColor="0x2C2930" x="296" y="157"/>
+		<e:UIAsset source="pk_vs" x="190" y="188"/>
+		<e:UIAsset id="iconOppImg" width="100" source="icon_default" height="100" x="303" y="163"/>
+		<e:UIAsset id="iconSelfImg" source="icon_default" width="100" height="100" x="77" y="163"/>
+		<e:UIAsset id="glassImg" source="pk_glass" x="357" y="114" visible="false"/>
+		<e:Group width="200" height="100" y="318" x="26">
+			<e:Label text="攻击力：" fontFamily="Arial" textAlign="center" verticalAlign="middle" size="18" x="24" y="11"/>
+			<e:Label text="武器：" fontFamily="Arial" textAlign="center" verticalAlign="middle" size="18" x="42" y="40"/>
+			<e:Group height="28" y="9" left="101">
+				<e:UIAsset verticalCenter="0" autoScale="true" fillMode="scale" x="374" source="pk_icon_pk"/>
+				<e:Label id="attSelfLbl" verticalCenter="0" verticalAlign="middle" fontFamily="Arial" textAlign="center" size="18" bold="true" x="15" textColor="0x30BBE8" text="0"/>
+				<e:layout>
+					<e:HorizontalLayout gap="3" verticalAlign="middle" horizontalAlign="center"/>
+				</e:layout>
+			</e:Group>
+			<e:Group height="28" y="37" left="101">
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="center" gap="3" verticalAlign="middle"/>
+				</e:layout>
+				<e:UIAsset verticalCenter="0" autoScale="true" fillMode="scale" x="374" source="icon_lvup_weapon" width="24" height="24"/>
+				<e:Label id="weaponSelfLbl" verticalCenter="0" textColor="0x30BBE8" verticalAlign="middle" fontFamily="Arial" textAlign="center" size="18" bold="true" x="15" text="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Group width="200" height="100" y="318" x="253">
+			<e:Label fontFamily="Arial" textAlign="center" size="18" verticalAlign="middle" text="攻击力：" x="24" y="11"/>
+			<e:Label fontFamily="Arial" textAlign="center" size="18" verticalAlign="middle" y="40" text="武器：" x="42"/>
+			<e:Group height="28" y="9" left="101">
+				<e:UIAsset verticalCenter="0" autoScale="true" source="pk_icon_pk" fillMode="scale" x="374"/>
+				<e:Label id="attOppLbl" verticalCenter="0" textColor="0x30BBE8" verticalAlign="middle" fontFamily="Arial" textAlign="center" size="18" bold="true" x="15" text="0"/>
+				<e:layout>
+					<e:HorizontalLayout gap="3" horizontalAlign="center" verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+			<e:Group height="28" left="101" y="37">
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="center" gap="3" verticalAlign="middle"/>
+				</e:layout>
+				<e:UIAsset verticalCenter="0" autoScale="true" source="icon_lvup_weapon" x="374" fillMode="scale" width="24" height="24"/>
+				<e:Label id="weaponOppLbl" verticalCenter="0" textColor="0x30BBE8" verticalAlign="middle" fontFamily="Arial" textAlign="center" size="18" bold="true" x="15" text="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="resetGroup" x="16" y="617" touchEnabled="false" visible="false">
+			<e:Button id="resetBtn" width="220" skinName="@ButtonSkin('dialog_btn_red','dialog_btn_red','dialog_btn_disabled')" enabled="false"/>
+			<e:Label text="重新匹配 -1" fontFamily="Arial" size="24" verticalAlign="middle" textAlign="center" x="32" verticalCenter="0" touchEnabled="false"/>
+			<e:UIAsset source="morale" x="164" verticalCenter="0" touchEnabled="false"/>
+		</e:Group>
+		<e:Group id="startGroup" x="244" y="617" touchEnabled="false" visible="false">
+			<e:Button id="startBtn" width="220" skinName="@ButtonSkin('dialog_btn_blue','dialog_btn_blue','dialog_btn_disabled')" fontFamily="Arial" textAlign="center" verticalAlign="middle" size="24" enabled="false"/>
+			<e:Label fontFamily="Arial" textAlign="center" size="24" verticalAlign="middle" text="开始对战" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+		</e:Group>
+		<e:Label id="nameSelfLbl" y="284" size="18" fontFamily="Arial" bold="true" textAlign="center" verticalAlign="middle" horizontalCenter="-114" text="英雄"/>
+		<e:Label id="nameOppLbl" fontFamily="Arial" size="18" verticalAlign="middle" bold="true" textAlign="center" x="10" y="284" horizontalCenter="112" text="英雄"/>
+		<e:Label verticalAlign="middle" fontFamily="Arial" textAlign="center" size="18" bold="true" y="694" horizontalCenter="0" text="Tips:PK可获得装备经验和装备碎片"/>
+	</e:Group>
+</e:Skin>

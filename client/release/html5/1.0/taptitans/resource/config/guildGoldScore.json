@@ -1,0 +1,114 @@
+{
+  "1": {
+    "crystal": 500, 
+    "fragment": 40, 
+    "id": 1, 
+    "rank": [
+      1
+    ]
+  }, 
+  "2": {
+    "crystal": 300, 
+    "fragment": 30, 
+    "id": 2, 
+    "rank": [
+      2
+    ]
+  }, 
+  "3": {
+    "crystal": 250, 
+    "fragment": 25, 
+    "id": 3, 
+    "rank": [
+      3
+    ]
+  }, 
+  "4": {
+    "crystal": 200, 
+    "fragment": 20, 
+    "id": 4, 
+    "rank": [
+      4
+    ]
+  }, 
+  "5": {
+    "crystal": 150, 
+    "fragment": 15, 
+    "id": 5, 
+    "rank": [
+      5
+    ]
+  }, 
+  "6": {
+    "crystal": 100, 
+    "fragment": 10, 
+    "id": 6, 
+    "rank": [
+      6, 
+      10
+    ]
+  }, 
+  "7": {
+    "crystal": 90, 
+    "fragment": 9, 
+    "id": 7, 
+    "rank": [
+      11, 
+      20
+    ]
+  }, 
+  "8": {
+    "crystal": 80, 
+    "fragment": 8, 
+    "id": 8, 
+    "rank": [
+      21, 
+      50
+    ]
+  }, 
+  "9": {
+    "crystal": 70, 
+    "fragment": 7, 
+    "id": 9, 
+    "rank": [
+      51, 
+      100
+    ]
+  }, 
+  "10": {
+    "crystal": 60, 
+    "fragment": 6, 
+    "id": 10, 
+    "rank": [
+      101, 
+      160
+    ]
+  }, 
+  "11": {
+    "crystal": 50, 
+    "fragment": 5, 
+    "id": 11, 
+    "rank": [
+      161, 
+      200
+    ]
+  }, 
+  "12": {
+    "crystal": 40, 
+    "fragment": 4, 
+    "id": 12, 
+    "rank": [
+      201, 
+      300
+    ]
+  }, 
+  "13": {
+    "crystal": 20, 
+    "fragment": 2, 
+    "id": 13, 
+    "rank": [
+      301, 
+      500
+    ]
+  }
+}

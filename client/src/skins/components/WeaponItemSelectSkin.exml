@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="54" height="54" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="54" height="54" horizontalCenter="0" verticalCenter="0" touchChildren="false" touchEnabled="false">
+		<e:Rect id="selectRect" width="54" height="54" verticalCenter="0" horizontalCenter="0"/>
+		<e:UIAsset id="iconImg" source="heroskill1_1" scaleX="0.78" scaleY="0.78" verticalCenter="0" horizontalCenter="0"/>
+		<e:Rect id="disabledRect" horizontalCenter="0" width="50" verticalCenter="0" height="50" x="10" y="10" textColor="0xFFFFFF" fillColor="0x000000" fillAlpha="0.8"/>
+		<e:Label id="weaponLbl" size="18" bold="true" fontFamily="Arial" verticalAlign="middle" stroke="2" text="0" right="5" y="32" textAlign="center"/>
+	</e:Group>
+</e:Skin>

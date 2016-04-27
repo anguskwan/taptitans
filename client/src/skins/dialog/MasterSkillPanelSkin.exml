@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="447" height="220" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableContainer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:UIAsset scale9Grid="55,53,337,324" source="dialog_popup" height="220"/>
+		<e:UIAsset id="iconImg" source="icon_skill1" x="29" y="20"/>
+		<e:Rect id="iconDisabled" fillColor="0x000000" width="58" fillAlpha="0.69" height="58" x="29" y="20"/>
+		<e:Rect x="28" width="394" fillColor="0x2C2930" height="100" y="96"/>
+		<e:Group id="lvGroup" height="18" x="10" y="10" left="105" verticalCenter="-56">
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="bottom" horizontalAlign="left" gap="0"/>
+			</e:layout>
+			<e:Label size="14" y="29" text="Lv." x="81" fontFamily="Arial" bold="true"/>
+			<e:Label id="lvLbl" textColor="0x42D0FF" text="1" y="39" x="91" fontFamily="Arial" bold="true" size="14"/>
+		</e:Group>
+		<e:Label id="unlockLbl" textAlign="left" verticalAlign="middle" size="14" left="105" verticalCenter="-56" fontFamily="Arial" bold="true"/>
+		<e:Label id="nameLbl" size="18" left="105" verticalCenter="-78.5" bold="true" fontFamily="Arial"/>
+		<e:Label id="explainLbl1" size="18" x="10" y="10" left="45" verticalCenter="10.5" bold="true" fontFamily="Arial"/>
+		<e:Label id="explainLbl2" x="20" y="20" left="45" verticalCenter="48.5" size="14" bold="true" fontFamily="Arial"/>
+		<e:Button skinName="@ButtonSkin('dialog_btn_cha_close','dialog_btn_cha_close','dialog_btn_cha_close')" id="closeBtn" right="20" top="20"/>
+	</e:Group>
+</e:Skin>

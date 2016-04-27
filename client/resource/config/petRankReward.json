@@ -1,0 +1,86 @@
+{
+  "1": {
+    "id": 1, 
+    "itemId_1": 1.0, 
+    "itemId_2": 0.0, 
+    "itemId_3": 0, 
+    "itemType_1": "petExp", 
+    "itemType_2": "petSoul", 
+    "itemType_3": "goldRain", 
+    "num_1": 30, 
+    "num_2": 5, 
+    "num_3": 0.4
+  }, 
+  "2": {
+    "id": 2, 
+    "itemId_1": 1.0, 
+    "itemId_2": 0.0, 
+    "itemId_3": 0, 
+    "itemType_1": "petExp", 
+    "itemType_2": "petSoul", 
+    "itemType_3": "goldRain", 
+    "num_1": 35, 
+    "num_2": 6, 
+    "num_3": 0.5
+  }, 
+  "3": {
+    "id": 3, 
+    "itemId_1": 2.0, 
+    "itemId_2": 0.0, 
+    "itemId_3": 0, 
+    "itemType_1": "petExp", 
+    "itemType_2": "petSoul", 
+    "itemType_3": "goldRain", 
+    "num_1": 40, 
+    "num_2": 8, 
+    "num_3": 0.6
+  }, 
+  "4": {
+    "id": 4, 
+    "itemId_1": 2.0, 
+    "itemId_2": 0.0, 
+    "itemId_3": 0, 
+    "itemType_1": "petExp", 
+    "itemType_2": "petSoul", 
+    "itemType_3": "goldRain", 
+    "num_1": 45, 
+    "num_2": 10, 
+    "num_3": 0.7
+  }, 
+  "5": {
+    "id": 5, 
+    "itemId_1": 3.0, 
+    "itemId_2": 0.0, 
+    "itemId_3": 0, 
+    "itemType_1": "petExp", 
+    "itemType_2": "petSoul", 
+    "itemType_3": "goldRain", 
+    "num_1": 50, 
+    "num_2": 12, 
+    "num_3": 0.8
+  }, 
+  "6": {
+    "id": 6, 
+    "itemId_1": 3.0, 
+    "itemId_2": 0.0, 
+    "itemId_3": 0, 
+    "itemType_1": "petExp", 
+    "itemType_2": "petSoul", 
+    "itemType_3": "goldRain", 
+    "num_1": 55, 
+    "num_2": 15, 
+    "num_3": 0.9
+  }, 
+  "7": {
+    "id": 7, 
+    "itemId_1": 3.0, 
+    "itemId_2": 0.0, 
+    "itemId_3": 0, 
+    "itemType_1": "petExp", 
+    "itemType_2": "petSoul", 
+    "itemType_3": "goldRain", 
+    "num_1": 60, 
+    "num_2": 20, 
+    "num_3": 1.0
+  }
+}

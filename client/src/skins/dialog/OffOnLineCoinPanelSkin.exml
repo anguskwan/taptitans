@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="447" height="260" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableContainer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:UIAsset source="dialog_popup" scale9Grid="55,53,337,324" height="260"/>
+		<e:Rect width="394" height="80" x="28" y="66" fillColor="0x2C2930"/>
+		<e:UIAsset scaleX="1.2" scaleY="1.2" source="btn_offonlinecoin" x="361" y="32"/>
+		<e:Label x="29" y="18" size="18" text="离线黄金赚取数" fontFamily="Arial" bold="true"/>
+		<e:Label x="32" size="14" y="71" text="在你下线期间，你的英雄仍然奋勇作战。下次上线时，\n记得手机英雄生产的黄金！" fontFamily="Arial" bold="true"/>
+		<e:Button id="closeBtn" label="好" x="236" y="171" skinName="@ButtonSkin('dialog_btn_blue','dialog_btn_blue','dialog_btn_blue')" fontFamily="Arial" bold="true"/>
+	</e:Group>
+</e:Skin>

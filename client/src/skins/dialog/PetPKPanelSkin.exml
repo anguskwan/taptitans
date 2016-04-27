@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="390" height="564" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="390" height="420" x="1" y="3">
+		<e:UIAsset source="pet_question_out_9img" scale9Grid="19,15,38,34" width="389" height="495" y="2" x="1"/>
+		<e:UIAsset source="pet_question_in_9img" height="270" width="327" y="59" x="30"/>
+		<e:Button id="buttonQuestion" skinName="@ButtonSkin('pet_question_btn')" width="22" height="32" y="19" x="20"/>
+		<e:Label text="附近敌人" y="12" x="137"/>
+		<e:Label size="20" fontFamily="黑体" y="335" x="59" text="获得奖励："/>
+		<e:Label id="labelCoin" size="20" text="5.000" y="333" x="179"/>
+		<e:Group id="groupPlayerIcon" width="33" height="30" y="72" x="113"/>
+		<e:Label id="labelUserName" text="玩家名字" textColor="0xE7C51C" fontFamily="黑体" size="20" y="72" x="157"/>
+		<e:Label id="labelPetInfo" textColor="0xE7C51C" fontFamily="黑体" size="20" width="198" textAlign="center" y="102" x="98" text="lv.25 宠物名字"/>
+		<e:Label text="系统每天刷新玩家匹配，前三次之后每10分钟刷新一位新对手" width="283" height="60" textColor="0xB1AAAA" size="15" fontFamily="黑体" textAlign="center" y="237" x="56"/>
+		<e:SkinnableContainer id="containerPet" width="111" height="112" y="125" x="136">
+		</e:SkinnableContainer>
+		<e:Button id="closeBtn" right="18" top="14" skinName="@ButtonSkin('dialog_btn_cha_close','dialog_btn_cha_close','dialog_btn_cha_close')" x="30" y="30"/>
+		<e:UIAsset id="attackBtnImg" source="pet_red_btn" x="109" y="392"/>
+		<e:Label fontFamily="黑体" x="163" y="408" text="攻击！" textAlign="center" size="25" touchEnabled="false"/>
+	</e:Group>
+</e:Skin>

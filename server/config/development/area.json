@@ -1,0 +1,22 @@
+{
+  "testing" : {
+    "authUrl" : "http://h5-api-test.secret-cn.com",
+    "payUrl" : "http://h5-api-test.secret-cn.com/pay",
+    "areaHost" : "42.96.145.64",
+    "areaPort" : 13024,
+
+    "default" : true,
+    "channel" : null,
+    "rate" : null
+  },
+  "area-2" : {
+    "authUrl" : "http://115.28.186.42:30005",
+    "payUrl" : "http://h5-api-test.secret-cn.com/pay",
+    "areaHost" : "115.28.186.42",
+    "areaPort" : 13014,
+
+    "default" : false,
+    "channel" : ["1758"],
+    "rate" : null
+  }
+}

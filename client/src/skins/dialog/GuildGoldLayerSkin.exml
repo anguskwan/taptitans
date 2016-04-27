@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="guild_gold_rank_bg_png"/>
+	<e:Button id="closeBtn" x="10" y="10" right="1" top="0" skinName="@ButtonSkin('dialog_btn_cha_close_white','dialog_btn_cha_close_white','dialog_btn_cha_close_white')"/>
+	<e:List id="goldList" useVirtualLayout="true" width="444" horizontalCenter="1" top="148" bottom="80">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center"/>
+		</e:layout>
+	</e:List>
+	<e:Label id="titleLbl" text="标签" textColor="0xFEE49C" fontFamily="Arial" size="24" horizontalCenter="0" y="105"/>
+	<e:Rect id="attRect" height="80" width="446" fillColor="0xF9BD1B" x="10" horizontalCenter="0" y="680"/>
+	<e:Group id="attGroup" y="690" horizontalCenter="0" bold="true">
+		<e:Button id="attBtn" fontFamily="Arial" width="160" bold="true" height="60" enabled="true" skinName="@ButtonSkin('dialog_btn_green','dialog_btn_green','dialog_btn_disabled')"/>
+		<e:Label id="attText" verticalCenter="0" horizontalCenter="0" fontFamily="Arial" touchEnabled="false" bold="true" text="匹配对手（0）" size="20"/>
+	</e:Group>
+</e:Skin>

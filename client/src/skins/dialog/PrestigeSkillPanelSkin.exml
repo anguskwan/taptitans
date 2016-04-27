@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="447" height="220" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableContainer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:UIAsset scale9Grid="55,53,337,324" source="dialog_popup" height="220"/>
+		<e:UIAsset id="iconImg" x="29" y="20" source="icon_skill7"/>
+		<e:Rect id="iconDisabled" fillColor="0x000000" width="58" fillAlpha="0.69" height="58" x="29" y="20"/>
+		<e:Rect x="28" width="394" fillColor="0x2C2930" height="100" y="96"/>
+		<e:Label id="unlockLbl" textAlign="left" verticalAlign="middle" size="14" left="105" verticalCenter="-56" fontFamily="Arial" bold="true" text="600级解锁"/>
+		<e:Label id="nameLbl" size="18" left="105" verticalCenter="-78.5" text="蜕变" fontFamily="Arial" bold="true"/>
+		<e:Label id="explainLbl1" size="18" verticalAlign="middle" text="使用蜕变从新开始游戏，即可获得能用来换取\n神器的圣物。" textAlign="left" verticalCenter="32.5" horizontalCenter="0" fontFamily="Arial" bold="true"/>
+		<e:Button skinName="@ButtonSkin('dialog_btn_cha_close','dialog_btn_cha_close','dialog_btn_cha_close')" id="closeBtn" right="20" top="20"/>
+	</e:Group>
+</e:Skin>

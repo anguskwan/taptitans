@@ -1,0 +1,60 @@
+{
+	"document_class": "Main",
+	"modules": [
+		{
+			"name": "core"
+		},
+		{
+		  	"name": "version"
+		},
+        {
+            "name": "dragonbones"
+        },
+        {
+            "name": "gui"
+        },
+        {
+            "name": "PomeloClient",
+            "path": "../egret-libs/pomelo"
+        },
+        {
+            "name": "moment",
+            "path": "../egret-libs/moment"
+        },
+        {
+            "name": "underscore",
+            "path": "../egret-libs/underscore"
+        },
+        {
+            "name": "weixinapi",
+            "path": "../egret-libs/weixinapi"
+        },
+        {
+            "name": "dcagent",
+            "path": "../egret-libs/dcagent"
+        },
+        {
+            "name": "md5",
+            "path": "../egret-libs/md5"
+        },
+        {
+            "name": "sharedapi",
+            "path": "../egret-libs/sharedapi"
+        },
+        {
+            "name": "socket"
+        },
+		{
+			"name": "res"
+		},
+      {
+        "name": "htcen",
+        "path": "../egret-libs/htcen"
+      }
+	],
+	"native": {
+		"path_ignore": [
+		]
+	},
+	"egret_version": "2.0.2"
+}

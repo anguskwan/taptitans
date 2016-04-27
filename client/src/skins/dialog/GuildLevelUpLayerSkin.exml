@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group height="100%" width="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Rect y="10" horizontalCenter="0" x="10" fillColor="0x765F40" width="100%" bottom="0" height="100%"/>
+		<e:Button skinName="@ButtonSkin('guild_btn_close','guild_btn_close','guild_btn_close')" id="closeBtn" x="20" y="20" right="14" top="9"/>
+		<e:Group width="100%" height="100%">
+			<e:Rect fillColor="0x4E361F" width="465" horizontalCenter="0" height="200" top="58"/>
+			<e:Rect fillColor="0x3C2E29" width="480" height="700" horizontalCenter="0" top="56"/>
+			<e:Label textColor="0xF7DDB9" fontFamily="Arial" size="24" bold="true" text="公会升级" horizontalCenter="0" y="16"/>
+			<e:Label id="currLbl" fontFamily="Arial" size="18" bold="true" textColor="0xAB8A61" x="6" text="捐献次数" y="71"/>
+			<e:Group y="63" right="13">
+				<e:layout>
+					<e:HorizontalLayout gap="3" verticalAlign="middle" horizontalAlign="center"/>
+				</e:layout>
+				<e:Group y="61" x="270">
+					<e:Button id="selectBtn" horizontalCenter="0" verticalCenter="0" skinName="@ButtonSkin('guild_btn_push_green','guild_btn_push_green','guild_btn_push_green')"/>
+					<e:Label id="multipleLbl" verticalCenter="0" fontFamily="Arial" textAlign="center" verticalAlign="middle" bold="true" horizontalCenter="0" size="20" text="x1" touchEnabled="false"/>
+				</e:Group>
+				<e:Label textColor="0xAB8A61" fontFamily="Arial" size="18" bold="true" x="316" text="返" y="196"/>
+				<e:UIAsset verticalCenter="0" autoScale="true" fillMode="scale" x="374" source="crystal" scaleX="0.8" scaleY="0.8"/>
+				<e:Label id="crystalLbl" verticalCenter="0" fontFamily="Arial" textAlign="center" verticalAlign="middle" bold="true" x="15" textColor="0xAB8A61" size="18" text="50"/>
+			</e:Group>
+			<e:List id="lvUpList" width="480" height="650" x="10" horizontalCenter="0" y="106">
+				<e:layout>
+					<e:VerticalLayout gap="6" horizontalAlign="center"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+	</e:Group>
+</e:Skin>

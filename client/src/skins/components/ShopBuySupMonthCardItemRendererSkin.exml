@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="450" height="80" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.ItemRenderer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="up"/>
+<e:State name="down"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group horizontalCenter="0" verticalCenter="0" width="450" height="100%" x="10" y="10">
+		<e:UIAsset y="0" width="450" source="list_element_bg" x="0"/>
+		<e:UIAsset x="14" y="11" verticalCenter="0" width="58" height="58" source="shop9"/>
+		<e:Group y="7" x="82">
+			<e:layout>
+				<e:HorizontalLayout gap="0" horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+			<e:Label fontFamily="Arial" textAlign="left" size="18" verticalAlign="middle" bold="true" text="至尊月卡,每天领取500钻"/>
+		</e:Group>
+		<e:Label fontFamily="Arial" textAlign="left" size="16" y="29" verticalAlign="top" bold="true" x="82" textColor="0x8F8699" text="领取30天，有10%几率领取双\n倍钻石"/>
+		<uiskins:CommonItemButton id="btnItem" skinName="skins.components.CommonItemButtonSkin" label="按钮" y="10" x="318" xmlns:uiskins="uiskins.*"/>
+	</e:Group>
+</e:Skin>

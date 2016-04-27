@@ -1,0 +1,10 @@
+{
+  "apps" : [{
+    "name" : "taptitans_admin_area_2",
+    "script" : "app_admin.js",
+    "args" : "--env=area-2",
+    "one_launch_only": true,
+    "watch" : "true",
+    "env" : {}
+  }]
+}

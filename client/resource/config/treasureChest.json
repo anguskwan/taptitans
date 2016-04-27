@@ -1,0 +1,34 @@
+{
+  "1": {
+    "cost": 250, 
+    "costOrigin": 500, 
+    "iconName": "icon_attack_mul", 
+    "id": 1, 
+    "name": "attackMul", 
+    "num": 3600000
+  }, 
+  "2": {
+    "cost": 150, 
+    "costOrigin": 300, 
+    "iconName": "shop1", 
+    "id": 2, 
+    "name": "goldRain", 
+    "num": 3
+  }, 
+  "3": {
+    "cost": 150, 
+    "costOrigin": 300, 
+    "iconName": "item_big_fragment", 
+    "id": 3, 
+    "name": "fragment", 
+    "num": 50
+  }, 
+  "4": {
+    "cost": 135, 
+    "costOrigin": 270, 
+    "iconName": "item_big_exp", 
+    "id": 4, 
+    "name": "exp", 
+    "num": 300
+  }
+}

@@ -1,0 +1,13 @@
+{"file":"guildbag.png","frames":{
+"guildbag_get_bg":{"x":1,"y":1,"w":392,"h":560,"offX":0,"offY":0,"sourceW":392,"sourceH":560},
+"guildbag_icon_general":{"x":291,"y":655,"w":84,"h":87,"offX":0,"offY":0,"sourceW":84,"sourceH":87},
+"guildbag_icon_high":{"x":291,"y":563,"w":86,"h":90,"offX":0,"offY":0,"sourceW":86,"sourceH":90},
+"guildbag_icon_vip5":{"x":379,"y":563,"w":75,"h":45,"offX":0,"offY":0,"sourceW":75,"sourceH":45},
+"guildbag_item_general":{"x":1,"y":563,"w":288,"h":104,"offX":0,"offY":0,"sourceW":288,"sourceH":104},
+"guildbag_item_high":{"x":1,"y":669,"w":288,"h":104,"offX":0,"offY":0,"sourceW":288,"sourceH":104},
+"guildbag_text_bg":{"x":291,"y":744,"w":185,"h":27,"offX":0,"offY":0,"sourceW":185,"sourceH":27},
+"guildbag_toggle_get_off":{"x":1,"y":775,"w":239,"h":59,"offX":0,"offY":0,"sourceW":239,"sourceH":59},
+"guildbag_toggle_get_on":{"x":242,"y":775,"w":239,"h":59,"offX":0,"offY":0,"sourceW":239,"sourceH":59},
+"guildbag_toggle_send_off":{"x":1,"y":836,"w":239,"h":59,"offX":0,"offY":0,"sourceW":239,"sourceH":59},
+"guildbag_toggle_send_on":{"x":242,"y":836,"w":239,"h":59,"offX":0,"offY":0,"sourceW":239,"sourceH":59},
+"guildbag_icon_geted":{"x":377,"y":655,"w":61,"h":61,"offX":0,"offY":0,"sourceW":61,"sourceH":61}}}

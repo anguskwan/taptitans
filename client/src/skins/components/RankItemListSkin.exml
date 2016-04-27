@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="462" height="80" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.ItemRenderer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="up"/>
+<e:State name="down"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Rect width="100%" height="100%" horizontalCenter="0" verticalCenter="0" fillColor="0x39363F"/>
+		<e:UIAsset id="iconImg" x="84" verticalCenter="0" source="icon_default" width="58" height="58"/>
+		<e:Label id="nameLbl" textAlign="left" fontFamily="Arial" bold="true" verticalCenter="-24" x="149" textColor="0x51D4F3" text="名字" size="18"/>
+		<e:Label id="numLbl" textAlign="center" verticalCenter="0" horizontalCenter="-186" text="100" bold="true" fontFamily="Arial" size="24" visible="false"/>
+		<e:Label id="selfLbl" fontFamily="Arial" textAlign="center" bold="true" x="10" y="10" horizontalCenter="144" verticalCenter="0.5" text="我" size="20" visible="false"/>
+		<e:Label id="lvLbl" textAlign="left" fontFamily="Arial" bold="true" verticalCenter="0" x="149" size="18" textColor="0xFFE010" text="历史最高关卡：41"/>
+		<e:Label id="currLbl" fontFamily="Arial" bold="true" textAlign="left" x="150" y="10" verticalCenter="23" size="14" text="当前关卡：23     神器数：5" textColor="0x88848C"/>
+		<e:Button id="btnVisit" skinName="@ButtonSkin('rank_btn_visit','rank_btn_visit','rank_btn_visit')" x="322" y="17" visible="false"/>
+		<e:UIAsset source="rank_line" bottom="0" horizontalCenter="0"/>
+		<e:UIAsset id="numImg" source="rank_num1" x="20" y="15" visible="false"/>
+	</e:Group>
+</e:Skin>

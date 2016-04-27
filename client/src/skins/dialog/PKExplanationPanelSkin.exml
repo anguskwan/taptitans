@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableContainer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Rect fillAlpha="0.5" width="100%" fillColor="0x000000" height="100%"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:UIAsset source="dialog_popup" scale9Grid="55,53,337,324" height="400"/>
+		<e:Rect width="394" height="250" x="28" fillColor="0x2C2930" y="53"/>
+		<e:Label x="29" y="18" size="18" fontFamily="Arial" bold="true" text="什么是士气值？"/>
+		<e:Label size="14" fontFamily="Arial" bold="true" x="39" text="当士气值为100%时，出战英雄一定不会阵亡。\n当士气值为60%时，出战英雄有40%的几率阵亡。\n......\n当士气值为30%时，出战英雄有70%的几率阵亡。\n\n每匹配一次对手，消耗1点士气值。\n每胜利一场比赛，消耗6点士气值。\n每失败一次比赛，消耗12点士气值。\n\n士气值每6分钟恢复一次。 " y="74"/>
+		<e:Button id="closeBtn" label="好" x="236" skinName="@ButtonSkin('dialog_btn_blue','dialog_btn_blue','dialog_btn_blue')" fontFamily="Arial" bold="true" y="317"/>
+		<e:UIAsset source="pk_morale" x="339" y="11"/>
+	</e:Group>
+</e:Skin>

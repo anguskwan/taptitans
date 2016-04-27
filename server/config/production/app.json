@@ -1,0 +1,25 @@
+{
+    "main": {
+        "redis_wechat": "10.164.24.19|6380|Hortor#1111",
+        "redis_route": "7bc3e024afec4e69.m.cnqda.kvstore.aliyuncs.com|6379|7bc3e024afec4e69:Hortor2014"
+    },
+    "web":{
+        "route_root_url": "http://wx.hortor.net/taptitans-route",
+        "route_url": "http://taptitans.hortorgames.com/taptitans-route",
+        "route_secret": "hortorgames2015",
+        "route_port":30005
+    },
+    "auth": {
+        "secret": "hortorgames_brain_2014",
+        "wechat_app_id":"wxcce59e4f286a1207",
+        "wechat_app_secret":"622c6c1fb052dda48a34e2b5039069c7",
+        "client_ver":"3.6.4",
+        "client_domain": "http://h5.hortorgames.com"
+    },
+    "logger": {
+        "enable": true,
+        "host": "log.hortorgames.com",
+        "port": 12201,
+        "level": "info"
+    }
+}

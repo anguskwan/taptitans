@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="113" height="47" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.ToggleButton"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="up"/>
+		<e:State name="down"/>
+		<e:State name="disabled"/>
+		<e:State name="upAndSelected"/>
+		<e:State name="downAndSelected"/>
+		<e:State name="disabledAndSelected"/>
+	</e:states>
+	<e:UIAsset id="disabledAndSelectSkin" source="btn_master_highlight" includeIn="disabledAndSelected" horizontalCenter="0" bottom="0"/>
+	<e:UIAsset id="downAndSelectedSkin" source="btn_master_highlight" includeIn="downAndSelected" horizontalCenter="0" bottom="0"/>
+	<e:UIAsset id="upAndSelectedSkin" source="btn_master_highlight" includeIn="upAndSelected" horizontalCenter="0" bottom="0"/>
+	<e:UIAsset id="disabledSkin" includeIn="disabled" source="btn_master" horizontalCenter="0" bottom="0"/>
+	<e:UIAsset id="downSkin" includeIn="down" source="btn_master_highlight" horizontalCenter="0" bottom="0"/>
+	<e:UIAsset id="upSkin" source="btn_master" includeIn="up" horizontalCenter="0" bottom="0"/>
+</e:Skin>

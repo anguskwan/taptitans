@@ -1,0 +1,24 @@
+{
+	"gate":[ { "id": "gate1", "host": "42.96.145.64", "clientPort": 13024, "frontend": true } ],
+	"connector": [
+		{ "id": "connector1", "host": "42.96.145.64", "port": 14060, "clientHost":"42.96.145.64", "clientPort": 13060, "frontend": true },
+		{ "id": "connector2", "host": "42.96.145.64", "port": 14061, "clientHost":"42.96.145.64", "clientPort": 13061, "frontend": true }
+	],
+	"player":        [
+		{ "id": "player1", "host": "42.96.145.64", "port": 16060, "auto-restart": false, "restart-force": false },
+		{ "id": "player2", "host": "42.96.145.64", "port": 16061, "auto-restart": false, "restart-force": false }
+	],
+	"pk":        [
+		{ "id": "pk1", "host": "42.96.145.64", "port": 17050, "auto-restart": false, "restart-force": false, "args": " --debug=32319"},
+		{ "id": "pk2", "host": "42.96.145.64", "port": 17051, "auto-restart": false, "restart-force": false, "args": " --debug=32320"},
+		{ "id": "pk3", "host": "42.96.145.64", "port": 17052, "auto-restart": false, "restart-force": false, "args": " --debug=32321"},
+		{ "id": "pk4", "host": "42.96.145.64", "port": 17053, "auto-restart": false, "restart-force": false, "args": " --debug=32322"}
+	],
+	"rank":         [ { "id": "rank1", "host": "42.96.145.64", "port": 15060, "auto-restart": false, "restart-force": false } ],
+	"manage":         [ { "id": "manage1", "host": "42.96.145.64", "port": 19050, "auto-restart": false, "restart-force": false } ],
+	"activity":         [ { "id": "activity1", "host": "42.96.145.64", "port": 19060, "auto-restart": false, "restart-force": false } ],
+	"guild":         [
+		{ "id": "guild1", "host": "42.96.145.64", "port": 18060, "auto-restart": false, "restart-force": false },
+		{ "id": "guild2", "host": "42.96.145.64", "port": 18061, "auto-restart": false, "restart-force": false }
+	]
+}

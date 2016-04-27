@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group horizontalCenter="0" width="100%" verticalCenter="0" height="100%" x="10" y="10">
+		<e:Rect fillAlpha="0.5" y="10" x="10" horizontalCenter="0" fillColor="0x000000" width="100%" bottom="0" height="100%"/>
+		<e:Group x="17" y="88">
+			<e:UIAsset scale9Grid="55,53,337,324" source="dialog_popup" height="260"/>
+			<e:Label y="18" fontFamily="Arial" size="18" bold="true" x="29" text="兑换码"/>
+			<e:Label id="wrongLbl" fontFamily="Arial" bold="true" y="18" size="20" text="兑换码输入错误" x="151" textColor="0xFE0000" visible="false"/>
+			<e:Button id="closeBtn" skinName="@ButtonSkin('dialog_btn_cha_close','dialog_btn_cha_close','dialog_btn_cha_close')" x="387" y="13"/>
+			<e:Button id="rightBtn" y="171" skinName="@ButtonSkin('dialog_btn_blue','dialog_btn_blue','dialog_btn_blue')" fontFamily="Arial" bold="true" x="236" label="好"/>
+			<e:TextInput id="textInput" fontFamily="Arial" verticalCenter="-26.5" textColor="0xFFFFFF" horizontalCenter="0" width="394" height="80" editable="true" prompt="请输入兑换码"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

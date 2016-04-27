@@ -1,0 +1,23 @@
+{
+  "1": {
+    "awardType": "diamond", 
+    "awardVal": 200, 
+    "content": "现在分享给好友马上奖励200钻石，点击右上角的按钮，召唤你的小伙伴吧。", 
+    "duration": 0, 
+    "id": 1
+  }, 
+  "2": {
+    "awardType": "diamond", 
+    "awardVal": 100, 
+    "content": "每天分享给好友奖励100钻石，点击右上角的按钮，召唤你的小伙伴吧。", 
+    "duration": 0, 
+    "id": 2
+  }, 
+  "3": {
+    "awardType": "crystal", 
+    "awardVal": 100, 
+    "content": "分享给好友就奖励100水晶，点击右上角的按钮，召唤你的小伙伴吧。", 
+    "duration": 3600000, 
+    "id": 3
+  }
+}

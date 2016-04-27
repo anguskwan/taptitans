@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="200" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:ns1="*" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<ns1:TopStageTitleLayer id="topStageLy" skinName="skins.mod.TopStageTitleLayerSkin" horizontalCenter="0" top="10"/>
+	<e:Button id="rankBtn" skinName="@ButtonSkin('btn_rank','btn_rank','btn_rank')" y="20" x="436"/>
+	<e:Button id="rankBestBtn" x="335" y="20" skinName="@ButtonSkin('btn_rank_best','btn_rank_best','btn_rank_best')" visible="false"/>
+	<uiskins:StateButton id="achievementBtn" skinName="skins.components.StateButtonSkin" disabledSkinName="btn_task_hava" downSkinName="btn_task_hava" upSkinName="btn_task_hava" width="32" height="32" y="20" x="389"/>
+	<e:UIAsset id="tipAchieveImg" source="tip_task" y="16" x="413"/>
+	<uiskins:StateButton id="mailBtn" height="28" upSkinName="btn_mail_off" downSkinName="btn_mail_off" disabledSkinName="btn_mail_off" width="34" skinName="skins.components.StateButtonSkin" y="30" x="81"/>
+	<e:UIAsset id="tipMailImg" source="tip_task" y="26" x="109" visible="false"/>
+	<uiskins:TopHPProgressBar id="progressBar" skinName="skins.components.HPProgressBarSkin" top="96" horizontalCenter="0" slideDuration="0"/>
+	<e:Group id="coinGroup" verticalCenter="44" horizontalCenter="0">
+		<e:UIAsset id="coinImg" source="coin" verticalCenter="0" horizontalCenter="-17.5"/>
+		<e:BitmapLabel id="labelCoin" x="52" y="8" font="font_white_fnt" text="0"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="stageGroup" width="100" height="30" x="10" y="10" horizontalCenter="170" verticalCenter="4">
+		<e:UIAsset horizontalCenter="-17.5" verticalCenter="0" source="icon_monster"/>
+		<e:Label id="labelBoss" horizontalCenter="34" verticalCenter="0" text="0/10" fontFamily="Arial" textColor="0xFFFFFF" size="24" bold="true"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<uiskins:StateButton id="challengeBossBtn" upSkinName="btn_leave_war" downSkinName="btn_leave_war" disabledSkinName="btn_leave_war" skinName="skins.components.StateButtonSkin" width="104" height="47" x="358" y="82" visible="false"/>
+	<uiskins:TopBossTimeProgressBar id="bossTimeProgressBar" x="144" y="111" skinName="skins.components.BossTimeProgressBarSkin"/>
+	<e:BitmapLabel id="bossTimeLbl" font="font_white_fnt" text="0" right="341" verticalCenter="1" scaleX="0.9" scaleY="0.9" visible="false"/>
+	<e:UIAsset id="handImg" source="icon_hand" rotation="130" x="458" y="134" touchEnabled="false" visible="false"/>
+</e:Skin>

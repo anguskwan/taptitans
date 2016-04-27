@@ -1,0 +1,1030 @@
+{"name": "master_template", "armature": [
+    {
+        "animation": [
+            {
+                "name": "idle",
+                "scale": 1,
+                "duration": 24,
+                "autoTween": 0,
+                "tweenEasing": null,
+                "timeline": [
+                    {
+                        "offset": 0,
+                        "name": "light",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 0,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 24
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "weapon",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 1,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 24
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "body",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 2,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 24
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "head",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 3,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 24
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "cloak",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 4,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 24
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "wing",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 5,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 24
+                            }
+                        ]
+                    }
+                ],
+                "loop": 0,
+                "fadeInTime": 0
+            },
+            {
+                "name": "attack1",
+                "scale": 0.4,
+                "duration": 26,
+                "autoTween": 0,
+                "tweenEasing": null,
+                "timeline": [
+                    {
+                        "offset": 0,
+                        "name": "light",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 0,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 124
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "weapon",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 1,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 124
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "body",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 2,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 124
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "head",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 3,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 124
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "cloak",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 4,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 124
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "wing",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 5,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 124
+                            }
+                        ]
+                    }
+                ],
+                "loop": 0,
+                "fadeInTime": 0
+            },
+            {
+                "name": "attack2",
+                "scale": 0.4,
+                "duration": 25,
+                "autoTween": 0,
+                "tweenEasing": null,
+                "timeline": [
+                    {
+                        "offset": 0,
+                        "name": "light",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 0,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 98
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "weapon",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 1,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 98
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "body",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 2,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 98
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "head",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 3,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 98
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "cloak",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 4,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 98
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "wing",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 5,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 98
+                            }
+                        ]
+                    }
+                ],
+                "loop": 0,
+                "fadeInTime": 0
+            },
+            {
+                "name": "attack3",
+                "scale": 0.4,
+                "duration": 25,
+                "autoTween": 0,
+                "tweenEasing": null,
+                "timeline": [
+                    {
+                        "offset": 0,
+                        "name": "light",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 0,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 73
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "weapon",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 1,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 73
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "body",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 2,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 73
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "head",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 3,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 73
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "cloak",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 4,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 73
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "wing",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 5,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 73
+                            }
+                        ]
+                    }
+                ],
+                "loop": 0,
+                "fadeInTime": 0
+            },
+            {
+                "name": "attack4",
+                "scale": 0.4,
+                "duration": 24,
+                "autoTween": 0,
+                "tweenEasing": null,
+                "timeline": [
+                    {
+                        "offset": 0,
+                        "name": "light",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 0,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 48
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "weapon",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 1,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 48
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "body",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 2,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 48
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "head",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 3,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 48
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "cloak",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 4,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 48
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "wing",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 5,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 48
+                            }
+                        ]
+                    }
+                ],
+                "loop": 0,
+                "fadeInTime": 0
+            },
+            {
+                "name": "attack5",
+                "scale": 0.4,
+                "duration": 24,
+                "autoTween": 0,
+                "tweenEasing": null,
+                "timeline": [
+                    {
+                        "offset": 0,
+                        "name": "light",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 0,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 24
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "weapon",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 1,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 24
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "body",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 2,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 24
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "head",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 3,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 24
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "cloak",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 4,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 24
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 0,
+                        "name": "wing",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 5,
+                                "transform": {
+                                    "x": -0.05,
+                                    "pX": 0,
+                                    "y": -6.05,
+                                    "pY": 0,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                },
+                                "duration": 24
+                            }
+                        ]
+                    }
+                ],
+                "loop": 0,
+                "fadeInTime": 0
+            }
+        ],
+        "bone": [
+            {
+                "transform": {
+                    "x": -0.05,
+                    "y": -6.05,
+                    "skY": 0,
+                    "scY": 1,
+                    "skX": 0,
+                    "scX": 1
+                },
+                "name": "light"
+            },
+            {
+                "transform": {
+                    "x": -0.05,
+                    "y": -6.05,
+                    "skY": 0,
+                    "scY": 1,
+                    "skX": 0,
+                    "scX": 1
+                },
+                "name": "weapon"
+            },
+            {
+                "transform": {
+                    "x": -0.05,
+                    "y": -6.05,
+                    "skY": 0,
+                    "scY": 1,
+                    "skX": 0,
+                    "scX": 1
+                },
+                "name": "body"
+            },
+            {
+                "transform": {
+                    "x": -0.05,
+                    "y": -6.05,
+                    "skY": 0,
+                    "scY": 1,
+                    "skX": 0,
+                    "scX": 1
+                },
+                "name": "head"
+            },
+            {
+                "transform": {
+                    "x": -0.05,
+                    "y": -6.05,
+                    "skY": 0,
+                    "scY": 1,
+                    "skX": 0,
+                    "scX": 1
+                },
+                "name": "cloak"
+            },
+            {
+                "transform": {
+                    "x": -0.05,
+                    "y": -6.05,
+                    "skY": 0,
+                    "scY": 1,
+                    "skX": 0,
+                    "scX": 1
+                },
+                "name": "wing"
+            }
+        ],
+        "skin": [
+            {
+                "name": "default",
+                "slot": [
+                    {
+                        "display": [
+                            {
+                                "type": "image",
+                                "name": "light",
+                                "transform": {
+                                    "x": 0,
+                                    "pX": 1.1,
+                                    "y": 6,
+                                    "pY": 1.85,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                }
+                            }
+                        ],
+                        "name": "light",
+                        "z": 0,
+                        "parent": "light"
+                    },
+                    {
+                        "display": [
+                            {
+                                "type": "image",
+                                "name": "weapon",
+                                "transform": {
+                                    "x": 0,
+                                    "pX": 1.1,
+                                    "y": 6,
+                                    "pY": 1.85,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                }
+                            }
+                        ],
+                        "name": "weapon",
+                        "z": 1,
+                        "parent": "weapon"
+                    },
+                    {
+                        "display": [
+                            {
+                                "type": "image",
+                                "name": "body",
+                                "transform": {
+                                    "x": 0,
+                                    "pX": 1.1,
+                                    "y": 6,
+                                    "pY": 1.85,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                }
+                            }
+                        ],
+                        "name": "body",
+                        "z": 2,
+                        "parent": "body"
+                    },
+                    {
+                        "display": [
+                            {
+                                "type": "image",
+                                "name": "head",
+                                "transform": {
+                                    "x": 0,
+                                    "pX": 1.1,
+                                    "y": 6,
+                                    "pY": 1.85,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                }
+                            }
+                        ],
+                        "name": "head",
+                        "z": 3,
+                        "parent": "head"
+                    },
+                    {
+                        "display": [
+                            {
+                                "type": "image",
+                                "name": "cloak",
+                                "transform": {
+                                    "x": 0,
+                                    "pX": 1.1,
+                                    "y": 6,
+                                    "pY": 1.85,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                }
+                            }
+                        ],
+                        "name": "cloak",
+                        "z": 4,
+                        "parent": "cloak"
+                    },
+                    {
+                        "display": [
+                            {
+                                "type": "image",
+                                "name": "wing",
+                                "transform": {
+                                    "x": 0,
+                                    "pX": 1.1,
+                                    "y": 6,
+                                    "pY": 1.85,
+                                    "skY": 0,
+                                    "scY": 1,
+                                    "skX": 0,
+                                    "scX": 1
+                                }
+                            }
+                        ],
+                        "name": "wing",
+                        "z": 5,
+                        "parent": "wing"
+                    }
+                ]
+            }
+        ],
+        "name": "master_template"
+    }
+], "version": 2.3, "frameRate": 24}

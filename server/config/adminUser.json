@@ -1,0 +1,20 @@
+[
+    {
+        "id": "user-1",
+        "username": "admin",
+        "password": "ab20e4d6c4aa87d64dbb115954206d60",
+        "level": 1
+    },
+    {
+        "id": "user-2",
+        "username": "monitor",
+        "password": "673599385916a5593988198b92757c1c",
+        "level": 2
+    },
+    {
+        "id": "user-3",
+        "username": "test",
+        "password": "bab9612278ac196124bc6eca8e4320c9",
+        "level": 2
+    }
+]

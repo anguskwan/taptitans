@@ -1,0 +1,15 @@
+{
+  "hortor" : {
+    "appid" : "wxcce59e4f286a1207",
+    "appSecret" : "622c6c1fb052dda48a34e2b5039069c7",
+    "queryUrl" : "http://wx.hortor.net/gc/profile"
+  },
+  "juhe" : {
+    "appid" : "18",
+    "appSecret" : "da5d6c1f80820ff3033b2cb6851e7ca7"
+  },
+  "1758" : {
+    "appKey" : "58b6c11d531a6a4ac876582daacace2b",
+    "appSecret" : "072bfd00a1165f4807752190e1b9992a"
+  }
+}

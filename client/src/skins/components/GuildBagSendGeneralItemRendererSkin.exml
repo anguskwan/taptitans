@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="466" height="120" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.ItemRenderer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="up"/>
+<e:State name="down"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Rect width="440" height="100%" horizontalCenter="0" verticalCenter="0" fillColor="0x2C2932"/>
+		<e:UIAsset source="guildbag_icon_general" x="31" y="15"/>
+		<e:UIAsset source="guildbag_text_bg" x="127" y="16"/>
+		<e:Label id="titleLbl" x="131" y="20" size="18" fontFamily="Arial" text="标签"/>
+		<e:Group y="53" x="127">
+			<e:Label fontFamily="Arial" size="18" x="20" y="20" textColor="0xF7343E" text="发红包可获得："/>
+			<e:UIAsset x="212" scaleY="0.7" y="128" scaleX="0.7" source="crystal"/>
+			<e:Label id="crystalLbl" y="10" textColor="0xFFFFFF" text="0" fontFamily="Arial" size="18" x="10"/>
+			<e:layout>
+				<e:HorizontalLayout gap="2"/>
+			</e:layout>
+		</e:Group>
+		<e:Group y="77" x="163">
+			<e:Label textColor="0xF7343E" fontFamily="Arial" size="18" x="30" y="30" text="红包总额："/>
+			<e:UIAsset x="212" scaleY="0.7" y="128" source="diamond" scaleX="0.7"/>
+			<e:Label id="sendLbl" y="10" textColor="0xFFFFFF" text="0" fontFamily="Arial" size="18" x="10"/>
+			<e:layout>
+				<e:HorizontalLayout gap="2"/>
+			</e:layout>
+		</e:Group>
+		<e:Group y="21" horizontalCenter="147">
+			<e:UIAsset y="128" source="diamond" x="212"/>
+			<e:Label id="costLbl" y="10" textColor="0xFFFFFF" text="0" fontFamily="Arial" x="10" size="24"/>
+			<e:layout>
+				<e:HorizontalLayout gap="2"/>
+			</e:layout>
+		</e:Group>
+		<e:Group x="20" y="64" horizontalCenter="151">
+			<e:Button id="sendBtn" width="90" fontFamily="Arial" bold="true" height="40" skinName="@ButtonSkin('dialog_btn_orange','dialog_btn_orange','dialog_btn_disabled')"/>
+			<e:Label touchEnabled="false" fontFamily="Arial" verticalCenter="0" size="20" horizontalCenter="0" bold="true" text="发红包"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

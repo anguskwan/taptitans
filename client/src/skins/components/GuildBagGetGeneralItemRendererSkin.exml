@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="466" height="140" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.ItemRenderer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="up"/>
+<e:State name="down"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:UIAsset source="rank_line" horizontalCenter="0" bottom="0"/>
+		<e:UIAsset id="iconImg" source="icon_default" x="50" y="13" width="58" height="58"/>
+		<e:UIAsset id="selectImg" source="guildbag_item_general" x="125" y="11"/>
+		<e:Label id="redNumLbl" text="标签" x="155" y="90" textColor="0x868686" size="20" fontFamily="Arial" touchEnabled="false"/>
+		<e:Label fontFamily="Arial" size="20" x="221" y="34" textColor="0xFFFFFF" text="普通钻石红包" touchEnabled="false"/>
+		<e:Label id="timeLbl" touchEnabled="false" fontFamily="Arial" y="118" size="16" horizontalCenter="27" textColor="0x868686"/>
+		<e:UIAsset id="getedImg" source="guildbag_icon_geted" x="351" y="53"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="450" height="80" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.ItemRenderer"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group horizontalCenter="0" verticalCenter="0" width="450" height="100%" x="10" y="10">
+		<e:UIAsset y="0" width="450" source="list_element_bg" x="0"/>
+		<e:UIAsset id="iconImg" y="11" source="icon_default" height="58" verticalCenter="0" width="58" x="14"/>
+		<e:Rect id="iconDisabled" fillAlpha="0.6" x="14" y="11" width="58" fillColor="0x000000" height="58"/>
+		<e:Group y="7" x="82">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" gap="0" verticalAlign="middle"/>
+			</e:layout>
+			<e:Label id="nameLbl" text="名字" fontFamily="Arial" textAlign="left" size="18" verticalAlign="middle" bold="true"/>
+		</e:Group>
+		<e:Group left="82" verticalCenter="-4">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="left" gap="0" verticalAlign="bottom"/>
+			</e:layout>
+			<e:Label y="29" text="Lv." fontFamily="Arial" size="16" bold="true" x="81"/>
+			<e:Label id="lvLbl" y="39" textColor="0x42D0FF" text="1" fontFamily="Arial" size="16" bold="true" x="91"/>
+		</e:Group>
+		<e:Label id="explainLbl" y="49" text="说明" fontFamily="Arial" textAlign="left" size="16" verticalAlign="middle" bold="true" x="82" textColor="0x8F8699"/>
+		<uiskins:CommonItemButton id="btnItem" skinName="skins.components.CommonItemButtonSkin" y="10" label="按钮" x="318" xmlns:uiskins="uiskins.*"/>
+		<e:UIAsset id="newTipImg" source="tip_new" y="17" x="297" touchEnabled="false"/>
+	</e:Group>
+</e:Skin>

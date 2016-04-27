@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="455" height="70" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.ItemRenderer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="up"/>
+<e:State name="down"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group horizontalCenter="0" width="100%" verticalCenter="0" height="100%" x="10" y="10">
+		<e:Rect fillColor="0x352611" horizontalCenter="0" width="100%" verticalCenter="0" height="100%"/>
+		<uiskins:GuildBadgeItem scaleY="0.67" id="iconImg" skinName="skins.components.GuildBadgeItemSkin" scaleX="0.67" x="17" y="4"/>
+		<e:Label id="nameLbl" textColor="0xFFFFFF" text="名字" fontFamily="Arial" textAlign="left" size="18" bold="true" x="90" y="8"/>
+		<e:Label id="lvLbl" fontFamily="Arial" textAlign="left" size="18" bold="true" textColor="0xB96B2C" y="8" text="Lv.0" x="254"/>
+		<e:Group height="28" y="37" x="93">
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" horizontalAlign="center" gap="3"/>
+			</e:layout>
+			<e:UIAsset autoScale="true" fillMode="scale" verticalCenter="0" source="guild_tip_member" x="374"/>
+			<e:Label id="memberLbl" verticalAlign="middle" textColor="0x25FF3A" verticalCenter="0" fontFamily="Arial" textAlign="center" size="18" text="0/10" bold="true" x="15"/>
+		</e:Group>
+		<e:Group id="joinGroup" height="40" width="60" x="30" horizontalCenter="173.5" verticalCenter="0" visible="false">
+			<e:Button id="joinBtn" verticalCenter="0" skinName="@ButtonSkin('dialog_btn_big_blue','dialog_btn_big_blue','dialog_btn_big_blue')" horizontalCenter="0" width="60" height="40"/>
+			<e:Label id="joinLbl" touchEnabled="false" horizontalCenter="0" text="加入" fontFamily="Arial" size="18" verticalCenter="0"/>
+		</e:Group>
+		<e:Label id="fullLbl" textColor="0xAB8A62" fontFamily="Arial" textAlign="center" size="20" text="已满员" x="10" horizontalCenter="172.5" verticalCenter="0" visible="false"/>
+	</e:Group>
+</e:Skin>

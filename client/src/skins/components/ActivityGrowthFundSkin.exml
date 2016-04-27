@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="650" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="480" height="650" x="0" y="0">
+		<e:UIAsset width="480" height="650" x="0" y="0" source="activity_bg_growth_fund_jpg"/>
+		<e:Label id="clock_label" width="110" height="25" text="24:00:00" verticalAlign="middle" size="16" y="124" fontFamily="Arial" x="290"/>
+		<e:Group width="388" height="384" x="45" y="214">
+			<e:Group id="gf_item_1" width="387" height="53" x="46" y="216">
+				<e:Label id="gf_label_level_1" width="42" height="23" verticalAlign="justify" textAlign="center" text="111" fontFamily="Arial" verticalCenter="4" x="72" size="18"/>
+				<e:UIAsset id="gf_has_obtained_1" width="63" height="23" source="activity_has_obtained" fillMode="scale" x="304" verticalCenter="0" visible="false"/>
+				<e:Button id="gf_bt_obtain_1" height="37" skinName="@ButtonSkin('activity_btn_obtain')" width="90" x="288" verticalCenter="0" visible="false"/>
+				<e:UIAsset id="gf_not_pass_1" width="64" height="24" x="304" source="activity_not_pass" verticalCenter="0" visible="false"/>
+			</e:Group>
+			<e:Group id="gf_item_2" width="387" height="53" y="270" x="48">
+				<e:Label id="gf_label_level_2" textAlign="center" width="42" height="23" text="111" verticalCenter="4" x="72" size="18" fontFamily="Arial"/>
+				<e:UIAsset id="gf_has_obtained_2" source="activity_has_obtained" x="304" fillMode="scale" width="63" verticalCenter="0" height="23" visible="false"/>
+				<e:Button id="gf_bt_obtain_2" x="288" skinName="@ButtonSkin('activity_btn_obtain')" width="90" verticalCenter="0" height="37" visible="false"/>
+				<e:UIAsset id="gf_not_pass_2" height="24" verticalCenter="0" width="64" source="activity_not_pass" x="304" visible="false"/>
+			</e:Group>
+			<e:Group id="gf_item_3" width="387" height="53" x="56" y="226">
+				<e:Label id="gf_label_level_3" textAlign="center" width="41" height="23" text="111" size="18" fontFamily="Arial" verticalCenter="4" x="72"/>
+				<e:UIAsset id="gf_has_obtained_3" source="activity_has_obtained" height="23" fillMode="scale" width="63" verticalCenter="0" x="304" visible="false"/>
+				<e:Button id="gf_bt_obtain_3" height="37" skinName="@ButtonSkin('activity_btn_obtain')" width="90" verticalCenter="0" x="288" visible="false"/>
+				<e:UIAsset id="gf_not_pass_3" x="304" source="activity_not_pass" width="64" verticalCenter="0" height="24" visible="false"/>
+			</e:Group>
+			<e:Group id="gf_item_4" width="387" height="53" x="58" y="280">
+				<e:Label id="gf_label_level_4" textAlign="center" width="41" height="23" text="111" fontFamily="Arial" size="18" verticalCenter="4" x="72"/>
+				<e:UIAsset id="gf_has_obtained_4" source="activity_has_obtained" x="304" fillMode="scale" width="63" verticalCenter="0" height="23" visible="false"/>
+				<e:Button id="gf_bt_obtain_4" x="288" skinName="@ButtonSkin('activity_btn_obtain')" width="90" verticalCenter="0" height="37" visible="false"/>
+				<e:UIAsset id="gf_not_pass_4" height="24" verticalCenter="0" width="64" source="activity_not_pass" x="304" visible="false"/>
+			</e:Group>
+			<e:Group id="gf_item_5" height="53" width="387" x="66" y="236">
+				<e:Label id="gf_label_level_5" height="23" textAlign="center" width="41" text="111" size="18" fontFamily="Arial" verticalCenter="4" x="72"/>
+				<e:UIAsset id="gf_has_obtained_5" source="activity_has_obtained" height="23" fillMode="scale" width="63" verticalCenter="0" x="304" visible="false"/>
+				<e:Button id="gf_bt_obtain_5" x="288" skinName="@ButtonSkin('activity_btn_obtain')" width="90" verticalCenter="0" height="37" visible="false"/>
+				<e:UIAsset id="gf_not_pass_5" height="24" verticalCenter="0" width="64" source="activity_not_pass" x="304" visible="false"/>
+			</e:Group>
+			<e:Group id="gf_item_6" height="53" width="387" x="68" y="290">
+				<e:Label id="gf_label_level_6" height="23" textAlign="center" width="41" text="111" size="18" fontFamily="Arial" verticalCenter="4" x="72"/>
+				<e:UIAsset id="gf_has_obtained_6" source="activity_has_obtained" x="304" fillMode="scale" width="63" verticalCenter="0" height="23" visible="false"/>
+				<e:Button id="gf_bt_obtain_6" height="37" skinName="@ButtonSkin('activity_btn_obtain')" width="90" verticalCenter="0" x="288" visible="false"/>
+				<e:UIAsset id="gf_not_pass_6" x="304" source="activity_not_pass" width="64" verticalCenter="0" height="24" visible="false"/>
+			</e:Group>
+			<e:Group id="gf_item_7" width="387" height="53" x="78" y="300">
+				<e:Label id="gf_label_level_7" textAlign="center" width="41" height="23" text="111" fontFamily="Arial" size="18" verticalCenter="4" x="72"/>
+				<e:UIAsset id="gf_has_obtained_7" source="activity_has_obtained" x="304" fillMode="scale" width="63" verticalCenter="0" height="23" visible="false"/>
+				<e:Button id="gf_bt_obtain_7" x="288" skinName="@ButtonSkin('activity_btn_obtain')" width="90" verticalCenter="0" height="37" visible="false"/>
+				<e:UIAsset id="gf_not_pass_7" height="24" verticalCenter="0" width="64" source="activity_not_pass" x="304" visible="false"/>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout gap="2"/>
+			</e:layout>
+		</e:Group>
+		<e:Label text="参与条件：活动期间充值满68元" x="98" y="617" fontFamily="黑体" size="18"/>
+	</e:Group>
+</e:Skin>

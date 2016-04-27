@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="650" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="480" height="650" x="0" y="0">
+		<e:UIAsset width="480" height="650" x="0" y="0" source="activity_worthBox_bg"/>
+		<e:Label id="lblLEndTime" width="197" height="25" verticalAlign="middle" size="16" fontFamily="Arial" text="截止日期：4月25日。。。" left="154" verticalCenter="-189.5"/>
+		<e:Button id="btn_buy" skinName="@ButtonSkin('activity_worthBox_buy_btn','activity_worthBox_buy_btn','activity_worthBox_buy_btn')" y="565" x="158"/>
+		<e:Label id="lbl_remainTimes" text="10" fontFamily="Arial" size="18" verticalCenter="275" left="440"/>
+	</e:Group>
+</e:Skin>

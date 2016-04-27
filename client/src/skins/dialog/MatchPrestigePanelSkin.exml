@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="760" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Rect width="100%" height="100%" fillColor="0x000000" fillAlpha="0.5"/>
+	<e:Group verticalCenter="0" horizontalCenter="0" x="10" y="10">
+		<e:UIAsset scale9Grid="55,53,337,324" source="dialog_popup" height="400"/>
+		<e:UIAsset source="btn_match" scaleX="0.8" scaleY="0.8" y="13" x="27"/>
+		<e:Label fontFamily="Arial" bold="true" x="89" y="22" size="22" text="比赛：蜕变"/>
+		<e:Label fontFamily="Arial" bold="true" x="30" y="72" size="16" text="参加比赛必须蜕变，从第一关开始。\n看看你在24小时之内能打到多少关!\n比赛排名获得丰厚奖励！"/>
+		<e:Rect height="160" fillColor="0x2C2930" width="380" y="136" horizontalCenter="0"/>
+		<e:Group width="60%" y="151" horizontalCenter="0">
+			<e:layout>
+				<e:VerticalLayout gap="8"/>
+			</e:layout>
+			<e:Group y="10" width="100%" x="10">
+				<e:Label text="英雄等级额外奖励：" fontFamily="Arial" textAlign="right" right="120" size="18" verticalCenter="0" bold="true"/>
+				<e:UIAsset right="0" scaleY="0.7" verticalCenter="0" source="relic" scaleX="0.7"/>
+				<e:Label id="heroLbl" textColor="0xFFFFFF" verticalCenter="0" fontFamily="Arial" textAlign="right" right="33" size="18" y="40" text="0" bold="true" x="30"/>
+			</e:Group>
+			<e:Group y="20" width="100%" x="20">
+				<e:Label verticalCenter="0" fontFamily="Arial" textAlign="right" right="120" size="18" text="过关奖励：" bold="true"/>
+				<e:UIAsset scaleY="0.7" y="20" verticalCenter="0" source="relic" right="0" scaleX="0.7" x="20"/>
+				<e:Label id="stageLbl" textColor="0xFFFFFF" verticalCenter="0" fontFamily="Arial" textAlign="right" right="33" size="18" y="30" text="0" bold="true" x="20"/>
+			</e:Group>
+			<e:Group y="30" width="100%" x="30">
+				<e:Label text="全队奖赏：" fontFamily="Arial" textAlign="right" right="120" size="18" verticalCenter="0" bold="true"/>
+				<e:Label id="bonusLbl" textColor="0xEB780F" verticalCenter="0" fontFamily="Arial" textAlign="right" right="0" size="18" y="10" text="0" bold="true"/>
+			</e:Group>
+			<e:Group y="40" width="100%" x="40">
+				<e:Label text="总共：" fontFamily="Arial" textAlign="right" right="120" size="18" verticalCenter="0" bold="true"/>
+				<e:UIAsset scaleY="0.7" y="10" verticalCenter="0" source="relic" right="0" scaleX="0.7" x="10"/>
+				<e:Label id="allLbl" textColor="0xFFFFFF" verticalCenter="0" fontFamily="Arial" textAlign="right" right="33" size="18" y="20" text="0" bold="true" x="10"/>
+			</e:Group>
+		</e:Group>
+		<e:Group x="10" y="310" horizontalCenter="0.5">
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" horizontalAlign="center" gap="26"/>
+			</e:layout>
+			<e:Button id="closeBtn" verticalAlign="middle" fontFamily="Arial" textAlign="center" size="22" bold="true" skinName="@ButtonSkin('dialog_btn_red','dialog_btn_red','dialog_btn_red')" label="不用了，谢谢"/>
+			<e:Button id="prestigeBtn" verticalAlign="middle" fontFamily="Arial" textAlign="center" size="22" bold="true" skinName="@ButtonSkin('dialog_btn_blue','dialog_btn_blue','dialog_btn_blue')" label="开始蜕变"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

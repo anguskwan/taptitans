@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableContainer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Rect fillAlpha="0.5" fillColor="0x000000" width="100%" height="100%"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:UIAsset scale9Grid="55,53,337,324" source="dialog_popup" height="480"/>
+		<e:UIAsset id="iconImg" source="hero1" horizontalCenter="0" y="28" width="58" height="58"/>
+		<e:Rect fillColor="0x2C2930" width="380" height="150" horizontalCenter="0.5" y="173"/>
+		<e:Label x="10" size="18" text="失去英雄援助之后，你获得的黄金和攻击\n力都大幅度减少！" textAlign="center" fontFamily="Arial" horizontalCenter="0.5" y="225"/>
+		<e:Group horizontalCenter="0.5" y="112">
+			<e:Label id="heroLbl" size="24" textColor="0x0B8FB5" text="标签" fontFamily="Arial"/>
+			<e:Label size="24" textColor="0xFFFFFF" fontFamily="Arial" text="已阵亡"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Group width="300" height="62" horizontalCenter="0.5" y="380">
+			<e:Button id="revivalBtn" skinName="@ButtonSkin('dialog_btn_big_blue','dialog_btn_big_blue','dialog_btn_big_blue')" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label y="5" size="24" horizontalCenter="0" text="立即复活" fontFamily="Arial" touchEnabled="false"/>
+			<e:Group horizontalCenter="0.5" y="34" touchEnabled="false" touchChildren="false">
+				<e:UIAsset source="diamond" x="107" y="31" scaleX="0.7" scaleY="0.7"/>
+				<e:Label id="diamondLbl" horizontalCenter="0" size="14" fontFamily="Arial" text="0"/>
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+		<e:Group x="10" horizontalCenter="1" y="342">
+			<e:Label textColor="0xFFFFFF" size="18" text="英雄复活时间倒数:" fontFamily="Arial"/>
+			<e:Label id="timeLbl" y="20" textColor="0xF3780F" x="20" size="18" text="00:00:00" fontFamily="Arial"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="closeBtn" skinName="@ButtonSkin('dialog_btn_cha_close','dialog_btn_cha_close','dialog_btn_cha_close')" y="18" x="387"/>
+	</e:Group>
+</e:Skin>

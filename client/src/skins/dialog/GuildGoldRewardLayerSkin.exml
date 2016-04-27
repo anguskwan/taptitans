@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Rect width="100%" height="100%" horizontalCenter="0" bottom="0" fillColor="0x6D543E"/>
+	<e:Group width="480" height="50">
+		<e:UIAsset horizontalCenter="0" verticalCenter="0" source="dialog_title_bar_brown"/>
+		<e:Button id="closeBtn" x="10" y="10" right="18" top="4" skinName="@ButtonSkin('dialog_btn_cha_close_white','dialog_btn_cha_close_white','dialog_btn_cha_close_white')"/>
+	</e:Group>
+	<e:Label text="规则说明：" x="18" fontFamily="Arial" size="18" textColor="0xFFFFFF" y="58"/>
+	<e:Label fontFamily="Arial" size="18" x="18" text="奖励说明：" textColor="0xFFFFFF" y="216"/>
+	<e:Rect width="452" height="126" y="80" horizontalCenter="0" fillColor="0x49382C"/>
+	<e:Scroller scrollSpeed="0.1" height="110" width="440" x="21" y="87">
+		<e:Group id="textGroup">
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<e:List id="list" width="452" useVirtualLayout="true" x="40" y="40" horizontalCenter="0" top="241" height="514">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" gap="4"/>
+		</e:layout>
+	</e:List>
+</e:Skin>

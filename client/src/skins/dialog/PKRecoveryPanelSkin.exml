@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableContainer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Rect width="100%" height="100%" fillColor="0x000000" fillAlpha="0.5"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:UIAsset source="dialog_popup" scale9Grid="55,53,337,324" height="260"/>
+		<e:Rect width="394" height="80" x="28" y="66" fillColor="0x2C2930"/>
+		<e:Label x="29" y="18" size="18" fontFamily="Arial" bold="true" text="恢复你的士气值"/>
+		<e:Label id="timeLbl" fontFamily="Arial" size="18" bold="true" y="18" text="00:00:00" right="67"/>
+		<e:Label size="14" fontFamily="Arial" bold="true" x="39" y="76" text="使用钻石，可以立即使你的士气涨满。\n减少英雄的死亡概率。"/>
+		<e:UIAsset source="pk_icon_player" x="319" y="62"/>
+		<e:Button id="closeBtn" right="20" top="11" skinName="@ButtonSkin('dialog_btn_cha_close','dialog_btn_cha_close','dialog_btn_cha_close')" x="10" y="10"/>
+		<e:Group width="300" height="60" x="74" y="170">
+			<e:Button id="recoveryBtn" fontFamily="Arial" bold="true" skinName="@ButtonSkin('dialog_btn_big_blue','dialog_btn_big_blue','dialog_btn_big_blue')"/>
+			<e:Label size="24" fontFamily="Arial" bold="true" x="160" y="12" text="恢复士气" touchEnabled="false"/>
+			<e:Group y="12" x="50" touchEnabled="false" touchChildren="false">
+				<e:UIAsset source="diamond"/>
+				<e:Label id="diamondLbl" fontFamily="Arial" bold="true" size="24" text="X150"/>
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

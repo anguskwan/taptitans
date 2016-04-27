@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>打怪兽简易后台</title>
+  <!-- Application styles. -->
+  <link rel="stylesheet" href="css/admin.css">
+  <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <!-- Application container. -->
+  <div id="loadingOverlay" class="none">
+      <i class="icon icon-bird spin"></i>
+      <div>加载中</div>
+  </div>
+  <main role="main" id="mainWrapper">
+  </main>
+  <!-- Application source. -->
+  <script src="bower_components/requirejs/require.js" data-main="js/config"></script>
+  <!-- /build -->
+</body>
+</html>

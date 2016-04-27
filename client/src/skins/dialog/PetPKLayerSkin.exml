@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="100%" height="100%">
+		<e:UIAsset source="pet_pk_top_img" y="0" x="0"/>
+		<e:Group id="groupUser" width="480" height="132" x="10" horizontalCenter="1" top="-2">
+			<e:UIAsset id="icon_player1" width="50" height="52" x="6" y="6" source="pet_question_out_9img"/>
+			<e:UIAsset id="icon_player2" source="pet_question_out_9img" width="50" height="52" y="6" x="422"/>
+			<e:Label id="label_player1_name" text="玩家名字1" x="68" y="4" size="20" textAlign="left" fontFamily="黑体"/>
+			<e:Label id="label_player1_pet" textAlign="left" x="69" y="39" fontFamily="黑体" size="15" text="Lv.34 皮卡丘"/>
+			<e:Label id="label_player2_pet" text="Lv.34 皮卡丘" fontFamily="黑体" textAlign="left" size="15" x="316" y="39"/>
+			<e:Label id="label_player2_name" size="20" text="玩家名字1" x="312" y="4" textAlign="right" fontFamily="黑体"/>
+			<e:UIAsset id="progr" source="pet_blood_left_progressImg" x="3" y="65"/>
+			<e:UIAsset source="pet_blood_right_progressImg" x="320" y="66"/>
+		</e:Group>
+		<e:Group id="groupPet1" width="200" height="200" horizontalCenter="-117" verticalCenter="40"/>
+		<e:Group id="groupPet2" width="200" height="200" horizontalCenter="117" verticalCenter="39"/>
+		<e:UIAsset source="pet_pk_green_btn" y="604" x="176"/>
+		<e:Label id="label_player2_name0" fontFamily="黑体" textAlign="right" y="618" text="快速战斗" size="21" touchEnabled="false" x="192"/>
+		<e:UIAsset width="84" height="20" x="195" y="661" textColor="0x0A0101" source="pet_question_in_9img"/>
+		<e:Label id="label_player2_pet0" fontFamily="黑体" textAlign="left" size="15" y="662" x="216" text="V3可用"/>
+	</e:Group>
+</e:Skin>

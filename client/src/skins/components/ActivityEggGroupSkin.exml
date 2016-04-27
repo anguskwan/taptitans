@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="650" currentState="normal" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group id="resGroup" width="480" height="650">
+		<e:UIAsset id="background" width="100%" height="100%"/>
+		<e:Label id="validTimeLabel" text.normal="3月8日--3月18日" text="3月8日--3月18日" textColor="0xEDA424" size="14" horizontalCenter="-22" y="65" fontFamily="Arial"/>
+		<e:Button id="buyBtn" fontFamily="Arial" width="150" bold="true" height="50" enabled.normal="true" enabled.disabled="false" label="充  值" size="24" textAlign="center" skinName="@ButtonSkin('dialog_btn_blue','dialog_btn_blue','dialog_btn_disabled')" enabled="true" x="311" y="564"/>
+		<e:Label id="canGetHammerCountLbl" size="14" text="10" y="526" x="433" textAlign="left" width="45" fontFamily="Arial"/>
+		<e:Label text="1" size="14" x="119" y="507" width="43" textAlign="left" fontFamily="Arial"/>
+		<e:Label text="30" size="14" y="507" textAlign="left" width="52" x="213" fontFamily="Arial"/>
+		<e:Label id="todayGainCrystalLbl" text="0" size="14" textAlign="left" width="45" x="116" y="620" fontFamily="Arial"/>
+		<e:Label id="hammerCountLbl" text="0" size="14" width="35" textAlign="left" y="620" x="258" fontFamily="Arial"/>
+		<e:Button id="egg1" skinName="@ButtonSkin('activity_egg','activity_egg','activity_broken_egg')" x="34" y="86" enabled="true"/>
+		<e:Button id="egg2" skinName="@ButtonSkin('activity_egg','activity_egg','activity_broken_egg')" x="258" y="86"/>
+		<e:Button id="egg3" skinName="@ButtonSkin('activity_egg','activity_egg','activity_broken_egg')" x="34" y="287"/>
+		<e:Button id="egg4" skinName="@ButtonSkin('activity_egg','activity_egg','activity_broken_egg')" x="262" y="287"/>
+	</e:Group>
+</e:Skin>

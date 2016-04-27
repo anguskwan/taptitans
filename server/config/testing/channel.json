@@ -1,0 +1,20 @@
+{
+  "hortor" : {
+    "appid" : "wx26a2518b5b7f2873",
+    "appSecret" : "8bb57d4d09d7cf56f5e3d1237b0a15b7",
+    "queryUrl" : "http://h5-api-test.secret-cn.com/gc/profile"
+  },
+  "test" : {
+    "appid" : "wx26a2518b5b7f2873",
+    "appSecret" : "8bb57d4d09d7cf56f5e3d1237b0a15b7",
+    "queryUrl" : "http://h5-api-test.secret-cn.com/gc/profile"
+  },
+  "juhe" : {
+    "appid" : "26",
+    "appSecret" : "8b63702495ea8d1a6059dc1516c0be61"
+  },
+  "1758" : {
+    "appKey" : "58b6c11d531a6a4ac876582daacace2b",
+    "appSecret" : "072bfd00a1165f4807752190e1b9992a"
+  }
+}

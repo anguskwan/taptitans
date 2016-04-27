@@ -1,0 +1,17 @@
+{"file":"pk.png","frames":{
+"pk_complete_lose":{"x":191,"y":1,"w":189,"h":101,"offX":0,"offY":0,"sourceW":189,"sourceH":101},
+"pk_banner_left":{"x":1,"y":185,"w":218,"h":79,"offX":0,"offY":0,"sourceW":218,"sourceH":79},
+"pk_banner_right":{"x":191,"y":104,"w":218,"h":79,"offX":0,"offY":0,"sourceW":218,"sourceH":79},
+"pk_complete_victory":{"x":1,"y":1,"w":188,"h":102,"offX":0,"offY":0,"sourceW":188,"sourceH":102},
+"pk_explanation_btn":{"x":145,"y":105,"w":40,"h":40,"offX":0,"offY":0,"sourceW":40,"sourceH":40},
+"pk_glass":{"x":382,"y":1,"w":90,"h":99,"offX":0,"offY":0,"sourceW":90,"sourceH":99},
+"pk_icon_pk":{"x":145,"y":147,"w":24,"h":24,"offX":0,"offY":0,"sourceW":24,"sourceH":24},
+"pk_icon_player":{"x":221,"y":185,"w":101,"h":86,"offX":0,"offY":0,"sourceW":101,"sourceH":86},
+"pk_icon_victory":{"x":103,"y":105,"w":40,"h":43,"offX":0,"offY":0,"sourceW":40,"sourceH":43},
+"pk_morale_point":{"x":171,"y":147,"w":16,"h":8,"offX":0,"offY":0,"sourceW":16,"sourceH":8},
+"pk_morale":{"x":411,"y":102,"w":81,"h":84,"offX":0,"offY":0,"sourceW":81,"sourceH":84},
+"pk_progress_bg":{"x":1,"y":273,"w":241,"h":21,"offX":0,"offY":0,"sourceW":241,"sourceH":21},
+"pk_progress_green":{"x":1,"y":296,"w":237,"h":16,"offX":0,"offY":0,"sourceW":237,"sourceH":16},
+"pk_progress_red":{"x":244,"y":273,"w":237,"h":16,"offX":0,"offY":0,"sourceW":237,"sourceH":16},
+"pk_progress_yellow":{"x":244,"y":291,"w":237,"h":16,"offX":0,"offY":0,"sourceW":237,"sourceH":16},
+"pk_vs":{"x":1,"y":105,"w":100,"h":52,"offX":0,"offY":0,"sourceW":100,"sourceH":52}}}

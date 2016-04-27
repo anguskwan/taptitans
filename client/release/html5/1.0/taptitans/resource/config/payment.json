@@ -1,0 +1,90 @@
+{
+  "301": {
+    "cost": 12, 
+    "costType": "rmb", 
+    "desc": "", 
+    "diamondNum": 180, 
+    "id": 301, 
+    "name": "180钻石"
+  }, 
+  "302": {
+    "cost": 30, 
+    "costType": "rmb", 
+    "desc": "钻石增加11%", 
+    "diamondNum": 500, 
+    "id": 302, 
+    "name": "500钻石"
+  }, 
+  "303": {
+    "cost": 68, 
+    "costType": "rmb", 
+    "desc": "钻石增加33%", 
+    "diamondNum": 1200, 
+    "id": 303, 
+    "name": "1200钻石"
+  }, 
+  "304": {
+    "cost": 168, 
+    "costType": "rmb", 
+    "desc": "钻石增加38%", 
+    "diamondNum": 3100, 
+    "id": 304, 
+    "name": "3100钻石"
+  }, 
+  "305": {
+    "cost": 328, 
+    "costType": "rmb", 
+    "desc": "钻石增加44%", 
+    "diamondNum": 6500, 
+    "id": 305, 
+    "name": "6500钻石"
+  }, 
+  "306": {
+    "cost": 648, 
+    "costType": "rmb", 
+    "desc": "钻石增加56%", 
+    "diamondNum": 14000, 
+    "id": 306, 
+    "name": "14000钻石"
+  }, 
+  "311": {
+    "cost": 18, 
+    "costType": "rmb", 
+    "desc": "每月天天领钻石", 
+    "diamondNum": 0, 
+    "id": 311, 
+    "name": "钻石月卡"
+  }, 
+  "312": {
+    "cost": 6, 
+    "costType": "rmb", 
+    "desc": "新手礼包", 
+    "diamondNum": 300, 
+    "id": 312, 
+    "name": "新手礼包"
+  }, 
+  "313": {
+    "cost": 88, 
+    "costType": "rmb", 
+    "desc": "每月天天领钻石", 
+    "diamondNum": 0, 
+    "id": 313, 
+    "name": "至尊月卡"
+  }, 
+  "314": {
+    "cost": 188, 
+    "costType": "rmb", 
+    "desc": "一次购买, 终身天天领钻石", 
+    "diamondNum": 1888, 
+    "id": 314, 
+    "name": "终身月卡"
+  }, 
+  "315": {
+    "cost": 3, 
+    "costType": "rmb", 
+    "desc": "3元优惠大礼包", 
+    "diamondNum": 0, 
+    "id": 315, 
+    "name": "三元礼包"
+  }
+}

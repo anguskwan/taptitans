@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="300" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.ItemRenderer"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="up"/>
+		<e:State name="down"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="300" height="100%" horizontalCenter="0">
+		<e:Rect width="220" height="100" horizontalCenter="0" verticalCenter="-6" fillColor="0x3B3045"/>
+		<e:Rect width="200" height="30" x="10" y="10" horizontalCenter="0" verticalCenter="12" fillColor="0x2E2536"/>
+		<e:UIAsset id="titleImg" source="pk_complete_victory" horizontalCenter="0" y="11"/>
+		<e:Group height="28" y="151" left="53">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="1"/>
+			</e:layout>
+			<e:Label fontFamily="Arial" textAlign="center" size="18" verticalCenter="0" verticalAlign="middle" bold="true" x="25" y="10" textColor="0xFFFFFF" text="获得积分："/>
+			<e:Label id="expLbl" fontFamily="Arial" textAlign="center" size="18" verticalAlign="middle" verticalCenter="0" bold="true" x="15" textColor="0xFFFFFF" text="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

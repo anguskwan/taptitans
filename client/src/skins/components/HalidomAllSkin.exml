@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="450" height="80" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.ItemRenderer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="up"/>
+<e:State name="down"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group height="100%" verticalCenter="0" width="450" horizontalCenter="0" x="10" y="10">
+		<e:UIAsset y="0" width="450" source="list_element_bg" x="0"/>
+		<e:UIAsset y="11" height="58" verticalCenter="0" width="58" x="14" source="icon_buy_artifact_all"/>
+		<e:UIAsset x="76" y="12" source="btn_big_yellow"/>
+		<e:Label fontFamily="Arial" height="25" textAlign="left" horizontalCenter="20" verticalCenter="0.5" verticalAlign="bottom" size="14" text="神器图鉴"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="450" height="80" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.ItemRenderer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="up"/>
+<e:State name="down"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group verticalCenter="0" horizontalCenter="0" width="450" height="100%">
+		<e:UIAsset source="list_element_bg" width="450" x="0" y="0"/>
+		<e:UIAsset id="iconImg" x="13" y="11" width="58" height="58" source="iconItem_json.dailyTask1"/>
+		<e:Label id="titleLbl" text="名字" textAlign="left" verticalAlign="middle" size="18" fontFamily="Arial" bold="true" x="82" y="14"/>
+		<e:Label id="countLbl" verticalAlign="middle" text="100/100" textAlign="left" size="14" fontFamily="Arial" bold="true" x="82" y="43"/>
+		<uiskins:CommonItemButton id="btnItem" label="按钮" x="318" y="10" skinName="skins.components.CommonItemButtonSkin"/>
+		<e:UIAsset id="gainedImg" source="common_json.dailyTaskGained" x="331" y="18" visible="false"/>
+	</e:Group>
+</e:Skin>

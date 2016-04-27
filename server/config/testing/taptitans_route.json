@@ -1,0 +1,10 @@
+{
+  "apps" : [{
+    "name"        : "taptitans_route_testing",
+    "script"      : "app_route.js",
+    "args"        : "['--env', 'testing']",
+    "one_launch_only": true,
+    "watch"       : "true",
+    "env": {}
+  }]
+}

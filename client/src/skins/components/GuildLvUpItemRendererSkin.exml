@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="464" height="102" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.ItemRenderer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="up"/>
+<e:State name="down"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:UIAsset horizontalCenter="0" verticalCenter="0" source="guild_lvup_item_bar"/>
+		<e:UIAsset id="iconImg" source="guild_item1" y="11" x="11"/>
+		<e:Label id="nameLbl" fontFamily="Arial" textAlign="left" size="20" bold="true" textColor="0xF7DDB9" text="名字" y="13" x="80"/>
+		<e:Label id="lvLbl" fontFamily="Arial" textAlign="left" size="20" bold="true" x="190" y="13" textColor="0x61F762" text="Lv.0"/>
+		<e:Label id="descLbl" fontFamily="Arial" textAlign="left" bold="true" textColor="0xAA8A61" size="16" text="内容" y="42" x="80"/>
+		<uiskins:GuildLvUpProgressBar id="progress" x="12" y="78" skinName="skins.components.GuildLvUpProgressBarSkin" slideDuration="0"/>
+		<e:Group x="323" y="26">
+			<e:Button id="lvUpBtn" skinName="@ButtonSkin('dialog_btn_yellow','dialog_btn_yellow','dialog_btn_disabled')" width="120" height="40"/>
+			<e:Group touchEnabled="false" touchChildren="false" horizontalCenter="0" verticalCenter="0">
+				<e:layout>
+					<e:HorizontalLayout gap="2"/>
+				</e:layout>
+				<e:UIAsset x="212" scaleY="0.9" y="128" scaleX="0.9" source="diamond"/>
+				<e:Label id="diamondLbl" y="10" textColor="0xFFFFFF" fontFamily="Arial" x="10" size="20" bold="true" text="x50"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

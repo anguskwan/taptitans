@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="650" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="480" height="650">
+		<e:UIAsset id="newBagBgImg" width="100%" height="100%"/>
+		<e:Group horizontalCenter="0" bottom="30">
+			<e:Button id="getRewardBtn" fontFamily="Arial" width="150" bold="true" height="50" skinName="@ButtonSkin('dialog_btn_red','dialog_btn_red','dialog_btn_disabled')" enabled="false"/>
+			<e:Label id="getRewardLbl" verticalCenter="0" fontFamily="Arial" touchEnabled="false" bold="true" horizontalCenter="0" text="领取礼包" size="18"/>
+		</e:Group>
+		<e:Label id="rewardLbl1" y="521" size="24" fontFamily="Arial" horizontalCenter="-151.5" text="0"/>
+		<e:Label id="rewardLbl2" size="24" fontFamily="Arial" x="10" y="521" horizontalCenter="-1.5" text="1"/>
+		<e:Label id="rewardLbl3" fontFamily="Arial" size="24" x="20" y="521" horizontalCenter="148.5" text="100"/>
+	</e:Group>
+</e:Skin>

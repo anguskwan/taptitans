@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="447" height="650" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group verticalCenter="0" horizontalCenter="0" x="10" y="10">
+		<e:UIAsset scale9Grid="55,53,337,324" source="dialog_popup" height="650"/>
+		<e:UIAsset source="dialog_daily_title_bg" y="17" horizontalCenter="0"/>
+		<e:Button id="closeBtn" skinName="@ButtonSkin('dialog_btn_cha_close','dialog_btn_cha_close','dialog_btn_cha_close')" x="387" y="28"/>
+		<e:UIAsset source="dialog_daily_title" y="29" x="151"/>
+		<e:Group id="selectGroup1" width="160" height="145" y="107" x="40" touchChildren="false" touchEnabled="true">
+			<e:UIAsset source="dialog_daily_btn1_bg"/>
+			<e:Label text="1" x="6" y="7" size="24" fontFamily="Arial" bold="true" textColor="0xC68D12"/>
+			<e:UIAsset source="dialog_daily_diamond" x="17" y="43"/>
+			<e:Label id="numLbl1" text="x15" x="78" y="46" size="24" fontFamily="Arial" bold="true"/>
+			<e:UIAsset id="selectImg1" source="dialog_daily_select" y="100" x="43"/>
+			<e:UIAsset id="selectOffImg1" source="dialog_daily_btn1_off"/>
+		</e:Group>
+		<e:Group id="selectGroup2" height="145" width="160" y="107" right="40" touchChildren="false" touchEnabled="true">
+			<e:UIAsset source="dialog_daily_btn1_bg"/>
+			<e:Label y="7" textColor="0xC68D12" fontFamily="Arial" size="24" bold="true" x="6" text="2"/>
+			<e:UIAsset y="43" source="dialog_daily_diamond" x="17"/>
+			<e:Label id="numLbl2" y="46" fontFamily="Arial" size="24" bold="true" x="78" text="x30"/>
+			<e:UIAsset id="selectImg2" y="100" source="dialog_daily_select" x="43"/>
+			<e:UIAsset id="selectOffImg2" source="dialog_daily_btn1_off"/>
+		</e:Group>
+		<e:Group id="selectGroup3" height="145" width="160" y="287" x="40" touchChildren="false" touchEnabled="true">
+			<e:UIAsset source="dialog_daily_btn1_bg"/>
+			<e:Label y="7" textColor="0xC68D12" fontFamily="Arial" size="24" bold="true" x="6" text="3"/>
+			<e:UIAsset y="43" source="dialog_daily_diamond" x="17"/>
+			<e:Label id="numLbl3" y="46" fontFamily="Arial" size="24" bold="true" x="78" text="x45"/>
+			<e:UIAsset id="selectImg3" y="100" source="dialog_daily_select" x="43"/>
+			<e:UIAsset id="selectOffImg3" source="dialog_daily_btn1_off"/>
+		</e:Group>
+		<e:Group id="selectGroup4" width="160" height="145" y="287" right="40" touchChildren="false" touchEnabled="true">
+			<e:UIAsset source="dialog_daily_btn1_bg"/>
+			<e:Label y="7" textColor="0xC68D12" fontFamily="Arial" size="24" bold="true" x="6" text="4"/>
+			<e:UIAsset y="43" source="dialog_daily_diamond" x="17"/>
+			<e:Label id="numLbl4" y="46" fontFamily="Arial" size="24" bold="true" x="78" text="x60"/>
+			<e:UIAsset id="selectImg4" y="100" source="dialog_daily_select" x="43"/>
+			<e:UIAsset id="selectOffImg4" source="dialog_daily_btn1_off"/>
+		</e:Group>
+		<e:Group id="selectGroup5" y="467" horizontalCenter="0" touchChildren="false" touchEnabled="true">
+			<e:UIAsset source="dialog_daily_btn2_bg" x="1"/>
+			<e:Label y="7" textColor="0xC68D12" fontFamily="Arial" size="24" bold="true" x="6" text="5"/>
+			<e:Label id="numLbl5" fontFamily="Arial" size="24" bold="true" text="0" textAlign="center" verticalAlign="middle" textColor="0x0D0A10" horizontalCenter="-1.5" y="14"/>
+			<e:UIAsset id="selectImg5" y="100" source="dialog_daily_select" horizontalCenter="0"/>
+			<e:UIAsset id="selectOffImg5" source="dialog_daily_btn2_off" x="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

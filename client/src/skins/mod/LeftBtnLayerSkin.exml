@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="674" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Button id="challengeBtn" skinName="@ButtonSkin('btn_challenge','btn_challenge','btn_challenge')" y="70" visible="false"/>
+	<uiskins:StateButton id="matchBtn" skinName="skins.components.StateButtonSkin" upSkinName="btn_match" downSkinName="btn_match" disabledSkinName="btn_match" width="59" height="59" x="0" y="139" visible="false"/>
+	<e:Button id="offonlinecoinBtn" skinName="@ButtonSkin('btn_offonlinecoin','btn_offonlinecoin','btn_offonlinecoin')" visible.normal="false" y="207" x="0" visible="false"/>
+	<e:Group width="59" height="59" x="0" y="208" visible="false">
+		<e:UIAsset id="effectImg" source="effect_coinbtn" y="31" x="29" touchEnabled.normal="false" touchChildren.normal="false" visible.normal="false"/>
+	</e:Group>
+	<e:Button id="weaponBtn" x="0" skinName="@ButtonSkin('btn_weapon','btn_weapon','btn_weapon')" y="274" visible="false"/>
+	<e:Group id="weaponGroup" x="39" width="24" y="274" visible="false">
+		<e:UIAsset source="tip_weapon_count_bg"/>
+		<e:Label id="weaponLbl" fontFamily="Arial" size="14" bold="true" textAlign="center" verticalAlign="middle" verticalCenter="0" horizontalCenter="-0.5" text="0"/>
+	</e:Group>
+	<e:Button id="dailyRewardBtn" skinName="@ButtonSkin('btn_dailyreward','btn_dailyreward','btn_dailyreward')" y="340" x="2"/>
+	<e:Group id="selectGroup" width="441" height="94" x="16" y="71">
+		<e:UIAsset width="459" height="127" source="btn_select_bg" scale9Grid="56,13,34,78" x="-24" y="-22"/>
+		<e:Button id="pkBtn" skinName="@ButtonSkin('btn_pk','btn_pk','btn_pk_close')" x="282" y="22"/>
+		<e:UIAsset id="pkTipImg" source="tip_big_task" x="321" y="16"/>
+		<e:Button id="activityBtn" skinName="@ButtonSkin('btn_activity','btn_activity','btn_activity')" x="5" y="21"/>
+		<e:UIAsset id="activityTipImg" source="tip_big_task" x="42" y="18"/>
+		<uiskins:StateButton id="guildBtn" upSkinName="btn_match" downSkinName="btn_match" disabledSkinName="btn_match" skinName="@ButtonSkin('btn_guild','btn_guild','btn_guild_lock')" x="76" y="24"/>
+		<e:Button id="btnEquip" skinName="@ButtonSkin('btn_equip_entry','btn_equip_entry','btn_equip_entry')" x="145" y="16"/>
+		<e:Button id="dailyTaskEnterBtn" skinName="@ButtonSkin('dailyTaskEnterBtn','dailyTaskEnterBtn','dailyTaskEnterBtn')" x="213" y="24"/>
+		<e:UIAsset id="dailyTaskTipImg" source="tip_big_task" x="246" y="16"/>
+		<e:Button id="settingBtn" skinName="@ButtonSkin('btn_setting','btn_setting','btn_setting')" x="356" y="19"/>
+	</e:Group>
+	<uiskins:StateButton id="selectBtn" height="26" upSkinName="btn_match" downSkinName="btn_match" disabledSkinName="btn_match" width="31" skinName="@ButtonSkin('btn_select_open','btn_select_open','btn_select_open')" x="21" y="17"/>
+	<e:UIAsset id="pkTipImg1" source="tip_big_task" y="5" x="40"/>
+	<e:UIAsset width="20" height="20" x="98" y="198"/>
+</e:Skin>

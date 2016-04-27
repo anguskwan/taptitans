@@ -1,0 +1,162 @@
+{
+  "1": {
+    "cost": 100, 
+    "costType": "diamond", 
+    "desc": "收到%s块黄金", 
+    "diamondNum": 0, 
+    "id": 1, 
+    "name": "天降黄金", 
+    "payId": 1, 
+    "vipNum": 0
+  }, 
+  "2": {
+    "cost": 100, 
+    "costType": "diamond", 
+    "desc": "每秒自动点击5次，持续30分钟，\\n可累计购买", 
+    "diamondNum": 0, 
+    "id": 2, 
+    "name": "自动攻击", 
+    "payId": 2, 
+    "vipNum": 0
+  }, 
+  "3": {
+    "cost": 100, 
+    "costType": "diamond", 
+    "desc": "召唤残酷镰刀死神。秒杀怪物。", 
+    "diamondNum": 0, 
+    "id": 3, 
+    "name": "死亡末日", 
+    "payId": 3, 
+    "vipNum": 0
+  }, 
+  "4": {
+    "cost": 50, 
+    "costType": "diamond", 
+    "desc": "手指点击屏幕即可每秒攻击30\\n下，持续120秒", 
+    "diamondNum": 0, 
+    "id": 4, 
+    "name": "坚持神力", 
+    "payId": 4, 
+    "vipNum": 0
+  }, 
+  "5": {
+    "cost": 0, 
+    "costType": "diamond", 
+    "desc": "立即刷新所有技能的冷却时间。", 
+    "diamondNum": 0, 
+    "id": 5, 
+    "name": "技能刷新", 
+    "payId": 5, 
+    "vipNum": 0
+  }, 
+  "6": {
+    "cost": 2480, 
+    "costType": "diamond", 
+    "desc": "一次性购买10个道具，必出武器", 
+    "diamondNum": 0, 
+    "id": 6, 
+    "name": "月光宝盒", 
+    "payId": 6, 
+    "vipNum": 0
+  }, 
+  "7": {
+    "cost": -1, 
+    "costType": "free", 
+    "desc": "邀请好友一起玩", 
+    "diamondNum": 0, 
+    "id": 7, 
+    "name": "微信分享", 
+    "payId": 7, 
+    "vipNum": 0
+  }, 
+  "8": {
+    "cost": 18, 
+    "costType": "rmb", 
+    "desc": "每月天天领钻石", 
+    "diamondNum": 0, 
+    "id": 8, 
+    "name": "钻石月卡,每天领100钻", 
+    "payId": 311, 
+    "vipNum": 0
+  }, 
+  "9": {
+    "cost": 88, 
+    "costType": "rmb", 
+    "desc": "领取30天，有10%几率领取双\\n倍钻石", 
+    "diamondNum": 0, 
+    "id": 9, 
+    "name": "至尊月卡,每天领取500钻", 
+    "payId": 313, 
+    "vipNum": 0
+  }, 
+  "10": {
+    "cost": 188, 
+    "costType": "rmb", 
+    "desc": "一次购买，终身天天领钻石。", 
+    "diamondNum": 1888, 
+    "id": 10, 
+    "name": "终身月卡,每天领取500钻", 
+    "payId": 314, 
+    "vipNum": 0
+  }, 
+  "11": {
+    "cost": 12, 
+    "costType": "rmb", 
+    "desc": "", 
+    "diamondNum": 180, 
+    "id": 11, 
+    "name": "180钻石", 
+    "payId": 301, 
+    "vipNum": 259
+  }, 
+  "12": {
+    "cost": 30, 
+    "costType": "rmb", 
+    "desc": "钻石增加11%", 
+    "diamondNum": 500, 
+    "id": 12, 
+    "name": "500钻石", 
+    "payId": 302, 
+    "vipNum": 648
+  }, 
+  "13": {
+    "cost": 68, 
+    "costType": "rmb", 
+    "desc": "钻石增加17%", 
+    "diamondNum": 1200, 
+    "id": 13, 
+    "name": "1200钻石", 
+    "payId": 303, 
+    "vipNum": 1469
+  }, 
+  "14": {
+    "cost": 168, 
+    "costType": "rmb", 
+    "desc": "钻石增加23%", 
+    "diamondNum": 3100, 
+    "id": 14, 
+    "name": "3100钻石", 
+    "payId": 304, 
+    "vipNum": 3629
+  }, 
+  "15": {
+    "cost": 328, 
+    "costType": "rmb", 
+    "desc": "钻石增加32%", 
+    "diamondNum": 6500, 
+    "id": 15, 
+    "name": "6500钻石", 
+    "payId": 305, 
+    "vipNum": 7085
+  }, 
+  "16": {
+    "cost": 648, 
+    "costType": "rmb", 
+    "desc": "钻石增加44%", 
+    "diamondNum": 14000, 
+    "id": 16, 
+    "name": "14000钻石", 
+    "payId": 306, 
+    "vipNum": 14000
+  }
+}

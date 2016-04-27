@@ -1,0 +1,56 @@
+{
+  "1": {
+    "crystal": 50, 
+    "diamond": 300, 
+    "id": 1, 
+    "item": "doom", 
+    "itemNum": 1, 
+    "rmb": 18, 
+    "weaponItem": 0
+  }, 
+  "2": {
+    "crystal": 100, 
+    "diamond": 600, 
+    "id": 2, 
+    "item": "refreshSkill", 
+    "itemNum": 1, 
+    "rmb": 88, 
+    "weaponItem": 0
+  }, 
+  "3": {
+    "crystal": 200, 
+    "diamond": 1300, 
+    "id": 3, 
+    "item": "autoTap", 
+    "itemNum": 2, 
+    "rmb": 188, 
+    "weaponItem": 1
+  }, 
+  "4": {
+    "crystal": 300, 
+    "diamond": 2700, 
+    "id": 4, 
+    "item": "tenTimes", 
+    "itemNum": 1, 
+    "rmb": 388, 
+    "weaponItem": 2
+  }, 
+  "5": {
+    "crystal": 500, 
+    "diamond": 6000, 
+    "id": 5, 
+    "item": "tenTimes", 
+    "itemNum": 1, 
+    "rmb": 888, 
+    "weaponItem": 2
+  }, 
+  "6": {
+    "crystal": 2000, 
+    "diamond": 13000, 
+    "id": 6, 
+    "item": "tenTimes", 
+    "itemNum": 1, 
+    "rmb": 1888, 
+    "weaponItem": 5
+  }
+}

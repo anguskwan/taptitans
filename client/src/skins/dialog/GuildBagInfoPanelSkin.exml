@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableContainer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Rect fillAlpha="0.5" width="100%" fillColor="0x000000" height="100%"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:UIAsset scale9Grid="55,53,337,324" height="440" source="guild_popup" x="0" y="0"/>
+		<e:Label fontFamily="Arial" size="24" bold="true" y="26" x="29" text="红包规则说明"/>
+		<e:Button id="closeBtn" x="10" y="10" skinName="@ButtonSkin('guild_btn_close','guild_btn_close','guild_btn_close')" right="24" top="19"/>
+		<e:Rect width="360" height="340" y="71" horizontalCenter="-0.5" fillColor="0x3C2E29"/>
+		<e:Scroller height="320" scrollSpeed="0.1" width="340" x="30" y="81" verticalScrollPolicy="off">
+			<e:Group>
+				<e:Label x="95" y="48" size="18" verticalAlign="middle" fontFamily="Arial" width="340" textAlign="left" text="1、玩家可以在公会内进行发红包或者抢红包，红包数量有限制。"/>
+				<e:Label verticalAlign="middle" fontFamily="Arial" textAlign="left" size="18" width="340" x="105" y="58" text="2、发红包次数每日零点重置。"/>
+				<e:Label verticalAlign="middle" fontFamily="Arial" textAlign="left" size="18" width="340" x="115" y="68" text="3、所有红包内的额度均为随机。"/>
+				<e:Label verticalAlign="middle" fontFamily="Arial" textAlign="left" size="18" width="340" x="125" y="78" text="4、发出的红包24小时未领取，将自动消失。剩余额度不返还。"/>
+				<e:layout>
+					<e:VerticalLayout gap="6"/>
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

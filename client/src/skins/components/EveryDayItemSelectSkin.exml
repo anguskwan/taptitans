@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="122" height="122" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0" touchChildren="false" touchEnabled="false">
+		<e:Rect width="100%" height="100%" verticalCenter="0" horizontalCenter="0" touchEnabled="false" fillColor="0x3A353F"/>
+		<e:Rect id="dayRect" width="122" height="25" fillColor="0x45659C"/>
+		<e:Label id="dayLbl" fontFamily="Arial" textAlign="center" verticalAlign="middle" bold="true" x="10" y="6" horizontalCenter="0" text="第天" size="14"/>
+		<e:UIAsset id="iconImg" width="58" height="58" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label id="nameLbl" fontFamily="Arial" bold="true" verticalAlign="middle" textAlign="center" horizontalCenter="0" size="14" textColor="0x858D8F" text="名称" y="101"/>
+		<e:UIAsset id="getImg" source="dialog_everyday_get" y="32" x="94"/>
+		<e:UIAsset id="selectImg" source="dialog_everyday_select"/>
+		<e:Rect id="disabledRect" width="122" height="122" fillColor="0x000000" fillAlpha="0.7"/>
+	</e:Group>
+</e:Skin>

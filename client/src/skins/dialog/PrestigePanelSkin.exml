@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="447" height="460" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableContainer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group verticalCenter="0" horizontalCenter="0">
+		<e:UIAsset source="dialog_popup" scale9Grid="55,53,337,324" x="-1" y="1" height="460"/>
+		<e:UIAsset source="icon_skill7" scaleX="0.62" scaleY="0.62" x="25" y="22"/>
+		<e:Label text="蜕变" x="68" y="22" size="24" fontFamily="Arial" bold="true"/>
+		<e:UIAsset source="icon_prestige" x="25" y="66"/>
+		<e:Label y="70" fontFamily="Arial" bold="true" text="进入蜕变模式，重置游戏进度，以\n换取许多珍贵圣物，但是你的实力\n将会更加NB。" size="16" x="176"/>
+		<e:Group x="195" y="141">
+			<e:Label text="你会继续" textColor="0xEB780F" fontFamily="Arial" y="-4" size="16"/>
+			<e:Label textColor="0xEB780F" x="20" fontFamily="Arial" bold="true" size="14" y="19" text="神器"/>
+			<e:Label textColor="0xEB780F" x="20" fontFamily="Arial" bold="true" size="14" y="41" text="武器升级"/>
+			<e:UIAsset source="icon_small_prestige_artifact" y="20"/>
+			<e:UIAsset source="icon_small_prestige_weapon" y="42"/>
+		</e:Group>
+		<e:Group y="231" width="60%" horizontalCenter="0">
+			<e:Group width="100%" x="10" y="10">
+				<e:Label size="18" text="英雄等级额外奖励：" verticalCenter="0" textAlign="right" right="120" fontFamily="Arial" bold="true"/>
+				<e:UIAsset source="relic" verticalCenter="0" scaleX="0.7" scaleY="0.7" right="0"/>
+				<e:Label id="heroLbl" textColor="0xFFFFFF" verticalCenter="0" textAlign="right" right="33" size="18" x="30" y="40" fontFamily="Arial" bold="true" text="0"/>
+			</e:Group>
+			<e:Group width="100%" x="20" y="20">
+				<e:Label size="18" text="过关奖励：" textAlign="right" verticalCenter="0" right="120" fontFamily="Arial" bold="true"/>
+				<e:UIAsset scaleY="0.7" verticalCenter="0" source="relic" right="0" scaleX="0.7" x="20" y="20"/>
+				<e:Label id="stageLbl" textColor="0xFFFFFF" verticalCenter="0" textAlign="right" right="33" size="18" x="20" y="30" fontFamily="Arial" bold="true" text="0"/>
+			</e:Group>
+			<e:Group width="100%" x="30" y="30">
+				<e:Label size="18" verticalCenter="0" textAlign="right" text="全队奖赏：" right="120" fontFamily="Arial" bold="true"/>
+				<e:Label id="bonusLbl" size="18" verticalCenter="0" textAlign="right" y="10" right="0" textColor="0xEB780F" fontFamily="Arial" bold="true" text="0"/>
+			</e:Group>
+			<e:Group width="100%" x="40" y="40">
+				<e:Label size="18" verticalCenter="0" textAlign="right" text="总共：" right="120" bold="true" fontFamily="Arial"/>
+				<e:UIAsset right="0" scaleY="0.7" verticalCenter="0" source="relic" scaleX="0.7" x="10" y="10"/>
+				<e:Label id="allLbl" textAlign="right" size="18" x="10" y="20" right="33" verticalCenter="0" textColor="0xFFFFFF" fontFamily="Arial" bold="true" text="0"/>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Group y="350" horizontalCenter="0.5">
+			<e:Button id="prestigeBtn" verticalAlign="middle" textAlign="center" size="22" fontFamily="Arial" bold="true" label="蜕变" skinName="@ButtonSkin('dialog_btn_blue','dialog_btn_blue','dialog_btn_blue')"/>
+			<e:Button id="prestigeSuperBtn" textAlign="center" verticalAlign="middle" size="22" fontFamily="Arial" bold="true" label="保级蜕变" skinName="@ButtonSkin('dialog_btn_red','dialog_btn_red','dialog_btn_red')"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="26"/>
+			</e:layout>
+		</e:Group>
+		<e:Group horizontalCenter="100.5" verticalCenter="196.5">
+			<e:UIAsset source="diamond"/>
+			<e:Label id="diamondLbl" text="0" bold="true" size="18" fontFamily="Arial"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="closeBtn" skinName="@ButtonSkin('dialog_btn_cha_close','dialog_btn_cha_close','dialog_btn_cha_close')" x="386" y="18"/>
+	</e:Group>
+</e:Skin>

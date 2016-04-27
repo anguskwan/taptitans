@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="690" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="100%" height="100%">
+		<e:List id="bestList" width="480" height="620" horizontalCenter="0">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" gap="0"/>
+			</e:layout>
+		</e:List>
+		<e:Group id="refreshGroup" width="320" height="50" bottom="11" horizontalCenter="0">
+			<e:layout>
+				<e:HorizontalLayout gap="20"/>
+			</e:layout>
+			<e:Group id="preGroup" y="0" height="50" horizontalCenter="-70" width="150" x="10" visible="false">
+				<e:Button id="preBtn" verticalCenter="0" skinName="@ButtonSkin('dialog_btn_big_blue','dialog_btn_big_blue','dialog_btn_big_blue')" horizontalCenter="0" width="150" height="50"/>
+				<e:Label touchEnabled="false" horizontalCenter="0" verticalCenter="0" fontFamily="Arial" size="20" text="上一页"/>
+			</e:Group>
+			<e:Group id="nextGroup" horizontalCenter="0" width="150" height="50" visible="false">
+				<e:Button id="nextBtn" verticalCenter="0" skinName="@ButtonSkin('dialog_btn_big_blue','dialog_btn_big_blue','dialog_btn_big_blue')" horizontalCenter="0" width="150" height="50"/>
+				<e:Label touchEnabled="false" horizontalCenter="0" verticalCenter="0" fontFamily="Arial" size="20" text="下一页"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

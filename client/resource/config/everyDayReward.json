@@ -1,0 +1,37 @@
+{
+  "1": {
+    "id": 1, 
+    "num": 50, 
+    "type": "diamond"
+  }, 
+  "2": {
+    "id": 2, 
+    "num": 1, 
+    "type": "relic"
+  }, 
+  "3": {
+    "id": 3, 
+    "num": 100, 
+    "type": "diamond"
+  }, 
+  "4": {
+    "id": 4, 
+    "num": 50, 
+    "type": "crystal"
+  }, 
+  "5": {
+    "id": 5, 
+    "num": 1, 
+    "type": "weaponItem"
+  }, 
+  "6": {
+    "id": 6, 
+    "num": 100, 
+    "type": "crystal"
+  }, 
+  "7": {
+    "id": 7, 
+    "num": 2, 
+    "type": "weaponItem"
+  }
+}

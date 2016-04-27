@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Rect horizontalCenter="0" width="100%" bottom="0" height="100%" x="10" y="10" fillColor="0x39363F"/>
+		<e:Group horizontalCenter="0">
+			<e:UIAsset horizontalCenter="0" verticalCenter="0" source="rank_title_bar" height="86"/>
+			<e:Label fontFamily="Arial" bold="true" size="24" text="统计数据" left="10" verticalCenter="0.5"/>
+			<e:Button id="closeBtn" skinName="@ButtonSkin('dialog_btn_cha_close','dialog_btn_cha_close','dialog_btn_cha_close')" x="422" verticalCenter="0"/>
+		</e:Group>
+		<e:Group width="100%" height="320" y="105">
+			<e:Label fontFamily="Arial" bold="true" x="10" text="目前" size="20" left="40" y="8"/>
+			<e:UIAsset source="rank_line" horizontalCenter="0.5" y="42"/>
+			<e:Group left="44" y="55">
+				<e:Label fontFamily="Arial" bold="true" text="钻石：" size="18"/>
+				<e:Label size="18" fontFamily="Arial" bold="true" x="10" y="10" text="圣物："/>
+				<e:Label fontFamily="Arial" size="18" bold="true" x="20" y="20" text="金币："/>
+				<e:Label fontFamily="Arial" size="18" bold="true" x="30" y="30" text="水晶："/>
+				<e:Label fontFamily="Arial" size="18" bold="true" x="40" y="40" text="英雄等级总计："/>
+				<e:Label fontFamily="Arial" size="18" bold="true" x="50" y="50" text="重击点击几率："/>
+				<e:Label fontFamily="Arial" size="18" bold="true" x="60" y="60" text="DPS加成倍数："/>
+				<e:Label fontFamily="Arial" size="18" bold="true" x="70" y="70" text="重击点击加成倍数："/>
+				<e:Label fontFamily="Arial" size="18" bold="true" x="90" y="252" text="当前区："/>
+				<e:Label fontFamily="Arial" size="18" bold="true" x="80" y="80" text="当前服务器："/>
+				<e:Label fontFamily="Arial" size="18" bold="true" x="80" y="80" text="用户id："/>
+				<e:Label fontFamily="Arial" size="18" bold="true" x="80" y="80" text="渠道号："/>
+				<e:Label fontFamily="Arial" size="18" bold="true" x="80" y="80" text="版本："/>
+				<e:layout>
+					<e:VerticalLayout gap="4"/>
+				</e:layout>
+			</e:Group>
+			<e:Group id="currGroup" y="55" right="43" height="346">
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="right" gap="4"/>
+				</e:layout>
+				<e:Label size="18" fontFamily="Arial" bold="true" textColor="0xF3780F" text="0"/>
+				<e:Label y="10" fontFamily="Arial" size="18" bold="true" x="10" textColor="0xF3780F" text="0"/>
+				<e:Label y="20" fontFamily="Arial" size="18" bold="true" x="20" text="0" textColor="0xF3780F"/>
+				<e:Label y="30" fontFamily="Arial" size="18" bold="true" x="30" textColor="0xF3780F" text="0"/>
+				<e:Label y="40" fontFamily="Arial" size="18" bold="true" x="40" textColor="0xF3780F" text="0"/>
+				<e:Label y="50" fontFamily="Arial" size="18" bold="true" x="50" textColor="0xF3780F" text="0"/>
+				<e:Label y="60" fontFamily="Arial" size="18" bold="true" x="60" text="0" textColor="0xF3780F"/>
+				<e:Label y="70" fontFamily="Arial" size="18" bold="true" x="70" text="0" textColor="0xF3780F"/>
+				<e:Label y="80" fontFamily="Arial" size="18" bold="true" x="80" text="0" textColor="0xF3780F"/>
+				<e:Label y="90" fontFamily="Arial" size="18" bold="true" x="90" text="0" textColor="0xF3780F"/>
+				<e:Label y="100" fontFamily="Arial" size="18" bold="true" x="100" text="0" textColor="0xF3780F"/>
+				<e:Label y="110" fontFamily="Arial" size="18" bold="true" x="110" text="0" textColor="0xF3780F"/>
+				<e:Label y="120" fontFamily="Arial" size="18" bold="true" x="120" text="0" textColor="0xF3780F"/>
+				
+
+			</e:Group>
+		</e:Group>
+		<e:Group width="100%" height="300" x="0" y="466">
+			<e:Label fontFamily="Arial" size="20" bold="true" x="10" left="40" y="8" text="累计"/>
+			<e:UIAsset source="rank_line" horizontalCenter="0.5" y="42"/>
+			<e:Group y="55" left="44">
+				<e:layout>
+					<e:VerticalLayout gap="4"/>
+				</e:layout>
+				<e:Label size="18" fontFamily="Arial" bold="true" text="黄金总数："/>
+				<e:Label y="10" fontFamily="Arial" size="18" bold="true" x="10" text="点击总数："/>
+				<e:Label y="20" fontFamily="Arial" size="18" bold="true" x="20" text="小怪兽消灭总数："/>
+				<e:Label y="30" fontFamily="Arial" size="18" bold="true" x="30" text="大BOSS消灭总数："/>
+				<e:Label y="50" fontFamily="Arial" size="18" bold="true" x="50" text="最高关卡："/>
+				<e:Label fontFamily="Arial" size="18" bold="true" x="60" y="60" text="蜕变总数："/>
+				<e:Label fontFamily="Arial" size="18" bold="true" x="70" y="70" text="距离首次游戏的天数："/>
+			</e:Group>
+			<e:Group id="addGroup" y="55" right="43">
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="right" gap="4"/>
+				</e:layout>
+				<e:Label size="18" fontFamily="Arial" bold="true" textColor="0xF3780F" text="0"/>
+				<e:Label y="10" fontFamily="Arial" size="18" bold="true" x="10" textColor="0xF3780F" text="0"/>
+				<e:Label y="20" fontFamily="Arial" size="18" bold="true" x="20" textColor="0xF3780F" text="0"/>
+				<e:Label y="30" fontFamily="Arial" size="18" bold="true" x="30" textColor="0xF3780F" text="0"/>
+				<e:Label y="50" fontFamily="Arial" size="18" bold="true" x="50" textColor="0xF3780F" text="0"/>
+				<e:Label y="60" fontFamily="Arial" size="18" bold="true" x="60" text="0" textColor="0xF3780F"/>
+				<e:Label y="70" fontFamily="Arial" size="18" bold="true" x="70" text="0" textColor="0xF3780F"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

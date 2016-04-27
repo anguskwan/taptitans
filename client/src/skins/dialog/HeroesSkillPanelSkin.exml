@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="447" height="700" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:uiskins="uiskins.*">
+	<w:HostComponent name="egret.gui.SkinnableContainer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Group width="447" height="700" horizontalCenter="0" verticalCenter="0">
+		<e:UIAsset source="dialog_popup" scale9Grid="55,53,337,324" height="700"/>
+		<e:Button skinName="@ButtonSkin('dialog_btn_cha_close','dialog_btn_cha_close','dialog_btn_cha_close')" id="closeBtn" right="20" top="20"/>
+		<e:UIAsset id="iconImg" source="hero1" x="26" y="18" scaleX="1.1" scaleY="1.1"/>
+		<e:Label id="nameLbl" fontFamily="Arial" bold="true" size="18" left="95" verticalAlign="middle" textAlign="left" top="17" text="这是名字"/>
+		<e:Group verticalAlign="middle" id="dpsGroup" left="95" top="63">
+			<e:Label size="14" y="29" text="DPS:" x="81" fontFamily="Arial" bold="true" textAlign="left" verticalAlign="middle"/>
+			<e:Label id="dpsLbl" textColor="0xFF7F01" size="14" y="39" x="34" text="10" fontFamily="Arial" bold="true" textAlign="left" verticalAlign="middle"/>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="bottom" horizontalAlign="left"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="lvGroup" left="95" top="42">
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="bottom" horizontalAlign="left" gap="0"/>
+			</e:layout>
+			<e:Label size="14" y="29" text="Lv." x="81" fontFamily="Arial" bold="true" textAlign="left" verticalAlign="middle"/>
+			<e:Label id="lvLbl" textColor="0x42D0FF" text="1" y="39" x="91" size="14" textAlign="left" verticalAlign="middle" fontFamily="Arial" bold="true"/>
+		</e:Group>
+		<e:Group width="100%" height="600" horizontalCenter="0" bottom="0">
+			<uiskins:HeroesSkillExp id="skillItem1" x="233" y="39" skinName="skins.components.HeroesSkillExpSkin"/>
+			<uiskins:HeroesSkillExp id="skillItem2" skinName="skins.components.HeroesSkillExpSkin" x="243" y="49"/>
+			<uiskins:HeroesSkillExp id="skillItem3" skinName="skins.components.HeroesSkillExpSkin" x="253" y="59"/>
+			<uiskins:HeroesSkillExp id="skillItem4" skinName="skins.components.HeroesSkillExpSkin" x="263" y="69"/>
+			<uiskins:HeroesSkillExp id="skillItem5" skinName="skins.components.HeroesSkillExpSkin" x="273" y="79"/>
+			<uiskins:HeroesSkillExp id="skillItem6" skinName="skins.components.HeroesSkillExpSkin" x="283" y="89"/>
+			<uiskins:HeroesSkillExp id="skillItem7" skinName="skins.components.HeroesSkillExpSkin" x="293" y="99"/>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" gap="12"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="211" height="89" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="100%" height="100%">
+		<e:UIAsset source="guild_war_item"/>
+		<e:UIAsset id="iconImg" width="58" height="58" x="12" source="icon_default" y="15"/>
+		<e:Label id="nameLbl" text="名字" fontFamily="Arial" textAlign="left" verticalAlign="middle" bold="true" size="12" x="76" y="12"/>
+		<e:Group verticalAlign="middle" x="76" y="33">
+			<e:layout>
+				<e:HorizontalLayout gap="0" verticalAlign="bottom" horizontalAlign="right"/>
+			</e:layout>
+			<e:Label y="29" text="DPS:" fontFamily="Arial" size="12" bold="true" x="81"/>
+			<e:Label id="dpsLbl" textColor="0xFF7F01" text="0" fontFamily="Arial" textAlign="right" size="12" y="39" bold="true" x="34"/>
+		</e:Group>
+		<e:Group id="equipGroup" verticalAlign="middle" x="76" y="55" visible="false">
+			<e:layout>
+				<e:HorizontalLayout gap="0" verticalAlign="middle" horizontalAlign="center"/>
+			</e:layout>
+			<e:Label fontFamily="Arial" size="12" bold="true" x="91" y="39" text="装备克制:"/>
+			<e:Label id="equipLbl" fontFamily="Arial" size="12" y="29" bold="true" x="81" textColor="0xFF0000" text="0" strokeColor="0xFFFFFF" stroke="1"/>
+		</e:Group>
+		<e:Rect id="deadRect" fillColor="0xFF0000" width="100%" fillAlpha="0.4" height="100%" visible="false"/>
+		<e:UIAsset id="victoryImg" x="152" y="21" source="guild_icon_victory" visible="false"/>
+		<e:UIAsset id="tombstoneImg" source="tip_hero_tombstone" x="159" y="27" visible="false"/>
+	</e:Group>
+</e:Skin>

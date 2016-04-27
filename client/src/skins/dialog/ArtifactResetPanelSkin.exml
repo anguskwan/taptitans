@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="447" height="360" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group verticalCenter="0" horizontalCenter="0" x="10" y="10">
+		<e:UIAsset scale9Grid="55,53,337,324" source="dialog_popup" height="360"/>
+		<e:Rect width="300" fillColor="0x2C2930" height="100" x="115" y="134"/>
+		<e:Label id="nameLbl" fontFamily="Arial" bold="true" text="名字" size="22" x="123" y="22"/>
+		<e:Label id="currExpLbl1" fontFamily="Arial" bold="true" text="说明" y="80" x="123" size="16"/>
+		<e:Label id="currExpLbl2" fontFamily="Arial" bold="true" text="说明" x="123" y="106" size="16"/>
+		<e:Label id="nextExpLbl1" text="说明" fontFamily="Arial" size="16" bold="true" x="123" y="171"/>
+		<e:Label id="nextExpLbl2" text="说明" fontFamily="Arial" size="16" bold="true" x="123" y="197"/>
+		<e:Label textColor="0x42D0FF" fontFamily="Arial" textAlign="center" size="18" verticalAlign="middle" bold="true" x="123" y="140" text="下个等级："/>
+		<e:Button id="closeBtn" right="20" top="20" skinName="@ButtonSkin('dialog_btn_cha_close','dialog_btn_cha_close','dialog_btn_cha_close')" x="10" y="10"/>
+		<e:Group width="300" height="57" y="259" horizontalCenter="0.5">
+			<e:Button id="rightBtn" fontFamily="Arial" bold="true" skinName="@ButtonSkin('dialog_btn_red','dialog_btn_red','dialog_btn_red')" width="300" x="0" y="0"/>
+			<e:Group y="5" right="7" touchEnabled="false" touchChildren="false">
+				<e:UIAsset source="diamond" scaleX="0.6" scaleY="0.6"/>
+				<e:Label id="diamondLbl" text="0" size="14" bold="true" fontFamily="Arial"/>
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+				</e:layout>
+			</e:Group>
+			<e:Label text="重新使用" y="6" size="18" fontFamily="Arial" verticalAlign="middle" textAlign="center" x="111" touchEnabled="false"/>
+			<e:Group y="28" horizontalCenter="0" touchEnabled="false" touchChildren="false">
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+				</e:layout>
+				<e:Label id="relicLbl" size="14" bold="true" fontFamily="Arial" text="打破神器以获得0个"/>
+				<e:UIAsset scaleY="0.6" scaleX="0.6" source="relic"/>
+			</e:Group>
+		</e:Group>
+		<e:UIAsset id="iconImg" source="artifact1" width="55" height="57" scaleX="1.5" scaleY="1.5" x="21" y="26"/>
+		<e:Group x="123" y="53">
+			<e:Label text="Lv:" fontFamily="Arial" bold="true" size="18" verticalAlign="middle" textAlign="center"/>
+			<e:Label id="lvLbl" fontFamily="Arial" verticalAlign="middle" textAlign="center" size="18" bold="true" text="1" textColor="0x42D0FF"/>
+			<e:Label id="maxLvLbl" fontFamily="Arial" textAlign="center" size="18" bold="true" verticalAlign="middle" x="10" y="10" text="（最高等级10）"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

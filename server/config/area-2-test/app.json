@@ -1,0 +1,37 @@
+{
+	"main": {
+		"is_aliyun_mongo" : true,
+		"mongodb": ["root:Hortor2014@dds-m5e7bc768a732d041.mongodb.rds.aliyuncs.com:3717,dds-m5e7bc768a732d042.mongodb.rds.aliyuncs.com:3717/taptitans?replicaSet=mgset-1068171"],
+		"mongodb_name": "taptitans",
+		"redis_counter": "bd63ccf52e8d416c.m.cnqda.kvstore.aliyuncs.com|6379|bd63ccf52e8d416c:Hortor2014",
+		"redis_rank": "bd63ccf52e8d416c.m.cnqda.kvstore.aliyuncs.com|6379|bd63ccf52e8d416c:Hortor2014",
+		"redis_login": "bd63ccf52e8d416c.m.cnqda.kvstore.aliyuncs.com|6379|bd63ccf52e8d416c:Hortor2014",
+		"redis_wechat": "10.164.16.51|6381|Hortor#1111",
+		"redis_dailyActive": "bd63ccf52e8d416c.m.cnqda.kvstore.aliyuncs.com|6379|bd63ccf52e8d416c:Hortor2014",
+		"redis_share": "bd63ccf52e8d416c.m.cnqda.kvstore.aliyuncs.com|6379|bd63ccf52e8d416c:Hortor2014",
+		"redis_dict": "bd63ccf52e8d416c.m.cnqda.kvstore.aliyuncs.com|6379|bd63ccf52e8d416c:Hortor2014",
+		"mysql_channel": "root:Hortor_82345168@10.129.60.96:3308/gamecenter?charset=utf8"
+	},
+	"web": {
+		"share_url": "http://wx.hortor.net/taptitans/share",
+		"index_url": "http://wx.hortor.net/taptitans/index",
+		"goldHill_url" : "http://goldenhill.hortorgames.com",
+	  	"route_root_url": "http://h5-api-test.secret-cn.com/taptitans-route",
+	  	"route_url": "http://h5-api-test.secret-cn.com/taptitans-route",
+	  	"route_secret": "hortorgames2015",
+		"api_port": 3003,
+		"admin_port": 3004
+	},
+	"auth": {
+		"secret": "hortorgames2015",
+		"wechat_app_id":"wx26a2518b5b7f2873",
+		"wechat_app_secret":"8bb57d4d09d7cf56f5e3d1237b0a15b7",
+		"client_domain": "http://test-h5.hortorgames.com"
+	},
+	"logger": {
+		"enable": true,
+		"host": "test.log.hortorgames.com",
+		"port": 12201,
+		"level": "info"
+	}
+}

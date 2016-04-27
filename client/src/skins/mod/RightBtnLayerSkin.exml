@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="62" height="408" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:Button id="diamondBtn" skinName="@ButtonSkin('btn_get_diamond','btn_get_diamond','btn_get_diamond')" y="2" x="0" visible="false"/>
+	<e:Button id="diamondBtn0" y="2" skinName="@ButtonSkin('btn_get_supdiamond','btn_get_supdiamond','btn_get_supdiamond')" x="0" visible="false"/>
+	<e:Button id="diamondBtn1" skinName="@ButtonSkin('btn_get_supdiamond','btn_get_supdiamond','btn_get_supdiamond')" x="0" y="2" visible="false"/>
+	<e:Button id="relicBtn" x="-135" y="2" skinName="@ButtonSkin('btn_daliy_relic','btn_daliy_relic','btn_daliy_relic')" visible="false"/>
+	<e:Button id="newPlayerBtn" skinName="@ButtonSkin('btn_new_player','btn_new_player','btn_new_player')" x="0" y="34"/>
+	<e:Group id="shareGroup" width="71" height="74" x="-1" y="120">
+		<e:Button id="shareBtn" skinName="@ButtonSkin('sharewx','sharewx','sharewx')" width="71" x="0" height="74" y="0"/>
+		<e:Label id="lblCountDown" size="12" text="分享领钻石" fontFamily="Arial" verticalAlign="middle" width="69" height="19" textAlign="center" bold="true" horizontalCenter="0" verticalCenter="26.5"/>
+		<e:Button id="subscribeBtn" height="74" width="71" x="-7" y="-1" skinName="@ButtonSkin('btn_share','btn_share','btn_share')"/>
+		<e:UIAsset id="shareTip" source="tip_big_task" x="49" y="-4"/>
+	</e:Group>
+	<e:UIAsset id="doubleImg" source="tip_double" y="36" x="-2" visible="false"/>
+	<e:Group id="pkGroup" width="72" height="174" x="0" y="227">
+		<e:Button id="pkBtn" x="5" y="7" skinName="@ButtonSkin('pet_entry_btn')" width="54" height="55"/>
+		<e:UIAsset id="pkTip" source="tip_big_task" x="51" y="5"/>
+		<e:UIAsset id="cooldownBtn" source="pet_cooldown_img" x="5" y="85"/>
+		<e:UIAsset id="iconImg" width="47" height="51" x="9" y="89" source="pet_question_btn"/>
+		<e:Group id="groupPlayerIcon" width="61" height="67" x="0" y="79">
+		</e:Group>
+	</e:Group>
+</e:Skin>

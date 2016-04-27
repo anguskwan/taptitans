@@ -1,0 +1,71 @@
+{
+    "appenders": [
+        {
+            "type": "console"
+        },
+        {
+            "type": "file",
+            "filename": "${opts:base}/logs/app-${opts:serverId}.log",
+            "maxLogSize": 10485760,
+            "layout": {"type": "basic"},
+            "backups": 30,
+            "category": "app"
+        },
+        {
+            "type": "file",
+            "filename": "${opts:base}/logs/crash-${opts:serverId}.log",
+            "maxLogSize": 1048576,
+            "layout": {
+                "type": "basic"
+            },
+            "backups": 5,
+            "category": "crash-log"
+        },
+        {
+            "type": "file",
+            "filename": "${opts:base}/logs/admin-${opts:serverId}.log",
+            "maxLogSize": 1048576,
+            "layout": {
+                "type": "basic"
+            },
+            "backups": 5,
+            "category": "admin-log"
+        },
+        {
+            "type": "file",
+            "filename": "${opts:base}/logs/pomelo-${opts:serverId}.log",
+            "maxLogSize": 1048576,
+            "layout": {
+                "type": "basic"
+            },
+            "backups": 5,
+            "category": "pomelo"
+        },
+        {
+            "type": "file",
+            "filename": "${opts:base}/logs/pomelo-admin-${opts:serverId}.log",
+            "maxLogSize": 1048576,
+            "layout": {
+                "type": "basic"
+            },
+            "backups": 5,
+            "category": "pomelo-admin"
+        },
+        {
+            "type": "file",
+            "filename": "${opts:base}/logs/pomelo-rpc-${opts:serverId}.log",
+            "maxLogSize": 1048576,
+            "layout": {
+                "type": "basic"
+            },
+            "backups": 5,
+            "category": "pomelo-rpc"
+        }
+    ],
+    "levels": {
+        "app": "INFO",
+        "pomelo": "INFO"
+    },
+    "lineDebug": false,
+    "reloadSecs": 30
+}

@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="756" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Rect horizontalCenter="0" width="100%" bottom="0" height="100%" x="10" y="10" fillColor="0x4B4253"/>
+		<e:Group width="100%" height="80">
+			<e:UIAsset source="dialog_popup" scale9Grid="55,53,337,324" verticalAlign="middle" width="100%" height="80" horizontalCenter="0" top="0"/>
+			<e:UIAsset x="20" source="btn_match" scaleX="0.9" scaleY="0.9" y="11"/>
+			<e:Button id="closeBtn" skinName="@ButtonSkin('dialog_btn_cha_close','dialog_btn_cha_close','dialog_btn_cha_close')" right="20" top="18"/>
+			<e:Label x="89" fontFamily="Arial" bold="true" size="22" y="25" text="奖励"/>
+		</e:Group>
+		<e:Label fontFamily="Arial" bold="true" x="29" size="18" text="排名越高获得\n奖励越丰富\n比赛时间24小时" y="106"/>
+		<e:Group id="group1" height="104" width="226" x="247" y="88">
+			<e:Rect fillColor="0x2C2930" width="226" height="104"/>
+			<e:Group left="30" verticalCenter="0">
+				<e:Label size="18" bold="true" text="第1名" fontFamily="Arial" x="0"/>
+				<e:Group y="54" x="0">
+					<e:UIAsset x="43" scaleY="0.8" y="596" scaleX="0.8" source="diamond"/>
+					<e:Label y="36" textColor="0x88868A" text="5钻石" fontFamily="Arial" size="16" bold="true" x="10"/>
+					<e:layout>
+						<e:HorizontalLayout gap="2" verticalAlign="middle" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+				<e:Group y="82" x="0">
+					<e:UIAsset x="43" scaleY="0.3" y="596" scaleX="0.3" source="btn_weapon"/>
+					<e:Label y="36" textColor="0x88868A" text="0武器升级" fontFamily="Arial" size="16" bold="true" x="10"/>
+					<e:layout>
+						<e:HorizontalLayout gap="2" verticalAlign="middle" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+				<e:layout>
+					<e:VerticalLayout gap="2"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+		<e:Group id="group2" height="104" width="226" x="7" y="198">
+			<e:Rect fillColor="0x2C2930" width="226" height="104"/>
+			<e:Group left="30" verticalCenter="0">
+				<e:Label size="18" fontFamily="Arial" text="第1名" bold="true" x="0"/>
+				<e:Group y="54" x="0">
+					<e:UIAsset x="43" scaleY="0.8" y="596" source="diamond" scaleX="0.8"/>
+					<e:Label y="36" textColor="0x88868A" text="5钻石" fontFamily="Arial" size="16" bold="true" x="10"/>
+					<e:layout>
+						<e:HorizontalLayout gap="2" verticalAlign="middle" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+				<e:Group y="82" x="0">
+					<e:UIAsset x="43" scaleY="0.3" y="596" source="btn_weapon" scaleX="0.3"/>
+					<e:Label y="36" textColor="0x88868A" text="0武器升级" fontFamily="Arial" size="16" bold="true" x="10"/>
+					<e:layout>
+						<e:HorizontalLayout gap="2" verticalAlign="middle" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+				<e:layout>
+					<e:VerticalLayout gap="2"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+		<e:Group id="group3" height="104" width="226" x="247" y="198">
+			<e:Rect fillColor="0x2C2930" width="226" height="104"/>
+			<e:Group left="30" verticalCenter="0">
+				<e:Label x="0" size="18" text="第1名" bold="true" fontFamily="Arial"/>
+				<e:Group y="54" x="0">
+					<e:UIAsset scaleY="0.8" y="596" source="diamond" scaleX="0.8" x="43"/>
+					<e:Label y="36" textColor="0x88868A" text="5钻石" fontFamily="Arial" size="16" bold="true" x="10"/>
+					<e:layout>
+						<e:HorizontalLayout gap="2" verticalAlign="middle" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+				<e:Group y="82" x="0">
+					<e:UIAsset scaleY="0.3" y="596" source="btn_weapon" scaleX="0.3" x="43"/>
+					<e:Label y="36" textColor="0x88868A" text="0武器升级" fontFamily="Arial" size="16" bold="true" x="10"/>
+					<e:layout>
+						<e:HorizontalLayout gap="2" verticalAlign="middle" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+				<e:layout>
+					<e:VerticalLayout gap="2"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+		<e:Group id="group4" height="104" width="226" x="7" y="308">
+			<e:Rect fillColor="0x2C2930" width="226" height="104"/>
+			<e:Group left="30" verticalCenter="0">
+				<e:Label size="18" fontFamily="Arial" text="第1名" bold="true" x="0"/>
+				<e:Group y="54" x="0">
+					<e:UIAsset x="43" scaleY="0.8" y="596" source="diamond" scaleX="0.8"/>
+					<e:Label y="36" textColor="0x88868A" text="5钻石" fontFamily="Arial" size="16" bold="true" x="10"/>
+					<e:layout>
+						<e:HorizontalLayout gap="2" verticalAlign="middle" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+				<e:Group y="82" x="0">
+					<e:UIAsset x="43" scaleY="0.3" y="596" source="btn_weapon" scaleX="0.3"/>
+					<e:Label y="36" textColor="0x88868A" text="0武器升级" fontFamily="Arial" size="16" bold="true" x="10"/>
+					<e:layout>
+						<e:HorizontalLayout gap="2" verticalAlign="middle" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+				<e:layout>
+					<e:VerticalLayout gap="2"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+		<e:Group id="group5" height="104" width="226" x="247" y="308">
+			<e:Rect fillColor="0x2C2930" width="226" height="104"/>
+			<e:Group left="30" verticalCenter="0">
+				<e:Label x="0" size="18" text="第1名" bold="true" fontFamily="Arial"/>
+				<e:Group y="54" x="0">
+					<e:UIAsset scaleY="0.8" y="596" source="diamond" scaleX="0.8" x="43"/>
+					<e:Label y="36" textColor="0x88868A" text="5钻石" fontFamily="Arial" size="16" bold="true" x="10"/>
+					<e:layout>
+						<e:HorizontalLayout gap="2" verticalAlign="middle" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+				<e:Group y="82" x="0">
+					<e:UIAsset scaleY="0.3" y="596" source="btn_weapon" scaleX="0.3" x="43"/>
+					<e:Label y="36" textColor="0x88868A" text="0武器升级" fontFamily="Arial" size="16" bold="true" x="10"/>
+					<e:layout>
+						<e:HorizontalLayout gap="2" verticalAlign="middle" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+				<e:layout>
+					<e:VerticalLayout gap="2"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+		<e:Group id="group6" height="104" width="226" x="7" y="418">
+			<e:Rect fillColor="0x2C2930" width="226" height="104"/>
+			<e:Group left="30" verticalCenter="0">
+				<e:Label x="0" size="18" text="第1名" fontFamily="Arial" bold="true"/>
+				<e:Group y="54" x="0">
+					<e:UIAsset scaleY="0.8" y="596" scaleX="0.8" source="diamond" x="43"/>
+					<e:Label y="36" textColor="0x88868A" text="5钻石" fontFamily="Arial" size="16" bold="true" x="10"/>
+					<e:layout>
+						<e:HorizontalLayout gap="2" verticalAlign="middle" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+				<e:Group y="82" x="0">
+					<e:UIAsset scaleY="0.3" y="596" scaleX="0.3" source="btn_weapon" x="43"/>
+					<e:Label y="36" textColor="0x88868A" text="0武器升级" fontFamily="Arial" size="16" bold="true" x="10"/>
+					<e:layout>
+						<e:HorizontalLayout gap="2" verticalAlign="middle" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+				<e:layout>
+					<e:VerticalLayout gap="2"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+		<e:Group id="group7" height="104" width="226" x="247" y="418">
+			<e:Rect fillColor="0x2C2930" width="226" height="104"/>
+			<e:Group left="30" verticalCenter="0">
+				<e:Label size="18" fontFamily="Arial" text="第1名" bold="true" x="0"/>
+				<e:Group y="54" x="0">
+					<e:UIAsset x="43" scaleY="0.8" y="596" source="diamond" scaleX="0.8"/>
+					<e:Label y="36" textColor="0x88868A" text="5钻石" fontFamily="Arial" size="16" bold="true" x="10"/>
+					<e:layout>
+						<e:HorizontalLayout gap="2" verticalAlign="middle" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+				<e:Group y="82" x="0">
+					<e:UIAsset x="43" scaleY="0.3" y="596" source="btn_weapon" scaleX="0.3"/>
+					<e:Label y="36" textColor="0x88868A" text="0武器升级" fontFamily="Arial" size="16" bold="true" x="10"/>
+					<e:layout>
+						<e:HorizontalLayout gap="2" verticalAlign="middle" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+				<e:layout>
+					<e:VerticalLayout gap="2"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+		<e:Group id="group8" height="104" width="226" x="7" y="528">
+			<e:Rect fillColor="0x2C2930" width="226" height="104"/>
+			<e:Group left="30" verticalCenter="0">
+				<e:Label x="0" size="18" text="第1名" fontFamily="Arial" bold="true"/>
+				<e:Group y="54" x="0">
+					<e:UIAsset scaleY="0.8" y="596" scaleX="0.8" source="diamond" x="43"/>
+					<e:Label y="36" textColor="0x88868A" text="5钻石" fontFamily="Arial" size="16" bold="true" x="10"/>
+					<e:layout>
+						<e:HorizontalLayout gap="2" verticalAlign="middle" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+				<e:Group y="82" x="0">
+					<e:UIAsset scaleY="0.3" y="596" scaleX="0.3" source="btn_weapon" x="43"/>
+					<e:Label y="36" textColor="0x88868A" text="0武器升级" fontFamily="Arial" size="16" bold="true" x="10"/>
+					<e:layout>
+						<e:HorizontalLayout gap="2" verticalAlign="middle" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+				<e:layout>
+					<e:VerticalLayout gap="2"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+		<e:Group id="group9" height="104" width="226" x="247" y="528">
+			<e:Rect fillColor="0x2C2930" width="226" height="104"/>
+			<e:Group left="30" verticalCenter="0">
+				<e:Label size="18" fontFamily="Arial" text="第1名" bold="true" x="0"/>
+				<e:Group y="54" x="0">
+					<e:UIAsset x="43" scaleY="0.8" y="596" source="diamond" scaleX="0.8"/>
+					<e:Label y="36" textColor="0x88868A" text="5钻石" fontFamily="Arial" size="16" bold="true" x="10"/>
+					<e:layout>
+						<e:HorizontalLayout gap="2" verticalAlign="middle" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+				<e:Group y="82" x="0">
+					<e:UIAsset x="43" scaleY="0.3" y="596" source="btn_weapon" scaleX="0.3"/>
+					<e:Label y="36" textColor="0x88868A" text="0武器升级" fontFamily="Arial" size="16" bold="true" x="10"/>
+					<e:layout>
+						<e:HorizontalLayout gap="2" verticalAlign="middle" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+				<e:layout>
+					<e:VerticalLayout gap="2"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+		<e:Group id="group10" height="104" width="226" x="7" y="638">
+			<e:Rect fillColor="0x2C2930" width="226" height="104"/>
+			<e:Group left="30" verticalCenter="0">
+				<e:Label size="18" bold="true" text="第1名" fontFamily="Arial" x="0"/>
+				<e:Group y="54" x="0">
+					<e:UIAsset x="43" scaleY="0.8" y="596" scaleX="0.8" source="diamond"/>
+					<e:Label y="36" textColor="0x88868A" text="5钻石" fontFamily="Arial" size="16" bold="true" x="10"/>
+					<e:layout>
+						<e:HorizontalLayout gap="2" verticalAlign="middle" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+				<e:Group y="82" x="0">
+					<e:UIAsset x="43" scaleY="0.3" y="596" scaleX="0.3" source="btn_weapon"/>
+					<e:Label y="36" textColor="0x88868A" text="0武器升级" fontFamily="Arial" size="16" bold="true" x="10"/>
+					<e:layout>
+						<e:HorizontalLayout gap="2" verticalAlign="middle" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+				<e:layout>
+					<e:VerticalLayout gap="2"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+		<e:Group id="group11" height="104" width="226" x="247" y="638">
+			<e:Rect fillColor="0x2C2930" width="226" height="104"/>
+			<e:Group left="30" verticalCenter="0">
+				<e:Label x="0" size="18" text="第1名" fontFamily="Arial" bold="true"/>
+				<e:Group y="54" x="0">
+					<e:UIAsset scaleY="0.8" y="596" scaleX="0.8" source="diamond" x="43"/>
+					<e:Label y="36" textColor="0x88868A" text="5钻石" fontFamily="Arial" size="16" bold="true" x="10"/>
+					<e:layout>
+						<e:HorizontalLayout gap="2" verticalAlign="middle" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+				<e:Group y="82" x="0">
+					<e:UIAsset scaleY="0.3" y="596" scaleX="0.3" source="btn_weapon" x="43"/>
+					<e:Label y="36" textColor="0x88868A" text="0武器升级" fontFamily="Arial" size="16" bold="true" x="10"/>
+					<e:layout>
+						<e:HorizontalLayout gap="2" verticalAlign="middle" horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+				<e:layout>
+					<e:VerticalLayout gap="2"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

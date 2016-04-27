@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="218" height="79" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group width="100%" height="100%">
+		<e:UIAsset id="bgImg" source="pk_banner_left"/>
+		<e:UIAsset id="iconImg" width="58" height="58" y="10" x="12" source="icon_default"/>
+		<e:Label id="nameLbl" text="名字" fontFamily="Arial" textAlign="left" verticalAlign="middle" bold="true" size="12" x="76" y="9"/>
+		<e:Group id="dpsGroup" verticalAlign="middle" x="76" y="31">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="right" gap="0" verticalAlign="bottom"/>
+			</e:layout>
+			<e:Label y="29" text="DPS:" fontFamily="Arial" bold="true" x="81" size="12"/>
+			<e:Label id="dpsLbl" textColor="0xFF7F01" fontFamily="Arial" textAlign="right" y="39" bold="true" x="34" size="12" text="0"/>
+		</e:Group>
+		<e:Group id="equipGroup" verticalAlign="middle" x="76" y="52" visible="false">
+			<e:Label y="29" fontFamily="Arial" size="12" bold="true" x="81" text="装备克制:"/>
+			<e:Label id="equipLbl" text="0" fontFamily="Arial" textAlign="right" size="12" y="39" bold="true" x="34" strokeColor="0xFFFFFF" stroke="1" textColor="0xFF0000"/>
+			<e:layout>
+				<e:HorizontalLayout gap="0" verticalAlign="bottom" horizontalAlign="right"/>
+			</e:layout>
+		</e:Group>
+		<e:UIAsset id="victoryImg" source="pk_icon_victory" x="169" y="16"/>
+	</e:Group>
+</e:Skin>

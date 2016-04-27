@@ -1,0 +1,156 @@
+{
+  "1": {
+    "crystal": 0, 
+    "diamond": 0, 
+    "fragment": 0, 
+    "id": 1, 
+    "item": "goldRain", 
+    "itemNum": 1, 
+    "need": 100, 
+    "relic": 0, 
+    "weaponItem": 0
+  }, 
+  "2": {
+    "crystal": 0, 
+    "diamond": 0, 
+    "fragment": 0, 
+    "id": 2, 
+    "item": "autoTap", 
+    "itemNum": 4, 
+    "need": 200, 
+    "relic": 0, 
+    "weaponItem": 0
+  }, 
+  "3": {
+    "crystal": 0, 
+    "diamond": 0, 
+    "fragment": 0, 
+    "id": 3, 
+    "item": "goldRain", 
+    "itemNum": 5, 
+    "need": 500, 
+    "relic": 0, 
+    "weaponItem": 0
+  }, 
+  "4": {
+    "crystal": 0, 
+    "diamond": 0, 
+    "fragment": 0, 
+    "id": 4, 
+    "item": "", 
+    "itemNum": 0, 
+    "need": 1000, 
+    "relic": 0, 
+    "weaponItem": 2
+  }, 
+  "5": {
+    "crystal": 0, 
+    "diamond": 0, 
+    "fragment": 0, 
+    "id": 5, 
+    "item": "", 
+    "itemNum": 0, 
+    "need": 1600, 
+    "relic": 2000, 
+    "weaponItem": 0
+  }, 
+  "6": {
+    "crystal": 600, 
+    "diamond": 0, 
+    "fragment": 0, 
+    "id": 6, 
+    "item": "", 
+    "itemNum": 0, 
+    "need": 2400, 
+    "relic": 0, 
+    "weaponItem": 0
+  }, 
+  "7": {
+    "crystal": 0, 
+    "diamond": 0, 
+    "fragment": 0, 
+    "id": 7, 
+    "item": "", 
+    "itemNum": 0, 
+    "need": 3500, 
+    "relic": 0, 
+    "weaponItem": 10
+  }, 
+  "8": {
+    "crystal": 0, 
+    "diamond": 1000, 
+    "fragment": 0, 
+    "id": 8, 
+    "item": "", 
+    "itemNum": 0, 
+    "need": 7000, 
+    "relic": 0, 
+    "weaponItem": 0
+  }, 
+  "9": {
+    "crystal": 0, 
+    "diamond": 0, 
+    "fragment": 0, 
+    "id": 9, 
+    "item": "tenTimes", 
+    "itemNum": 1, 
+    "need": 10000, 
+    "relic": 100000, 
+    "weaponItem": 10
+  }, 
+  "10": {
+    "crystal": 2500, 
+    "diamond": 0, 
+    "fragment": 50, 
+    "id": 10, 
+    "item": "tenTimes", 
+    "itemNum": 1, 
+    "need": 15000, 
+    "relic": 0, 
+    "weaponItem": 0
+  }, 
+  "11": {
+    "crystal": 3000, 
+    "diamond": 0, 
+    "fragment": 100, 
+    "id": 11, 
+    "item": "tenTimes", 
+    "itemNum": 1, 
+    "need": 20000, 
+    "relic": 0, 
+    "weaponItem": 0
+  }, 
+  "12": {
+    "crystal": 5000, 
+    "diamond": 0, 
+    "fragment": 200, 
+    "id": 12, 
+    "item": "tenTimes", 
+    "itemNum": 1, 
+    "need": 30000, 
+    "relic": 0, 
+    "weaponItem": 0
+  }, 
+  "13": {
+    "crystal": 10000, 
+    "diamond": 0, 
+    "fragment": 500, 
+    "id": 13, 
+    "item": "tenTimes", 
+    "itemNum": 2, 
+    "need": 50000, 
+    "relic": 0, 
+    "weaponItem": 0
+  }, 
+  "14": {
+    "crystal": 20000, 
+    "diamond": 0, 
+    "fragment": 1000, 
+    "id": 14, 
+    "item": "tenTimes", 
+    "itemNum": 10, 
+    "need": 100000, 
+    "relic": 0, 
+    "weaponItem": 0
+  }
+}
